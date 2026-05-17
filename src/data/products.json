@@ -1,0 +1,822 @@
+[
+  {
+    "id": "p001",
+    "slug": "crocin-paracetamol-500",
+    "name": "Paracetamol 500mg",
+    "brand": "Crocin",
+    "manufacturer": "GSK Consumer Healthcare",
+    "category": "fever-and-pain-relief",
+    "subcategory": "fever-reducers",
+    "internalClass": "Antipyretic",
+    "dosage": "500mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 15 tablets",
+    "emoji": "🤒",
+    "tile": "rose",
+    "price": 38,
+    "mrp": 45,
+    "inStock": true,
+    "stockCount": 124,
+    "rxRequired": false,
+    "description": "Fast-acting fever and pain relief. Suitable for adults and children above 12 years.",
+    "tags": [
+      "fever",
+      "headache",
+      "body-pain",
+      "tablet"
+    ],
+    "conditions": [
+      "fever",
+      "headache",
+      "viral-fever",
+      "body-pain",
+      "toothache"
+    ],
+    "aliases": [
+      "paracetamol",
+      "paracitamol",
+      "pcm",
+      "dolo",
+      "calpol",
+      "metacin",
+      "crocin"
+    ],
+    "imageUrl": "/medicines/p001.jpg"
+  },
+  {
+    "id": "p002",
+    "slug": "azithral-azithromycin-500",
+    "name": "Azithromycin 500mg",
+    "brand": "Azithral",
+    "manufacturer": "Alembic Pharmaceuticals",
+    "category": "infection-care",
+    "subcategory": "antibiotics",
+    "internalClass": "Macrolide Antibiotic",
+    "dosage": "500mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 6 tablets",
+    "emoji": "💉",
+    "tile": "green",
+    "price": 95,
+    "mrp": 110,
+    "inStock": true,
+    "stockCount": 42,
+    "rxRequired": true,
+    "description": "Broad-spectrum macrolide antibiotic. Prescription required.",
+    "tags": [
+      "infection",
+      "antibiotic",
+      "tablet"
+    ],
+    "conditions": [
+      "bacterial-infection",
+      "throat-infection",
+      "chest-infection",
+      "skin-infection"
+    ],
+    "aliases": [
+      "azithromycin",
+      "azithromicin",
+      "azee",
+      "azithral"
+    ],
+    "imageUrl": "/medicines/p002.jpg"
+  },
+  {
+    "id": "p003",
+    "slug": "omez-omeprazole-20",
+    "name": "Omeprazole 20mg",
+    "brand": "Omez",
+    "manufacturer": "Dr. Reddy's Laboratories",
+    "category": "digestive-care",
+    "subcategory": "acidity-and-ulcer",
+    "internalClass": "PPI",
+    "dosage": "20mg",
+    "dosageForm": "Capsule",
+    "pack": "Strip of 10 capsules",
+    "emoji": "🫃",
+    "tile": "violet",
+    "price": 62,
+    "mrp": 75,
+    "inStock": true,
+    "stockCount": 88,
+    "rxRequired": false,
+    "description": "Proton pump inhibitor for acidity, heartburn and ulcers.",
+    "tags": [
+      "acidity",
+      "heartburn",
+      "stomach",
+      "capsule"
+    ],
+    "conditions": [
+      "acidity",
+      "gerd",
+      "stomach-ulcer",
+      "heartburn"
+    ],
+    "aliases": [
+      "omeprazole",
+      "omez",
+      "prilosec",
+      "omeprazol"
+    ],
+    "imageUrl": "/medicines/p003.jpg"
+  },
+  {
+    "id": "p004",
+    "slug": "cetzine-cetirizine-10",
+    "name": "Cetirizine 10mg",
+    "brand": "Cetzine",
+    "manufacturer": "Dr. Reddy's Laboratories",
+    "category": "allergy-relief",
+    "subcategory": "antihistamines",
+    "internalClass": "Antihistamine",
+    "dosage": "10mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 10 tablets",
+    "emoji": "🌸",
+    "tile": "amber",
+    "price": 28,
+    "mrp": 32,
+    "inStock": true,
+    "stockCount": 210,
+    "rxRequired": false,
+    "description": "Non-drowsy antihistamine for allergies, hay fever and skin reactions.",
+    "tags": [
+      "allergy",
+      "antihistamine",
+      "tablet"
+    ],
+    "conditions": [
+      "allergy",
+      "hay-fever",
+      "sneezing",
+      "runny-nose",
+      "skin-rash",
+      "itching"
+    ],
+    "aliases": [
+      "cetirizine",
+      "cetrizine",
+      "cetzine",
+      "zyrtec",
+      "alerid"
+    ],
+    "imageUrl": "/medicines/p004.jpg"
+  },
+  {
+    "id": "p005",
+    "slug": "drise-vitamin-d3-60k",
+    "name": "Vitamin D3 60K IU",
+    "brand": "D-Rise",
+    "manufacturer": "USV Pvt Ltd",
+    "category": "vitamins-and-supplements",
+    "subcategory": "vitamin-d-and-calcium",
+    "internalClass": "Vitamin",
+    "dosage": "60000 IU",
+    "dosageForm": "Sachet",
+    "pack": "Pack of 4 sachets",
+    "emoji": "🌿",
+    "tile": "green",
+    "price": 145,
+    "mrp": 170,
+    "inStock": true,
+    "stockCount": 65,
+    "rxRequired": false,
+    "description": "Weekly Vitamin D3 supplement for bone health and immunity.",
+    "tags": [
+      "vitamin",
+      "bone-health",
+      "immunity",
+      "sachet"
+    ],
+    "conditions": [
+      "vitamin-d-deficiency",
+      "bone-health",
+      "immunity"
+    ],
+    "aliases": [
+      "cholecalciferol",
+      "vitamin d3",
+      "d3 60k",
+      "d-rise",
+      "vit d"
+    ],
+    "imageUrl": "/medicines/p005.jpg"
+  },
+  {
+    "id": "p006",
+    "slug": "omron-bp-monitor",
+    "name": "Digital BP Monitor",
+    "brand": "Omron",
+    "manufacturer": "Omron Healthcare",
+    "category": "heart-and-bp",
+    "subcategory": "monitors-and-devices",
+    "internalClass": "Medical Device",
+    "dosageForm": "Device",
+    "pack": "Complete set with cuff",
+    "emoji": "🩺",
+    "tile": "blue",
+    "price": 1850,
+    "mrp": 2200,
+    "inStock": true,
+    "stockCount": 12,
+    "rxRequired": false,
+    "description": "Clinically validated upper-arm blood pressure monitor with memory for 60 readings.",
+    "tags": [
+      "bp",
+      "monitor",
+      "device",
+      "heart"
+    ],
+    "conditions": [
+      "high-blood-pressure",
+      "hypertension"
+    ],
+    "aliases": [
+      "bp monitor",
+      "blood pressure monitor",
+      "omron"
+    ],
+    "imageUrl": "/medicines/p006.jpg"
+  },
+  {
+    "id": "p007",
+    "slug": "johnsons-baby-powder",
+    "name": "Baby Powder",
+    "brand": "Johnson's",
+    "manufacturer": "Johnson & Johnson",
+    "category": "baby-and-child-care",
+    "subcategory": "baby-skin-care",
+    "internalClass": "Baby Care",
+    "dosageForm": "Powder",
+    "pack": "200g · Talc-free",
+    "emoji": "🍼",
+    "tile": "sky",
+    "price": 185,
+    "mrp": 210,
+    "inStock": true,
+    "stockCount": 54,
+    "rxRequired": false,
+    "description": "Cornstarch-based powder, gentle on baby's skin. Hypoallergenic.",
+    "tags": [
+      "baby",
+      "skin",
+      "powder"
+    ],
+    "conditions": [
+      "baby-skin-care",
+      "diaper-rash"
+    ],
+    "aliases": [
+      "johnsons",
+      "baby powder"
+    ],
+    "imageUrl": "/medicines/p007.jpg"
+  },
+  {
+    "id": "p008",
+    "slug": "glucophage-metformin-500",
+    "name": "Metformin 500mg",
+    "brand": "Glucophage",
+    "manufacturer": "Merck",
+    "category": "diabetes-care",
+    "subcategory": "oral-tablets",
+    "internalClass": "Antidiabetic",
+    "dosage": "500mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 20 tablets",
+    "emoji": "🩸",
+    "tile": "rose",
+    "price": 48,
+    "mrp": 58,
+    "inStock": true,
+    "stockCount": 130,
+    "rxRequired": true,
+    "description": "First-line oral therapy for type 2 diabetes. Prescription required.",
+    "tags": [
+      "diabetes",
+      "blood-sugar",
+      "tablet"
+    ],
+    "conditions": [
+      "diabetes",
+      "type-2-diabetes",
+      "blood-sugar"
+    ],
+    "aliases": [
+      "metformin",
+      "metformine",
+      "glycomet",
+      "glucophage",
+      "glyciphage"
+    ],
+    "imageUrl": "/medicines/p008.jpg"
+  },
+  {
+    "id": "p009",
+    "slug": "dettol-antiseptic",
+    "name": "Antiseptic Liquid",
+    "brand": "Dettol",
+    "manufacturer": "Reckitt Benckiser",
+    "category": "first-aid-and-personal-care",
+    "subcategory": "antiseptics",
+    "internalClass": "Antiseptic",
+    "dosageForm": "Liquid",
+    "pack": "250ml · Chloroxylenol",
+    "emoji": "🩹",
+    "tile": "amber",
+    "price": 118,
+    "mrp": 135,
+    "inStock": true,
+    "stockCount": 78,
+    "rxRequired": false,
+    "description": "Multi-use antiseptic for cuts, wounds and household disinfection.",
+    "tags": [
+      "antiseptic",
+      "wound",
+      "first-aid",
+      "liquid"
+    ],
+    "conditions": [
+      "cuts",
+      "wounds",
+      "disinfection"
+    ],
+    "aliases": [
+      "dettol",
+      "antiseptic"
+    ],
+    "imageUrl": "/medicines/p009.jpg"
+  },
+  {
+    "id": "p010",
+    "slug": "healthkart-omega-3",
+    "name": "Omega-3 Fish Oil 1000mg",
+    "brand": "HealthKart",
+    "manufacturer": "HealthKart",
+    "category": "vitamins-and-supplements",
+    "subcategory": "omega-and-wellness",
+    "internalClass": "Omega-3 Supplement",
+    "dosage": "1000mg",
+    "dosageForm": "Capsule",
+    "pack": "Bottle of 60 capsules",
+    "emoji": "🐟",
+    "tile": "blue",
+    "price": 399,
+    "mrp": 480,
+    "inStock": false,
+    "stockCount": 0,
+    "rxRequired": false,
+    "description": "EPA & DHA enriched fish oil for heart and brain health.",
+    "tags": [
+      "omega-3",
+      "heart",
+      "wellness",
+      "capsule"
+    ],
+    "conditions": [
+      "heart-health",
+      "brain-health",
+      "cholesterol-support"
+    ],
+    "aliases": [
+      "omega 3",
+      "fish oil",
+      "epa dha"
+    ],
+    "imageUrl": "/medicines/p010.jpg"
+  },
+  {
+    "id": "p011",
+    "slug": "kare-in-mask-3ply",
+    "name": "Surgical Face Mask 3-Ply",
+    "brand": "Kare-In",
+    "manufacturer": "Kare-In Healthcare",
+    "category": "first-aid-and-personal-care",
+    "subcategory": "masks-and-protection",
+    "internalClass": "Protective Equipment",
+    "dosageForm": "Mask",
+    "pack": "3-Ply · Pack of 50",
+    "emoji": "😷",
+    "tile": "slate",
+    "price": 45,
+    "mrp": 50,
+    "inStock": true,
+    "stockCount": 312,
+    "rxRequired": false,
+    "description": "ISO-certified disposable surgical masks with adjustable nose-pin.",
+    "tags": [
+      "mask",
+      "protection"
+    ],
+    "conditions": [
+      "respiratory-protection",
+      "infection-prevention"
+    ],
+    "aliases": [
+      "surgical mask",
+      "face mask",
+      "3-ply mask"
+    ],
+    "imageUrl": "/medicines/p011.jpg"
+  },
+  {
+    "id": "p012",
+    "slug": "accu-chek-glucometer",
+    "name": "Glucometer Kit",
+    "brand": "Accu-Chek",
+    "manufacturer": "Roche Diabetes Care",
+    "category": "diabetes-care",
+    "subcategory": "monitors-and-strips",
+    "internalClass": "Medical Device",
+    "dosageForm": "Device",
+    "pack": "Kit with 10 test strips",
+    "emoji": "🩸",
+    "tile": "rose",
+    "price": 1299,
+    "mrp": 1599,
+    "inStock": true,
+    "stockCount": 18,
+    "rxRequired": false,
+    "description": "Easy-to-use blood glucose monitor with no-coding strips and 5-second readout.",
+    "tags": [
+      "diabetes",
+      "glucometer",
+      "device"
+    ],
+    "conditions": [
+      "diabetes",
+      "blood-sugar-monitoring"
+    ],
+    "aliases": [
+      "glucometer",
+      "accu chek",
+      "blood sugar test"
+    ],
+    "imageUrl": "/medicines/p012.jpg"
+  },
+  {
+    "id": "p013",
+    "slug": "allegra-fexofenadine-120",
+    "name": "Fexofenadine 120mg",
+    "brand": "Allegra",
+    "manufacturer": "Sanofi India",
+    "category": "allergy-relief",
+    "subcategory": "antihistamines",
+    "internalClass": "Antihistamine",
+    "dosage": "120mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 10 tablets",
+    "emoji": "🌸",
+    "tile": "amber",
+    "price": 165,
+    "mrp": 195,
+    "inStock": true,
+    "stockCount": 60,
+    "rxRequired": false,
+    "description": "Non-drowsy 24-hour relief from seasonal allergy symptoms.",
+    "tags": [
+      "allergy",
+      "antihistamine",
+      "tablet"
+    ],
+    "conditions": [
+      "allergy",
+      "hay-fever",
+      "sneezing",
+      "skin-allergy"
+    ],
+    "aliases": [
+      "fexofenadine",
+      "allegra",
+      "fexova"
+    ],
+    "imageUrl": "/medicines/p013.jpg"
+  },
+  {
+    "id": "p014",
+    "slug": "sumo-pain-relief",
+    "name": "Aceclofenac + Paracetamol",
+    "brand": "Sumo",
+    "manufacturer": "Alkem Laboratories",
+    "category": "fever-and-pain-relief",
+    "subcategory": "body-pain",
+    "internalClass": "NSAID + Antipyretic",
+    "dosage": "100/325mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 10 tablets",
+    "emoji": "🤒",
+    "tile": "rose",
+    "price": 78,
+    "mrp": 92,
+    "inStock": true,
+    "stockCount": 95,
+    "rxRequired": false,
+    "description": "Combined NSAID + analgesic for musculoskeletal and dental pain.",
+    "tags": [
+      "pain",
+      "inflammation",
+      "tablet"
+    ],
+    "conditions": [
+      "body-pain",
+      "back-pain",
+      "joint-pain",
+      "toothache"
+    ],
+    "aliases": [
+      "aceclofenac",
+      "paracetamol",
+      "sumo",
+      "zerodol-p"
+    ],
+    "imageUrl": "/medicines/p014.jpg"
+  },
+  {
+    "id": "p015",
+    "slug": "telma-40",
+    "name": "Telmisartan 40mg",
+    "brand": "Telma",
+    "manufacturer": "Glenmark Pharmaceuticals",
+    "category": "heart-and-bp",
+    "subcategory": "blood-pressure",
+    "internalClass": "ARB",
+    "dosage": "40mg",
+    "dosageForm": "Tablet",
+    "pack": "Strip of 15 tablets",
+    "emoji": "❤️",
+    "tile": "rose",
+    "price": 165,
+    "mrp": 189,
+    "inStock": true,
+    "stockCount": 80,
+    "rxRequired": true,
+    "description": "Once-daily ARB for hypertension. Prescription required.",
+    "tags": [
+      "bp",
+      "heart",
+      "tablet"
+    ],
+    "conditions": [
+      "high-blood-pressure",
+      "hypertension"
+    ],
+    "aliases": [
+      "telmisartan",
+      "telma",
+      "tazloc"
+    ],
+    "imageUrl": "/medicines/p015.jpg"
+  },
+  {
+    "id": "p016",
+    "slug": "ors-l-sachet",
+    "name": "Oral Rehydration Sachet",
+    "brand": "ORS-L",
+    "manufacturer": "FDC Limited",
+    "category": "digestive-care",
+    "subcategory": "diarrhea",
+    "internalClass": "Oral Rehydration",
+    "dosageForm": "Sachet",
+    "pack": "Pack of 5 sachets",
+    "emoji": "💧",
+    "tile": "blue",
+    "price": 75,
+    "mrp": 90,
+    "inStock": true,
+    "stockCount": 240,
+    "rxRequired": false,
+    "description": "WHO-formula electrolyte replenishment for dehydration and heatstroke.",
+    "tags": [
+      "dehydration",
+      "diarrhea",
+      "summer",
+      "sachet"
+    ],
+    "conditions": [
+      "dehydration",
+      "diarrhea",
+      "heatstroke",
+      "loose-motion"
+    ],
+    "aliases": [
+      "ors",
+      "ors-l",
+      "electrolyte",
+      "rehydration"
+    ],
+    "imageUrl": "/medicines/p016.jpg"
+  },
+  {
+    "id": "p017",
+    "slug": "volini-spray",
+    "name": "Pain Relief Spray",
+    "brand": "Volini",
+    "manufacturer": "Sun Pharma",
+    "category": "fever-and-pain-relief",
+    "subcategory": "topical-pain-relief",
+    "internalClass": "Topical Analgesic",
+    "dosageForm": "Spray",
+    "pack": "100ml aerosol",
+    "emoji": "🌫️",
+    "tile": "sky",
+    "price": 195,
+    "mrp": 220,
+    "inStock": true,
+    "stockCount": 33,
+    "rxRequired": false,
+    "description": "Quick-acting topical spray for sprains, sports injuries and back pain.",
+    "tags": [
+      "pain",
+      "spray",
+      "topical"
+    ],
+    "conditions": [
+      "sprain",
+      "muscle-pain",
+      "back-pain",
+      "sports-injury"
+    ],
+    "aliases": [
+      "volini",
+      "pain spray"
+    ],
+    "imageUrl": "/medicines/p017.jpg"
+  },
+  {
+    "id": "p018",
+    "slug": "himalaya-baby-lotion",
+    "name": "Baby Lotion",
+    "brand": "Himalaya",
+    "manufacturer": "Himalaya Wellness",
+    "category": "baby-and-child-care",
+    "subcategory": "baby-skin-care",
+    "internalClass": "Baby Care",
+    "dosageForm": "Lotion",
+    "pack": "200ml · Almond & olive",
+    "emoji": "🍼",
+    "tile": "amber",
+    "price": 165,
+    "mrp": 180,
+    "inStock": true,
+    "stockCount": 70,
+    "rxRequired": false,
+    "description": "Daily-use moisturising lotion. No parabens, no mineral oils.",
+    "tags": [
+      "baby",
+      "skin",
+      "lotion"
+    ],
+    "conditions": [
+      "baby-skin-care",
+      "dry-skin"
+    ],
+    "aliases": [
+      "himalaya",
+      "baby lotion"
+    ],
+    "imageUrl": "/medicines/p018.jpg"
+  },
+  {
+    "id": "p019",
+    "slug": "nivea-body-lotion",
+    "name": "Body Lotion · Dry Skin",
+    "brand": "Nivea",
+    "manufacturer": "Beiersdorf",
+    "category": "first-aid-and-personal-care",
+    "subcategory": "personal-care",
+    "internalClass": "Skin Care",
+    "dosageForm": "Lotion",
+    "pack": "400ml bottle",
+    "emoji": "🧴",
+    "tile": "violet",
+    "price": 285,
+    "mrp": 335,
+    "inStock": true,
+    "stockCount": 44,
+    "rxRequired": false,
+    "description": "48-hour deep moisture with almond oil and Hydra IQ technology.",
+    "tags": [
+      "skin",
+      "moisturiser",
+      "lotion"
+    ],
+    "conditions": [
+      "dry-skin",
+      "skin-care"
+    ],
+    "aliases": [
+      "nivea",
+      "body lotion",
+      "moisturizer"
+    ],
+    "imageUrl": "/medicines/p019.jpg"
+  },
+  {
+    "id": "p020",
+    "slug": "centrum-multivitamin",
+    "name": "Multivitamin Adults",
+    "brand": "Centrum",
+    "manufacturer": "Pfizer",
+    "category": "vitamins-and-supplements",
+    "subcategory": "multivitamins",
+    "internalClass": "Multivitamin",
+    "dosageForm": "Tablet",
+    "pack": "Bottle of 30 tablets",
+    "emoji": "🌿",
+    "tile": "green",
+    "price": 425,
+    "mrp": 495,
+    "inStock": true,
+    "stockCount": 50,
+    "rxRequired": false,
+    "description": "Complete daily multivitamin with 22 essential nutrients.",
+    "tags": [
+      "vitamin",
+      "daily",
+      "tablet"
+    ],
+    "conditions": [
+      "nutrition",
+      "energy",
+      "immunity"
+    ],
+    "aliases": [
+      "multivitamin",
+      "centrum"
+    ],
+    "imageUrl": "/medicines/p020.jpg"
+  },
+  {
+    "id": "p021",
+    "slug": "patanjali-honey",
+    "name": "Pure Honey 500g",
+    "brand": "Patanjali",
+    "manufacturer": "Patanjali Ayurved",
+    "category": "vitamins-and-supplements",
+    "subcategory": "omega-and-wellness",
+    "internalClass": "Wellness",
+    "dosageForm": "Honey",
+    "pack": "500g glass jar",
+    "emoji": "🍯",
+    "tile": "amber",
+    "price": 215,
+    "mrp": 250,
+    "inStock": true,
+    "stockCount": 90,
+    "rxRequired": false,
+    "description": "100% pure natural honey, no added sugar or preservatives.",
+    "tags": [
+      "wellness",
+      "natural",
+      "honey"
+    ],
+    "conditions": [
+      "wellness",
+      "natural-immunity"
+    ],
+    "aliases": [
+      "honey",
+      "patanjali",
+      "pure honey"
+    ],
+    "imageUrl": "/medicines/p021.jpg"
+  },
+  {
+    "id": "p022",
+    "slug": "band-aid-bandages",
+    "name": "Adhesive Bandages",
+    "brand": "Band-Aid",
+    "manufacturer": "Johnson & Johnson",
+    "category": "first-aid-and-personal-care",
+    "subcategory": "wound-care",
+    "internalClass": "Wound Care",
+    "dosageForm": "Bandage",
+    "pack": "Assorted · Pack of 100",
+    "emoji": "🩹",
+    "tile": "rose",
+    "price": 95,
+    "mrp": 110,
+    "inStock": true,
+    "stockCount": 180,
+    "rxRequired": false,
+    "description": "Flexible fabric bandages for cuts and scrapes. 100-piece variety pack.",
+    "tags": [
+      "first-aid",
+      "wound",
+      "bandage"
+    ],
+    "conditions": [
+      "cuts",
+      "scrapes",
+      "minor-wounds"
+    ],
+    "aliases": [
+      "band-aid",
+      "bandage",
+      "plaster"
+    ],
+    "imageUrl": "/medicines/p022.jpg"
+  }
+]

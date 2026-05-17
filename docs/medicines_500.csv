@@ -1,0 +1,501 @@
+id,generic_name,brand_examples,category,sub_category,strength,dosage_form,pack_size,indicative_mrp_inr,is_nlem_scheduled,currency,location,reference_date,source_notes
+MED-0001,Activated Charcoal,Carbosorb; Charcoal,Adsorbent,Acute poisoning / GI gas,250 mg,Capsule,10 caps,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0002,Ketorolac,Ketorol; Ketanov,Analgesic,NSAID,10 mg,Tablet,10 tabs,45,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0003,Ketorolac,Ketorol DT,Analgesic,NSAID dispersible,10 mg,Tablet,10 tabs,50,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0004,Aceclofenac,Aceclo; Hifenac,Analgesic / Anti-inflammatory,NSAID,100 mg,Tablet,10 tabs,50,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0005,Aceclofenac + Paracetamol,Zerodol-P; Hifenac-P,Analgesic / Anti-inflammatory,NSAID combination,100+325 mg,Tablet,10 tabs,65,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0006,Diclofenac,Voveran; Diclonac,Analgesic / Anti-inflammatory,NSAID,50 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0007,Diclofenac,Voveran SR,Analgesic / Anti-inflammatory,NSAID sustained release,75 mg SR,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0008,Diclofenac,Voveran,Analgesic / Anti-inflammatory,NSAID parenteral,75 mg/3ml,Injection,3 ml amp,12,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0009,Ibuprofen,Brufen; Combiflam,Analgesic / Anti-inflammatory,NSAID,200 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0010,Ibuprofen,Brufen,Analgesic / Anti-inflammatory,NSAID,600 mg,Tablet,10 tabs,42,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0011,Ibuprofen + Paracetamol,Combiflam; Ibugesic Plus,Analgesic / Anti-inflammatory,NSAID combination,400+325 mg,Tablet,20 tabs,50,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0012,Indomethacin,Indocap,Analgesic / Anti-inflammatory,NSAID,25 mg,Capsule,10 caps,28,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0013,Mefenamic Acid,Meftal; Ponstan,Analgesic / Anti-inflammatory,NSAID,250 mg,Tablet,10 tabs,32,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0014,Naproxen,Naprosyn,Analgesic / Anti-inflammatory,NSAID,250 mg,Tablet,10 tabs,60,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0015,Naproxen,Naprosyn,Analgesic / Anti-inflammatory,NSAID,500 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0016,Nimesulide,Nise; Nimulid,Analgesic / Anti-inflammatory,NSAID,100 mg,Tablet,10 tabs,28,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0017,Piroxicam,Pirox; Dolonex,Analgesic / Anti-inflammatory,NSAID,20 mg,Capsule,10 caps,35,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0018,Aspirin,Ecosprin; Disprin,Analgesic / Antiplatelet,NSAID / Antiplatelet,75 mg,Tablet,14 tabs,12,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0019,Aspirin,Disprin,Analgesic / Antipyretic,NSAID,325 mg,Tablet,10 tabs,22,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0020,Paracetamol,Calpol; P-125,Analgesic / Antipyretic,Pediatric antipyretic,125 mg/5ml,Syrup,60 ml,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0021,Paracetamol,Fevastin,Analgesic / Antipyretic,Parenteral antipyretic,150 mg/ml,Injection,2 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0022,Paracetamol,Calpol; T-98,Analgesic / Antipyretic,Pediatric antipyretic,250 mg/5ml,Syrup,60 ml,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0023,Paracetamol,Crocin; Dolo; Calpol,Analgesic / Antipyretic,Non-opioid analgesic,500 mg,Tablet,15 tabs,30,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0024,Paracetamol,Crocin; Dolo; Calpol,Analgesic / Antipyretic,Non-opioid analgesic,650 mg,Tablet,15 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0025,Hemorrhoid cream (Lidocaine + Hydrocortisone + Zinc),Anovate; Smuth,Anorectal,Hemorrhoid treatment,Mixed,Cream,20 g,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0026,Aluminium Hydroxide + Magnesium Hydroxide + Simethicone,Digene,Antacid,Chewable antacid,Mixed,Tablet,10 tabs,32,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0027,Aluminium Hydroxide + Magnesium Hydroxide + Simethicone,Digene; Gelusil,Antacid,Antacid + antiflatulent,Mixed,Suspension,200 ml,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0028,Calcium Carbonate,Tums; Calci-Aid,Antacid,Calcium-based antacid,500 mg,Tablet,10 tabs,28,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0029,Sodium Bicarbonate,Soda Bicarb,Antacid,Bicarbonate antacid,500 mg,Tablet,30 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0030,Albendazole,Zentel,Anthelmintic,Pediatric anthelmintic,200 mg/5ml,Suspension,10 ml,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0031,Albendazole,Zentel; Bandy,Anthelmintic,Benzimidazole,400 mg,Tablet,1 tab,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0032,Diethylcarbamazine,Hetrazan; Banocide Forte,Anthelmintic,Anti-filarial,100 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0033,Ivermectin,Iverjohn; Iverzine,Anthelmintic,Macrocyclic lactone,12 mg,Tablet,1 tab,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0034,Ivermectin,Iverjohn,Anthelmintic,Macrocyclic lactone,6 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0035,Mebendazole,Mebex; Wormin,Anthelmintic,Benzimidazole,100 mg,Tablet,6 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0036,Praziquantel,Distocide; Cesol,Anthelmintic,Anti-cestode,600 mg,Tablet,4 tabs,285,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0037,Ipratropium Bromide,Ipravent,Anti-COPD,SAMA,20 mcg/dose,Inhaler,200 doses,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0038,Sodium Cromoglycate,Cromal; Crolom,Anti-allergic ophthalmic,Mast cell stabilizer,2% w/v,Eye drops,5 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0039,Beclomethasone,Beclate; Aerocort,Anti-asthmatic,ICS,100 mcg/dose,Inhaler,200 doses,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0040,Doxofylline,Doxoflo; Synasma,Anti-asthmatic,Methylxanthine derivative,400 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0041,Levosalbutamol,Levolin; Asthalin LX,Anti-asthmatic,SABA (R-isomer),1 mg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0042,Levosalbutamol,Levolin Respules,Anti-asthmatic,SABA nebulizer,1.25 mg/2.5ml,Respules,5 x 2.5 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0043,Montelukast,Montair; Montek,Anti-asthmatic,Leukotriene antagonist,10 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0044,Montelukast,Montair,Anti-asthmatic,Pediatric leukotriene antagonist,4 mg,Tablet (chewable),10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0045,Montelukast,Montair,Anti-asthmatic,Leukotriene antagonist,5 mg,Tablet (chewable),10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0046,Salbutamol,Asthalin Inhaler; Ventorlin Inhaler,Anti-asthmatic,SABA inhaler,100 mcg/dose,Inhaler,200 doses,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0047,Salbutamol,Asthalin; Ventorlin,Anti-asthmatic,SABA,2 mg,Tablet,30 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0048,Salbutamol,Asthalin Syrup,Anti-asthmatic,Pediatric SABA,2 mg/5ml,Syrup,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0049,Salbutamol,Asthalin Respules,Anti-asthmatic,SABA nebulizer,2.5 mg/2.5ml,Respules,5 x 2.5 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0050,Salbutamol,Asthalin,Anti-asthmatic,SABA,4 mg,Tablet,30 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0051,Theophylline,Deriphyllin; Theobid,Anti-asthmatic,Methylxanthine,200 mg SR,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0052,Theophylline,Deriphyllin Retard,Anti-asthmatic,Methylxanthine,300 mg SR,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0053,Montelukast + Levocetirizine,Montair-LC; Montek-LC,Anti-asthmatic / Antihistamine,Combination,10+5 mg,Tablet,10 tabs,175,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0054,Ipratropium + Levosalbutamol,Duolin Respules,Anti-asthmatic / COPD,SAMA + SABA,0.5+1.25 mg/2.5ml,Respules,5 x 2.5 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0055,5-Fluorouracil,Fluracil; 5-FU,Anti-cancer,Antimetabolite,250 mg/5ml,Injection,5 ml vial,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0056,Cisplatin,Cisplat; Platinex,Anti-cancer,Platinum compound,50 mg/50ml,Injection,1 vial,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0057,Hydroxyurea,Hydrea; Cytodrox,Anti-cancer,Antimetabolite,500 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0058,Imatinib,Veenat; Glivec; Imatib,Anti-cancer,Tyrosine kinase inhibitor,100 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0059,Tamoxifen,Tamoxifen,Anti-cancer,SERM (breast cancer),10 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0060,Cyclophosphamide,Endoxan,Anti-cancer / Immunosuppressant,Alkylating agent,50 mg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0061,Methotrexate,Folitrax; Methocel,Anti-cancer / Immunosuppressant,Antimetabolite,2.5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0062,Methotrexate,Folitrax,Anti-cancer / Immunosuppressant,Antimetabolite (parenteral),50 mg/2ml,Injection,2 ml vial,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0063,Methotrexate,Folitrax 7.5,Anti-cancer / Immunosuppressant,Antimetabolite,7.5 mg,Tablet,4 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0064,Donepezil,Donep,Anti-dementia,Cholinesterase inhibitor,10 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0065,Donepezil,Donep; Aricept,Anti-dementia,Cholinesterase inhibitor,5 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0066,Memantine,Admenta; Memorit,Anti-dementia,NMDA receptor antagonist,10 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0067,Letrozole,Letroz; Femara,Anti-estrogen,Aromatase inhibitor,2.5 mg,Tablet,5 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0068,Tamoxifen,Tamoxifen; Nolvadex,Anti-estrogen,SERM (anti-cancer),20 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0069,Alendronate,Fosamax; Restofos,Anti-osteoporosis,Bisphosphonate,70 mg,Tablet,4 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0070,Ethambutol,Combutol,Anti-tubercular,First-line anti-TB,400 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0071,Ethambutol,Mycobutol; Combutol,Anti-tubercular,First-line anti-TB,800 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0072,Isoniazid,Isokin,Anti-tubercular,First-line anti-TB,100 mg,Tablet,10 tabs,8,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0073,Isoniazid,Isokin; Isonex,Anti-tubercular,First-line anti-TB,300 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0074,Pyrazinamide,P-Zide,Anti-tubercular,First-line anti-TB,1500 mg,Tablet,10 tabs,50,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0075,Pyrazinamide,Pyzina; P-Zide,Anti-tubercular,First-line anti-TB,750 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0076,Rifampicin,Rcin; Rimactane,Anti-tubercular,First-line anti-TB,450 mg,Capsule,10 caps,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0077,Rifampicin,Rcin,Anti-tubercular,First-line anti-TB,600 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0078,Rifampicin + INH + Ethambutol,AKuriT-3; R-Cinex E,Anti-tubercular,FDC anti-TB (HRE),150+75+275 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0079,Rifampicin + INH + Pyrazinamide + Ethambutol,Forecox; AKuriT-4,Anti-tubercular,FDC anti-TB (HRZE),150+75+400+275 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0080,Esomeprazole,Nexpro,Anti-ulcer,PPI,20 mg,Tablet,15 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0081,Famotidine,Famocid; Topcid,Anti-ulcer,H2 blocker,20 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0082,Famotidine,Famocid,Anti-ulcer,H2 blocker,40 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0083,Lansoprazole,Lan; Lanzol,Anti-ulcer,PPI,30 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0084,Omeprazole,Omez; Ocid,Anti-ulcer,PPI,20 mg,Capsule,15 caps,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0085,Omeprazole,Omez 40,Anti-ulcer,PPI,40 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0086,Pantoprazole,Pan; Pantocid,Anti-ulcer,PPI,20 mg,Tablet,15 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0087,Pantoprazole,Pan IV; Pantocid IV,Anti-ulcer,PPI parenteral,40 mg,Injection,1 vial,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0088,Pantoprazole,Pan; Pantocid; Pantop,Anti-ulcer,PPI,40 mg,Tablet,15 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0089,Rabeprazole,Razo; Rablet,Anti-ulcer,PPI,20 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0090,Rabeprazole + Domperidone,Razo-D; Rablet-D,Anti-ulcer,PPI + prokinetic,20+30 mg SR,Capsule,10 caps,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0091,Ranitidine,Aciloc; Rantac; Zinetac,Anti-ulcer,H2 blocker,150 mg,Tablet,20 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0092,Ranitidine,Aciloc,Anti-ulcer,H2 blocker,300 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0093,Sucralfate,Sucrace; Sucral-O,Anti-ulcer,Mucosal protectant,1 g/10ml,Suspension,200 ml,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0094,Isosorbide Dinitrate,Sorbitrate; Isordil,Antianginal,Nitrate,10 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0095,Isosorbide Mononitrate,Imdur; Monotrate,Antianginal,Nitrate,20 mg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0096,Isosorbide Mononitrate,Monotrate SR,Antianginal,Nitrate sustained release,60 mg SR,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0097,Ivabradine,Ivabrad; Coralan,Antianginal,If channel inhibitor,5 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0098,Ivabradine,Ivabrad,Antianginal,If channel inhibitor,7.5 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0099,Nitroglycerin,Nitrocontin; Nitrogard,Antianginal,Nitrate,2.6 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0100,Nitroglycerin,Nitrocontin,Antianginal,Nitrate sustained release,6.4 mg SR,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0101,Ranolazine,Ranozex; Ranexa,Antianginal,Late sodium current inhibitor,500 mg,Tablet,10 tabs,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0102,Trimetazidine,Flavedon MR; Carvidon,Antianginal,Metabolic modulator,35 mg MR,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0103,Amiodarone,Cordarone; Tachyra,Antiarrhythmic,Class III antiarrhythmic,100 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0104,Amiodarone,Cordarone,Antiarrhythmic,Class III antiarrhythmic,200 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0105,Amikacin,Amikacin Sulfate,Antibiotic,Aminoglycoside,500 mg,Injection,2 ml vial,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0106,Amoxicillin,Mox,Antibiotic,Pediatric penicillin,125 mg/5ml,Syrup,30 ml,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0107,Amoxicillin,Mox; Novamox,Antibiotic,Penicillin,250 mg,Capsule,10 caps,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0108,Cefotaxime,Taxim; Omnatax,Antibiotic,3rd gen cephalosporin (parenteral),1 g,Injection,1 vial,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0109,Ceftriaxone,Monocef; Oframax,Antibiotic,3rd gen cephalosporin (parenteral),1 g,Injection,1 vial,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0110,Ceftriaxone,Monocef,Antibiotic,3rd gen cephalosporin (parenteral),500 mg,Injection,1 vial,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0111,Ciprofloxacin,Ciplox,Antibiotic,Ophthalmic antibiotic,0.3% w/v,Eye drops,5 ml,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0112,Ciprofloxacin,Ciplox,Antibiotic,Fluoroquinolone,250 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0113,Doxycycline,Doxy; Doxt,Antibiotic,Tetracycline,100 mg,Capsule,10 caps,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0114,Gentamicin,Genticyn,Antibiotic,Ophthalmic antibiotic,0.3% w/v,Eye drops,5 ml,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0115,Gentamicin,Genticyn,Antibiotic,Aminoglycoside,80 mg,Injection,2 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0116,Penicillin G Benzathine,Pencom-LA; Penidure-LA,Antibiotic,Long-acting penicillin,12 lakh IU,Injection,1 vial,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0117,Streptomycin,Streptomycin Sulfate,Antibiotic,Aminoglycoside (anti-TB),1 g,Injection,1 vial,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0118,Trimethoprim + Sulfamethoxazole,Septran; Bactrim,Antibiotic,Sulfonamide combination,80+400 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0119,Erythromycin Estolate,Erythrocin,Antibiotic (pediatric),Macrolide pediatric,125 mg/5ml,Suspension,60 ml,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0120,Metronidazole,Metrogyl,Antibiotic / Antiprotozoal,Nitroimidazole,200 mg,Tablet,15 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0121,Metronidazole,Metrogyl,Antibiotic / Antiprotozoal,Pediatric nitroimidazole,200 mg/5ml,Suspension,60 ml,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0122,Metronidazole,Flagyl; Metrogyl,Antibiotic / Antiprotozoal,Nitroimidazole,400 mg,Tablet,15 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0123,Ornidazole,Ornidab; Orni-O,Antibiotic / Antiprotozoal,Nitroimidazole,500 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0124,Tinidazole,Tiniba; Fasigyn,Antibiotic / Antiprotozoal,Nitroimidazole,500 mg,Tablet,10 tabs,55,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0125,Ofloxacin + Ornidazole,Zenflox-OZ; O2,Antibiotic combination,Quinolone + nitroimidazole,200+500 mg,Tablet,10 tabs,115,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0126,Acenocoumarol,Acitrom; Sinkumar,Anticoagulant,Vitamin K antagonist,1 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0127,Acenocoumarol,Acitrom,Anticoagulant,Vitamin K antagonist,2 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0128,Dabigatran,Pradaxa; Dabigat,Anticoagulant,Direct thrombin inhibitor,110 mg,Capsule,10 caps,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0129,Dabigatran,Pradaxa,Anticoagulant,Direct thrombin inhibitor,150 mg,Capsule,10 caps,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0130,Rivaroxaban,Xarelto; Rivaflo,Anticoagulant,Factor Xa inhibitor,10 mg,Tablet,10 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0131,Warfarin,Warf,Anticoagulant,Vitamin K antagonist,2 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0132,Warfarin,Warf; Uniwarfin,Anticoagulant,Vitamin K antagonist,5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0133,Carbamazepine,Tegrital; Mazetol; Zen,Anticonvulsant,Sodium channel blocker,200 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0134,Carbamazepine,Tegrital CR,Anticonvulsant,Sodium channel blocker,400 mg CR,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0135,Lamotrigine,Lamitor; Lamictal,Anticonvulsant,Sodium channel blocker,100 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0136,Lamotrigine,Lamitor,Anticonvulsant,Sodium channel blocker,50 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0137,Levetiracetam,Levipil,Anticonvulsant,SV2A modulator,1000 mg,Tablet,10 tabs,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0138,Levetiracetam,Levipil; Keppra; Levroxa,Anticonvulsant,SV2A modulator,500 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0139,Oxcarbazepine,Oxetol; Trileptal,Anticonvulsant,Sodium channel blocker,300 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0140,Phenobarbital (Phenobarbitone),Gardenal; Phenobarb,Anticonvulsant,Barbiturate,60 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0141,Phenytoin,Eptoin; Dilantin,Anticonvulsant,Sodium channel blocker,100 mg,Tablet,30 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0142,Phenytoin,Eptoin,Anticonvulsant,Pediatric anticonvulsant,30 mg/5ml,Suspension,200 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0143,Sodium Valproate,Encorate; Valance,Anticonvulsant,GABA enhancer,200 mg,Tablet,15 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0144,Sodium Valproate,Encorate Chrono,Anticonvulsant,GABA enhancer,500 mg CR,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0145,Topiramate,Topamac,Anticonvulsant,Multiple mechanisms,100 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0146,Topiramate,Topamac; Topirol,Anticonvulsant,Multiple mechanisms,50 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0147,Gabapentin,Gabapin; Gabantin,Anticonvulsant / Neuropathic pain,GABA analogue,300 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0148,Gabapentin,Gabapin,Anticonvulsant / Neuropathic pain,GABA analogue,400 mg,Capsule,10 caps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0149,Amitriptyline,Tryptomer; Amline,Antidepressant,TCA,10 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0150,Amitriptyline,Tryptomer,Antidepressant,TCA,25 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0151,Citalopram,Celexa; Citopam,Antidepressant,SSRI,20 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0152,Duloxetine,Duzela; Cymbalta; Duvanta,Antidepressant,SNRI,20 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0153,Escitalopram,Nexito; Cipralex; Stalopam,Antidepressant,SSRI,5 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0154,Fluoxetine,Fludac; Prodep,Antidepressant,SSRI,20 mg,Capsule,10 caps,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0155,Fluoxetine,Fludac,Antidepressant,SSRI,40 mg,Capsule,10 caps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0156,Imipramine,Depsonil; Imidol,Antidepressant,TCA,25 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0157,Mirtazapine,Mirtaz; Mirnite,Antidepressant,Atypical antidepressant,15 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0158,Nortriptyline,Sensival; Primox,Antidepressant,TCA,25 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0159,Paroxetine,Pexep; Paxil,Antidepressant,SSRI,12.5 mg CR,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0160,Paroxetine,Pexep CR,Antidepressant,SSRI,25 mg CR,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0161,Sertraline,Zoloft; Daxid; Serlift,Antidepressant,SSRI,50 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0162,Venlafaxine,Veniz; Ventab,Antidepressant,SNRI,37.5 mg XR,Capsule,10 caps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0163,Acarbose,Glucobay; Diabose,Antidiabetic,Alpha-glucosidase inhibitor,50 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0164,Glibenclamide,Daonil; Euglucon,Antidiabetic,Sulfonylurea,5 mg,Tablet,20 tabs,25,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0165,Gliclazide,Diamicron MR,Antidiabetic,Sulfonylurea,30 mg MR,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0166,Glimepiride,Amaryl; Azulix,Antidiabetic,Sulfonylurea,1 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0167,Glimepiride,Amaryl,Antidiabetic,Sulfonylurea,4 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0168,Glimepiride + Metformin,Amaryl-M; Azulix-MF,Antidiabetic,Sulfonylurea + biguanide,1+500 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0169,Glipizide,Glynase; Glytop,Antidiabetic,Sulfonylurea,5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0170,Metformin,Glycomet; Glucomet,Antidiabetic,Biguanide,500 mg,Tablet,20 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0171,Metformin,Glycomet SR,Antidiabetic,Biguanide sustained release,500 mg SR,Tablet,20 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0172,Pioglitazone,Pioz; Glizone,Antidiabetic,Thiazolidinedione,15 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0173,Repaglinide,Eurepa; Novonorm,Antidiabetic,Meglitinide,1 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0174,Repaglinide,Eurepa,Antidiabetic,Meglitinide,2 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0175,Voglibose,Volix; Voglib,Antidiabetic,Alpha-glucosidase inhibitor,0.2 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0176,Voglibose,Volix,Antidiabetic,Alpha-glucosidase inhibitor,0.3 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0177,Loperamide,Eldoper; Imodium,Antidiarrheal,Opioid receptor agonist,2 mg,Capsule,10 caps,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0178,Racecadotril,Redotil; Enuff,Antidiarrheal,Enkephalinase inhibitor,100 mg,Capsule,10 caps,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0179,Naloxone,Naloxone; Narcan,Antidote,Opioid antagonist,0.4 mg/ml,Injection,1 ml amp,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0180,Atropine,Atropine Sulphate,Antidote / Cardiac,Anticholinergic (parenteral),0.6 mg/ml,Injection,1 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0181,N-Acetylcysteine,Mucomix,Antidote / Mucolytic,Paracetamol overdose antidote,200 mg/ml,Injection,5 ml amp,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0182,Dimenhydrinate,Gravol,Antiemetic,Antihistaminic antiemetic,50 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0183,Domperidone,Domstal,Antiemetic,Prokinetic / Antiemetic,1 mg/ml,Suspension,30 ml,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0184,Domperidone,Domstal; Vomistop,Antiemetic,Prokinetic / Antiemetic,10 mg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0185,Doxylamine + Pyridoxine,Doxinate; Vomilast,Antiemetic,Pregnancy nausea,10+10 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0186,Granisetron,Granicip; Kytril,Antiemetic,5-HT3 antagonist,1 mg,Tablet,5 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0187,Meclizine,Pregnacare,Antiemetic,Antihistaminic antiemetic,25 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0188,Metoclopramide,Perinorm; Reglan,Antiemetic,Dopamine antagonist,10 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0189,Metoclopramide,Perinorm,Antiemetic,Dopamine antagonist (parenteral),5 mg/ml,Injection,2 ml amp,8,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0190,Ondansetron,Emeset,Antiemetic,5-HT3 antagonist (parenteral),2 mg/ml,Injection,2 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0191,Ondansetron,Emeset; Vomikind,Antiemetic,5-HT3 antagonist,4 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0192,Ondansetron,Emeset MD,Antiemetic,Mouth-dissolving,4 mg,Tablet MD,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0193,Ondansetron,Emeset,Antiemetic,5-HT3 antagonist,8 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0194,Clotrimazole,Candid; Surfaz,Antifungal,Topical imidazole,1% w/w,Cream,20 g,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0195,Clotrimazole,Candid,Antifungal,Antifungal powder,1% w/w,Powder,100 g,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0196,Clotrimazole,Candid V,Antifungal,Vaginal antifungal,100 mg,Pessary,6 pessaries,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0197,Fluconazole,Forcan; Zocon,Antifungal,Triazole,150 mg,Tablet,1 tab,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0198,Fluconazole,Forcan,Antifungal,Triazole,400 mg,Tablet,1 tab,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0199,Griseofulvin,Grisovin FP,Antifungal,Tinea infection,375 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0200,Itraconazole,Itrasys; Canditral,Antifungal,Triazole,100 mg,Capsule,10 caps,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0201,Ketoconazole,Nizral,Antifungal,Antifungal shampoo,2% w/v,Shampoo,60 ml,285,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0202,Ketoconazole,Nizral; KZ,Antifungal,Imidazole,200 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0203,Miconazole,Daktarin; Zole-F,Antifungal,Topical imidazole,2% w/w,Cream,20 g,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0204,Terbinafine,Terbicip,Antifungal,Topical antifungal,1% w/w,Cream,10 g,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0205,Terbinafine,Terbicip; Lamisil,Antifungal,Allylamine,250 mg,Tablet,7 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0206,Allopurinol,Zyloric; Logout,Antigout,Xanthine oxidase inhibitor,100 mg,Tablet,15 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0207,Allopurinol,Zyloric,Antigout,Xanthine oxidase inhibitor,300 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0208,Colchicine,Goutnil; Zycolchin,Antigout,Anti-inflammatory,0.5 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0209,Febuxostat,Feburic; Zurig,Antigout,Xanthine oxidase inhibitor,40 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0210,Febuxostat,Feburic,Antigout,Xanthine oxidase inhibitor,80 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0211,Bilastine,Bilagra; Blexten,Antihistamine,2nd gen H1 antihistamine,20 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0212,Cetirizine,Cetzine; Alerid,Antihistamine,2nd gen H1 antihistamine,10 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0213,Cetirizine,Cetzine; Alerid,Antihistamine,Pediatric H1 antihistamine,5 mg/5ml,Syrup,60 ml,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0214,Chlorpheniramine,CPM; Piriton,Antihistamine,1st gen H1 antihistamine,4 mg,Tablet,10 tabs,12,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0215,Desloratadine,Deslor; Aerius,Antihistamine,3rd gen H1 antihistamine,5 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0216,Fexofenadine,Allegra; Fexo,Antihistamine,2nd gen H1 antihistamine,120 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0217,Hydroxyzine,Atarax,Antihistamine,1st gen H1 antihistamine,10 mg,Tablet,15 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0218,Hydroxyzine,Atarax,Antihistamine,1st gen H1 antihistamine,25 mg,Tablet,15 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0219,Levocetirizine,Levocet,Antihistamine,Pediatric H1 antihistamine,2.5 mg/5ml,Syrup,60 ml,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0220,Levocetirizine,Levocet; Xyzal,Antihistamine,2nd gen H1 antihistamine,5 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0221,Loratadine,Lorfast; Claritin,Antihistamine,2nd gen H1 antihistamine,10 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0222,Pheniramine,Avil,Antihistamine,1st gen H1 antihistamine (parenteral),22.75 mg/ml,Injection,2 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0223,Pheniramine,Avil,Antihistamine,1st gen H1 antihistamine,25 mg,Tablet,30 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0224,Promethazine,Phenergan,Antihistamine,1st gen H1 antihistamine,25 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0225,Atorvastatin,Atorva; Lipitor; Aztor,Antihyperlipidemic,Statin,10 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0226,Atorvastatin,Atorva,Antihyperlipidemic,Statin,80 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0227,Ezetimibe,Ezetib; Ezedoc,Antihyperlipidemic,Cholesterol absorption inhibitor,10 mg,Tablet,10 tabs,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0228,Ezetimibe + Atorvastatin,Ezetib-A,Antihyperlipidemic,Combination,10+10 mg,Tablet,10 tabs,215,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0229,Fenofibrate,Lipicard; Fenolip,Antihyperlipidemic,Fibrate,160 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0230,Fenofibrate,Lipicard,Antihyperlipidemic,Fibrate,200 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0231,Pravastatin,Pravator; Pravachol,Antihyperlipidemic,Statin,10 mg,Tablet,10 tabs,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0232,Rosuvastatin,Rosuvas,Antihyperlipidemic,Statin,40 mg,Tablet,10 tabs,285,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0233,Rosuvastatin,Rosuvas; Crestor,Antihyperlipidemic,Statin,5 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0234,Simvastatin,Simvotin; Zocor,Antihyperlipidemic,Statin,10 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0235,Simvastatin,Simvotin,Antihyperlipidemic,Statin,20 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0236,Amlodipine,Amlong,Antihypertensive,Calcium channel blocker,10 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0237,Amlodipine,Amlong; Stamlo; Amlopres,Antihypertensive,Calcium channel blocker,5 mg,Tablet,15 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0238,Atenolol,Aten; Tenormin,Antihypertensive,Beta blocker,25 mg,Tablet,14 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0239,Atenolol,Aten,Antihypertensive,Beta blocker,50 mg,Tablet,14 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0240,Captopril,Aceten,Antihypertensive,ACE inhibitor,25 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0241,Clonidine,Catapres; Arkamin,Antihypertensive,Centrally acting,100 mcg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0242,Enalapril,Envas,Antihypertensive,ACE inhibitor,10 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0243,Enalapril,Envas; Enam,Antihypertensive,ACE inhibitor,5 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0244,Lisinopril,Listril; Linvas,Antihypertensive,ACE inhibitor,5 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0245,Losartan,Losar; Cozaar; Repace,Antihypertensive,ARB,25 mg,Tablet,15 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0246,Metoprolol,Metolar; Metpure,Antihypertensive,Beta blocker,25 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0247,Nifedipine,Calcigard; Depin,Antihypertensive,Calcium channel blocker,10 mg,Capsule,15 caps,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0248,Propranolol,Inderal; Ciplar,Antihypertensive,Beta blocker (non-selective),40 mg,Tablet,15 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0249,Telmisartan,Telma; Telpres,Antihypertensive,ARB,20 mg,Tablet,15 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0250,Diltiazem,Dilzem; Angizem,Antihypertensive / Antianginal,Calcium channel blocker,30 mg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0251,Diltiazem,Dilzem SR,Antihypertensive / Antianginal,CCB sustained release,60 mg SR,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0252,Verapamil,Calaptin; Isoptin,Antihypertensive / Antianginal,Calcium channel blocker,40 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0253,Hydrochlorothiazide,Aquazide,Antihypertensive / Diuretic,Thiazide diuretic,12.5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0254,Hydrochlorothiazide,Aquazide,Antihypertensive / Diuretic,Thiazide diuretic,25 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0255,Indapamide,Natrilix; Lorvas SR,Antihypertensive / Diuretic,Thiazide-like diuretic,1.5 mg SR,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0256,Permethrin,Permite,Antilice,Pyrethroid,1% w/v,Lotion,60 ml,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0257,Artemether + Lumefantrine,Lumerax; Lumartem,Antimalarial,ACT,80+480 mg,Tablet,6 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0258,Artesunate,Falcigo; Larinate,Antimalarial,Artemisinin (parenteral),60 mg,Injection,1 vial,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0259,Chloroquine,Lariago; Resochin,Antimalarial,4-aminoquinoline,250 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0260,Hydroxychloroquine,HCQS; Zy-Q,Antimalarial,4-aminoquinoline,200 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0261,Primaquine,Primaquine Phosphate,Antimalarial,8-aminoquinoline,7.5 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0262,Rizatriptan,Rizact; Maxalt,Antimigraine,Triptan,10 mg,Tablet,4 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0263,Sumatriptan,Suminat,Antimigraine,Triptan,100 mg,Tablet,2 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0264,Sumatriptan,Suminat; Imitrex,Antimigraine,Triptan,50 mg,Tablet,4 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0265,Levodopa + Carbidopa,Syndopa; Sinemet; Tidomet,Antiparkinsonian,Dopamine precursor combination,100+25 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0266,Levodopa + Carbidopa,Syndopa Plus,Antiparkinsonian,Dopamine precursor combination,200+50 mg CR,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0267,Pramipexole,Pramipex; Pexola,Antiparkinsonian,Dopamine agonist,0.25 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0268,Pramipexole,Pramipex,Antiparkinsonian,Dopamine agonist,1 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0269,Ropinirole,Ropark; Requip,Antiparkinsonian,Dopamine agonist,1 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0270,Trihexyphenidyl (Benzhexol),Pacitane; Bexol,Antiparkinsonian,Anticholinergic,2 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0271,Clopidogrel,Clopilet; Plavix; Deplatt,Antiplatelet,P2Y12 inhibitor,75 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0272,Clopidogrel + Aspirin,Clopilet-A; Deplatt-A,Antiplatelet,Dual antiplatelet,75+75 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0273,Prasugrel,Prasita; Effient,Antiplatelet,P2Y12 inhibitor,10 mg,Tablet,10 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0274,Clopidogrel + Aspirin,Ecosprin Gold,Antiplatelet + Antihyperlipidemic,Dual antiplatelet + statin,75+75+10 mg,Tablet,10 tabs,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0275,Aripiprazole,Arip MT; Asprito,Antipsychotic,Atypical antipsychotic,10 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0276,Aripiprazole,Arip MT,Antipsychotic,Atypical antipsychotic,15 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0277,Chlorpromazine,Largactil,Antipsychotic,Typical antipsychotic,50 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0278,Haloperidol,Serenace; Halidol,Antipsychotic,Typical antipsychotic,5 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0279,Olanzapine,Oleanz,Antipsychotic,Atypical antipsychotic,10 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0280,Olanzapine,Oleanz; Oltic; Zyprexa,Antipsychotic,Atypical antipsychotic,5 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0281,Quetiapine,Qutipin; Quel,Antipsychotic,Atypical antipsychotic,100 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0282,Quetiapine,Qutipin,Antipsychotic,Atypical antipsychotic,200 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0283,Risperidone,Risdone; Sizodon; Risperdal,Antipsychotic,Atypical antipsychotic,2 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0284,Risperidone,Risdone,Antipsychotic,Atypical antipsychotic,4 mg,Tablet,10 tabs,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0285,Hydroxychloroquine,HCQS,Antirheumatic,DMARD,200 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0286,Leflunomide,Lefra; Arava; Lefumide,Antirheumatic,DMARD,10 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0287,Leflunomide,Lefra,Antirheumatic,DMARD,20 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0288,Sulfasalazine,Saaz DS,Antirheumatic,DMARD,1000 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0289,Sulfasalazine,Saaz; Salazopyrin,Antirheumatic / GI,DMARD / 5-ASA,500 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0290,Benzyl Benzoate,Scaboma,Antiscabies,Antiparasitic lotion,25% w/v,Lotion,100 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0291,Lindane (Gamma BHC),Gamascab; Scabozyl,Antiscabies,Organochlorine,1% w/v,Lotion,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0292,Permethrin,Permite; Lyclear,Antiscabies / Antilice,Pyrethroid,5% w/w,Cream,30 g,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0293,Chlorhexidine,Hexidine; Savlon,Antiseptic,Antiseptic mouthwash,0.2% w/v,Mouthwash,150 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0294,Povidone Iodine,Betadine; Wokadine,Antiseptic,Iodine antiseptic,5% w/v,Solution,100 ml,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0295,Povidone Iodine,Betadine,Antiseptic,Iodine ointment,5% w/w,Ointment,20 g,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0296,Dicyclomine,Cyclopam; Spasmonil,Antispasmodic,Anticholinergic,10 mg,Tablet,10 tabs,28,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0297,Drotaverine,Drotin; Drotin-M,Antispasmodic,Smooth muscle relaxant,40 mg,Tablet,10 tabs,55,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0298,Drotaverine,Drotin,Antispasmodic,Smooth muscle relaxant,80 mg,Tablet,10 tabs,88,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0299,Hyoscine Butylbromide,Buscopan,Antispasmodic,Anticholinergic,10 mg,Tablet,10 tabs,55,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0300,Mefenamic Acid,Meftal-Spas,Antispasmodic,NSAID + antispasmodic,250+10 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0301,Carbimazole,Neo-Mercazole,Antithyroid,Anti-thyroid,10 mg,Tablet,30 tabs,175,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0302,Carbimazole,Neo-Mercazole; Antithyrox,Antithyroid,Anti-thyroid,5 mg,Tablet,30 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0303,Methimazole,Tapazole,Antithyroid,Anti-thyroid,10 mg,Tablet,30 tabs,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0304,Propylthiouracil,PTU,Antithyroid,Anti-thyroid,50 mg,Tablet,30 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0305,Betahistine,Vertin; Zevert,Antivertigo,Histamine analogue,16 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0306,Betahistine,Vertin,Antivertigo,Histamine analogue,8 mg,Tablet,10 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0307,Cinnarizine,Stugeron; Stugil,Antivertigo,Calcium channel blocker,25 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0308,Prochlorperazine,Stemetil,Antivertigo / Antiemetic,Phenothiazine,5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0309,Acyclovir,Acivir,Antiviral,Anti-herpes,200 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0310,Acyclovir,Acivir; Zovirax,Antiviral,Anti-herpes,400 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0311,Acyclovir,Acivir,Antiviral,Anti-herpes (topical),5% w/w,Cream,5 g,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0312,Efavirenz,Efavir; Sustiva,Antiviral,NNRTI,600 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0313,Lamivudine,Lamivir; Heptavir,Antiviral,Anti-HIV / Anti-HBV,150 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0314,Valacyclovir,Valcivir; Valtrex,Antiviral,Anti-herpes,500 mg,Tablet,3 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0315,Zidovudine,Zidovir; Retrovir,Antiviral,NRTI,300 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0316,Alprazolam,Restyl; Alprax,Anxiolytic,Benzodiazepine,0.25 mg,Tablet,15 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0317,Alprazolam,Restyl,Anxiolytic,Benzodiazepine,1 mg,Tablet,15 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0318,Buspirone,Buspin; Anxion,Anxiolytic,5-HT1A partial agonist,10 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0319,Diazepam,Valium,Anxiolytic,Benzodiazepine,10 mg,Tablet,10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0320,Diazepam,Valium; Calmpose,Anxiolytic,Benzodiazepine,5 mg,Tablet,10 tabs,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0321,Etizolam,Etilaam; Etizola,Anxiolytic,Thienodiazepine,0.5 mg,Tablet,10 tabs,38,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0322,Lorazepam,Ativan; Lorazep,Anxiolytic,Benzodiazepine,1 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0323,Lorazepam,Ativan,Anxiolytic,Benzodiazepine,2 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0324,Clonazepam,Rivotril; Clonotril; Lonazep,Anxiolytic / Anticonvulsant,Benzodiazepine,0.5 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0325,Clonazepam,Rivotril,Anxiolytic / Anticonvulsant,Benzodiazepine,2 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0326,Modafinil,Modafil; Provake,CNS stimulant,Wakefulness-promoting agent,200 mg,Tablet,10 tabs,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0327,Digoxin,Lanoxin; Digoxin,Cardiac glycoside,Inotropic,0.25 mg,Tablet,30 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0328,Phenylephrine + CPM + Paracetamol,Sinarest; D-Cold Total,Cold / Flu,Decongestant combination,Mixed,Tablet,10 tabs,65,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0329,Pseudoephedrine + Triprolidine,Actifed,Cold / Flu,Decongestant + antihistamine,60+2.5 mg,Tablet,10 tabs,55,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0330,Ethinyl Estradiol + Levonorgestrel,Mala-D; Ovral-L,Contraceptive,Combined oral contraceptive,Mixed,Tablet pack,21 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0331,Ethinyl Estradiol + Norethisterone,Mala-N; Loette,Contraceptive,Combined oral contraceptive,Mixed,Tablet pack,21 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0332,Levonorgestrel,i-Pill; Unwanted-72,Contraceptive,Emergency contraceptive,1.5 mg,Tablet,1 tab,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0333,Betamethasone Sodium Phosphate,Betnesol,Corticosteroid,Glucocorticoid,0.5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0334,Betamethasone Sodium Phosphate,Betnesol,Corticosteroid,Glucocorticoid (parenteral),4 mg/ml,Injection,1 ml amp,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0335,Dexamethasone,Decadron; Decmax,Corticosteroid,Glucocorticoid,0.5 mg,Tablet,30 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0336,Dexamethasone,Decadron,Corticosteroid,Glucocorticoid (parenteral),4 mg/ml,Injection,2 ml amp,8,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0337,Hydrocortisone,Efcorlin; Lycortin-S,Corticosteroid,Glucocorticoid (parenteral),100 mg,Injection,1 vial,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0338,Methylprednisolone,Medrol,Corticosteroid,Glucocorticoid,16 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0339,Methylprednisolone,Medrol; Solu-Medrol,Corticosteroid,Glucocorticoid,4 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0340,Methylprednisolone,Solu-Medrol,Corticosteroid,Glucocorticoid (parenteral),500 mg,Injection,1 vial,285,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0341,Prednisolone,Wysolone,Corticosteroid,Glucocorticoid,40 mg,Tablet,10 tabs,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0342,Prednisolone,Wysolone; Omnacortil; Predmet,Corticosteroid,Glucocorticoid,5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0343,Triamcinolone,Kenacort,Corticosteroid,Glucocorticoid,4 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0344,Codeine + Chlorpheniramine,Corex; Phensedyl,Cough,Antitussive combination,10+4 mg/5ml,Syrup,100 ml,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0345,Dextromethorphan,Tossex; Romilast,Cough,Cough suppressant,10 mg/5ml,Syrup,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0346,Ambroxol + Levosalbutamol + Guaifenesin,Ascoril LS; Mucolite Junior,Cough / Cold,Mucolytic combination,Mixed,Syrup,100 ml,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0347,Dextromethorphan + Phenylephrine + CPM,Benadryl DR; Tixylix,Cough / Cold,Cough suppressant combination,Mixed,Syrup,100 ml,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0348,Xylometazoline,Otrivin Pediatric,Decongestant,Pediatric nasal decongestant,0.05% w/v,Nasal Drops,10 ml,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0349,Xylometazoline,Otrivin; Nasivion,Decongestant,Topical nasal decongestant,0.1% w/v,Nasal Spray,10 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0350,Methoxsalen,Macsoralen,Dermatology,PUVA therapy,10 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0351,Furosemide,Lasix,Diuretic,Loop diuretic (parenteral),20 mg/2ml,Injection,2 ml amp,8,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0352,Furosemide,Lasix; Frusenex,Diuretic,Loop diuretic,40 mg,Tablet,15 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0353,Mannitol,Mannitol IP,Diuretic,Osmotic diuretic,20% w/v,IV solution,100 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0354,Spironolactone,Aldactone; Spirono,Diuretic,Potassium-sparing,25 mg,Tablet,15 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0355,Spironolactone,Aldactone,Diuretic,Potassium-sparing,50 mg,Tablet,15 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0356,Torsemide,Dytor; Diuretix,Diuretic,Loop diuretic,10 mg,Tablet,15 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0357,ORS (WHO formulation),Electral; Walyte; ORSL,Electrolyte,Oral rehydration salt,21.8 g sachet,Powder,21.8 g,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0358,Adrenaline (Epinephrine),Adrenaline; EpiPen,Emergency,Sympathomimetic,1 mg/ml,Injection,1 ml amp,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0359,Guaifenesin,Mucinex,Expectorant,Expectorant,100 mg/5ml,Syrup,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0360,Clomifene,Clomid; Fertyl,Fertility,SERM (ovulation induction),50 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0361,Mesalamine (5-ASA),Mesacol; Mezavant,GI anti-inflammatory,Aminosalicylate,400 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0362,Mesalamine (5-ASA),Mesacol,GI anti-inflammatory,Aminosalicylate,800 mg,Tablet,10 tabs,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0363,Iron + Folic Acid + B12,Fol-123; Vitcofol,Hematinic,Anemia treatment,Mixed,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0364,Mefenamic Acid + Tranexamic Acid,Pause-MF,Hemostatic,Combination (heavy menstrual),250+500 mg,Tablet,10 tabs,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0365,Tranexamic Acid,Pause,Hemostatic,Antifibrinolytic (parenteral),100 mg/ml,Injection,5 ml amp,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0366,Tranexamic Acid,Pause; Trapic,Hemostatic,Antifibrinolytic,500 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0367,Liver Tonic (LIV-52),Liv-52; Liv.52,Hepatoprotective,Ayurvedic liver tonic,Mixed,Syrup,200 ml,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0368,Silymarin,Silybon; Sily,Hepatoprotective,Milk thistle extract,140 mg,Capsule,10 caps,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0369,Ursodeoxycholic Acid,Udiliv,Hepatoprotective,Bile acid,150 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0370,Ursodeoxycholic Acid,Udiliv; Ursocol,Hepatoprotective,Bile acid,300 mg,Tablet,10 tabs,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0371,Dextrose 5% (D5W),Dextrose Injection IP,IV fluid,Carbohydrate IV fluid,5% w/v,IV solution,500 ml,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0372,Normal Saline (0.9% NaCl),NS; Sodium Chloride IP,IV fluid,Crystalloid IV fluid,0.9% w/v,IV solution,500 ml,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0373,Ringer Lactate,RL; Ringer's Lactate IP,IV fluid,Balanced crystalloid,Mixed,IV solution,500 ml,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0374,Azathioprine,Imuran; Azoran,Immunosuppressant,Antimetabolite,50 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0375,Mycophenolate Mofetil,Cellcept; Mycept,Immunosuppressant,IMPDH inhibitor,500 mg,Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0376,Tacrolimus,Pangraf,Immunosuppressant,Calcineurin inhibitor,0.5 mg,Capsule,10 caps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0377,Tacrolimus,Pangraf; Prograf,Immunosuppressant,Calcineurin inhibitor,1 mg,Capsule,10 caps,175,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0378,Bisacodyl,Dulcoflex; Bisalax,Laxative,Stimulant laxative,5 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0379,Glycerin Suppository,Glycerin,Laxative,Pediatric/adult laxative,1 g / 2.4 g,Suppository,10 supps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0380,Lactulose,Duphalac; Looz,Laxative,Osmotic laxative,10 g/15ml,Syrup,200 ml,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0381,Polyethylene Glycol (Macrogol),Peglec; Pegset,Laxative,Osmotic laxative,137.15 g sachet,Powder,137.15 g,235,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0382,Flunarizine,Sibelium,Migraine prophylaxis,Calcium channel blocker,10 mg,Tablet,10 tabs,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0383,Flunarizine,Sibelium; Flunarin,Migraine prophylaxis,Calcium channel blocker,5 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0384,Calcium + Magnesium + Zinc + Vitamin D3,Calcimax Forte; Shelcal MZD,Mineral,Bone health combination,Mixed,Tablet,15 tabs,175,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0385,Calcium Carbonate + Vitamin D3,Shelcal; Calcimax; CCM,Mineral,Calcium + Vit D supplement,500+250 IU,Tablet,15 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0386,Calcium Citrate + Vitamin D3 + Magnesium + Zinc,Shelcal-XT; Calcimax-XT,Mineral,Multi-mineral combination,Mixed,Tablet,15 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0387,Ferrous Ascorbate + Folic Acid,Autrin; Orofer XT; Tonoferon,Mineral,Iron + folate combination,100+1.5 mg,Tablet,10 tabs,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0388,Ferrous Sulphate,Fefol; Livogen,Mineral,Iron supplement,200 mg,Tablet,30 tabs,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0389,Magnesium + Vitamin B6,Magnesia; Mag-Vita,Mineral,Magnesium supplement,Mixed,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0390,Zinc Sulphate / Acetate,Zincovit Syrup,Mineral,Pediatric zinc,10 mg/5ml,Syrup,100 ml,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0391,Zinc Sulphate / Acetate,Zincovit; Zinconia,Mineral,Zinc supplement,20 mg,Tablet (dispersible),10 tabs,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0392,Carbonyl Iron + Folic Acid + B12 + Zinc,Tonoferon; Hemfer,Mineral / Vitamin,Hematinic combination,Mixed,Syrup,200 ml,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0393,Lithium Carbonate,Lithosun; Licab,Mood stabilizer,Antimanic,300 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0394,Acetylcysteine,Mucinac; Mucomix,Mucolytic,Mucolytic,600 mg,Effervescent Tablet,10 tabs,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0395,Ambroxol,Ambrolite,Mucolytic,Mucolytic syrup,15 mg/5ml,Syrup,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0396,Ambroxol,Ambrolite; Mucolite,Mucolytic,Mucolytic / Expectorant,30 mg,Tablet,10 tabs,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0397,Bromhexine,Bromhexine HCl,Mucolytic,Mucolytic,8 mg,Tablet,10 tabs,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0398,Baclofen,Liofen; Baclof,Muscle relaxant,GABA agonist,10 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0399,Baclofen,Liofen,Muscle relaxant,GABA agonist,20 mg,Tablet,10 tabs,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0400,Cyclobenzaprine,Flexabenz; Cyclofen,Muscle relaxant,Centrally acting,5 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0401,Thiocolchicoside,Myoril; Thiomol,Muscle relaxant,GABA antagonist,4 mg,Capsule,10 caps,175,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0402,Tizanidine,Sirdalud; Tizan,Muscle relaxant,Alpha-2 agonist,2 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0403,Tizanidine,Sirdalud,Muscle relaxant,Alpha-2 agonist,4 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0404,Thiocolchicoside + Aceclofenac,Myoril Plus; Zerodol-MR,Muscle relaxant + NSAID,Combination,4+100 mg,Tablet,10 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0405,Saline Nasal Spray,Nasoclear; Nasivion Saline,Nasal hygiene,Sodium chloride spray,0.65% w/v,Nasal Spray,15 ml,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0406,Pregabalin,Pregeb,Neuropathic pain,GABA analogue,150 mg,Capsule,10 caps,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0407,Pregabalin,Pregeb; Lyrica; Maxgalin,Neuropathic pain,GABA analogue,75 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0408,Pregabalin + Methylcobalamin,Pregeb-M; Maxgalin-M,Neuropathic pain,Combination,75+1500 mcg,Capsule,10 caps,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0409,Methylcobalamin + Pregabalin + Alpha Lipoic Acid,Nervup PG; Nuhenz,Neuropathic supplement,Nerve health combination,Mixed,Capsule,10 caps,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0410,Atropine,Atropine Sulfate,Ophthalmic,Anticholinergic mydriatic,1% w/v,Eye drops,5 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0411,Brimonidine,Iobrim; Alphagan,Ophthalmic,Alpha-2 agonist (glaucoma),0.15% w/v,Eye drops,5 ml,245,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0412,Carboxymethylcellulose,Refresh Tears; Tear Drops,Ophthalmic,Artificial tears,0.5% w/v,Eye drops,10 ml,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0413,Chloramphenicol,Chloromycetin; Spersanicol,Ophthalmic,Antibiotic,0.5% w/v,Eye drops,10 ml,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0414,Cyclopentolate,Cyclopent,Ophthalmic,Anticholinergic mydriatic,1% w/v,Eye drops,5 ml,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0415,Hydroxypropyl Methylcellulose (Hypromellose),I-Kul; Tearplus,Ophthalmic,Artificial tears,0.3% w/v,Eye drops,10 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0416,Ketotifen,Zaditor,Ophthalmic,Antihistamine / mast cell stabilizer,0.025% w/v,Eye drops,5 ml,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0417,Loteprednol,Lotepred; Alrex,Ophthalmic,Steroid drops,0.5% w/v,Eye drops,5 ml,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0418,Pilocarpine,Pilocar,Ophthalmic,Cholinergic miotic,2% w/v,Eye drops,5 ml,28,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0419,Prednisolone Acetate,Pred Forte; Predmet Eye,Ophthalmic,Steroid drops,1% w/v,Eye drops,5 ml,165,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0420,Timolol,Glucomol; Timolet,Ophthalmic,Beta blocker (glaucoma),0.5% w/v,Eye drops,5 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0421,Tobramycin,Tobaa; Tobrex,Ophthalmic,Aminoglycoside antibiotic,0.3% w/v,Eye drops,5 ml,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0422,Tobramycin + Dexamethasone,Tobaa-DM; Tobradex,Ophthalmic,Antibiotic + steroid,Mixed,Eye drops,5 ml,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0423,Tropicamide,Tropicacyl,Ophthalmic,Mydriatic,1% w/v,Eye drops,5 ml,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0424,Ofloxacin,Oflox; Zenflox,Ophthalmic / Otic,Fluoroquinolone drops,0.3% w/v,Eye / Ear drops,5 ml,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0425,Morphine,Morcontin; Morphine Sulfate,Opioid analgesic,Strong opioid,10 mg,Tablet SR,10 tabs,85,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0426,Morphine,Morphine HCl,Opioid analgesic,Strong opioid,10 mg/ml,Injection,1 ml amp,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0427,Tapentadol,Tapal; Tydol,Opioid analgesic,Centrally acting opioid,50 mg,Tablet,10 tabs,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0428,Tramadol,Tramazac,Opioid analgesic,Centrally acting opioid,100 mg,Tablet SR,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0429,Tramadol,Tramazac; Domadol,Opioid analgesic,Centrally acting opioid,50 mg,Capsule,10 caps,55,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0430,Tramadol + Paracetamol,Ultracet; Tramacip-Plus,Opioid combination,Opioid + non-opioid,37.5+325 mg,Tablet,10 tabs,120,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0431,Carbamide Peroxide,Soliwax; Wax-O-Sol,Otic,Cerumenolytic (wax removal),5% w/v,Ear drops,10 ml,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0432,Clotrimazole,Candibiotic,Otic,Antifungal + antibiotic + steroid,Mixed,Ear drops,5 ml,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0433,Multivitamin Syrup (Pediatric),Zincovit; A to Z Syrup; Polybion,Pediatric supplement,Pediatric multivitamin,Mixed,Syrup,200 ml,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0434,Lactobacillus + Multistrain Probiotic,VSL#3; Sporlac,Probiotic,Probiotic combination,60 billion CFU,Capsule,10 caps,285,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0435,Saccharomyces Boulardii,Econorm; Bioflor,Probiotic,Probiotic yeast,250 mg,Sachet,10 sachets,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0436,Itopride,Ganaton; Itoprid,Prokinetic,Dopamine antagonist,50 mg,Tablet,10 tabs,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0437,Levosulpiride,Levogastrol; Lupisulpride,Prokinetic,Atypical antipsychotic / prokinetic,25 mg,Tablet,10 tabs,75,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0438,Sildenafil,Suhagra,Pulmonary hypertension,PDE5 inhibitor,20 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0439,Tadalafil,Tadarise,Pulmonary hypertension,PDE5 inhibitor,5 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0440,Estradiol Valerate,Progynova,Sex hormone,Estrogen,2 mg,Tablet,28 tabs,285,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0441,Medroxyprogesterone Acetate,Meprate; Deviry,Sex hormone,Progestogen,10 mg,Tablet,10 tabs,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0442,Norethisterone,Primolut N,Sex hormone,Progestogen,5 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0443,Progesterone (Natural Micronized),Susten; Strone,Sex hormone,Progestogen,200 mg,Capsule,10 caps,245,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0444,Levothyroxine (Thyroxine),Eltroxin; Thyronorm,Thyroid,Thyroid hormone,125 mcg,Tablet,120 tabs,245,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0445,Levothyroxine (Thyroxine),Eltroxin; Thyronorm; Thyrox,Thyroid,Thyroid hormone,25 mcg,Tablet,120 tabs,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0446,Capsaicin,Capsika; Capzasin,Topical analgesic,TRPV1 agonist,0.025% w/w,Cream,30 g,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0447,Diclofenac,Voveran Emulgel; Volini,Topical analgesic,NSAID gel,1% w/w,Gel,30 g,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0448,Diclofenac + Methyl Salicylate + Menthol + Linseed Oil,Volini Gel; Moov,Topical analgesic,Counter-irritant + NSAID,Mixed,Gel,30 g,165,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0449,Diclofenac Patch,Voveran TPM; Dolopar Patch,Topical analgesic,Transdermal NSAID,100 mg,Patch,5 patches,145,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0450,Adapalene + Clindamycin,Deriva-CMS; Adaferin-C,Topical anti-acne,Retinoid + antibiotic,0.1+1% w/w,Gel,15 g,245,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0451,Benzoyl Peroxide,Persol; Benzac AC,Topical anti-acne,Antimicrobial / keratolytic,2.5% w/w,Gel,20 g,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0452,Salicylic Acid,Saslic; Salicyl,Topical anti-acne,Keratolytic,2% w/w,Face Wash,60 ml,245,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0453,Clindamycin,Clindac-A,Topical antibiotic,Lincosamide gel (acne),1% w/w,Gel,20 g,175,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0454,Fusidic Acid,Fucidin; Fusiwal,Topical antibiotic,Antibiotic cream,2% w/w,Cream,5 g,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0455,Mupirocin,T-Bact; Bactroban,Topical antibiotic,Antibiotic ointment,2% w/w,Ointment,5 g,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0456,Neomycin + Bacitracin,Nebasulf; Soframycin,Topical antibiotic,Antibiotic powder,Mixed,Powder,10 g,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0457,Silver Sulphadiazine,Silverex; Burnol,Topical antibiotic,Burn / wound treatment,1% w/w,Cream,20 g,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0458,Tacrolimus,Tacroz Forte,Topical immunomodulator,Calcineurin inhibitor,0.03% w/w,Ointment,10 g,245,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0459,Urea,Carmide; Urgo,Topical moisturizer,Keratolytic / Moisturizer,10% w/w,Cream,100 g,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0460,Adapalene,Adaferin; Differin,Topical retinoid,Anti-acne,0.1% w/w,Gel,15 g,175,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0461,Tretinoin,Retino-A; A-Ret,Topical retinoid,Anti-acne / anti-aging,0.025% w/w,Cream,20 g,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0462,Calamine,Calamine Lotion,Topical soothing,Anti-pruritic,8% w/v,Lotion,100 ml,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0463,Betamethasone Valerate,Betnovate; Betnesol-N,Topical steroid,Potent glucocorticoid,0.1% w/w,Cream,20 g,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0464,Clobetasol,Tenovate; Clop,Topical steroid,Super-potent glucocorticoid,0.05% w/w,Cream,30 g,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0465,Clobetasol + Salicylic Acid,Tenovate-S; Topinate-S,Topical steroid,Steroid + keratolytic,Mixed,Ointment,30 g,95,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0466,Hydrocortisone,Lacticare; Cortizone,Topical steroid,Mild glucocorticoid,1% w/w,Cream,15 g,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0467,Mometasone,Elocon; Momate,Topical steroid,Potent glucocorticoid,0.1% w/w,Cream,15 g,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0468,Betamethasone + Neomycin,Betnovate-N,Topical steroid + antibiotic,Combination cream,Mixed,Cream,20 g,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0469,Citrate (Potassium / Sodium),Cital; Alkasol,Urology,Urinary alkalizer,1.4+1.65 g/5ml,Syrup,200 ml,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0470,Finasteride,Finast,Urology,5-AR inhibitor (BPH),5 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0471,Oxybutynin,Cystran,Urology,Anticholinergic (OAB),5 mg,Tablet,10 tabs,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0472,Phenazopyridine,Pyridium,Urology,Urinary analgesic,100 mg,Tablet,10 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0473,Sildenafil,Suhagra; Penegra; Viagra,Urology,PDE5 inhibitor,50 mg,Tablet,4 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0474,Solifenacin,Vesicare; Pansec,Urology,Anticholinergic (OAB),5 mg,Tablet,10 tabs,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0475,Tadalafil,Megalis; Tadora; Cialis,Urology,PDE5 inhibitor,20 mg,Tablet,4 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0476,Tamsulosin,Urimax; Veltam,Urology,Alpha-1 blocker (BPH),0.4 mg,Capsule,10 caps,75,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0477,Tamsulosin + Dutasteride,Urimax-D; Veltam Plus,Urology,Alpha blocker + 5-AR inhibitor,0.4+0.5 mg,Capsule,10 caps,195,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0478,Tolterodine,Tolter; Roliten,Urology,Anticholinergic (OAB),2 mg,Tablet,10 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0479,Finasteride,Finpecia; Finast,Urology / Dermatology,5-AR inhibitor,1 mg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0480,DPT Vaccine,Tripvac; DPT,Vaccine,Diphtheria-Pertussis-Tetanus,0.5 ml,Injection,0.5 ml amp,65,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0481,Hepatitis B Vaccine (Pediatric),Engerix-B Pediatric,Vaccine,Pediatric Hep B,10 mcg/0.5ml,Injection,0.5 ml vial,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0482,Hepatitis B Vaccine (Recombinant),Engerix-B; Genevac-B,Vaccine,Hepatitis B prophylaxis,20 mcg/ml,Injection,1 ml vial,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0483,Tetanus Toxoid,Tetvac; TT,Vaccine,Tetanus prophylaxis,5 Lf/0.5ml,Injection,0.5 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0484,B-Complex with B12,Becosules; Neurobion Forte; Polybion,Vitamin,B-complex supplement,Mixed,Capsule,20 caps,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0485,Folic Acid,Folvite; Folin,Vitamin,Folate supplement,5 mg,Tablet,30 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0486,Vitamin A (Retinol),Aquasol-A; Arovit,Vitamin,Vitamin A supplement,50000 IU,Capsule,10 caps,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0487,Vitamin B12 (Cyanocobalamin),Macraberin,Vitamin,B12 supplement,500 mcg,Tablet,10 tabs,35,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0488,Vitamin B12 (Methylcobalamin),Nurokind,Vitamin,B12 (parenteral),1000 mcg/ml,Injection,1 ml amp,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0489,Vitamin B12 (Methylcobalamin),Nurokind; Mecobal; Methycobal,Vitamin,B12 supplement,1500 mcg,Tablet,10 tabs,95,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0490,Vitamin C (Ascorbic Acid),Celin; Limcee,Vitamin,Vitamin C supplement,1000 mg,Effervescent Tablet,15 tabs,145,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0491,Vitamin C (Ascorbic Acid),Limcee; Celin; Redoxon,Vitamin,Vitamin C supplement,500 mg,Chewable Tablet,15 tabs,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0492,Vitamin D3 (Cholecalciferol),Calcirol,Vitamin,Pediatric vitamin D drops,400 IU/drop,Oral Drops,30 ml,195,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0493,Vitamin D3 (Cholecalciferol),Calcirol; D-Rise; Uprise-D3,Vitamin,Vitamin D supplement,60000 IU,Sachet (powder),1 sachet,32,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0494,Vitamin D3 (Cholecalciferol),D-Rise; Uprise-D3,Vitamin,Vitamin D supplement,60000 IU,Granules,4 sachets,110,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0495,Vitamin E (Tocopherol),Evion,Vitamin,Vitamin E supplement,200 mg,Capsule,10 caps,22,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0496,Vitamin E (Tocopherol),Evion; Evi-E,Vitamin,Vitamin E supplement,400 mg,Capsule,10 caps,38,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0497,Vitamin K1 (Phytonadione),Kenadion; Vitamin K,Vitamin,Vitamin K supplement,10 mg/ml,Injection,1 ml amp,18,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0498,Cholecalciferol + Calcium + Vitamin K2-7,Vitamin D3 K2-7,Vitamin / Mineral,Bone & cardiovascular,Mixed,Capsule,10 caps,245,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)
+MED-0499,Folic Acid + Iron,Fefol; Iberet Folic,Vitamin / Mineral,Iron + folic acid,100+0.5 mg,Capsule,10 caps,45,Yes,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,NPPA ceiling + 12% GST
+MED-0500,Multivitamin,Supradyn; Revital; Zincovit,Vitamin / Mineral,Multivitamin / multimineral,Mixed,Tablet,15 tabs,110,No,INR,"Sambhajinagar (Aurangabad), Maharashtra, India",5/7/2026,Typical popular-brand retail MRP (1mg/Netmeds/PharmEasy)

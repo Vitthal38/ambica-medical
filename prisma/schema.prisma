@@ -1,0 +1,344 @@
+// ============================================================================
+//  Ambica Medical — Admin / CRM schema
+// ============================================================================
+//  Powers the internal pharmacy CRM: customers, prescriptions, orders, refills.
+//  The public storefront does NOT read from these tables — it stays on the
+//  static catalog JSON. Only the admin module touches Postgres.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Auth
+// ---------------------------------------------------------------------------
+
+enum Role {
+  ADMIN
+  MANAGER
+  PHARMACIST
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  /// bcrypt hash — never returned to the client
+  passwordHash String
+  name         String
+  role         Role     @default(PHARMACIST)
+  active       Boolean  @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  createdCustomers     Customer[]      @relation("CustomerCreatedBy")
+  uploadedPrescriptions Prescription[] @relation("PrescriptionUploadedBy")
+  createdOrders        Order[]         @relation("OrderCreatedBy")
+  recordedMedicineEntries MedicineEntry[] @relation("MedicineEntryRecordedBy")
+}
+
+// ---------------------------------------------------------------------------
+// Customers
+// ---------------------------------------------------------------------------
+
+model Customer {
+  id        String   @id @default(cuid())
+  /// Free-text full name. Indexed for prefix search.
+  name      String
+  /// 10-digit Indian mobile (validated at API). Unique per pharmacy.
+  phone     String   @unique
+  email     String?
+  /// Stored as ISO date. May be null for legacy walk-ins.
+  dob       DateTime?
+  address   String?
+  notes     String?
+  /// Soft delete — keep history for compliance.
+  deletedAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  createdById String?
+  createdBy   User?    @relation("CustomerCreatedBy", fields: [createdById], references: [id])
+
+  prescriptions   Prescription[]
+  orders          Order[]
+  refillReminders RefillReminder[]
+  medicineEntries MedicineEntry[]
+
+  // Phone and name are the two hot search paths.
+  @@index([phone])
+  @@index([name])
+  @@index([deletedAt])
+}
+
+// ---------------------------------------------------------------------------
+// Medicines
+// ---------------------------------------------------------------------------
+// Mirrors the public catalog SKUs so orders/prescriptions can link by id.
+// Synced from the catalog (script can upsert from medicines.json + products.json).
+
+model Medicine {
+  id            String   @id           // matches catalog id (MED-XXXX or pXXX)
+  slug          String   @unique
+  name          String                  // generic name (e.g. "Paracetamol 500mg")
+  brand         String
+  manufacturer  String?
+  category      String
+  subcategory   String?
+  dosage        String?
+  dosageForm    String?
+  pack          String
+  rxRequired    Boolean  @default(false)
+  mrp           Int
+  price         Int
+  imageUrl      String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  prescriptions   PrescriptionMedicine[]
+  orderItems      OrderItem[]
+  refillReminders RefillReminder[]
+  medicineEntries MedicineEntry[]
+
+  @@index([name])
+  @@index([brand])
+  @@index([category])
+}
+
+// ---------------------------------------------------------------------------
+// Prescriptions
+// ---------------------------------------------------------------------------
+
+enum PrescriptionStatus {
+  ACTIVE
+  EXPIRED
+  ARCHIVED
+}
+
+model Prescription {
+  id          String              @id @default(cuid())
+  customerId  String
+  customer    Customer            @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  /// e.g. "Dr. Anil Kulkarni, MD"
+  doctorName  String?
+  doctorReg   String?  // medical council registration
+  issueDate   DateTime
+  /// ~6 months from issueDate for most Rx in India. Used for refill checks.
+  expiryDate  DateTime?
+
+  /// Internal storage key (never directly served). The download route streams
+  /// the bytes after auth + role check.
+  storageKey  String
+  /// "image/jpeg" | "image/png" | "application/pdf"
+  mimeType    String
+  /// In bytes
+  fileSize    Int
+  /// SHA-256 of the file — used to dedupe re-uploads of the same scan.
+  fileHash    String?
+
+  status      PrescriptionStatus @default(ACTIVE)
+  notes       String?
+
+  uploadedById String?
+  uploadedBy   User?    @relation("PrescriptionUploadedBy", fields: [uploadedById], references: [id])
+
+  medicines   PrescriptionMedicine[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([customerId])
+  @@index([expiryDate])
+  @@index([status])
+}
+
+/// Many-to-many between prescriptions and the medicines they cover.
+model PrescriptionMedicine {
+  prescriptionId String
+  medicineId     String
+  /// Dosage instructions for this Rx line — "1 tab, 0-0-1, after food".
+  dosageNote     String?
+  /// Number of days the prescription covers this medicine. Drives refill due.
+  durationDays   Int?
+
+  prescription Prescription @relation(fields: [prescriptionId], references: [id], onDelete: Cascade)
+  medicine     Medicine     @relation(fields: [medicineId], references: [id])
+
+  @@id([prescriptionId, medicineId])
+  @@index([medicineId])
+}
+
+// ---------------------------------------------------------------------------
+// Orders
+// ---------------------------------------------------------------------------
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  DISPATCHED
+  DELIVERED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  UPI
+  CARD
+  NETBANKING
+  COD
+  STORE
+}
+
+model Order {
+  id            String        @id @default(cuid())
+  customerId    String
+  customer      Customer      @relation(fields: [customerId], references: [id], onDelete: Restrict)
+
+  /// Human-readable order code, e.g. "AMB-100234". Unique.
+  code          String        @unique
+
+  placedAt      DateTime      @default(now())
+  status        OrderStatus   @default(CONFIRMED)
+  paymentMethod PaymentMethod @default(STORE)
+
+  /// Money totals in paise to avoid floating-point bugs. /100 to display.
+  subtotalPaise Int
+  discountPaise Int           @default(0)
+  deliveryPaise Int           @default(0)
+  totalPaise    Int
+
+  notes         String?
+
+  createdById   String?
+  createdBy     User?         @relation("OrderCreatedBy", fields: [createdById], references: [id])
+
+  items         OrderItem[]
+  refillReminders RefillReminder[]
+
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([customerId, placedAt])
+  @@index([placedAt])
+  @@index([status])
+}
+
+model OrderItem {
+  id            String   @id @default(cuid())
+  orderId       String
+  order         Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  medicineId    String
+  medicine      Medicine @relation(fields: [medicineId], references: [id])
+
+  /// Snapshot of name/brand at purchase time — protects against future renames.
+  nameSnapshot  String
+  brandSnapshot String
+
+  quantity      Int
+  unitPricePaise Int
+  totalPaise    Int
+
+  @@index([orderId])
+  @@index([medicineId])
+}
+
+// ---------------------------------------------------------------------------
+// Refill reminders
+// ---------------------------------------------------------------------------
+
+enum ReminderStatus {
+  PENDING
+  SENT
+  FULFILLED
+  DISMISSED
+}
+
+enum ReminderChannel {
+  NONE       // dashboard-only
+  SMS
+  WHATSAPP
+  EMAIL
+}
+
+model RefillReminder {
+  id          String         @id @default(cuid())
+  customerId  String
+  customer    Customer       @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  medicineId  String
+  medicine    Medicine       @relation(fields: [medicineId], references: [id])
+
+  /// The order whose stock is running out. Optional — manual reminders allowed.
+  sourceOrderId String?
+  sourceOrder   Order?       @relation(fields: [sourceOrderId], references: [id])
+
+  dueOn       DateTime
+  status      ReminderStatus  @default(PENDING)
+  channel     ReminderChannel @default(NONE)
+  message     String?
+
+  sentAt      DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([dueOn, status])
+  @@index([customerId])
+}
+
+// ---------------------------------------------------------------------------
+// Medicine entries — direct/manual medicine records on a customer
+// ---------------------------------------------------------------------------
+//
+//  Adds a way for pharmacy staff to log medicines sold/dispensed to a customer
+//  WITHOUT requiring a prescription upload. Used for OTC sales, walk-ins, and
+//  quick repeat-customer entries.
+//
+//  Intentionally NOT linked to Prescription or Order — those flows are
+//  unchanged. Reads on the medicine timeline merge entries with order items.
+
+enum EntryType {
+  PRESCRIPTION   // recorded against a verified prescription (manually re-keyed)
+  MANUAL         // pharmacist-entered without a paper Rx (repeat customer, etc.)
+  OTC            // over-the-counter sale
+}
+
+model MedicineEntry {
+  id          String    @id @default(cuid())
+
+  customerId  String
+  customer    Customer  @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  medicineId  String
+  medicine    Medicine  @relation(fields: [medicineId], references: [id])
+
+  /// How many units (strips, bottles, etc.) dispensed.
+  quantity    Int
+
+  /// Free-text dosage instructions e.g. "1-0-1 after food, 5 days".
+  dosage      String?
+
+  /// Optional pharmacist note.
+  notes       String?
+
+  /// When the dispensing happened. May be back-dated.
+  entryDate   DateTime  @default(now())
+
+  /// Origin of this entry — used for timeline badges + analytics.
+  entryType   EntryType @default(MANUAL)
+
+  recordedById String?
+  recordedBy   User?    @relation("MedicineEntryRecordedBy", fields: [recordedById], references: [id])
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([customerId, entryDate])
+  @@index([medicineId])
+  @@index([entryType])
+}
