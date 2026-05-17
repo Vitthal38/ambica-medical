@@ -7,9 +7,20 @@
 A full-stack pharmacy platform with a customer-facing storefront and a staff-only CRM/dispensary back office.
 Built on Next.js 16 (App Router), React 19, Prisma + PostgreSQL, and TypeScript end-to-end.
 
-[Tech](#-tech-stack) · [Features](#-features) · [Getting started](#-getting-started) · [Architecture](#-architecture) · [API](#-api-reference) · [Data model](#-data-model)
+[Tech](#-tech-stack) · [Features](#-features) · [Getting started](#-getting-started) · [Architecture](#-architecture) · [API](#-api-reference) · [Data model](#-data-model) · [Security](./SECURITY.md) · [Deploy](./DEPLOY.md)
 
 </div>
+
+---
+
+## 🚀 Deploy your own
+
+**Two-click deploy:** the database goes to Render, the app to Vercel.
+
+[![Deploy database to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Vitthal38/ambica-medical) &nbsp;
+[![Deploy app to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVitthal38%2Fambica-medical&project-name=ambica-medical&repository-name=ambica-medical&env=DATABASE_URL,AUTH_SECRET,SEED_ADMIN_EMAIL,SEED_ADMIN_PASSWORD&envDescription=See%20.env.example%20for%20constraints.%20AUTH_SECRET%20must%20be%20%E2%89%A532%20chars%20with%20real%20entropy.&envLink=https%3A%2F%2Fgithub.com%2FVitthal38%2Fambica-medical%2Fblob%2Fmain%2F.env.example)
+
+See **[DEPLOY.md](./DEPLOY.md)** for the 15-minute step-by-step (Render database → Vercel app → seed → verify). Production-hardening checklist lives in **[DEPLOYMENT.md](./DEPLOYMENT.md)**.
 
 ---
 

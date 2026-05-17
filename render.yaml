@@ -1,0 +1,38 @@
+# =============================================================================
+#  Render Blueprint — provisions the Ambica Medical Postgres database.
+#
+#  HOW TO USE
+#    1. Push this file to the GitHub repo (already done if you're reading this
+#       from the repo on github.com).
+#    2. Click the "Deploy to Render" button in README.md, OR visit:
+#         https://dashboard.render.com/select-repo?type=blueprint
+#       and select Vitthal38/ambica-medical.
+#    3. Render reads this manifest and creates the database.
+#    4. After it's "available", copy the EXTERNAL connection string (the one
+#       ending in `.render.com` — not `.render-vpc-internal`) — that's what
+#       Vercel uses, since Vercel functions live outside Render's network.
+#    5. Paste that URL into your Vercel project's environment variables as
+#       DATABASE_URL.
+#
+#  WHY NOT A RENDER WEB SERVICE?
+#    The "backend" of this app (its API routes under /api/admin/*) is part of
+#    the same Next.js bundle as the storefront. There is no separate backend
+#    process to deploy — Vercel serves both. Render only hosts data here.
+#
+#  PLAN NOTES
+#    `basic-256mb` is the smallest paid Render Postgres plan. The `free` plan
+#    expires after 90 days and is fine for evaluation but NOT for production.
+#    Switch to `standard` or higher before serving real PHI.
+# =============================================================================
+
+databases:
+  - name: ambica-postgres
+    plan: basic-256mb
+    databaseName: ambica
+    user: ambica
+    region: singapore               # closest Render region to Aurangabad
+    postgresMajorVersion: "16"
+    # IP allowlist — empty array means accessible to anywhere (required for
+    # Vercel functions). Tighten by adding Vercel's IP CIDRs if Vercel
+    # publishes them; otherwise rely on the strong DB password + TLS.
+    ipAllowList: []

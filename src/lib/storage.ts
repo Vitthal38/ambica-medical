@@ -56,6 +56,39 @@ class LocalFsStorage implements Storage {
 // Override with PRESCRIPTION_STORAGE_DIR for a custom location.
 const DEFAULT_DIR = path.join(process.cwd(), '.private', 'prescriptions');
 
+/**
+ * Production safety net.
+ *
+ * The default LocalFsStorage writes to the host's filesystem. That's fine in
+ * dev and on a single VM, but on serverless platforms (Vercel functions, AWS
+ * Lambda) the filesystem is EPHEMERAL — files written during one request are
+ * gone before the next request lands. Silently storing prescriptions in
+ * /tmp would mean later downloads return 500s or, worse, succeed against
+ * stale bytes from a recycled lambda.
+ *
+ * In production, refuse to fall back to local FS unless the operator has
+ * explicitly opted in by setting PRESCRIPTION_STORAGE_DIR (e.g. when running
+ * on their own VM with persistent disk). Otherwise the operator MUST replace
+ * the `storage` export below with an object-store implementation (S3 / R2 /
+ * Vercel Blob) and ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION must remain unset.
+ */
+const isProd = process.env.NODE_ENV === 'production';
+const isVercel = !!process.env.VERCEL;
+const optedIn =
+  !!process.env.PRESCRIPTION_STORAGE_DIR ||
+  process.env.ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION === '1';
+
+if (isProd && isVercel && !optedIn) {
+  throw new Error(
+    'Local-FS prescription storage is not safe on Vercel (ephemeral disk). ' +
+      'Replace src/lib/storage.ts with an object-store implementation ' +
+      '(S3, R2, Vercel Blob) before serving production traffic. ' +
+      'To explicitly opt in for evaluation, set ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION=1 ' +
+      '— uploads will appear to work but files will not persist across function ' +
+      'invocations and downloads will fail.',
+  );
+}
+
 export const storage: Storage = new LocalFsStorage(
   process.env.PRESCRIPTION_STORAGE_DIR || DEFAULT_DIR,
 );
