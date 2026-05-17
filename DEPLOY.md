@@ -96,9 +96,10 @@ This opens Vercel's import flow with the repo pre-selected and the required env 
 5. **Root directory:** leave at `.` (repo root).
 
 6. **Build & Output settings:**
-   - Build Command: leave default (Vercel reads it from `package.json` → it'll run `prisma generate && prisma migrate deploy && next build`). ✓ This automatically applies migrations to your fresh database on first deploy.
+   - Build Command: leave default — runs `prisma generate && next build`.
    - Output Directory: leave default.
-   - Install Command: leave default. ✓ Runs `postinstall: prisma generate`.
+   - Install Command: leave default.
+   - **NOTE:** The build does NOT run migrations. Vercel ephemeral builds + Render free-tier cold starts → unreliable connections during build. Migrations are applied separately, ONE TIME, from your local machine in **Step 3** below.
 
 7. **Environment Variables** — fill these four:
 
@@ -127,41 +128,65 @@ This opens Vercel's import flow with the repo pre-selected and the required env 
 
 8. Click **Deploy**.
 
-9. Wait ~3–4 minutes for the build. Vercel runs:
-   - `npm install` (then `prisma generate`)
-   - `prisma migrate deploy` → applies all migrations to your Render database
+9. Wait ~3 minutes for the build. Vercel runs:
+   - `npm install` (then `prisma generate` via postinstall)
    - `next build` → compiles the app
 
-10. When done, Vercel shows a `*.vercel.app` URL. Click it.
+10. When done, Vercel shows a `*.vercel.app` URL. Click it — you should see the storefront.
 
-You should see the Ambica Medical storefront. **Live.** 🎉
+   > The admin panel won't work yet — the Render DB is empty. Step 3 fixes that.
 
 ---
 
-## Step 3 — Seed the admin user (2 minutes)
+## Step 3 — Apply migrations + seed (one time, locally, 2 minutes)
 
-The database now has the schema but **no admin user**. Easiest way to seed it: run the seed locally pointing at the production DB.
+This is the ONE command that creates all DB tables AND the admin user. Run it from your local clone with the production `DATABASE_URL`:
+
+### PowerShell (Windows)
+
+```powershell
+cd C:\Users\misal\Downloads\ambica
+$env:DATABASE_URL = "<paste Render External URL ending with ?sslmode=require>"
+$env:SEED_ADMIN_EMAIL = "admin@ambicamedical.in"
+$env:SEED_ADMIN_PASSWORD = "<the password you used in Step 2>"
+$env:NODE_ENV = "production"
+npm run deploy:db
+```
+
+### bash / Git Bash
 
 ```bash
-# In your local checkout
 cd ambica-medical
-
-# Use the prod DATABASE_URL just for this one command
-DATABASE_URL="postgresql://ambica:...@dpg-xxxxxxxx-a.singapore-postgres.render.com/ambica?sslmode=require" \
+DATABASE_URL="<paste Render External URL ending with ?sslmode=require>" \
 SEED_ADMIN_EMAIL="admin@ambicamedical.in" \
-SEED_ADMIN_PASSWORD="YourStrongPasswordHere" \
+SEED_ADMIN_PASSWORD="<the password you used in Step 2>" \
 NODE_ENV="production" \
-npm run prisma:seed
+npm run deploy:db
 ```
 
-You should see:
+Expected output:
 
 ```
+Applying migration `20260512104201_init`
+Applying migration `20260512141412_add_medicine_entries`
+Applying migration `20260517093315_security_hardening_audit_log`
+All migrations have been successfully applied.
 ✓ Admin user ready: admin@ambicamedical.in
 ✓ Synced 516 medicines from catalog.
 ```
 
-> The seed refuses to run with the default/weak password when `NODE_ENV=production` — this is a deliberate guardrail.
+`npm run deploy:db` runs `prisma migrate deploy && tsx prisma/seed.ts` — schema + admin + medicine catalog in one shot.
+
+> Guardrails baked in: the seed REFUSES to run if `NODE_ENV=production` AND the password is weak (< 12 chars or the default placeholder).
+
+### Why locally, not from Vercel's build?
+
+- Vercel's build runs in ephemeral lambdas with a few seconds of cold-start budget.
+- Render's free Postgres takes ~30s to wake from idle — long enough to time the build out.
+- Parallel builds (preview + prod) would also race on migration locks.
+- One-shot local migrations from your laptop sidestep all of that.
+
+For future schema changes: `git push` deploys the app, then re-run `npm run deploy:db` locally to apply the new migration. Or set up a Render or GitHub Actions cron task to run it.
 
 ---
 
@@ -224,6 +249,12 @@ Your AUTH_SECRET is too predictable. Regenerate with `node -e "console.log(requi
 
 **Build fails: "Can't reach database server"**
 Your `DATABASE_URL` is wrong, your Render database isn't `available` yet, or you used the *internal* URL instead of the *external* one. Internal URLs only work inside Render's VPC; Vercel functions can't see them.
+
+**Build fails: "P1017: Server has closed the connection"**
+Render free-tier Postgres takes ~30s to wake from idle, longer than a Vercel build can wait. The fix is already in place — the build no longer touches the DB. If you see this on a `prisma:deploy` or `deploy:db` run from your laptop, just rerun; the second connection succeeds because the first woke the DB up.
+
+**Migration fails: "Prisma client and CLI version mismatch"**
+The repo pins both `prisma` and `@prisma/client` to `5.22.0` exactly. If anything (Dependabot, npm audit fix) tries to bump one, decline — bump both together to the same major.
 
 **Login returns 500 in production but works locally**
 Look at Vercel's build logs first. Most often: missing `?sslmode=require` in the DATABASE_URL. Render Postgres requires TLS.
