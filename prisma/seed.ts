@@ -12,14 +12,34 @@ import fs from 'node:fs';
 
 const prisma = new PrismaClient();
 
+// bcrypt cost — keep in sync with src/app/api/admin/auth/login/route.ts.
+const BCRYPT_ROUNDS = 12;
+// Lowest-effort password we'll accept for production seeds.
+const MIN_PASSWORD_LEN = 12;
+
 async function seedAdmin() {
   const email = (process.env.SEED_ADMIN_EMAIL || 'admin@ambicamedical.in').toLowerCase();
   const password = process.env.SEED_ADMIN_PASSWORD || 'change-me-now-12345';
-  const passwordHash = await bcrypt.hash(password, 12);
+  const isProd = process.env.NODE_ENV === 'production';
+  const isDefault = password === 'change-me-now-12345';
+
+  // Refuse to seed a weak admin password in a production environment.
+  if (isProd && (isDefault || password.length < MIN_PASSWORD_LEN)) {
+    console.error(
+      '✗ SEED_ADMIN_PASSWORD must be set to a strong value (≥12 chars, non-default) in production.',
+    );
+    process.exit(1);
+  }
+
+  const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
 
   await prisma.user.upsert({
     where: { email },
-    update: { passwordHash, role: 'ADMIN', active: true },
+    update: {
+      // On re-seed in prod, ONLY rotate the password — do NOT silently
+      // re-enable a deactivated admin or change the role.
+      passwordHash,
+    },
     create: {
       email,
       passwordHash,
@@ -29,8 +49,10 @@ async function seedAdmin() {
     },
   });
   console.log(`✓ Admin user ready: ${email}`);
-  if (password === 'change-me-now-12345') {
-    console.log('⚠  Default password in use. Set SEED_ADMIN_PASSWORD before deploying.');
+  if (isDefault) {
+    console.log(
+      '⚠  Default password in use. Set SEED_ADMIN_PASSWORD to a strong value before deploying.',
+    );
   }
 }
 

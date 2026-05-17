@@ -33,6 +33,14 @@ model User {
   role         Role     @default(PHARMACIST)
   active       Boolean  @default(true)
   lastLoginAt  DateTime?
+
+  /// Brute-force defense: monotonic counter of consecutive failed logins.
+  /// Reset to 0 on every successful auth. Used together with `lockedUntil`.
+  failedLoginCount Int       @default(0)
+  /// When non-null and in the future, the account refuses logins regardless of
+  /// password correctness. Set by the login route after N consecutive failures.
+  lockedUntil      DateTime?
+
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
@@ -40,6 +48,71 @@ model User {
   uploadedPrescriptions Prescription[] @relation("PrescriptionUploadedBy")
   createdOrders        Order[]         @relation("OrderCreatedBy")
   recordedMedicineEntries MedicineEntry[] @relation("MedicineEntryRecordedBy")
+  auditEvents          AuditLog[]      @relation("AuditActor")
+}
+
+// ---------------------------------------------------------------------------
+// Audit log — immutable record of sensitive admin actions
+// ---------------------------------------------------------------------------
+//
+// HIPAA-style principle: every access to PHI (read or write) is logged with
+// actor, action, target, source IP, user-agent, timestamp.
+//
+// NEVER updated, NEVER deleted by the app. Schema has no `updatedAt` and the
+// service layer only inserts. Tampering should require direct DB access, which
+// would itself be detected by Postgres audit + backup integrity checks.
+//
+// `target` columns identify the affected entity. `meta` is an opaque JSON
+// blob for action-specific context (NEVER store passwords or raw PHI here —
+// only IDs, masked identifiers, and outcome data).
+
+enum AuditAction {
+  LOGIN_SUCCESS
+  LOGIN_FAILURE
+  LOGIN_LOCKED
+  LOGOUT
+  CUSTOMER_CREATE
+  CUSTOMER_UPDATE
+  CUSTOMER_DELETE
+  CUSTOMER_VIEW
+  PRESCRIPTION_CREATE
+  PRESCRIPTION_VIEW
+  PRESCRIPTION_FILE_DOWNLOAD
+  MEDICINE_ENTRY_CREATE
+  MEDICINE_ENTRY_UPDATE
+  MEDICINE_ENTRY_DELETE
+  ORDER_CREATE
+  ORDER_UPDATE
+  CSRF_REJECTED
+  RATE_LIMIT_HIT
+  AUTH_DENIED
+}
+
+model AuditLog {
+  id        String      @id @default(cuid())
+  ts        DateTime    @default(now())
+  action    AuditAction
+  /// Acting user — nullable for anonymous events (failed logins).
+  actorId   String?
+  actor     User?       @relation("AuditActor", fields: [actorId], references: [id])
+  /// Acting account's email (snapshotted so log survives user deletion).
+  actorEmail String?
+  /// What was acted upon (free-form discriminator + id).
+  targetType String?
+  targetId   String?
+  /// Best-effort source IP (first hop of X-Forwarded-For).
+  ip        String?
+  /// User agent string (truncated to 512 chars at service layer).
+  userAgent String?
+  /// Correlation id from middleware — joins app logs to audit rows.
+  requestId String?
+  /// JSON metadata. Service layer is responsible for never inserting raw PHI.
+  meta      Json?
+
+  @@index([ts])
+  @@index([action, ts])
+  @@index([actorId, ts])
+  @@index([targetType, targetId])
 }
 
 // ---------------------------------------------------------------------------

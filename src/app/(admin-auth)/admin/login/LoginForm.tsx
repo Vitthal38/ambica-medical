@@ -4,11 +4,14 @@ import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Loader2, ShieldCheck } from 'lucide-react';
 import { AdminButton, AdminCard, AdminInput } from '@/components/admin/ui';
+import { sanitizeNextParam } from '@/lib/security/safe-redirect';
 
 export function LoginForm() {
   const router = useRouter();
   const sp = useSearchParams();
-  const nextPath = sp.get('next') || '/admin';
+  // Strict same-origin /admin/* only — defends against open-redirect phishing
+  // (e.g. /admin/login?next=https://evil.com).
+  const nextPath = sanitizeNextParam(sp.get('next'));
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
