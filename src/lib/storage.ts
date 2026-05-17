@@ -66,31 +66,53 @@ const DEFAULT_DIR = path.join(process.cwd(), '.private', 'prescriptions');
  * /tmp would mean later downloads return 500s or, worse, succeed against
  * stale bytes from a recycled lambda.
  *
+ * The guard fires LAZILY — on the first .put() or .get() call. Throwing at
+ * module-init time would break Next.js's build-phase page-data collection
+ * (the storage module is imported just to inspect the route, not to run it).
+ *
  * In production, refuse to fall back to local FS unless the operator has
- * explicitly opted in by setting PRESCRIPTION_STORAGE_DIR (e.g. when running
- * on their own VM with persistent disk). Otherwise the operator MUST replace
- * the `storage` export below with an object-store implementation (S3 / R2 /
- * Vercel Blob) and ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION must remain unset.
+ * explicitly opted in by setting PRESCRIPTION_STORAGE_DIR (e.g. on their own
+ * VM with persistent disk) or ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION=1.
+ * Otherwise the operator MUST replace the `storage` export below with an
+ * object-store implementation (S3 / R2 / Vercel Blob).
  */
-const isProd = process.env.NODE_ENV === 'production';
-const isVercel = !!process.env.VERCEL;
-const optedIn =
-  !!process.env.PRESCRIPTION_STORAGE_DIR ||
-  process.env.ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION === '1';
-
-if (isProd && isVercel && !optedIn) {
-  throw new Error(
-    'Local-FS prescription storage is not safe on Vercel (ephemeral disk). ' +
-      'Replace src/lib/storage.ts with an object-store implementation ' +
-      '(S3, R2, Vercel Blob) before serving production traffic. ' +
-      'To explicitly opt in for evaluation, set ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION=1 ' +
-      '— uploads will appear to work but files will not persist across function ' +
-      'invocations and downloads will fail.',
-  );
+function assertSafeForProduction(): void {
+  const isProd = process.env.NODE_ENV === 'production';
+  const isVercel = !!process.env.VERCEL;
+  const optedIn =
+    !!process.env.PRESCRIPTION_STORAGE_DIR ||
+    process.env.ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION === '1';
+  if (isProd && isVercel && !optedIn) {
+    throw new Error(
+      'Local-FS prescription storage is not safe on Vercel (ephemeral disk). ' +
+        'Replace src/lib/storage.ts with an object-store implementation ' +
+        '(S3, R2, Vercel Blob) before serving production traffic. ' +
+        'To explicitly opt in for evaluation, set ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION=1 ' +
+        '— uploads will appear to work but files will not persist across function ' +
+        'invocations and downloads will fail.',
+    );
+  }
 }
 
-export const storage: Storage = new LocalFsStorage(
-  process.env.PRESCRIPTION_STORAGE_DIR || DEFAULT_DIR,
+/** Wrap the local-FS storage in a lazy guard that checks each I/O call. */
+class GuardedLocalFsStorage implements Storage {
+  constructor(private inner: LocalFsStorage) {}
+  put(bytes: Buffer, opts: { mimeType: string; extension: string }): Promise<string> {
+    assertSafeForProduction();
+    return this.inner.put(bytes, opts);
+  }
+  get(key: string): Promise<Buffer> {
+    assertSafeForProduction();
+    return this.inner.get(key);
+  }
+  remove(key: string): Promise<void> {
+    // Removal is fine even if storage is later swapped — best-effort cleanup.
+    return this.inner.remove(key);
+  }
+}
+
+export const storage: Storage = new GuardedLocalFsStorage(
+  new LocalFsStorage(process.env.PRESCRIPTION_STORAGE_DIR || DEFAULT_DIR),
 );
 
 export function extensionFor(mimeType: string): string {
