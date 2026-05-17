@@ -13,6 +13,19 @@ Built on Next.js 16 (App Router), React 19, Prisma + PostgreSQL, and TypeScript 
 
 ---
 
+## 🌐 Live
+
+The project is currently deployed at **[ambica-medical.vercel.app](https://ambica-medical.vercel.app)**.
+
+- **Storefront** is publicly browsable.
+- **Admin panel** at `/admin/login` is restricted to authorized pharmacy staff. Access is provisioned out-of-band — see the [Security](./SECURITY.md) policy.
+
+Infrastructure:
+- App: Vercel (deploys auto-trigger on push to `main`)
+- Database: Render PostgreSQL 16
+
+---
+
 ## 🚀 Deploy your own
 
 **Two-click deploy:** the database goes to Render, the app to Vercel.
