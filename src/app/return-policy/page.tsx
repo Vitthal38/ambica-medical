@@ -96,7 +96,7 @@ export default function ReturnPolicyPage() {
         <li>
           Write to <a href="mailto:returns@ambicamedical.in">returns@ambicamedical.in</a> within 48
           hours of delivery with your order number and the photographs, or call{' '}
-          <a href="tel:+919999900000">+91 99999 00000</a> during working hours.
+          <a href="tel:+919420402595">+91 94204 02595</a> during working hours.
         </li>
         <li>
           Our pharmacist will respond within one working day to either approve a pickup, request
@@ -171,7 +171,7 @@ export default function ReturnPolicyPage() {
       <p>
         Ambica Medical, Jawahar Colony, Trimurti Chowk, Near Hegdewar Hospital, Chhatrapati
         Sambhajinagar (Aurangabad), Maharashtra 431001.<br />
-        Phone: <a href="tel:+919999900000">+91 99999 00000</a> ·{' '}
+        Phone: <a href="tel:+919420402595">+91 94204 02595</a> ·{' '}
         Email: <a href="mailto:returns@ambicamedical.in">returns@ambicamedical.in</a>
       </p>
     </LegalShell>

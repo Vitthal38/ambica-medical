@@ -61,7 +61,7 @@ export default function InvoicePrintPage() {
           <p className="mt-1 text-xs text-neutral-500">
             Jawahar Colony, Trimurti Chowk, Near Hegdewar Hospital,
             <br />
-            Aurangabad 431001 · +91 99999 00000 · care@ambicamedical.in
+            Aurangabad 431001 · +91 94204 02595 · care@ambicamedical.in
           </p>
           <p className="mt-2 text-[11px] uppercase tracking-widest text-primary-700">
             Lic. No: MH-AUR-00001
@@ -194,7 +194,7 @@ export default function InvoicePrintPage() {
       <div className="mt-10 border-t border-neutral-200 pt-4 text-[10px] leading-relaxed text-neutral-500">
         This is a system-generated invoice. Prescription items are dispatched only after
         verification by our licensed pharmacist. For queries reach us at care@ambicamedical.in or
-        +91 99999 00000. Licensed under the Maharashtra Pharmacy Act, Lic. No: MH-AUR-00001.
+        +91 94204 02595. Licensed under the Maharashtra Pharmacy Act, Lic. No: MH-AUR-00001.
       </div>
     </main>
   );

@@ -14,7 +14,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'How do I upload a prescription, and how long does verification take?',
-    a: 'Go to “Upload Prescription” in the top menu, attach a clear photo or PDF (max 10 MB), and submit. A registered pharmacist on our staff reviews every prescription manually — typical turnaround during working hours (Mon–Sat, 8 AM–9 PM) is under 30 minutes. If anything is unclear, we’ll call the number on file before dispensing.',
+    a: 'Go to “Upload Prescription” in the top menu, attach a clear photo or PDF (max 10 MB), and submit. A registered pharmacist on our staff reviews every prescription manually — typical turnaround during working hours (every day, 9 AM–11 PM) is under 30 minutes. If anything is unclear, we’ll call the number on file before dispensing.',
   },
   {
     q: 'Which medicines require a prescription?',
@@ -54,7 +54,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'My medicine looks different from what I’ve received before — is it the same?',
-    a: 'Packaging refreshes happen frequently. The composition, strength, and brand name on the strip are what matter. If anything other than the packaging looks different — colour of tablet, embossing, foil layout — do not consume it and call us immediately on +91 99999 00000. We’ll verify the batch and replace if needed.',
+    a: 'Packaging refreshes happen frequently. The composition, strength, and brand name on the strip are what matter. If anything other than the packaging looks different — colour of tablet, embossing, foil layout — do not consume it and call us immediately on +91 94204 02595. We’ll verify the batch and replace if needed.',
   },
   {
     q: 'Is my health data safe?',
@@ -77,7 +77,7 @@ export default function FaqPage() {
         Below are the questions we hear most often at the Jawahar Colony counter and on our
         Help line. If something here is unclear, or your question isn’t covered, write to{' '}
         <a href="mailto:care@ambicamedical.in">care@ambicamedical.in</a> or call{' '}
-        <a href="tel:+919999900000">+91 99999 00000</a>.
+        <a href="tel:+919420402595">+91 94204 02595</a>.
       </p>
 
       {FAQS.map((f, i) => (
@@ -100,8 +100,7 @@ export default function FaqPage() {
 
       <h2>Still need help?</h2>
       <p>
-        Our staff is available <strong>Mon–Sat 8 AM – 9 PM</strong> and{' '}
-        <strong>Sun 9 AM – 6 PM</strong>. You can also{' '}
+        Our staff is available <strong>every day, 9 AM – 11 PM</strong>. You can also{' '}
         <a href="/contact">reach us through the Contact page</a> or walk in to the Jawahar Colony
         store near Hegdewar Hospital.
       </p>

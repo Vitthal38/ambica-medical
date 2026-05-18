@@ -13,15 +13,15 @@ const QUICK_CONTACTS = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 99999 00000',
-    href: 'tel:+919999900000',
-    detail: 'Mon–Sat 8 AM – 9 PM · Sun 9 AM – 6 PM',
+    value: '+91 94204 02595',
+    href: 'tel:+919420402595',
+    detail: 'Open every day, 9 AM – 11 PM',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91 99999 00000',
-    href: 'https://wa.me/919999900000',
+    value: '+91 94204 02595',
+    href: 'https://wa.me/919420402595',
     detail: 'Fastest channel for prescription queries',
   },
   {
@@ -126,10 +126,12 @@ export default function ContactPage() {
                       Working hours
                     </div>
                     <dl className="mt-1 grid grid-cols-[auto_1fr] gap-x-4 text-sm text-neutral-700">
-                      <dt>Monday – Saturday</dt><dd>8:00 AM – 9:00 PM</dd>
-                      <dt>Sunday</dt><dd>9:00 AM – 6:00 PM</dd>
-                      <dt>Public holidays</dt><dd>9:00 AM – 1:00 PM (emergency on-call)</dd>
+                      <dt>Monday – Sunday</dt><dd>9:00 AM – 11:00 PM</dd>
+                      <dt>Public holidays</dt><dd>9:00 AM – 11:00 PM</dd>
                     </dl>
+                    <p className="mt-2 text-xs text-neutral-500">
+                      Open every day of the year, including Sundays and public holidays.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -82,11 +82,11 @@ export function DeliveryStore() {
               </div>
               <div>
                 <dt className="text-[11px] uppercase tracking-widest text-neutral-400">Phone</dt>
-                <dd className="mt-1 text-neutral-100">+91 99999 00000</dd>
+                <dd className="mt-1 text-neutral-100">+91 94204 02595</dd>
               </div>
               <div>
                 <dt className="text-[11px] uppercase tracking-widest text-neutral-400">Hours</dt>
-                <dd className="mt-1 text-neutral-100">Mon–Sat 8AM–9PM · Sun 9AM–6PM</dd>
+                <dd className="mt-1 text-neutral-100">Mon–Sun 9AM–11PM</dd>
               </div>
             </dl>
           </div>

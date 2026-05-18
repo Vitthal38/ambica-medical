@@ -95,11 +95,11 @@ export function ContactForm() {
           directly, or WhatsApp us at{' '}
           <a
             className="font-medium text-primary-700 underline-offset-2 hover:underline"
-            href="https://wa.me/919999900000"
+            href="https://wa.me/919420402595"
             target="_blank"
             rel="noopener noreferrer"
           >
-            +91 99999 00000
+            +91 94204 02595
           </a>
           . We respond within working hours, typically under 30 minutes.
         </p>

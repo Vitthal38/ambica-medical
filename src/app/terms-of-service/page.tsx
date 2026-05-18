@@ -214,7 +214,7 @@ export default function TermsOfServicePage() {
       <p>
         Ambica Medical, Jawahar Colony, Trimurti Chowk, Near Hegdewar Hospital, Chhatrapati
         Sambhajinagar (Aurangabad), Maharashtra 431001.<br />
-        Phone: <a href="tel:+919999900000">+91 99999 00000</a> ·{' '}
+        Phone: <a href="tel:+919420402595">+91 94204 02595</a> ·{' '}
         Email: <a href="mailto:care@ambicamedical.in">care@ambicamedical.in</a>
       </p>
     </LegalShell>

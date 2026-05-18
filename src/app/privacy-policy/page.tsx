@@ -194,7 +194,7 @@ export default function PrivacyPolicyPage() {
       <ul>
         <li>Name: The Pharmacist-in-Charge, Ambica Medical</li>
         <li>Email: <a href="mailto:grievance@ambicamedical.in">grievance@ambicamedical.in</a></li>
-        <li>Phone: <a href="tel:+919999900000">+91 99999 00000</a></li>
+        <li>Phone: <a href="tel:+919420402595">+91 94204 02595</a></li>
         <li>
           Address: Jawahar Colony, Trimurti Chowk, Near Hegdewar Hospital, Chhatrapati
           Sambhajinagar (Aurangabad), Maharashtra 431001
