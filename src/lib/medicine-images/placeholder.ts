@@ -28,9 +28,22 @@ export interface PlaceholderInput {
   dosage?: string;
   category?: string;
   rxRequired?: boolean;
+  /**
+   * Dosage form — drives the silhouette behind the text. Falls back to a
+   * generic carton if unrecognised.
+   */
+  dosageForm?: string;
+  /**
+   * PubChem CID for the active ingredient — when present, the molecule
+   * structure PNG is embedded as a faded background watermark. CC0 public
+   * domain via PubChem REST. See scripts/enrich-with-pubchem.ts.
+   */
+  moleculeCid?: number | null;
   /** Pixel size of the square SVG. Defaults to 480 — sharp at 2x retina for a 240px card. */
   size?: number;
 }
+
+import { classifyDosageForm, renderSilhouette } from './silhouettes';
 
 const CATEGORY_BAND: Record<string, string> = {
   'fever-and-pain-relief': '#dc2626', // red
@@ -86,6 +99,22 @@ export function renderMedicinePlaceholder(input: PlaceholderInput): string {
   // the card. 22 chars max keeps the largest font readable at 240px display.
   const brandSize = brand.length > 16 ? 28 : brand.length > 10 ? 34 : 40;
 
+  // Resolve the silhouette + scale rendering. The silhouettes were authored
+  // against a 480-unit canvas, so wrap them in a transform that scales to
+  // the target size.
+  const silhouetteKind = classifyDosageForm(input.dosageForm);
+  const silhouette = renderSilhouette(silhouetteKind, band);
+  const silhouetteScale = size / 480;
+
+  // Molecule structure watermark — when a PubChem CID is supplied, the
+  // PNG lives at /molecules/{cid}.png (committed to the repo by the
+  // enrichment script). Embedded with low opacity so it sits BEHIND the
+  // brand text and silhouette without competing with them.
+  const moleculeFragment =
+    input.moleculeCid != null
+      ? `<image href="/molecules/${input.moleculeCid}.png" x="${size * 0.08}" y="${size * 0.08}" width="${size * 0.84}" height="${size * 0.84}" opacity="0.07" preserveAspectRatio="xMidYMid meet"/>`
+      : '';
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}" width="${size}" height="${size}" role="img" aria-label="${escapeXml(brand)} medicine pack">
   <defs>
@@ -103,51 +132,33 @@ export function renderMedicinePlaceholder(input: PlaceholderInput): string {
   <!-- Card body -->
   <rect width="${size}" height="${size}" fill="url(#bg)"/>
 
+  <!-- Molecule structure watermark (CC0 from PubChem) — sits behind everything -->
+  ${moleculeFragment}
+
   <!-- Category-coloured band along the top — mimics medicine carton stripe -->
   <rect x="0" y="0" width="${size}" height="${Math.round(size * 0.045)}" fill="${band}"/>
 
   <!-- Subtle inner border for the "card" feel -->
   <rect x="1" y="1" width="${size - 2}" height="${size - 2}" fill="none" stroke="#e5e7eb" stroke-width="2"/>
 
-  <!-- Pack silhouette: a rounded rectangle behind the text, hinting at a tablet strip -->
-  <g transform="translate(${size * 0.12}, ${size * 0.22})">
-    <rect width="${size * 0.76}" height="${size * 0.52}" rx="${size * 0.04}" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
-    <!-- Decorative blister dots, evenly spaced -->
-    ${(() => {
-      const rows = 2;
-      const cols = 5;
-      const padX = size * 0.08;
-      const padY = size * 0.08;
-      const innerW = size * 0.76 - padX * 2;
-      const innerH = size * 0.52 - padY * 2;
-      const r = Math.min(innerW / (cols * 3), innerH / (rows * 3));
-      const dots: string[] = [];
-      for (let row = 0; row < rows; row++) {
-        for (let col = 0; col < cols; col++) {
-          const cx = padX + (innerW / (cols - 1)) * col;
-          const cy = innerH * 0.78 + padY + (innerH / 6) * row;
-          dots.push(`<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(1)}" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1.2"/>`);
-        }
-      }
-      return dots.join('');
-    })()}
-  </g>
+  <!-- Dosage-form silhouette — drawn at native 480 units, scaled to size -->
+  <g transform="scale(${silhouetteScale.toFixed(4)})">${silhouette}</g>
 
   <!-- Diagonal shine for a slight pack-shot gloss -->
-  <rect x="-${size * 0.2}" y="${size * 0.2}" width="${size * 1.4}" height="${size * 0.18}" fill="url(#shine)" transform="rotate(-12 ${size / 2} ${size / 2})" opacity=".5"/>
+  <rect x="-${size * 0.2}" y="${size * 0.2}" width="${size * 1.4}" height="${size * 0.18}" fill="url(#shine)" transform="rotate(-12 ${size / 2} ${size / 2})" opacity=".35"/>
 
   <!-- Brand (primary heading) -->
-  <text x="${size / 2}" y="${size * 0.38}" text-anchor="middle"
+  <text x="${size / 2}" y="${size * 0.71}" text-anchor="middle"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
         font-weight="800" font-size="${brandSize}" fill="#0f172a">${escapeXml(brand)}</text>
 
   <!-- Name (subtitle) -->
-  ${name ? `<text x="${size / 2}" y="${size * 0.46}" text-anchor="middle"
+  ${name ? `<text x="${size / 2}" y="${size * 0.78}" text-anchor="middle"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
         font-weight="500" font-size="18" fill="#475569">${escapeXml(name)}</text>` : ''}
 
   <!-- Dosage pill -->
-  ${dosage ? `<g transform="translate(${size / 2}, ${size * 0.55})">
+  ${dosage ? `<g transform="translate(${size / 2}, ${size * 0.85})">
     <rect x="-${dosage.length * 6 + 12}" y="-16" width="${dosage.length * 12 + 24}" height="32" rx="16" fill="${band}" opacity=".1"/>
     <text x="0" y="6" text-anchor="middle"
           font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
@@ -163,14 +174,14 @@ export function renderMedicinePlaceholder(input: PlaceholderInput): string {
   </g>
 
   <!-- Manufacturer (footer) -->
-  ${manufacturer ? `<text x="${size / 2}" y="${size * 0.83}" text-anchor="middle"
+  ${manufacturer ? `<text x="${size / 2}" y="${size * 0.94}" text-anchor="middle"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-        font-weight="500" font-size="14" fill="#64748b">by ${escapeXml(manufacturer)}</text>` : ''}
+        font-weight="500" font-size="13" fill="#64748b">by ${escapeXml(manufacturer)}</text>` : ''}
 
   <!-- Pharmacy watermark — proves provenance, deters anyone re-using these as competitor branding -->
-  <text x="${size / 2}" y="${size - 20}" text-anchor="middle"
+  <text x="${size / 2}" y="${size - 8}" text-anchor="middle"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-        font-weight="700" font-size="10" letter-spacing="2" fill="#cbd5e1">⚕ AMBICA MEDICAL</text>
+        font-weight="700" font-size="9" letter-spacing="2" fill="#cbd5e1">⚕ AMBICA MEDICAL</text>
 </svg>`;
 }
 
@@ -187,6 +198,8 @@ export function placeholderInputKey(input: PlaceholderInput): string {
     input.dosage ?? '',
     input.category ?? '',
     input.rxRequired ? '1' : '0',
+    input.dosageForm ?? '',
+    input.moleculeCid != null ? String(input.moleculeCid) : '',
     String(input.size ?? 480),
   ].join('|');
 }

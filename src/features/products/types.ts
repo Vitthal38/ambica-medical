@@ -72,6 +72,12 @@ export interface Product {
   tile: TileTint;
   /** Optional photo URL — when set, ProductCard renders <img> instead of emoji */
   imageUrl?: string;
+  /**
+   * PubChem Compound ID for the medicine's primary active ingredient. Set
+   * by scripts/enrich-with-pubchem.ts; embedded as a faint background
+   * watermark in the SVG placeholder. CC0 public domain via PubChem.
+   */
+  moleculeCid?: number | null;
 
   /* Optional content ------------------------------------------------------ */
   description?: string;

@@ -13,7 +13,9 @@
     "prisma:deploy": "prisma migrate deploy",
     "prisma:studio": "prisma studio",
     "prisma:seed": "tsx prisma/seed.ts",
-    "deploy:db": "prisma migrate deploy && tsx prisma/seed.ts"
+    "deploy:db": "prisma migrate deploy && tsx prisma/seed.ts",
+    "images:pubchem": "tsx scripts/enrich-with-pubchem.ts",
+    "images:import": "tsx scripts/bulk-import-images.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

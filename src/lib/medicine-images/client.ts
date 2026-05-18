@@ -26,8 +26,10 @@ interface MinimalProduct {
   name?: string;
   manufacturer?: string;
   dosage?: string;
+  dosageForm?: string;
   category?: string;
   rxRequired?: boolean;
+  moleculeCid?: number | null;
   imageUrl?: string;
 }
 
@@ -38,8 +40,10 @@ export function placeholderUrl(p: MinimalProduct, size: 240 | 320 | 480 | 640 | 
   if (p.name) params.set('n', p.name);
   if (p.manufacturer) params.set('m', p.manufacturer);
   if (p.dosage) params.set('d', p.dosage);
+  if (p.dosageForm) params.set('f', p.dosageForm);
   if (p.category) params.set('c', p.category);
   if (p.rxRequired) params.set('r', '1');
+  if (p.moleculeCid != null) params.set('cid', String(p.moleculeCid));
   if (size !== 480) params.set('s', String(size));
   return `/api/placeholder/medicine?${params.toString()}`;
 }
@@ -67,8 +71,10 @@ export function toImageInput(p: Product): MinimalProduct {
     name: p.name,
     manufacturer: p.manufacturer,
     dosage: p.dosage,
+    dosageForm: p.dosageForm,
     category: p.category,
     rxRequired: p.rxRequired,
+    moleculeCid: p.moleculeCid,
     imageUrl: p.imageUrl,
   };
 }

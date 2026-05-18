@@ -40,7 +40,8 @@
       "calpol",
       "metacin",
       "crocin"
-    ]
+    ],
+    "moleculeCid": 1983
   },
   {
     "id": "p002",
@@ -78,7 +79,8 @@
       "azithromicin",
       "azee",
       "azithral"
-    ]
+    ],
+    "moleculeCid": 447043
   },
   {
     "id": "p003",
@@ -117,7 +119,8 @@
       "omez",
       "prilosec",
       "omeprazol"
-    ]
+    ],
+    "moleculeCid": 4594
   },
   {
     "id": "p004",
@@ -158,7 +161,8 @@
       "cetzine",
       "zyrtec",
       "alerid"
-    ]
+    ],
+    "moleculeCid": 2678
   },
   {
     "id": "p005",
@@ -303,7 +307,8 @@
       "glycomet",
       "glucophage",
       "glyciphage"
-    ]
+    ],
+    "moleculeCid": 4091
   },
   {
     "id": "p009",
@@ -338,7 +343,8 @@
     "aliases": [
       "dettol",
       "antiseptic"
-    ]
+    ],
+    "moleculeCid": 3014024
   },
   {
     "id": "p010",
@@ -479,7 +485,8 @@
       "fexofenadine",
       "allegra",
       "fexova"
-    ]
+    ],
+    "moleculeCid": 3348
   },
   {
     "id": "p014",
@@ -517,7 +524,8 @@
       "paracetamol",
       "sumo",
       "zerodol-p"
-    ]
+    ],
+    "moleculeCid": 71771
   },
   {
     "id": "p015",
@@ -552,7 +560,8 @@
       "telmisartan",
       "telma",
       "tazloc"
-    ]
+    ],
+    "moleculeCid": 65999
   },
   {
     "id": "p016",

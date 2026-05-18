@@ -1,0 +1,1332 @@
+{
+  "753": {
+    "name": "Glycerin Suppository",
+    "sha256": "644d324ebf79d2700e8ae1538b506721ce8a6e3ab074fe3ab9216a254c835268",
+    "bytes": 1240
+  },
+  "1046": {
+    "name": "Pyrazinamide",
+    "sha256": "5153dc63cb72971eabec058e5bea5abaab28d9bf21411f8dfa8537522d9555b4",
+    "bytes": 1958
+  },
+  "1775": {
+    "name": "Phenytoin",
+    "sha256": "f31953f7e967adcef1ca69e03633bb2bf11eef7a6ac89da2b34f58e7326125b7",
+    "bytes": 3785
+  },
+  "1983": {
+    "name": "Paracetamol",
+    "sha256": "65796af498686601414ab3a1d6c4711e93cdc625b62776b450166e04b0491f40",
+    "bytes": 2094
+  },
+  "2082": {
+    "name": "Albendazole",
+    "sha256": "bf50feb0ec4657a6c1f419b181acdd03ebd9d59048a4528ebe9f752cf8b04b15",
+    "bytes": 2352
+  },
+  "2083": {
+    "name": "Salbutamol",
+    "sha256": "5f60a843ee640129d9a3fc508e4394bee4e0bd3e970d1a01c640d60ce1664054",
+    "bytes": 2839
+  },
+  "2088": {
+    "name": "Alendronate",
+    "sha256": "0e64c6cd3319746b402626ab9f9d15e287837ac9cd338b5c43da3707c5d07ef8",
+    "bytes": 2995
+  },
+  "2118": {
+    "name": "Alprazolam",
+    "sha256": "9adde358740cdfd10293faf4fd1fd64394eead2cdae0ceef280f8f6f74ce9853",
+    "bytes": 4467
+  },
+  "2132": {
+    "name": "Ambroxol",
+    "sha256": "8a3ad483e36563d6d1d3fd70701310e677ca48649b75a30ab04bd84ef36669f6",
+    "bytes": 2556
+  },
+  "2153": {
+    "name": "Theophylline",
+    "sha256": "63508c0d51fee84879251d7ab9f2c94fd815accb611ebe48d9a3cd2bab0ccf5d",
+    "bytes": 2578
+  },
+  "2157": {
+    "name": "Amiodarone",
+    "sha256": "a564d2a0dc66f38e03e9c630c3555ed00e380db2802b0a7b4ad5b25a8d847653",
+    "bytes": 3372
+  },
+  "2160": {
+    "name": "Amitriptyline",
+    "sha256": "cf98858f3712aa355da90fcaf06865b9df71f2f24e453ab564304d83784ce3b3",
+    "bytes": 3094
+  },
+  "2162": {
+    "name": "Amlodipine",
+    "sha256": "9a3e02fcbd10219e139087af00bdd4471323604949c4397cf64598ad63a2f4c8",
+    "bytes": 3359
+  },
+  "2244": {
+    "name": "Aspirin",
+    "sha256": "5cf4d7a27665813bb592846a492ae78856c5c1e87ff1becd30d92ba719b5dce4",
+    "bytes": 1979
+  },
+  "2249": {
+    "name": "Atenolol",
+    "sha256": "2de4b037479842e1ef5e1a557905e346b45d94124e08ec563497b4034757e3fa",
+    "bytes": 2293
+  },
+  "2265": {
+    "name": "Azathioprine",
+    "sha256": "666031c6b18bd9146c611f9ee0bba50c28ad9a5fb6ffc90e8b15da8c4dafe835",
+    "bytes": 4383
+  },
+  "2284": {
+    "name": "Baclofen",
+    "sha256": "b4540197a4fdd3b8893686f96ff23a4496ea16d07a8cd93141fb29841a518025",
+    "bytes": 2605
+  },
+  "2366": {
+    "name": "Betahistine",
+    "sha256": "ffa9b05c26c18088420435b5875fb826af860968d5efe73599006abb28a5afc7",
+    "bytes": 1440
+  },
+  "2391": {
+    "name": "Bisacodyl",
+    "sha256": "1b73fec7ffd13404362edc6ce87cf500afe7547f32f0d96a0cfa6b82db199b3d",
+    "bytes": 2762
+  },
+  "2442": {
+    "name": "Bromhexine",
+    "sha256": "952969ead72427907e9f31831f123ecc328141b608ad56b3edc34e047f1e39a2",
+    "bytes": 2171
+  },
+  "2477": {
+    "name": "Buspirone",
+    "sha256": "18ca90cdebab9f91cac49ecba0ca0f70516f8a6bf08c07fee3b03586486841b5",
+    "bytes": 2247
+  },
+  "2520": {
+    "name": "Verapamil",
+    "sha256": "aae985d93448c09ab43d86a51fc78044e40d9a244ab059875f68b93964ad20fe",
+    "bytes": 2540
+  },
+  "2554": {
+    "name": "Carbamazepine",
+    "sha256": "4d68f840b0bf773b635e82dc44ae84e9403e5f68d40c2f9166cf95876215e440",
+    "bytes": 3574
+  },
+  "2678": {
+    "name": "Cetirizine",
+    "sha256": "afe876ede096af18c6b503e9432ff1a74f3b03a76df5461a77f05984fc96dc2f",
+    "bytes": 2821
+  },
+  "2719": {
+    "name": "Chloroquine",
+    "sha256": "5041d3d99cc7e3e513ef2208708600806f235757b029b1ff85c8fb174837dcd2",
+    "bytes": 2634
+  },
+  "2725": {
+    "name": "Chlorpheniramine",
+    "sha256": "221ac53dd235148e0fb0824b468a8f65e91be4bc3a0fd7a3b2dc2090994321e0",
+    "bytes": 2515
+  },
+  "2726": {
+    "name": "Chlorpromazine",
+    "sha256": "4a1a8165ccd5fbe59b57ffc2ddb63506a27c679175efdb26793aa6a95a2222f3",
+    "bytes": 2829
+  },
+  "2764": {
+    "name": "Ciprofloxacin",
+    "sha256": "8cc3cd49bb648f7d214d6a1944d1c0fe804ddbf19ee2d3c852cd4c4246e08697",
+    "bytes": 2865
+  },
+  "2771": {
+    "name": "Citalopram",
+    "sha256": "e5b8335a5ac341237b60ca108e453ba85cad37a81ac528054da1c21547fb4af1",
+    "bytes": 4499
+  },
+  "2802": {
+    "name": "Clonazepam",
+    "sha256": "4340daa673a1c53317da7718a536ef0eea7a6d110ead75768ab9b2d375b603bb",
+    "bytes": 4655
+  },
+  "2803": {
+    "name": "Clonidine",
+    "sha256": "15446feea0de0b53568023d392b87dbc946402c1af9d844ef1cb03e7adf4ca06",
+    "bytes": 2688
+  },
+  "2812": {
+    "name": "Clotrimazole",
+    "sha256": "b1adde9e26b13dff68e38327e1fa819f4db56ef23757efb1e1c72c6090626c51",
+    "bytes": 3671
+  },
+  "2895": {
+    "name": "Cyclobenzaprine",
+    "sha256": "31b4c334482d39866cc923c2300a652ba6a78d9e7967cf5023dd14f029c47c88",
+    "bytes": 3249
+  },
+  "2907": {
+    "name": "Cyclophosphamide",
+    "sha256": "776cce7c372b65be6cdbc248df158243ab8eba2fd1307073d053222d44514ba0",
+    "bytes": 2993
+  },
+  "3016": {
+    "name": "Diazepam",
+    "sha256": "5b0cd211d5b6f620666835c9f0ed9d462cb94b68fddf1adf9bb730dcb0fc41bb",
+    "bytes": 3842
+  },
+  "3033": {
+    "name": "Diclofenac",
+    "sha256": "eef09139d6adbc59e7f234a547e0f60875007f0e9724492eb07cd17a53e7b3de",
+    "bytes": 3069
+  },
+  "3042": {
+    "name": "Dicyclomine",
+    "sha256": "2c9b4e6d2aef080ae79efc6f7676adfb191a67a47cdbcd8dde44c6868d7ce2e8",
+    "bytes": 3074
+  },
+  "3052": {
+    "name": "Diethylcarbamazine",
+    "sha256": "0fd3a9bcf2d22e3421a39665325c2eb922f9146cd299acfd573c138b443331a2",
+    "bytes": 1982
+  },
+  "3151": {
+    "name": "Domperidone",
+    "sha256": "cc51a206ad174dfe2791f909e79c03ec622f453856a1bca2da33eff54e7c3456",
+    "bytes": 3912
+  },
+  "3152": {
+    "name": "Donepezil",
+    "sha256": "a17269dacf0d1a5a31a4af3e49174dc929c5158ee271d4b3d385a97b8fd80a7c",
+    "bytes": 2834
+  },
+  "3162": {
+    "name": "Doxylamine",
+    "sha256": "eb2d158a71d797691d1721b031c1dd514497c5914455567548519ed2b0cb0198",
+    "bytes": 2272
+  },
+  "3307": {
+    "name": "Etizolam",
+    "sha256": "ecb16977bc80bb78031093f9a6a7a50961f2c83b19270a85217c5d587b8a4261",
+    "bytes": 4632
+  },
+  "3339": {
+    "name": "Fenofibrate",
+    "sha256": "d20ca947e3034b381a42b1632b618d4e85ff4f8bc3e55b916fdfd36760c4167b",
+    "bytes": 2685
+  },
+  "3348": {
+    "name": "Fexofenadine",
+    "sha256": "b989c2773fd3ae638bcae20b3e090b189efc611c655757d4fe1dc2f62c0b7c9b",
+    "bytes": 2415
+  },
+  "3365": {
+    "name": "Fluconazole",
+    "sha256": "ffb486d2aee8dc76e43b77dd9779927b9a70c7f94c87b9324c4c3d6e4769c76e",
+    "bytes": 3912
+  },
+  "3385": {
+    "name": "5-Fluorouracil",
+    "sha256": "4243105832c9bbb502854094cab00dcfe4b50f1a9cb959fa088c50f10791bf19",
+    "bytes": 1979
+  },
+  "3386": {
+    "name": "Fluoxetine",
+    "sha256": "168a0e9ca498e820a2587767d96e4d006f797d7b7a7157a6d6c8748a9bf9ed8f",
+    "bytes": 2488
+  },
+  "3440": {
+    "name": "Furosemide",
+    "sha256": "bff626865bfcdef7c8703b872430a7c710dde4374fbdee77744790becb405025",
+    "bytes": 3499
+  },
+  "3446": {
+    "name": "Gabapentin",
+    "sha256": "7e5da6d2065b35ee967bb1c66c3d71f0c771978617bef3227e8df6ede339b6c3",
+    "bytes": 2213
+  },
+  "3467": {
+    "name": "Gentamicin",
+    "sha256": "b1502890ff68b9042b33a36532612485308c3862dbf2462f6a911b5a5b773d44",
+    "bytes": 3945
+  },
+  "3475": {
+    "name": "Gliclazide",
+    "sha256": "18acf91d93202c61f00df05a2fa4de88561753ad43b4434ebafa36cd66f54f18",
+    "bytes": 3496
+  },
+  "3476": {
+    "name": "Glimepiride",
+    "sha256": "d9d80cd65f66ad9bfa3188732a9f0d9f36722d788239bd932dd33baacbeeb169",
+    "bytes": 2780
+  },
+  "3478": {
+    "name": "Glipizide",
+    "sha256": "21ad958bfb76e4aa7ee5ec9fbc8fea9ed2647a25dbb5330862a4f8f2152aa7be",
+    "bytes": 2595
+  },
+  "3488": {
+    "name": "Glibenclamide",
+    "sha256": "56ec6a30cf4eab9c752b5b67dba8393a9c423e23161498318ded3b8423b0d8ff",
+    "bytes": 2899
+  },
+  "3516": {
+    "name": "Guaifenesin",
+    "sha256": "9e008f0ffe53633428843cc077df0dc76bb4995428e3c2a54cd3a6830ed50554",
+    "bytes": 2132
+  },
+  "3559": {
+    "name": "Haloperidol",
+    "sha256": "a9426fdc3583f76535bc731ef772ef81fbd8711b1fd90b9adb3e9c4f4b4555ef",
+    "bytes": 2581
+  },
+  "3639": {
+    "name": "Hydrochlorothiazide",
+    "sha256": "d0353290c1c7994ea6601b0d79136ee5bb851ff686d4af61e1ec97672af1c735",
+    "bytes": 3588
+  },
+  "3652": {
+    "name": "Hydroxychloroquine",
+    "sha256": "796fc2612b041c26ed53f9a9821e093e78e5d653f31951d9dd8b4e80f4230dfa",
+    "bytes": 2906
+  },
+  "3657": {
+    "name": "Hydroxyurea",
+    "sha256": "913e6f9f9656bb5cf2aa82c55a3d5bd38b8fe949fdaa85750ffafaebe042cb92",
+    "bytes": 1457
+  },
+  "3658": {
+    "name": "Hydroxyzine",
+    "sha256": "f262461cedcdcb45bf4e14436313d0f43925bd3474b1b4711cc86f9fd15a6d36",
+    "bytes": 2659
+  },
+  "3672": {
+    "name": "Ibuprofen",
+    "sha256": "ffc644d774c066c802810cd64cef6371c936787b32453953fee8ad8249dd33a3",
+    "bytes": 2147
+  },
+  "3696": {
+    "name": "Imipramine",
+    "sha256": "78f0c0aff743fa7d2b747fcdf9a6a39f843b0b830d30627929f67ef6eb304d79",
+    "bytes": 3180
+  },
+  "3702": {
+    "name": "Indapamide",
+    "sha256": "99b42592c86f60b3d9e2679a1a0a7f30e3dc0a00c0ce433aac12717aa7fc2c88",
+    "bytes": 4467
+  },
+  "3715": {
+    "name": "Indomethacin",
+    "sha256": "25cc3bfdf71d20d778cce93a35346fad7b5c51ff7b9789acb98981804f7a984a",
+    "bytes": 3779
+  },
+  "3767": {
+    "name": "Isoniazid",
+    "sha256": "995d10d965e1a17f0e3b56f1f706ee891c19c6605d737620d86df2e9382fcd85",
+    "bytes": 1977
+  },
+  "3792": {
+    "name": "Itopride",
+    "sha256": "44429a5ec8b27aa06e324d929a270d4860d44b4e1e12db934140b41b9e606967",
+    "bytes": 2300
+  },
+  "3826": {
+    "name": "Ketorolac",
+    "sha256": "9dcbf5c03c18ff61090270de3dc067c5138f6518276f8a37561e82782e403201",
+    "bytes": 4141
+  },
+  "3878": {
+    "name": "Lamotrigine",
+    "sha256": "77028b54394621b522728dad8d3a638a324c5c21c20135ae0f60e0a6f5d07591",
+    "bytes": 2806
+  },
+  "3883": {
+    "name": "Lansoprazole",
+    "sha256": "9cb3be1b5779c4d543c9f01edde2c623f0d2636dec2f735a7af14165c695f437",
+    "bytes": 3107
+  },
+  "3899": {
+    "name": "Leflunomide",
+    "sha256": "31aed30a71bc339be4770dabe0760dc2540894eb6e68156248a5d37dbd42e0f6",
+    "bytes": 3211
+  },
+  "3902": {
+    "name": "Letrozole",
+    "sha256": "f5465a3daffa163eb41ee3c4e0f7ba654a5bdf7c40792b049350a3fe53c646ee",
+    "bytes": 3574
+  },
+  "3955": {
+    "name": "Loperamide",
+    "sha256": "61aa1bce693baa1bb4bf7d0a6bc6b9b0be67b2e8e7f42e60f72c733a159ffe2a",
+    "bytes": 3076
+  },
+  "3957": {
+    "name": "Loratadine",
+    "sha256": "b416ad4f38846e1a8bf1972a05be40e5956d052cbe65e88740dfb7145ef63357",
+    "bytes": 3842
+  },
+  "3958": {
+    "name": "Lorazepam",
+    "sha256": "5a37be64dcd2d1c5ad497e589395e347b648385d4c79842db8918c86f2f9c114",
+    "bytes": 4379
+  },
+  "3961": {
+    "name": "Losartan",
+    "sha256": "8abd64cd89cedc399633dbcec7bd3cdf2bb7339025aef59347c50740b0254206",
+    "bytes": 4347
+  },
+  "4030": {
+    "name": "Mebendazole",
+    "sha256": "324d251953c6cd2ee8ff86cb4fdb00a8d4c6ac4e490a705ac306fe68ba4f6167",
+    "bytes": 2431
+  },
+  "4034": {
+    "name": "Meclizine",
+    "sha256": "3d9ca584cd1f2e513a060ba5e78e9a5b20e9b7794931522b9ff48348aad82ce2",
+    "bytes": 2566
+  },
+  "4044": {
+    "name": "Mefenamic Acid",
+    "sha256": "e205cd6fd1adc741e7ff846955d75086d4cc17869a3b387409dceafa9c8f9ed2",
+    "bytes": 2695
+  },
+  "4054": {
+    "name": "Memantine",
+    "sha256": "951739936ed014dfdaabfdac95e1237639d6c85b85e89bfb0d2e5ef9ea8bba71",
+    "bytes": 1863
+  },
+  "4075": {
+    "name": "Mesalamine (5-ASA)",
+    "sha256": "3bee268a4a9a2636d80992cf07e0c4e5e6c7effc2e7fc805927fe24ba22a42cc",
+    "bytes": 2249
+  },
+  "4091": {
+    "name": "Metformin",
+    "sha256": "edd81b02404920bb6bab57d21744b17b614c9707430bcda3c0f20038b397587e",
+    "bytes": 1594
+  },
+  "4114": {
+    "name": "Methoxsalen",
+    "sha256": "d365be2f881b795aa73d9531f98b6e7332bc84d6405a4a6dc1cac4fac7a15e3c",
+    "bytes": 2734
+  },
+  "4168": {
+    "name": "Metoclopramide",
+    "sha256": "e6d3865a7352fc86846d8400bafe57a4475aa30dd2f0e7687eb48e86a99994fd",
+    "bytes": 2602
+  },
+  "4171": {
+    "name": "Metoprolol",
+    "sha256": "8248b0057245313008b0288bc03725262ed00bff60dd6a5c6f542b7ef5b9d986",
+    "bytes": 1828
+  },
+  "4173": {
+    "name": "Metronidazole",
+    "sha256": "4732f1484f557db8126edf1c5d58c6c156d2f4b04bc31593b5e477bb9d2a1f0f",
+    "bytes": 2694
+  },
+  "4205": {
+    "name": "Mirtazapine",
+    "sha256": "41597ad4d62a30f6e367d665f695caecba538976eff736bba1f9efc32245505c",
+    "bytes": 3922
+  },
+  "4236": {
+    "name": "Modafinil",
+    "sha256": "b9f58f0d584f859cfa1688f6a53a3cc42c33b6ce2dbf8cbf78df893a40943f04",
+    "bytes": 3049
+  },
+  "4485": {
+    "name": "Nifedipine",
+    "sha256": "f110e6c549da48752eec2265df019f7308edfe60bbc96eef8e3cabae66be8cfb",
+    "bytes": 3046
+  },
+  "4495": {
+    "name": "Nimesulide",
+    "sha256": "4aca50fb9f414567c4f56c6f2bc46210bc7950ccafc375a19cdb472c8de13e9d",
+    "bytes": 3497
+  },
+  "4510": {
+    "name": "Nitroglycerin",
+    "sha256": "478117668109bc7a9dd91f350aff5fd416b4754178273b438de4f89271f3d1a1",
+    "bytes": 2464
+  },
+  "4543": {
+    "name": "Nortriptyline",
+    "sha256": "0d4bee059ad6153ffcb152075068646332ec13eb023f380450f7075069df5493",
+    "bytes": 3115
+  },
+  "4583": {
+    "name": "Ofloxacin",
+    "sha256": "764eebf00e201ff6def0d38aec1a998b832aa4b9b0e6d96285327612890a4ee0",
+    "bytes": 3656
+  },
+  "4594": {
+    "name": "Omeprazole",
+    "sha256": "9c9ff709c2ab7f1255dfd045f797c5015967bfa10ce10b6639eabfc134d615cb",
+    "bytes": 2570
+  },
+  "4595": {
+    "name": "Ondansetron",
+    "sha256": "4edbf53f01685b1f320bbe9f0cb92facb78165cd67c44f180d643fa44af7ecd0",
+    "bytes": 3826
+  },
+  "4634": {
+    "name": "Oxybutynin",
+    "sha256": "9f5b5cfb6f2fbd9cd5469420c50dec3d52249e8fcb7d24c5b99503cad7b6cbae",
+    "bytes": 3460
+  },
+  "4679": {
+    "name": "Pantoprazole",
+    "sha256": "c0e8a0e4ef03662008f8a3cbc424a92dfecd3d2607b07c5e9e3f31d929e2351d",
+    "bytes": 2590
+  },
+  "4756": {
+    "name": "Phenazopyridine",
+    "sha256": "9802853d444eb04595c93da3f9ac56b9bed635b0e7d5ead7310a50c0aacc24bd",
+    "bytes": 2260
+  },
+  "4761": {
+    "name": "Pheniramine",
+    "sha256": "2be52b8d1ac9e5be33afc30425d52ea970f8afe64d4dd6fd3278a8b5bc9a3166",
+    "bytes": 2216
+  },
+  "4829": {
+    "name": "Pioglitazone",
+    "sha256": "f99d0dc30395f391bf4c4dbeb8685498bdf8dd76dd11823de7f7a536e79732da",
+    "bytes": 2762
+  },
+  "4891": {
+    "name": "Praziquantel",
+    "sha256": "958fd9c8a6880516110d2d0d41320e876b80a4d83123d82883ef91a69cfdfbf4",
+    "bytes": 2660
+  },
+  "4908": {
+    "name": "Primaquine",
+    "sha256": "4f97860334b7429ac953fd9ed599a430d29b67572eb895a9f453972a96f7979b",
+    "bytes": 2664
+  },
+  "4917": {
+    "name": "Prochlorperazine",
+    "sha256": "f6a7738f6f1dbdda60077db7b2c1dd5d58e9fed9def62555af5e77ec098dc5df",
+    "bytes": 3044
+  },
+  "4927": {
+    "name": "Promethazine",
+    "sha256": "3f4aca790e25e3f43432d58a5c80a81b69d43e24506ea648a912aa5c6326560c",
+    "bytes": 2542
+  },
+  "4946": {
+    "name": "Propranolol",
+    "sha256": "8123892b130dd4bb889c01559435be8327696ac695c0d45c5952748627568d18",
+    "bytes": 2673
+  },
+  "5002": {
+    "name": "Quetiapine",
+    "sha256": "47c997db542ea222ff736c537160c48f7b40c6804ddbb5a74999ce4e7537638d",
+    "bytes": 3423
+  },
+  "5029": {
+    "name": "Rabeprazole",
+    "sha256": "78b40fe7c476c9f1d2693ebd1ead5ee4e0d1c5ec915ad6a3d9fb9b46f1588607",
+    "bytes": 2414
+  },
+  "5073": {
+    "name": "Risperidone",
+    "sha256": "53616d68e2628d243702a0a5496e1bb290b91d98d9c3ff0868da39a37e4264cb",
+    "bytes": 2637
+  },
+  "5078": {
+    "name": "Rizatriptan",
+    "sha256": "e1c628f8b3a260b03d3a07abface962086b864a735ba5cb1bd34691411ba7add",
+    "bytes": 2911
+  },
+  "5095": {
+    "name": "Ropinirole",
+    "sha256": "f361162bcd97fa3be879a7fe0012ff0db2f7760fd510e2d923e98b759c9d1574",
+    "bytes": 2743
+  },
+  "5213": {
+    "name": "Silymarin",
+    "sha256": "5524b9e005ae3d4afffe7fbafade79926ce83e15aae749ffa101834220506d11",
+    "bytes": 2677
+  },
+  "5291": {
+    "name": "Imatinib",
+    "sha256": "e0983b45db95db938306aabf06c35dd61e6a54beddd876438a0f480412f0cba0",
+    "bytes": 2811
+  },
+  "5339": {
+    "name": "Sulfasalazine",
+    "sha256": "1fb7acd8bf3201b151debdf628fc1d335ba9f4dc169bb6a72dbacabb3014dc1c",
+    "bytes": 3140
+  },
+  "5358": {
+    "name": "Sumatriptan",
+    "sha256": "cdbf47b222a56c599d1f1ed8dce9c01dd8fd91fb7ed7f77815740e88d5e8dbb1",
+    "bytes": 3235
+  },
+  "5479": {
+    "name": "Tinidazole",
+    "sha256": "91ac6c6ad88870833cc84f9ebac7759e25aafa1a9a3210860eb1eb3e6a6275cf",
+    "bytes": 3112
+  },
+  "5487": {
+    "name": "Tizanidine",
+    "sha256": "68ea73ff58eb2872e28a5dd998ba86507c95fd02cc0bad7eaa31715013bf0955",
+    "bytes": 3593
+  },
+  "5526": {
+    "name": "Tranexamic Acid",
+    "sha256": "e9bf5a0655b5524b0b95edcc1a4412686e784d0132667d4e4b50d7ef54f2f8e2",
+    "bytes": 1830
+  },
+  "5578": {
+    "name": "Trimethoprim",
+    "sha256": "3bea3eb0d7b2761c2935cd8235624c9cd2c4bf937fc4a1db660b1c7295cd9b0b",
+    "bytes": 2969
+  },
+  "5656": {
+    "name": "Venlafaxine",
+    "sha256": "4c8a22282bd2b776b3189050dcc95b655009c42e8ee3293170830d04b219befe",
+    "bytes": 2778
+  },
+  "5743": {
+    "name": "Dexamethasone",
+    "sha256": "658693b6318d4456263b225d745453637a3fd995691dfde2fc5fa03a09e027fc",
+    "bytes": 4500
+  },
+  "5754": {
+    "name": "Hydrocortisone",
+    "sha256": "ba146ba6edaded5432bd73bb12be7cf9a2fa893f1c0b1958f8ff9aa755af7f29",
+    "bytes": 3826
+  },
+  "5755": {
+    "name": "Prednisolone",
+    "sha256": "a216b28bec82bbbb3a63609d29bc10268febd1d5708d32ebde3ae47cf6323cf3",
+    "bytes": 3909
+  },
+  "5833": {
+    "name": "Spironolactone",
+    "sha256": "9cd095f0b86ad0ece979cb5e29bcbe99c66f9039914d36c2d022f8d8d848af81",
+    "bytes": 4530
+  },
+  "5991": {
+    "name": "Ethinyl Estradiol",
+    "sha256": "a67e6c91547a0cacd1cae2e100f22bd65d67fde05a4d4fdb03a70f0a9c3ffb4d",
+    "bytes": 3496
+  },
+  "6041": {
+    "name": "Phenylephrine",
+    "sha256": "d500321a50b6e2dcc7f403767c98ee63e859749b2a4e3469026a75f1b5ea1f55",
+    "bytes": 2302
+  },
+  "6047": {
+    "name": "Levodopa",
+    "sha256": "4eec7f9245d5d91e27705b63e2eabeb08836ff52eb4c4611f16759591019febf",
+    "bytes": 2779
+  },
+  "6167": {
+    "name": "Colchicine",
+    "sha256": "12106c811cf2920b4cb752ddd53a7aeccf05b24d6b610b8663c3fda2835d400f",
+    "bytes": 4352
+  },
+  "6230": {
+    "name": "Norethisterone",
+    "sha256": "8da3aa83f198f2e48164c00b0e4ab5242857aebba5e4262b603824ff898b66cb",
+    "bytes": 4232
+  },
+  "6279": {
+    "name": "Medroxyprogesterone Acetate",
+    "sha256": "cbb7461a8ab88dadebd13e598a4eb09eabc18bff9507442e2715c6a7046392ec",
+    "bytes": 4528
+  },
+  "6741": {
+    "name": "Methylprednisolone",
+    "sha256": "1133a6c0b1b3db74df1bfb0b5cc7dc9764d4ab209351b6cd624b5f4ffb07b258",
+    "bytes": 3986
+  },
+  "6883": {
+    "name": "Isosorbide Dinitrate",
+    "sha256": "0ae8939ab9a73aec64003091d8a75cd59b59bdfd547f83ced5eb702c59f8ad33",
+    "bytes": 3746
+  },
+  "7028": {
+    "name": "Pseudoephedrine",
+    "sha256": "74a850d1b51ef3bc295ea0048cc6c3ceee926a4ae02f8838c276192221e5b4a9",
+    "bytes": 2102
+  },
+  "8378": {
+    "name": "Neomycin",
+    "sha256": "e646880c94f9a9f648ef1387ff2193e99ee6b553782fc4f335a89c89cd9c9c51",
+    "bytes": 4272
+  },
+  "9782": {
+    "name": "Betamethasone",
+    "sha256": "e28bee6bfe556b139aae491e26730d02a0c4464912fd925e8c12a341f51a7b92",
+    "bytes": 4645
+  },
+  "10112": {
+    "name": "Calcium Carbonate",
+    "sha256": "a78b6f2525694871846ac1e76f16b28170d42bbcbd55dd374b3b64cf08e316fa",
+    "bytes": 1353
+  },
+  "10660": {
+    "name": "Dimenhydrinate",
+    "sha256": "da6c6d3291050ca5d7cf2df22ed686fe8805ccc66daf5d0b4fe73764e683d2ba",
+    "bytes": 2737
+  },
+  "11125": {
+    "name": "Lithium Carbonate",
+    "sha256": "9858f92bde9f140d741f227dc1f0461434af24c24acb6b977f66aaf1b86cc4fa",
+    "bytes": 1219
+  },
+  "11333": {
+    "name": "Lactulose",
+    "sha256": "db0e5ef6e4fc81d33a829254a0d2a038f8734ad60ee4ca076830f6aeca3f80b4",
+    "bytes": 4352
+  },
+  "12035": {
+    "name": "N-Acetylcysteine",
+    "sha256": "299ebdbabbef478532af4f33cdd1a6162a24671cd879cfe3164f84526098b5c6",
+    "bytes": 2185
+  },
+  "13109": {
+    "name": "Levonorgestrel",
+    "sha256": "9dc1c38e8908e555b5d197070bb321f81c53c726e391bb6e4957b0b2a58ea523",
+    "bytes": 4292
+  },
+  "13136": {
+    "name": "Calcium Citrate",
+    "sha256": "3a4ece07f77fbbeea26bb69046e287354318a3d3a19e1e477ba55ce251be880a",
+    "bytes": 3945
+  },
+  "13791": {
+    "name": "Estradiol Valerate",
+    "sha256": "3f9ca5ca7640398a3c177f47fa6b987d1ec527aa9227dfab4235f1801918e775",
+    "bytes": 3191
+  },
+  "14052": {
+    "name": "Ethambutol",
+    "sha256": "dba03e186ac71bf21a875e762b7a2e15b80c7da01cf6c8e904f7f3cdefea12f1",
+    "bytes": 2064
+  },
+  "19649": {
+    "name": "Streptomycin",
+    "sha256": "f7219d750e534a46bd8999cda132fba27cb83a7bc7a6740f34b98ac4ff36c6c8",
+    "bytes": 5037
+  },
+  "20469": {
+    "name": "Beclomethasone",
+    "sha256": "6472cf9464edaef9dec7ef2080ff3d72d50030f20839d28ac1d7202c116380f3",
+    "bytes": 4837
+  },
+  "21109": {
+    "name": "Trimetazidine",
+    "sha256": "7f0f7147701bd2f979a925a9106e94b97cac63e39d1c599e341b35aa29c4bba2",
+    "bytes": 2375
+  },
+  "23925": {
+    "name": "Iron",
+    "sha256": "3653662896d2155e348c125ccea21a50b7a6e9519be54688bd124af07f39b346",
+    "bytes": 446
+  },
+  "24393": {
+    "name": "Ferrous Sulphate",
+    "sha256": "19036d7bf59775fb3e0e6dde8104d3e1c9d3d97c1460ff1f7050006d6be4b8b9",
+    "bytes": 1408
+  },
+  "27661": {
+    "name": "Isosorbide Mononitrate",
+    "sha256": "72be06e41411137b1b88892fdf55722c32cde60bb4308e8396c2eba759c10674",
+    "bytes": 3240
+  },
+  "28061": {
+    "name": "Ornidazole",
+    "sha256": "698441df9d602eb42c352ae02cd2de12bf883b510870f1421583c11ae6bc530b",
+    "bytes": 3070
+  },
+  "31072": {
+    "name": "Carbimazole",
+    "sha256": "8e215c0fc7bcea9146005a752404adacee729f60fcd24d1f13dffd8daea9417c",
+    "bytes": 2744
+  },
+  "31307": {
+    "name": "Triamcinolone",
+    "sha256": "f4b94203ecb7aeab113aed6bede2eeb4538f02be7afb017bd27a6aac2a579166",
+    "bytes": 4829
+  },
+  "31401": {
+    "name": "Ursodeoxycholic Acid",
+    "sha256": "ff6dedd0f976b293c56829b1fcd01e08deede663cd37d6887b8984265017f82e",
+    "bytes": 3793
+  },
+  "33613": {
+    "name": "Amoxicillin",
+    "sha256": "a7f855ad8ca3f28b7ad32564768242103810787e3bfdd426bd95ba3c5c235cfc",
+    "bytes": 3535
+  },
+  "33741": {
+    "name": "Tramadol",
+    "sha256": "6ca6660a38d201fc953729f4b57d1bbeea4700704900b8ea121db9e1edf760fb",
+    "bytes": 2797
+  },
+  "34312": {
+    "name": "Oxcarbazepine",
+    "sha256": "96ba777c6753343e24ec0d59bc169ae2d5cc064441fb0e1f35420bf74e1ca163",
+    "bytes": 3833
+  },
+  "35370": {
+    "name": "Zidovudine",
+    "sha256": "786feb6f0ef1ade2655c75b933cf110f6dbfb58be783b0e556fe553379af491b",
+    "bytes": 3461
+  },
+  "36294": {
+    "name": "Tobramycin",
+    "sha256": "b45a3f0fed9f6d65f79d3bbc220409b867d276d4733368363a823c5d7cb63d10",
+    "bytes": 3931
+  },
+  "37768": {
+    "name": "Amikacin",
+    "sha256": "3b34428e4542f392fc9d94eb30b729161d423fb974090b5787f053d9cad66f01",
+    "bytes": 4506
+  },
+  "39186": {
+    "name": "Diltiazem",
+    "sha256": "193b47cf3547b866d372ae85b2ecd9f8bc71cab7b376645d7a393b221dff22dd",
+    "bytes": 3915
+  },
+  "41781": {
+    "name": "Torsemide",
+    "sha256": "4c7c2ad5c8b7dc6f11e72ecd7c4dea2578f03df356c83d066811a345ea433b66",
+    "bytes": 3188
+  },
+  "43815": {
+    "name": "Paroxetine",
+    "sha256": "27eeb97432ca73459bebb5335fe1640a91e36f30d0f76d7ed1376a959d11081c",
+    "bytes": 3261
+  },
+  "44093": {
+    "name": "Captopril",
+    "sha256": "b17b23c49d492db4e79659801f04ca147e0acab72be039f92e589f489d03a4d4",
+    "bytes": 3263
+  },
+  "47576": {
+    "name": "Ketoconazole",
+    "sha256": "4b5331866b68dbdfe30e7bcaa29891ba654d2f012a4418625eeb23463042588d",
+    "bytes": 3502
+  },
+  "50942": {
+    "name": "Doxofylline",
+    "sha256": "6194614a9c5868433af6de67e54da6d502baa7b3490d9663ecfc129256c83602",
+    "bytes": 3493
+  },
+  "54454": {
+    "name": "Simvastatin",
+    "sha256": "48726f5e793e45d68088de49d563f8edc0a35ff83abf90711beaca13c609e79c",
+    "bytes": 4002
+  },
+  "54687": {
+    "name": "Pravastatin",
+    "sha256": "c882c12371fef5e29da084d38904c32c0250dbb37dc8e94f9be3f14244fb6791",
+    "bytes": 3682
+  },
+  "55283": {
+    "name": "Itraconazole",
+    "sha256": "9450aac7c0ba62e1969868141ead9cbdd290b819c3ceaf5c0a4caf33221a14cd",
+    "bytes": 2776
+  },
+  "56959": {
+    "name": "Ranolazine",
+    "sha256": "3577e2500af3935e99a285e9e0c64e856b343091b0277ea2aaf57df8df4f7c68",
+    "bytes": 2537
+  },
+  "57363": {
+    "name": "Finasteride",
+    "sha256": "2c60aca3f168832b0329557f44e97ed81bd7e8e467255662cc7cab276511a94b",
+    "bytes": 3962
+  },
+  "60164": {
+    "name": "Adapalene",
+    "sha256": "cd8fb937546ab09c63496d8013aa4662a6929b5c50ecb491e7f26b5e46dae257",
+    "bytes": 3126
+  },
+  "60606": {
+    "name": "Clopidogrel",
+    "sha256": "6539c51ec0e998e25b4b711b614a31711e59a73ee287af293906f5d24453dfee",
+    "bytes": 3665
+  },
+  "60795": {
+    "name": "Aripiprazole",
+    "sha256": "1956d95aa79c596b7d064b97d7b7bac0af27d57b094a264e119d9546ed919512",
+    "bytes": 2344
+  },
+  "60823": {
+    "name": "Atorvastatin",
+    "sha256": "40afd610004eff7f5efe74a279165409f7bbb4c7340ec1b622f78f2b671d0fc0",
+    "bytes": 4139
+  },
+  "60825": {
+    "name": "Lamivudine",
+    "sha256": "331111ca078c3c3dd006908b3276a6d9606a7109590d74089445b314fc0eb20d",
+    "bytes": 3485
+  },
+  "60835": {
+    "name": "Duloxetine",
+    "sha256": "48f21923465dfb7a275b39cf8f7149149ccf347b3199fd72897d93607fec0015",
+    "bytes": 3515
+  },
+  "64139": {
+    "name": "Efavirenz",
+    "sha256": "96cf5ceb36b493c0aad9cdb7fe4ef8a74f5686ed8f9b97fd139c9777fd94a111",
+    "bytes": 3977
+  },
+  "65478": {
+    "name": "Betamethasone Sodium Phosphate",
+    "sha256": "a1a34ecd0a0cf217b8a3ba66034d39cef8e241fde6f706792e6616bc8aa6e016",
+    "bytes": 4963
+  },
+  "65981": {
+    "name": "Repaglinide",
+    "sha256": "6076e707ac9d9699446c191e7e281972c790198b5856b85308c6fece01ef3dd6",
+    "bytes": 2707
+  },
+  "65999": {
+    "name": "Telmisartan",
+    "sha256": "014aa562f3516477546b5138dab0617545dc94f6bd8457dcdeb5f75f1a3f786f",
+    "bytes": 3003
+  },
+  "68617": {
+    "name": "Sertraline",
+    "sha256": "23b6350da8a90eafc48c9179ec7189af3afbe1a096be6694a32df54e1f84c762",
+    "bytes": 2791
+  },
+  "68911": {
+    "name": "Artemether",
+    "sha256": "c561fa7a33e1a1bb5cf8049805fc22cb1a9935aed46b9319ddbd846237a3d831",
+    "bytes": 4207
+  },
+  "71771": {
+    "name": "Aceclofenac",
+    "sha256": "5716407b3959ca88985f681073105b50efdb9f1fdd678e964fb5c48f67e18756",
+    "bytes": 2985
+  },
+  "107751": {
+    "name": "Racecadotril",
+    "sha256": "b482d261baac4334630cab6d2ff6862bf32e7d82d60d8d3dbce108237e7e7e52",
+    "bytes": 2614
+  },
+  "110635": {
+    "name": "Tadalafil",
+    "sha256": "204d82e5e74393d58fb76c3fb1ffaadeb8ee66d9c8bdad4d0333cc6f95e46c4a",
+    "bytes": 5791
+  },
+  "119570": {
+    "name": "Pramipexole",
+    "sha256": "ce0032cd319063f4290946d5525eedc2db818c3e416db46a9b9f07caeed3b1fa",
+    "bytes": 2155
+  },
+  "123600": {
+    "name": "Levosalbutamol",
+    "sha256": "a62b85111e08a8dda7c6d37e923c155d68417e116115863304d088e30cf69ad0",
+    "bytes": 2869
+  },
+  "124087": {
+    "name": "Desloratadine",
+    "sha256": "f087f271b96a40d1c9c2f6dfaad4aa29783b5d794367d9538391212df56246ac",
+    "bytes": 3809
+  },
+  "126941": {
+    "name": "Methotrexate",
+    "sha256": "6358f0a67700d7455df2d48d54d868b74d9788a2c8a88e741e7578e0b7307b2d",
+    "bytes": 2951
+  },
+  "129211": {
+    "name": "Tamsulosin",
+    "sha256": "c5284e99dc87f8f1b828042abe46e8c7aa4f62a940aef68847cc7d73e8c808db",
+    "bytes": 2499
+  },
+  "132999": {
+    "name": "Ivabradine",
+    "sha256": "c414651ddd3a27fd8e66e00c4bb5c57382ea11121684a79b19cf3494971e18b9",
+    "bytes": 2767
+  },
+  "134018": {
+    "name": "Febuxostat",
+    "sha256": "c1035bbccd77d454af8e624cbec01ffa79cc3d1d0a31fee613f9952323757246",
+    "bytes": 3441
+  },
+  "146570": {
+    "name": "Escitalopram",
+    "sha256": "5a6080ebdba2f387bf1cbd14f992d5bd32b7df75fb09e9c6ff3d4923fc776df6",
+    "bytes": 4636
+  },
+  "150311": {
+    "name": "Ezetimibe",
+    "sha256": "2820d90e8fa7131e25ff5b8b9d864114243d3366b98513a88f6c7fc7e0cd7421",
+    "bytes": 3105
+  },
+  "154059": {
+    "name": "Solifenacin",
+    "sha256": "d9d8550d44dc78d9a81d961b64c8f9d32504a4cc99de63fe863de8d1a1f20b1e",
+    "bytes": 3736
+  },
+  "156391": {
+    "name": "Naproxen",
+    "sha256": "5ef9689cc856412795c490ebcd1a0a937cec744e6c055a8d5db89e5ac7ac3689",
+    "bytes": 2098
+  },
+  "174174": {
+    "name": "Atropine",
+    "sha256": "4f54cb0307108e4ba9c3a57e0bc501f80dd8171cc96fef070254fa4eb858233f",
+    "bytes": 4480
+  },
+  "185460": {
+    "name": "Bilastine",
+    "sha256": "b95a788fa508aa4266948d97aabe027488ca4647953bd35e63f3b58d8d49281d",
+    "bytes": 2316
+  },
+  "216210": {
+    "name": "Dabigatran",
+    "sha256": "6fa4f6c9dbc6488e11e7a61e952b420e27e9fa7205e0f3a51c36b608593e58c1",
+    "bytes": 2689
+  },
+  "441140": {
+    "name": "Griseofulvin",
+    "sha256": "89d397659adf0ef91f5d40649be4ec7f7ec857940f2eb2b15cb77f3534f5aba3",
+    "bytes": 3605
+  },
+  "441371": {
+    "name": "Erythromycin Estolate",
+    "sha256": "26e1c0f172ae6804118547a37f9c315761abf9dda3acf82ac90a2f4260ac9f1a",
+    "bytes": 4382
+  },
+  "443879": {
+    "name": "Tolterodine",
+    "sha256": "42f44b62364f079f413992f5cd336e3aaf276cf0df31c51b069aed1ba62b61fa",
+    "bytes": 2765
+  },
+  "444020": {
+    "name": "Voglibose",
+    "sha256": "6cff49c6617bd7ecc29517fa4da2c940403a2b0d40776373834a4288e61c14e9",
+    "bytes": 3032
+  },
+  "445643": {
+    "name": "Tacrolimus",
+    "sha256": "8f6b0ca1369121469e7de7fffd4e8a92ded9b5f147ff59031ac9b28ba051ca78",
+    "bytes": 5102
+  },
+  "446157": {
+    "name": "Rosuvastatin",
+    "sha256": "338d4c3edc6781787ffdd3e8b35c83f683b6e305283fc795a3f132898880b084",
+    "bytes": 3615
+  },
+  "447043": {
+    "name": "Azithromycin",
+    "sha256": "57da2e89a7d31bcaae045cfbedd07771b2fa981c0ae5419ddc9d94ed8f387107",
+    "bytes": 5240
+  },
+  "516892": {
+    "name": "Sodium Bicarbonate",
+    "sha256": "f22838a5d1f3c3c0870323acd5101da14990655f6767348714993a59894b0c8c",
+    "bytes": 1442
+  },
+  "657298": {
+    "name": "Propylthiouracil",
+    "sha256": "c3034b4cc0d7a1a2a047b49ff786db2f8467bd0857cdca15c5d032943831fb12",
+    "bytes": 2111
+  },
+  "657308": {
+    "name": "Ipratropium Bromide",
+    "sha256": "f9365760d89b9868eb04eb4b01e044274bf5e6452ac37801a6c4973b7f251ceb",
+    "bytes": 4162
+  },
+  "657309": {
+    "name": "Ipratropium",
+    "sha256": "d42e58949cfb2a06178649f3f5ea72a4013e535d065c9fb49529e0cd70a9e890",
+    "bytes": 4616
+  },
+  "688272": {
+    "name": "Levosulpiride",
+    "sha256": "9171007b8434d8df891778b795c733af514fdc06b6af99b77e781f9301223460",
+    "bytes": 3731
+  },
+  "941361": {
+    "name": "Flunarizine",
+    "sha256": "ff41877ecd6bdfc26df9349bcf2ac1362793c2671ea8fb2e0d7ac45f49824c35",
+    "bytes": 2692
+  },
+  "1349907": {
+    "name": "Methimazole",
+    "sha256": "9572bf5d4035a034b621d41f001dcea3bf6f557db8f1c008de364be335c8cdef",
+    "bytes": 1820
+  },
+  "1547484": {
+    "name": "Cinnarizine",
+    "sha256": "073b22877d39b66250d8b2f1cd702a9783b9c35022d2ddd3247f896d3033d356",
+    "bytes": 2445
+  },
+  "1548955": {
+    "name": "Clomifene",
+    "sha256": "80c2f053346feedb11c2232d15c4bdc984eea94ce3226e396e7331d8258e7d2c",
+    "bytes": 2440
+  },
+  "1549000": {
+    "name": "Levocetirizine",
+    "sha256": "ecefa54e762389e3e4761a900a0e3c951d395b6874584ad4dcf68399fa1f3ad5",
+    "bytes": 2829
+  },
+  "1549008": {
+    "name": "Terbinafine",
+    "sha256": "7f04cd89d8c732811a8049baa666bbdee9b72ffdf5bb5ce717078aae7e82fe66",
+    "bytes": 2800
+  },
+  "1712095": {
+    "name": "Drotaverine",
+    "sha256": "eeba2e1f6dbfccd7dd015b18d39a58e08050e409db25e548ed37c645eaa0ee76",
+    "bytes": 2640
+  },
+  "2724385": {
+    "name": "Digoxin",
+    "sha256": "3cc7df5682850fdc13c24e1702c318eede2a869319a52c591d36dd2f41a82713",
+    "bytes": 3127
+  },
+  "2733526": {
+    "name": "Tamoxifen",
+    "sha256": "40052639a34970159ae5fb31290d55e51f076c50bc07392826897f0f8b482075",
+    "bytes": 2631
+  },
+  "3001055": {
+    "name": "Ranitidine",
+    "sha256": "da1953f26c932503f6652fd011fef9edb3200fbe3ebde1b0a5b93f8888d50047",
+    "bytes": 2640
+  },
+  "3014024": {
+    "name": "Antiseptic Liquid",
+    "sha256": "2a204653a28bf70b3bbba6efcfe655992b523b169ff6e736a6f99eddddee8a5a",
+    "bytes": 1717
+  },
+  "5280795": {
+    "name": "Vitamin D3 (Cholecalciferol)",
+    "sha256": "6ebceeb9c0b0c31ebded98570f1ac01c4c5453ee5a601fd2c8fdb97849ca5cc1",
+    "bytes": 2780
+  },
+  "5281040": {
+    "name": "Montelukast",
+    "sha256": "713f5ed91e2db316ad3c44c532a6a952da38083cdf650e2b6aa4e69a3d5172e2",
+    "bytes": 3804
+  },
+  "5281078": {
+    "name": "Mycophenolate Mofetil",
+    "sha256": "2f1efd42722832e46c79f6bf84ff5e63a0990616501887b08fff4c18ec3446cf",
+    "bytes": 2248
+  },
+  "5284371": {
+    "name": "Codeine",
+    "sha256": "6e6a6b23414908ce40b6071c98e4b0dd79481824cb78b42fdf5eada8689e7354",
+    "bytes": 3716
+  },
+  "5284566": {
+    "name": "Granisetron",
+    "sha256": "9984a4e8b80b32a96bed917c6ccfb4490bfe48ddbb31cc5a41de2714cefbdfad",
+    "bytes": 4287
+  },
+  "5284583": {
+    "name": "Levetiracetam",
+    "sha256": "c2c72895f48265beeca4c54a3d50157556eee4ab8be01e7534c6478822a31219",
+    "bytes": 2387
+  },
+  "5284596": {
+    "name": "Naloxone",
+    "sha256": "81b927871b66c31818ef1d814889b31cf3cfdacd49d4dc4211d0c2b7b37b527f",
+    "bytes": 4166
+  },
+  "5284627": {
+    "name": "Topiramate",
+    "sha256": "a8a5d2d636805da7c146e3847f17e7941202f7b237bd4bc46da587b5cf5d0791",
+    "bytes": 4328
+  },
+  "5288826": {
+    "name": "Morphine",
+    "sha256": "3d07aa555c42402cffd3287dcbba7a312ba8b123f14102c8b29ac62971b174bb",
+    "bytes": 3573
+  },
+  "5311051": {
+    "name": "Clobetasol",
+    "sha256": "48a5e8261a84df1f3e8b75274b7f4b6354a51d830156d8618a4ef07d759071fd",
+    "bytes": 4900
+  },
+  "5360696": {
+    "name": "Dextromethorphan",
+    "sha256": "27b74b58266e19526a6b9032eda6cdd68e7629951cf430dbdf4a6a34273d77f5",
+    "bytes": 3469
+  },
+  "5362119": {
+    "name": "Lisinopril",
+    "sha256": "9efbd1063ee0d0361f41fda6d921399be210f51fcfd6d290c24592741457d683",
+    "bytes": 3593
+  },
+  "5388962": {
+    "name": "Enalapril",
+    "sha256": "2118396f591dc0b8ac782221b1218d490d997101be35037acf0167e7a273634d",
+    "bytes": 3385
+  },
+  "5460033": {
+    "name": "Cisplatin",
+    "sha256": "623a316d41fe1bf3a10139a01141ca0c987cf8b241c9cda20ee0e63db22f538f",
+    "bytes": 1658
+  },
+  "5460341": {
+    "name": "Calcium",
+    "sha256": "385b998bdef169dc7f3aa0442cab4bdab1e949f97b28e6933d4464c5e14f29d8",
+    "bytes": 562
+  },
+  "5462224": {
+    "name": "Magnesium",
+    "sha256": "fb3e0427aaef82ce27ff1fdb6697ed1e72a39f295b08d67506dd944f207069dc",
+    "bytes": 635
+  },
+  "5462310": {
+    "name": "Activated Charcoal",
+    "sha256": "20f69603e23ec4170e81b4e91f3d7342ae709685a826c3739817583f6d3c69f2",
+    "bytes": 444
+  },
+  "5479530": {
+    "name": "Ceftriaxone",
+    "sha256": "bc76c139308641a5f81d54a8cbd53d58bd8ca442214ea4c59b11621951ac209a",
+    "bytes": 3509
+  },
+  "5486971": {
+    "name": "Pregabalin",
+    "sha256": "13c702ee5d42e5d01abb822a90956dc4d236df889b54b3fc25d5e8c48a740550",
+    "bytes": 1897
+  },
+  "5702160": {
+    "name": "Famotidine",
+    "sha256": "cfcb9f6309fab9ceda5c932c1eae6935dd176d8d1dbe7c0fe0d574de23bed8cf",
+    "bytes": 2970
+  },
+  "5742673": {
+    "name": "Cefotaxime",
+    "sha256": "9471d0f9732213f8c8ebd8f8d27fd20d1502ca6917352ab27d16767fb5c65235",
+    "bytes": 3434
+  },
+  "6852391": {
+    "name": "Hyoscine Butylbromide",
+    "sha256": "7835af9fd8e49d5fe8731257887e8113e768be06f870ff1ed390aa89b45a64f4",
+    "bytes": 4215
+  },
+  "6917864": {
+    "name": "Artesunate",
+    "sha256": "ec012a8b23c30452103d9e2b0f2452e4f9a6d2974a2b9d64990636618e0b552b",
+    "bytes": 3709
+  },
+  "6918456": {
+    "name": "Prasugrel",
+    "sha256": "673ced274f8b58d6d08c9a5f323910d5b54eb73ad3c1338a838e36afbf961c10",
+    "bytes": 3057
+  },
+  "9568614": {
+    "name": "Esomeprazole",
+    "sha256": "566c17f6ae14a2cea4eae18ba13f6e29264e44806de89554de7dd39c6de5b6aa",
+    "bytes": 2619
+  },
+  "9811704": {
+    "name": "Acarbose",
+    "sha256": "940326bda8829260d47a134a4ba17062d953e9c32eb9453bdbd1521a4a66a2d8",
+    "bytes": 3852
+  },
+  "9838022": {
+    "name": "Tapentadol",
+    "sha256": "c704677188e976940e860721c01bbde352bd332d7128f91d302763d405126669",
+    "bytes": 2138
+  },
+  "9875401": {
+    "name": "Rivaroxaban",
+    "sha256": "78cd14253a63f6c41c6e5dbd667e75384a83fd45b1432c24aa84c41a0575f233",
+    "bytes": 3159
+  },
+  "9915886": {
+    "name": "Thiocolchicoside",
+    "sha256": "dd7872501276d080278bc2bc0324249df8c49c8373766a286db9a32fc673d391",
+    "bytes": 5012
+  },
+  "10176082": {
+    "name": "Aluminium Hydroxide",
+    "sha256": "2bdba20a2ff35d019cf1c730fd769db40b14a56d3ab5abb388740b99d7570713",
+    "bytes": 1235
+  },
+  "10898559": {
+    "name": "Methylcobalamin",
+    "sha256": "beee26e738a65ba5b78300ec12a6783ba24fc60db61d1aba6bc81985f5e6a306",
+    "bytes": 4767
+  },
+  "16760703": {
+    "name": "Sodium Valproate",
+    "sha256": "271cdf63c51484eeab2f8fcd2aad2de556a29d1743103d359a9079b34ffab6f5",
+    "bytes": 1732
+  },
+  "54670067": {
+    "name": "Vitamin C (Ascorbic Acid)",
+    "sha256": "b2fa1a57592143a4785cd7436f1c3fdaf4a2856fb74820ebf9e0fe3ef95bf4ae",
+    "bytes": 2828
+  },
+  "54671203": {
+    "name": "Doxycycline",
+    "sha256": "4d8bcb6441a8a5f1ec02b4a209dd61eb34b33af5ce471f608bb4a7b24eb95e37",
+    "bytes": 3693
+  },
+  "54676228": {
+    "name": "Piroxicam",
+    "sha256": "07a122a32dc7657a84ea9b7d31aded80141a9aa7327572597682cc248c44679f",
+    "bytes": 3744
+  },
+  "54676537": {
+    "name": "Acenocoumarol",
+    "sha256": "02095643b69469c1e01ee9f1a79bec6b3bffa18f3c7b44b24c2aedba14848284",
+    "bytes": 2856
+  },
+  "54678486": {
+    "name": "Warfarin",
+    "sha256": "59edbc60cc8011bffd1cad15a66b147e70cf18495d8b8af4a3ee98b6e94a64d1",
+    "bytes": 2757
+  },
+  "86763295": {
+    "name": "Ferrous Ascorbate",
+    "sha256": "b0a427eceb7cc602ed51bc6a2c6bde5ccfbf74c6b6a2ea16ac1f4b31a2262db5",
+    "bytes": 3379
+  },
+  "135398513": {
+    "name": "Acyclovir",
+    "sha256": "46ee327524768c53ca6c619114a06332dd8291d5240604098dc8ee5d48b6d385",
+    "bytes": 3641
+  },
+  "135398658": {
+    "name": "Folic Acid",
+    "sha256": "836defc2fc413d7cca8c50c1c5936fcb1f165f90607a04e35025013c4e18b9b4",
+    "bytes": 2900
+  },
+  "135398735": {
+    "name": "Rifampicin",
+    "sha256": "00ff54d285c63fc76a23fa421a831a07fb71392666daca0458e1cf04576fd307",
+    "bytes": 6825
+  },
+  "135398742": {
+    "name": "Valacyclovir",
+    "sha256": "037726a2234eb484c29352560d27cc1986fb9983016b81d31cc6b9a117745d18",
+    "bytes": 3507
+  },
+  "135398744": {
+    "name": "Sildenafil",
+    "sha256": "cfed76626dc1e23e8fded9e24d62675bd3966c0b3250eda6648af4882fc1bc41",
+    "bytes": 3334
+  },
+  "135398745": {
+    "name": "Olanzapine",
+    "sha256": "606a61015d94d555a2ac0e5853815830147f44e0950e0a2302af8c546039fba0",
+    "bytes": 4300
+  },
+  "135401907": {
+    "name": "Allopurinol",
+    "sha256": "7990cffcb6ecb80af66f743c25038aaa0a60666775d6b7adf717790f95b8aeed",
+    "bytes": 2324
+  }
+}
