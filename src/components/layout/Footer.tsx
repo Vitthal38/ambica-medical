@@ -22,17 +22,17 @@ const COLUMNS = [
       { to: '/prescription', label: 'Upload Prescription' },
       { to: '/products', label: 'Home Delivery' },
       { to: '/products', label: 'Store Pickup' },
-      { to: '/cart', label: 'Track Order' },
+      { to: '/orders', label: 'Track Order' },
     ],
   },
   {
     title: 'Help',
     links: [
-      { to: '/products', label: 'FAQ' },
-      { to: '/products', label: 'Contact Us' },
-      { to: '/products', label: 'Return Policy' },
-      { to: '/products', label: 'Privacy Policy' },
-      { to: '/products', label: 'Terms of Service' },
+      { to: '/faq', label: 'FAQ' },
+      { to: '/contact', label: 'Contact Us' },
+      { to: '/return-policy', label: 'Return Policy' },
+      { to: '/privacy-policy', label: 'Privacy Policy' },
+      { to: '/terms-of-service', label: 'Terms of Service' },
     ],
   },
 ];
