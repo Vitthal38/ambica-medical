@@ -40,8 +40,7 @@
       "calpol",
       "metacin",
       "crocin"
-    ],
-    "imageUrl": "/medicines/p001.jpg"
+    ]
   },
   {
     "id": "p002",
@@ -79,8 +78,7 @@
       "azithromicin",
       "azee",
       "azithral"
-    ],
-    "imageUrl": "/medicines/p002.jpg"
+    ]
   },
   {
     "id": "p003",
@@ -119,8 +117,7 @@
       "omez",
       "prilosec",
       "omeprazol"
-    ],
-    "imageUrl": "/medicines/p003.jpg"
+    ]
   },
   {
     "id": "p004",
@@ -161,8 +158,7 @@
       "cetzine",
       "zyrtec",
       "alerid"
-    ],
-    "imageUrl": "/medicines/p004.jpg"
+    ]
   },
   {
     "id": "p005",
@@ -201,8 +197,7 @@
       "d3 60k",
       "d-rise",
       "vit d"
-    ],
-    "imageUrl": "/medicines/p005.jpg"
+    ]
   },
   {
     "id": "p006",
@@ -237,8 +232,7 @@
       "bp monitor",
       "blood pressure monitor",
       "omron"
-    ],
-    "imageUrl": "/medicines/p006.jpg"
+    ]
   },
   {
     "id": "p007",
@@ -271,8 +265,7 @@
     "aliases": [
       "johnsons",
       "baby powder"
-    ],
-    "imageUrl": "/medicines/p007.jpg"
+    ]
   },
   {
     "id": "p008",
@@ -310,8 +303,7 @@
       "glycomet",
       "glucophage",
       "glyciphage"
-    ],
-    "imageUrl": "/medicines/p008.jpg"
+    ]
   },
   {
     "id": "p009",
@@ -346,8 +338,7 @@
     "aliases": [
       "dettol",
       "antiseptic"
-    ],
-    "imageUrl": "/medicines/p009.jpg"
+    ]
   },
   {
     "id": "p010",
@@ -384,8 +375,7 @@
       "omega 3",
       "fish oil",
       "epa dha"
-    ],
-    "imageUrl": "/medicines/p010.jpg"
+    ]
   },
   {
     "id": "p011",
@@ -418,8 +408,7 @@
       "surgical mask",
       "face mask",
       "3-ply mask"
-    ],
-    "imageUrl": "/medicines/p011.jpg"
+    ]
   },
   {
     "id": "p012",
@@ -453,8 +442,7 @@
       "glucometer",
       "accu chek",
       "blood sugar test"
-    ],
-    "imageUrl": "/medicines/p012.jpg"
+    ]
   },
   {
     "id": "p013",
@@ -491,8 +479,7 @@
       "fexofenadine",
       "allegra",
       "fexova"
-    ],
-    "imageUrl": "/medicines/p013.jpg"
+    ]
   },
   {
     "id": "p014",
@@ -530,8 +517,7 @@
       "paracetamol",
       "sumo",
       "zerodol-p"
-    ],
-    "imageUrl": "/medicines/p014.jpg"
+    ]
   },
   {
     "id": "p015",
@@ -566,8 +552,7 @@
       "telmisartan",
       "telma",
       "tazloc"
-    ],
-    "imageUrl": "/medicines/p015.jpg"
+    ]
   },
   {
     "id": "p016",
@@ -605,8 +590,7 @@
       "ors-l",
       "electrolyte",
       "rehydration"
-    ],
-    "imageUrl": "/medicines/p016.jpg"
+    ]
   },
   {
     "id": "p017",
@@ -641,8 +625,7 @@
     "aliases": [
       "volini",
       "pain spray"
-    ],
-    "imageUrl": "/medicines/p017.jpg"
+    ]
   },
   {
     "id": "p018",
@@ -675,8 +658,7 @@
     "aliases": [
       "himalaya",
       "baby lotion"
-    ],
-    "imageUrl": "/medicines/p018.jpg"
+    ]
   },
   {
     "id": "p019",
@@ -710,8 +692,7 @@
       "nivea",
       "body lotion",
       "moisturizer"
-    ],
-    "imageUrl": "/medicines/p019.jpg"
+    ]
   },
   {
     "id": "p020",
@@ -745,8 +726,7 @@
     "aliases": [
       "multivitamin",
       "centrum"
-    ],
-    "imageUrl": "/medicines/p020.jpg"
+    ]
   },
   {
     "id": "p021",
@@ -780,8 +760,7 @@
       "honey",
       "patanjali",
       "pure honey"
-    ],
-    "imageUrl": "/medicines/p021.jpg"
+    ]
   },
   {
     "id": "p022",
@@ -816,7 +795,6 @@
       "band-aid",
       "bandage",
       "plaster"
-    ],
-    "imageUrl": "/medicines/p022.jpg"
+    ]
   }
 ]
