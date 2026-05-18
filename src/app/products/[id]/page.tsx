@@ -89,10 +89,9 @@ export default function ProductDetailPage() {
           <div className="group overflow-hidden rounded-3xl border border-neutral-200/70 bg-white shadow-card">
             <ProductImage
               product={product}
-              className="h-80"
-              tileSize="lg"
-              emojiClassName="text-[8rem]"
+              className="aspect-square"
               priority
+              sizes="(min-width: 1024px) 50vw, 100vw"
             />
           </div>
 

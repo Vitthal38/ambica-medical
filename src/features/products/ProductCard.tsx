@@ -39,14 +39,11 @@ export function ProductCard({ product, className }: Props) {
       )}
     >
       <Link href={`/products/${product.id}`} className="block flex-1">
-        {/* Product image — falls back to emoji tile when no imageUrl or 404 */}
-        <div className="relative h-36 overflow-hidden rounded-t-2xl">
-          <ProductImage
-            product={product}
-            className="h-full"
-            tileSize="lg"
-            emojiClassName="text-6xl"
-          />
+        {/* Pack-shot — auto-falls-back to deterministic SVG placeholder.
+            Square aspect ratio keeps every card visually consistent regardless
+            of whether the underlying source is a photo or a generated SVG. */}
+        <div className="relative aspect-square overflow-hidden rounded-t-2xl border-b border-neutral-100">
+          <ProductImage product={product} className="h-full" />
           <div className="absolute left-3 top-3 flex flex-col gap-1.5">
             <Badge tone={product.rxRequired ? 'rx' : 'otc'}>
               {product.rxRequired ? 'Rx' : 'OTC'}

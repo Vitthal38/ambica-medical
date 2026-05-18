@@ -28,7 +28,7 @@ export function ProductGrid({
       <div className={gridCls}>
         {Array.from({ length: skeletonCount }).map((_, i) => (
           <div key={i} className="overflow-hidden rounded-2xl bg-white shadow-card">
-            <Skeleton className="h-32 w-full rounded-none" />
+            <Skeleton className="aspect-square w-full rounded-none" />
             <div className="space-y-2 p-4">
               <Skeleton className="h-4 w-2/3" />
               <Skeleton className="h-3 w-1/2" />
