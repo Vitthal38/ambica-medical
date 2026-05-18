@@ -96,7 +96,34 @@ class LocalFsStorage implements MedicineImageStorage {
     private readonly servePath: string,
   ) {}
 
+  /**
+   * Lazy production-safety guard.
+   *
+   * On Vercel (or any serverless host) the filesystem is ephemeral — bytes
+   * written by one function invocation are gone before the next request lands.
+   * Storing an admin upload there would mean the medicine card displays the
+   * new image once, then 404s forever after.
+   *
+   * Fires only on put(); reads still work in case anyone uploaded earlier in
+   * the same warm-lambda window and the operator just wants to fish the bytes
+   * out before re-uploading via Vercel Blob.
+   */
+  private assertWritable(): void {
+    const onVercel = !!process.env.VERCEL;
+    const isProd = process.env.NODE_ENV === 'production';
+    if (onVercel && isProd) {
+      throw new Error(
+        'Medicine-image uploads cannot use the local filesystem on Vercel ' +
+          '(ephemeral disk — files vanish between requests). Enable Vercel ' +
+          'Blob from your project dashboard (Storage → Create → Blob) and ' +
+          'the BLOB_READ_WRITE_TOKEN env var; the storage backend will then ' +
+          'auto-switch to Vercel Blob and uploads will persist on a CDN.',
+      );
+    }
+  }
+
   async put(key: string, bytes: Buffer, _mime: string): Promise<string> {
+    this.assertWritable();
     await mkdir(this.dir, { recursive: true });
     // The key path includes sub-dirs; ensure each segment exists.
     const target = join(this.dir, key);
