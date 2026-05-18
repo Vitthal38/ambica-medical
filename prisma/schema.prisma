@@ -81,6 +81,9 @@ enum AuditAction {
   MEDICINE_ENTRY_CREATE
   MEDICINE_ENTRY_UPDATE
   MEDICINE_ENTRY_DELETE
+  MEDICINE_IMAGE_UPLOAD
+  MEDICINE_IMAGE_DELETE
+  MEDICINE_IMAGE_VERIFY
   ORDER_CREATE
   ORDER_UPDATE
   CSRF_REJECTED
@@ -169,7 +172,46 @@ model Medicine {
   rxRequired    Boolean  @default(false)
   mrp           Int
   price         Int
+
+  // ---------- Image management ----------------------------------------
+  // Legacy / catalog-supplied URL. May point to /medicines/<id>.jpg in
+  // public/ OR to a manufacturer URL. Wins over `imageStorageKey` until
+  // the admin uploads a verified replacement.
   imageUrl      String?
+
+  // Admin-uploaded image (post-validation, post-sharp-optimization).
+  // Storage backend is decided at runtime: Vercel Blob in prod, local
+  // FS in dev. The KEY is opaque to the app — only the storage adapter
+  // knows how to dereference it.
+  imageStorageKey String?
+  imagePublicUrl  String?      // denormalized fast-path for storefront reads
+  imageMime       String?      // 'image/webp' typically, post-optimization
+  imageWidth      Int?
+  imageHeight     Int?
+  imageBytes      Int?         // post-optimization byte size
+  // 64-bit perceptual hash, hex. Catches near-duplicates across the
+  // catalog (same pack-shot uploaded for two SKUs by mistake).
+  imagePhash      String?
+  // SHA-256 of the optimized bytes — exact-duplicate detection +
+  // change detection for cache invalidation.
+  imageSha256     String?
+  // Provenance — required for D&C audit + future image-rights review.
+  // Values: 'admin_upload' | 'manufacturer' | 'own_photo' | 'stock_licensed'
+  imageSource     String?
+  // Optional attribution URL (manufacturer's product page, stock license
+  // certificate, etc.). NEVER a scraped competitor URL.
+  imageSourceUrl  String?
+  // 0-100 admin confidence rating. 100 = verified by pharmacist as the
+  // correct pack for this SKU; 0 = guess.
+  imageConfidence Int?
+  // When non-null, a pharmacist has reviewed and approved the image.
+  // The storefront should prefer verified uploads over legacy catalog URLs.
+  imageVerifiedAt DateTime?
+  // When non-null, the optimization pipeline last processed this image.
+  // Used by the re-optimization cron to find stale images after a
+  // sharp version bump or quality preset change.
+  imageOptimizedAt DateTime?
+
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
@@ -181,6 +223,10 @@ model Medicine {
   @@index([name])
   @@index([brand])
   @@index([category])
+  // Find products that need image work (no verified image yet)
+  @@index([imageVerifiedAt])
+  // Duplicate detection across the catalog
+  @@index([imagePhash])
 }
 
 // ---------------------------------------------------------------------------

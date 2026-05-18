@@ -9,6 +9,7 @@ import {
   Package,
   Bell,
   Pill,
+  Image as ImageIcon,
   LogOut,
 } from 'lucide-react';
 import { cn } from '@/lib/cn';
@@ -19,6 +20,7 @@ const NAV = [
   { href: '/admin/prescriptions', label: 'Prescriptions', icon: FileText },
   { href: '/admin/orders', label: 'Orders', icon: Package },
   { href: '/admin/reminders', label: 'Reminders', icon: Bell },
+  { href: '/admin/medicine-images', label: 'Medicine images', icon: ImageIcon },
 ];
 
 interface Props {
