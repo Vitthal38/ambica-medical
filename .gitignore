@@ -47,3 +47,8 @@ dist
 
 # TypeScript incremental build cache
 *.tsbuildinfo
+outreach/
+incoming/
+.local-uploads/
+ambica-medical-catalog.pdf
+ambica-medical-photography-checklist.pdf

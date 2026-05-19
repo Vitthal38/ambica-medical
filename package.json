@@ -15,7 +15,11 @@
     "prisma:seed": "tsx prisma/seed.ts",
     "deploy:db": "prisma migrate deploy && tsx prisma/seed.ts",
     "images:pubchem": "tsx scripts/enrich-with-pubchem.ts",
-    "images:import": "tsx scripts/bulk-import-images.ts"
+    "images:import": "tsx scripts/bulk-import-images.ts",
+    "images:outreach": "tsx scripts/generate-outreach-emails.ts",
+    "images:photo-checklist": "python scripts/build-photography-checklist.py",
+    "images:ocr": "python scripts/ocr-validate.py",
+    "catalog:pdf": "python scripts/build_catalog_pdf.py"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

@@ -66,6 +66,34 @@ model User {
 // blob for action-specific context (NEVER store passwords or raw PHI here —
 // only IDs, masked identifiers, and outcome data).
 
+/// Approval workflow for medicine images. Drives the admin review queue.
+///
+/// - PENDING       : new admin upload of unknown provenance; awaits pharmacist
+///                   review before going live on the storefront.
+/// - APPROVED      : pharmacist (or auto-rule when source is trusted AND OCR
+///                   composite confidence >= 0.85) has cleared the image.
+/// - REJECTED      : pharmacist marked the image as wrong/illegible/dupe.
+///                   Bytes stay in storage for audit; imagePublicUrl is cleared
+///                   so the storefront falls back to the SVG placeholder.
+/// - NEEDS_REVIEW  : OCR confidence 0.50-0.84 OR perceptual-hash collision
+///                   with another SKU. Same shelf as PENDING but flagged.
+enum ImageApprovalStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  NEEDS_REVIEW
+}
+
+/// Copyright basis under which we hold the image. Distinct from imageSource
+/// (where it came from); records our LEGAL right to display.
+enum ImageCopyrightStatus {
+  UNKNOWN
+  OWNED_BY_PHARMACY        /// own photography of in-stock pack
+  MANUFACTURER_AUTHORIZED  /// written permission on file (link in imageSourceUrl)
+  DISTRIBUTOR_CONTRACT     /// distributor agreement covers media rights
+  STOCK_LICENSED           /// stock-photo licence (id in imageSourceUrl)
+}
+
 enum AuditAction {
   LOGIN_SUCCESS
   LOGIN_FAILURE
@@ -84,6 +112,8 @@ enum AuditAction {
   MEDICINE_IMAGE_UPLOAD
   MEDICINE_IMAGE_DELETE
   MEDICINE_IMAGE_VERIFY
+  MEDICINE_IMAGE_APPROVE
+  MEDICINE_IMAGE_REJECT
   ORDER_CREATE
   ORDER_UPDATE
   CSRF_REJECTED
@@ -212,6 +242,29 @@ model Medicine {
   // sharp version bump or quality preset change.
   imageOptimizedAt DateTime?
 
+  // ---------- Approval workflow + provenance (Phase 1 + Phase 4) ------------
+
+  /// Where this image sits in the review queue.
+  approvalStatus    ImageApprovalStatus  @default(PENDING)
+  /// Why we believe we have the right to display this image. Distinct from
+  /// `imageSource` (where it came from); records our LEGAL basis.
+  copyrightStatus   ImageCopyrightStatus @default(UNKNOWN)
+  /// Free-text explanation when `approvalStatus = REJECTED`. Capped at the
+  /// API layer to keep audit rows compact.
+  rejectionReason   String?
+  /// User id of the staff member who photographed this pack — populated by
+  /// the bulk-import when source = own_photo and the operator passed
+  /// --photographer=<email>. Optional otherwise.
+  photographerId    String?
+
+  // ---------- OCR (Phase 3) -------------------------------------------------
+
+  /// Raw text Tesseract pulled off the pack — first 2 KB, for grep + debug.
+  /// Never displayed verbatim on the storefront. May contain garbage tokens.
+  ocrExtractedText  String?
+  /// When OCR last ran against this image's source bytes. Re-OCR on swap.
+  ocrMatchedAt      DateTime?
+
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
@@ -227,6 +280,8 @@ model Medicine {
   @@index([imageVerifiedAt])
   // Duplicate detection across the catalog
   @@index([imagePhash])
+  // Approval queue: cheap "show me everything in PENDING / NEEDS_REVIEW".
+  @@index([approvalStatus])
 }
 
 // ---------------------------------------------------------------------------

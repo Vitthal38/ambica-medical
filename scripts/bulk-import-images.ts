@@ -42,10 +42,17 @@
  */
 
 import { readdir, readFile, stat } from 'fs/promises';
-import { extname, basename, resolve } from 'path';
+import { existsSync } from 'fs';
+import { extname, basename, resolve, join } from 'path';
 import { PrismaClient } from '@prisma/client';
 import { processMedicineImage } from '../src/lib/medicine-images/pipeline';
 import { getMedicineImageStorage } from '../src/lib/medicine-images/storage';
+import {
+  scoreFromOcr,
+  neutralConfidence,
+  type OcrSidecar,
+  type ConfidenceResult,
+} from '../src/lib/medicine-images/confidence';
 
 const prisma = new PrismaClient();
 
@@ -112,6 +119,44 @@ interface BatchReport {
   duplicates_warned: { file: string; medicineId: string; collision_with: string[] }[];
   source_storage: string;
   dryRun: boolean;
+  /* OCR-driven stats */
+  with_ocr_sidecar: number;
+  auto_approved: number;
+  needs_review: number;
+  auto_rejected_low_confidence: number;
+}
+
+/* Source → trust mapping for the auto-approve gate. Manual admin uploads
+ * NEVER auto-approve regardless of OCR; trusted sources (manufacturer,
+ * distributor, own_photo, stock_licensed) auto-approve when OCR composite
+ * >= 0.85 OR when --confidence=100 is passed explicitly. */
+const TRUSTED_SOURCES = new Set(['manufacturer', 'distributor', 'own_photo', 'stock_licensed']);
+
+/* Source → copyright basis mapping. */
+function copyrightStatusFor(source: string):
+  | 'OWNED_BY_PHARMACY'
+  | 'MANUFACTURER_AUTHORIZED'
+  | 'DISTRIBUTOR_CONTRACT'
+  | 'STOCK_LICENSED'
+  | 'UNKNOWN' {
+  switch (source) {
+    case 'own_photo': return 'OWNED_BY_PHARMACY';
+    case 'manufacturer': return 'MANUFACTURER_AUTHORIZED';
+    case 'distributor': return 'DISTRIBUTOR_CONTRACT';
+    case 'stock_licensed': return 'STOCK_LICENSED';
+    default: return 'UNKNOWN';
+  }
+}
+
+/** Read {stem}.ocr.json if present. Returns null on any I/O or parse error. */
+async function loadSidecar(imagePath: string): Promise<OcrSidecar | null> {
+  const sidecarPath = imagePath.replace(/\.[^.]+$/, '.ocr.json');
+  if (!existsSync(sidecarPath)) return null;
+  try {
+    return JSON.parse(await readFile(sidecarPath, 'utf-8')) as OcrSidecar;
+  } catch {
+    return null;
+  }
 }
 
 async function main() {
@@ -148,6 +193,10 @@ async function main() {
     duplicates_warned: [],
     source_storage: storage.backendName,
     dryRun: args.dryRun,
+    with_ocr_sidecar: 0,
+    auto_approved: 0,
+    needs_review: 0,
+    auto_rejected_low_confidence: 0,
   };
 
   console.log(`Found ${candidates.length} candidate file(s).`);
@@ -159,7 +208,16 @@ async function main() {
     // Match by id OR slug — single SQL round-trip
     const med = await prisma.medicine.findFirst({
       where: { OR: [{ id: ident }, { slug: ident.toLowerCase() }] },
-      select: { id: true, brand: true, slug: true, imageStorageKey: true },
+      select: {
+        id: true,
+        brand: true,
+        slug: true,
+        name: true,
+        manufacturer: true,
+        dosage: true,
+        dosageForm: true,
+        imageStorageKey: true,
+      },
     });
 
     if (!med) {
@@ -185,7 +243,39 @@ async function main() {
       continue;
     }
 
-    // Duplicate detection across the catalog (non-blocking warning).
+    // ---- OCR sidecar + confidence -----------------------------------------
+    const sidecar = await loadSidecar(path);
+    let confidence: ConfidenceResult;
+    if (sidecar) {
+      report.with_ocr_sidecar++;
+      confidence = scoreFromOcr(sidecar, {
+        brand: med.brand,
+        name: med.name,
+        manufacturer: med.manufacturer ?? undefined,
+        dosage: med.dosage ?? undefined,
+        dosageForm: med.dosageForm ?? undefined,
+      });
+    } else {
+      confidence = neutralConfidence();
+    }
+
+    // ---- Decide approval status -------------------------------------------
+    // Explicit --confidence=100 acts as an operator-vouched override, but
+    // only for trusted sources. admin_upload NEVER auto-approves.
+    const operatorVouches = args.confidence >= 100 && TRUSTED_SOURCES.has(args.source);
+    let approvalStatus: 'APPROVED' | 'NEEDS_REVIEW' | 'PENDING' | 'REJECTED';
+    if (confidence.action === 'auto_reject') {
+      approvalStatus = 'REJECTED';
+      report.auto_rejected_low_confidence++;
+    } else if (operatorVouches || (TRUSTED_SOURCES.has(args.source) && confidence.action === 'auto_approve')) {
+      approvalStatus = 'APPROVED';
+      report.auto_approved++;
+    } else {
+      approvalStatus = 'NEEDS_REVIEW';
+      report.needs_review++;
+    }
+
+    // ---- Duplicate detection (non-blocking warning) -----------------------
     const dupes = await prisma.medicine.findMany({
       where: { imagePhash: result.phash, id: { not: med.id } },
       select: { id: true },
@@ -200,10 +290,12 @@ async function main() {
     }
 
     if (args.dryRun) {
-      console.log(`  ✓ ${file} → ${med.id} (${med.brand}) — DRY-RUN (would import ${result.bytes} bytes)`);
+      console.log(
+        `  ✓ ${file} → ${med.id} (${med.brand}) ` +
+          `conf=${confidence.composite_pct}% action=${confidence.action} → ${approvalStatus} ` +
+          `— DRY-RUN`,
+      );
       report.imported++;
-      // In dry-run mode the file was written to storage by the pipeline.
-      // Roll that back so a dry-run leaves no trace.
       await storage.remove(result.storageKey).catch(() => {});
       continue;
     }
@@ -216,22 +308,36 @@ async function main() {
     await prisma.medicine.update({
       where: { id: med.id },
       data: {
+        // Image bytes + metadata
         imageStorageKey: result.storageKey,
-        imagePublicUrl: result.publicUrl,
+        imagePublicUrl: approvalStatus === 'REJECTED' ? null : result.publicUrl,
         imageMime: result.mime,
         imageWidth: result.width,
         imageHeight: result.height,
         imageBytes: result.bytes,
         imagePhash: result.phash,
         imageSha256: result.sha256,
+        // Provenance
         imageSource: args.source,
-        imageConfidence: args.confidence,
-        imageVerifiedAt: args.confidence >= 70 ? new Date() : null,
+        imageConfidence: confidence.composite_pct,
+        imageVerifiedAt: approvalStatus === 'APPROVED' ? new Date() : null,
         imageOptimizedAt: new Date(),
+        // Workflow + copyright
+        approvalStatus,
+        copyrightStatus: copyrightStatusFor(args.source),
+        rejectionReason: approvalStatus === 'REJECTED'
+          ? `Auto-rejected: composite confidence ${confidence.composite_pct}% (${confidence.notes.join('; ')})`
+          : null,
+        // OCR
+        ocrExtractedText: sidecar?.extracted_text?.slice(0, 2048) ?? null,
+        ocrMatchedAt: sidecar ? new Date() : null,
       },
     });
 
-    console.log(`  ✓ ${file} → ${med.id} (${med.brand}) [${result.bytes} B, ${result.width}×${result.height}]`);
+    console.log(
+      `  ✓ ${file} → ${med.id} (${med.brand}) [${result.bytes} B] ` +
+        `conf=${confidence.composite_pct}% → ${approvalStatus}`,
+    );
     report.imported++;
   }
 
@@ -245,6 +351,12 @@ async function main() {
   console.log(`  rejected by pipeline: ${report.rejected.length}`);
   console.log(`  duplicate warnings:   ${report.duplicates_warned.length}`);
   console.log(`  storage backend:      ${report.source_storage}`);
+  console.log();
+  console.log('Confidence breakdown');
+  console.log(`  with OCR sidecar:     ${report.with_ocr_sidecar}`);
+  console.log(`  auto-approved:        ${report.auto_approved}`);
+  console.log(`  needs review:         ${report.needs_review}`);
+  console.log(`  auto-rejected:        ${report.auto_rejected_low_confidence}`);
 
   if (report.skipped_no_match.length) {
     console.log();
