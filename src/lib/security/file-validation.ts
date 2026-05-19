@@ -41,10 +41,21 @@ export interface SniffFail {
 export type SniffResult = SniffOk | SniffFail;
 
 /**
- * Detect MIME from the first bytes and confirm it matches the claimed value.
- * Pass `claimedMime` (from the multipart File.type) so we reject mismatches
- * loudly — silent reassignment would let an attacker upload a PDF when the
- * UI thinks it's an image, for example.
+ * Detect MIME from the magic bytes and verify it's in our allowlist.
+ *
+ * The `claimedMime` from the browser's multipart upload is recorded for the
+ * audit log only — it's set by the browser based on file extension, so phone
+ * cameras and screenshot tools that save WebP under a ".jpg" extension will
+ * routinely send `image/jpeg` for actual WebP bytes. We don't reject on
+ * mismatch — it's noise, not a signal.
+ *
+ * The security guarantee comes entirely from the magic-byte detection plus
+ * the downstream use of the *detected* MIME for storage and serving. The
+ * caller MUST use `result.mimeType` (the trusted one) for both the DB record
+ * and the Content-Type header on download. Existing callers already do.
+ *
+ * @param bytes        — first chunk of the file (>= 12 bytes)
+ * @param claimedMime  — kept for diagnostics only; ignored for accept/reject
  */
 export function sniffUpload(bytes: Buffer, claimedMime: string): SniffResult {
   if (bytes.length < 12) {
@@ -54,14 +65,16 @@ export function sniffUpload(bytes: Buffer, claimedMime: string): SniffResult {
   if (!detected) {
     return { ok: false, error: 'File type not recognized.' };
   }
-  if (detected !== claimedMime) {
-    return {
-      ok: false,
-      error: `File content (${detected}) does not match the declared type (${claimedMime}).`,
-    };
-  }
   if (!ALLOWED_UPLOAD_MIME.includes(detected as AllowedUploadMime)) {
     return { ok: false, error: `Unsupported file type: ${detected}` };
+  }
+  // Soft warning when the browser lied about the type. Useful in server logs
+  // for diagnosing genuinely weird uploads without bothering the user.
+  if (claimedMime && detected !== claimedMime) {
+    // eslint-disable-next-line no-console
+    console.info(
+      `[file-validation] declared=${claimedMime} detected=${detected} — using detected`,
+    );
   }
   return { ok: true, mimeType: detected as AllowedUploadMime };
 }
