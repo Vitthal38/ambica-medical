@@ -369,7 +369,7 @@ function MedicineCard({ med, onChanged }: { med: MedicineRow; onChanged: () => v
             {uploading ? 'Uploading…' : hasUpload ? 'Replace' : 'Upload'}
             <input
               type="file"
-              accept="image/png,image/jpeg,image/webp,image/avif"
+              accept="image/png,image/jpeg,image/webp,image/avif,.jpg,.jpeg,.png,.webp,.avif"
               className="sr-only"
               disabled={uploading}
               onChange={(e) => {

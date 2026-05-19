@@ -3,11 +3,13 @@
 import { useRef, useState } from 'react';
 import { UploadCloud, FileText, ImageIcon, X, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { fileMetaSchema, ALLOWED_TYPES, MAX_FILE_SIZE } from './schema';
+import { fileMetaSchema, ALLOWED_TYPES, ALLOWED_EXTENSIONS, MAX_FILE_SIZE } from './schema';
 import { usePrescriptionStore } from './prescriptionStore';
 import { cn } from '@/lib/cn';
 
-const ACCEPT_ATTR = ALLOWED_TYPES.join(',');
+// MIME types AND file extensions so the picker accepts .jpeg + .webp even on
+// platforms where the browser reports an empty `file.type` for those.
+const ACCEPT_ATTR = [...ALLOWED_TYPES, ...ALLOWED_EXTENSIONS].join(',');
 
 function readAsDataUrl(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -59,7 +61,7 @@ export function StepUpload() {
     <div>
       <h2 className="text-2xl font-bold tracking-tight">Upload your prescription</h2>
       <p className="mt-1 text-sm text-neutral-600">
-        Drag &amp; drop, or browse to upload. We accept JPG, PNG, WebP or PDF up to 5&nbsp;MB.
+        Drag &amp; drop, or browse to upload. We accept JPG / JPEG, PNG, WebP or PDF up to 5&nbsp;MB.
       </p>
 
       <div
@@ -89,7 +91,7 @@ export function StepUpload() {
             click to browse
           </button>
         </p>
-        <p className="text-xs text-neutral-500">JPG · PNG · WebP · PDF · max 5MB</p>
+        <p className="text-xs text-neutral-500">JPG / JPEG · PNG · WebP · PDF · max 5MB</p>
         <input
           ref={inputRef}
           type="file"

@@ -10,10 +10,12 @@ import {
   prescriptionCreateMeta,
   type PrescriptionCreateInput,
 } from '@/features/admin/schemas';
-import { ALLOWED_TYPES, MAX_FILE_SIZE } from '@/features/prescription/schema';
+import { ALLOWED_TYPES, ALLOWED_EXTENSIONS, isAllowedFile, MAX_FILE_SIZE } from '@/features/prescription/schema';
 import { cn } from '@/lib/cn';
 
-const ACCEPT = ALLOWED_TYPES.join(',');
+// Combine MIME types AND extensions so the file picker shows both .jpg AND .jpeg files
+// even on platforms where the picker filters strictly by MIME (some Linux distros).
+const ACCEPT = [...ALLOWED_TYPES, ...ALLOWED_EXTENSIONS].join(',');
 
 export function PrescriptionUploadForm({ customerId }: { customerId: string }) {
   const router = useRouter();
@@ -44,8 +46,10 @@ export function PrescriptionUploadForm({ customerId }: { customerId: string }) {
       setFileError(`File must be ≤ ${MAX_FILE_SIZE / 1024 / 1024} MB.`);
       return;
     }
-    if (!ALLOWED_TYPES.includes(f.type)) {
-      setFileError('Only JPG, PNG, WebP, or PDF allowed.');
+    // Tolerant of browsers that return empty file.type for .jpeg / .webp.
+    // The authoritative check is the server's magic-byte sniff.
+    if (!isAllowedFile(f.name, f.type)) {
+      setFileError('Only JPG / JPEG / PNG / WebP / PDF allowed.');
       return;
     }
     setFile(f);
@@ -94,7 +98,7 @@ export function PrescriptionUploadForm({ customerId }: { customerId: string }) {
           <p className="text-sm text-zinc-300">
             {file ? 'Replace file' : 'Drag a file or click to browse'}
           </p>
-          <p className="text-[11px] text-zinc-500">JPG · PNG · WebP · PDF · max 5 MB</p>
+          <p className="text-[11px] text-zinc-500">JPG / JPEG · PNG · WebP · PDF · max 5 MB</p>
           <input
             ref={inputRef}
             type="file"
