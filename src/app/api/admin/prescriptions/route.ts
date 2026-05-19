@@ -24,7 +24,7 @@ import {
   listPrescriptions,
   createPrescription,
 } from '@/lib/services/prescriptions';
-import { sniffUpload, ALLOWED_UPLOAD_MIME } from '@/lib/security/file-validation';
+import { sniffUpload } from '@/lib/security/file-validation';
 import { audit } from '@/lib/audit';
 import { safeError } from '@/lib/error-envelope';
 
@@ -75,12 +75,12 @@ export async function POST(req: Request) {
       return jsonError('Empty file rejected.', 400);
     }
 
-    // ---- Browser-reported MIME against the allowlist (early reject) ----
-    if (!(ALLOWED_UPLOAD_MIME as readonly string[]).includes(file.type)) {
-      return jsonError(`Unsupported file type: ${file.type}`, 415);
-    }
-
     // ---- Read into memory (size already capped above) ----
+    //
+    // The browser-reported MIME (`file.type`) is no longer pre-checked here:
+    // Windows + some screenshot tools hand back an empty string for .jpeg
+    // files. The authoritative gate is the magic-byte sniff below; it
+    // already enforces the same allowlist using actual file content.
     const bytes = Buffer.from(await file.arrayBuffer());
 
     // ---- Magic-byte content validation ----

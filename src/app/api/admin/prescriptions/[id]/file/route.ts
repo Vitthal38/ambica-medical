@@ -31,7 +31,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
     const p = await getPrescriptionById(id);
     if (!p) return jsonError('Prescription not found', 404);
 
-    const bytes = await readPrescriptionFile(p.storageKey);
+    const bytes = await readPrescriptionFile(p.id, p.storageKey);
 
     // PHI access — log before returning bytes (best-effort, won't block).
     await audit(

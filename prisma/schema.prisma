@@ -306,9 +306,22 @@ model Prescription {
   /// ~6 months from issueDate for most Rx in India. Used for refill checks.
   expiryDate  DateTime?
 
-  /// Internal storage key (never directly served). The download route streams
-  /// the bytes after auth + role check.
+  /// Internal storage key. Either:
+  ///   - "db"      — bytes live in `fileBytes` column (new uploads since 2026-05;
+  ///                 the only path that works on Vercel)
+  ///   - <path>    — legacy filesystem key; read via the storage adapter
+  /// The download route handles both — see readPrescriptionFile().
   storageKey  String
+
+  /// Prescription file bytes, stored inline so the system works on serverless
+  /// hosts without an object-store provisioned. PHI lives in the same DB as
+  /// the rest of the patient record — fewer vendor handoffs, better data
+  /// residency. Capped to 5 MB at upload (see MAX_FILE_SIZE).
+  ///
+  /// NEVER include in default selects — Prisma would haul the bytes into
+  /// memory on every list query. The download route fetches this column
+  /// explicitly; everywhere else omits it.
+  fileBytes   Bytes?
   /// "image/jpeg" | "image/png" | "application/pdf"
   mimeType    String
   /// In bytes
