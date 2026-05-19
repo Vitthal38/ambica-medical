@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { ProductGrid } from '@/features/products/ProductGrid';
 import { ProductImage } from '@/features/products/ProductImage';
+import { ImageAttribution } from '@/features/products/ImageAttribution';
 import { useAllProducts, useProduct } from '@/features/products/api';
 import { useCartStore } from '@/features/cart/cartStore';
 import { discountPct, formatPrice } from '@/lib/formatPrice';
@@ -86,13 +87,16 @@ export default function ProductDetailPage() {
         </Link>
 
         <div className="mt-6 grid gap-10 lg:grid-cols-2">
-          <div className="group overflow-hidden rounded-3xl border border-neutral-200/70 bg-white shadow-card">
-            <ProductImage
-              product={product}
-              className="aspect-square"
-              priority
-              sizes="(min-width: 1024px) 50vw, 100vw"
-            />
+          <div className="space-y-1.5">
+            <div className="group overflow-hidden rounded-3xl border border-neutral-200/70 bg-white shadow-card">
+              <ProductImage
+                product={product}
+                className="aspect-square"
+                priority
+                sizes="(min-width: 1024px) 50vw, 100vw"
+              />
+            </div>
+            <ImageAttribution medicineId={product.id} className="px-1" />
           </div>
 
           <div>

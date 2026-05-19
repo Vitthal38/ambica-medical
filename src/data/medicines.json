@@ -1763,8 +1763,7 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Montelukast 10 mg Tablet. Anti-asthmatic — Leukotriene antagonist.",
-    "moleculeCid": 5281040,
-    "imageUrl": "/medicines/MED-0043.jpg"
+    "moleculeCid": 5281040
   },
   {
     "id": "MED-0044",
@@ -1806,8 +1805,7 @@
     "emoji": "🫁",
     "tile": "blue",
     "description": "Montelukast 4 mg Tablet (chewable). Anti-asthmatic — Pediatric leukotriene antagonist.",
-    "moleculeCid": 5281040,
-    "imageUrl": "/medicines/MED-0044.jpg"
+    "moleculeCid": 5281040
   },
   {
     "id": "MED-0045",
@@ -1849,8 +1847,7 @@
     "emoji": "🫁",
     "tile": "amber",
     "description": "Montelukast 5 mg Tablet (chewable). Anti-asthmatic — Leukotriene antagonist.",
-    "moleculeCid": 5281040,
-    "imageUrl": "/medicines/MED-0045.jpg"
+    "moleculeCid": 5281040
   },
   {
     "id": "MED-0046",
@@ -10001,8 +9998,7 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Telmisartan 20 mg Tablet. Antihypertensive — ARB.",
-    "moleculeCid": 65999,
-    "imageUrl": "/medicines/MED-0249.jpg"
+    "moleculeCid": 65999
   },
   {
     "id": "MED-0250",

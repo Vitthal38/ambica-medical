@@ -33,6 +33,7 @@ const COLUMNS = [
       { to: '/return-policy', label: 'Return Policy' },
       { to: '/privacy-policy', label: 'Privacy Policy' },
       { to: '/terms-of-service', label: 'Terms of Service' },
+      { to: '/image-credits', label: 'Image Credits' },
     ],
   },
 ];
