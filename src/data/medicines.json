@@ -37,7 +37,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Activated Charcoal 250 mg Capsule. Adsorbent — Acute poisoning / GI gas.",
-    "moleculeCid": 5462310
+    "moleculeCid": 5462310,
+    "imageUrl": "/medicines/MED-0001.jpg"
   },
   {
     "id": "MED-0002",
@@ -76,7 +77,8 @@
     "emoji": "🤒",
     "tile": "blue",
     "description": "Ketorolac 10 mg Tablet. Analgesic — NSAID.",
-    "moleculeCid": 3826
+    "moleculeCid": 3826,
+    "imageUrl": "/medicines/MED-0002.jpg"
   },
   {
     "id": "MED-0003",
@@ -116,7 +118,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Ketorolac 10 mg Tablet. Analgesic — NSAID dispersible.",
-    "moleculeCid": 3826
+    "moleculeCid": 3826,
+    "imageUrl": "/medicines/MED-0003.jpg"
   },
   {
     "id": "MED-0004",
@@ -158,7 +161,8 @@
     "emoji": "🤒",
     "tile": "rose",
     "description": "Aceclofenac 100 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 71771
+    "moleculeCid": 71771,
+    "imageUrl": "/medicines/MED-0004.jpg"
   },
   {
     "id": "MED-0005",
@@ -200,7 +204,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Aceclofenac + Paracetamol 100+325 mg Tablet. Analgesic / Anti-inflammatory — NSAID combination.",
-    "moleculeCid": 71771
+    "moleculeCid": 71771,
+    "imageUrl": "/medicines/MED-0005.jpg"
   },
   {
     "id": "MED-0006",
@@ -244,7 +249,8 @@
     "emoji": "🤒",
     "tile": "sky",
     "description": "Diclofenac 50 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 3033
+    "moleculeCid": 3033,
+    "imageUrl": "/medicines/MED-0006.jpg"
   },
   {
     "id": "MED-0007",
@@ -288,7 +294,8 @@
     "emoji": "🤒",
     "tile": "slate",
     "description": "Diclofenac 75 mg SR Tablet. Analgesic / Anti-inflammatory — NSAID sustained release.",
-    "moleculeCid": 3033
+    "moleculeCid": 3033,
+    "imageUrl": "/medicines/MED-0007.jpg"
   },
   {
     "id": "MED-0008",
@@ -331,7 +338,8 @@
     "emoji": "🤒",
     "tile": "green",
     "description": "Diclofenac 75 mg/3ml Injection. Analgesic / Anti-inflammatory — NSAID parenteral.",
-    "moleculeCid": 3033
+    "moleculeCid": 3033,
+    "imageUrl": "/medicines/MED-0008.jpg"
   },
   {
     "id": "MED-0009",
@@ -375,7 +383,8 @@
     "emoji": "🤒",
     "tile": "blue",
     "description": "Ibuprofen 200 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 3672
+    "moleculeCid": 3672,
+    "imageUrl": "/medicines/MED-0009.jpg"
   },
   {
     "id": "MED-0010",
@@ -419,7 +428,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Ibuprofen 600 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 3672
+    "moleculeCid": 3672,
+    "imageUrl": "/medicines/MED-0010.jpg"
   },
   {
     "id": "MED-0011",
@@ -464,7 +474,8 @@
     "emoji": "🤒",
     "tile": "rose",
     "description": "Ibuprofen + Paracetamol 400+325 mg Tablet. Analgesic / Anti-inflammatory — NSAID combination.",
-    "moleculeCid": 3672
+    "moleculeCid": 3672,
+    "imageUrl": "/medicines/MED-0011.jpg"
   },
   {
     "id": "MED-0012",
@@ -505,7 +516,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Indomethacin 25 mg Capsule. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 3715
+    "moleculeCid": 3715,
+    "imageUrl": "/medicines/MED-0012.jpg"
   },
   {
     "id": "MED-0013",
@@ -547,7 +559,8 @@
     "emoji": "🤒",
     "tile": "sky",
     "description": "Mefenamic Acid 250 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 4044
+    "moleculeCid": 4044,
+    "imageUrl": "/medicines/MED-0013.jpg"
   },
   {
     "id": "MED-0014",
@@ -588,7 +601,8 @@
     "emoji": "🤒",
     "tile": "slate",
     "description": "Naproxen 250 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 156391
+    "moleculeCid": 156391,
+    "imageUrl": "/medicines/MED-0014.jpg"
   },
   {
     "id": "MED-0015",
@@ -629,7 +643,8 @@
     "emoji": "🤒",
     "tile": "green",
     "description": "Naproxen 500 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 156391
+    "moleculeCid": 156391,
+    "imageUrl": "/medicines/MED-0015.jpg"
   },
   {
     "id": "MED-0016",
@@ -671,7 +686,8 @@
     "emoji": "🤒",
     "tile": "blue",
     "description": "Nimesulide 100 mg Tablet. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 4495
+    "moleculeCid": 4495,
+    "imageUrl": "/medicines/MED-0016.jpg"
   },
   {
     "id": "MED-0017",
@@ -713,7 +729,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Piroxicam 20 mg Capsule. Analgesic / Anti-inflammatory — NSAID.",
-    "moleculeCid": 54676228
+    "moleculeCid": 54676228,
+    "imageUrl": "/medicines/MED-0017.jpg"
   },
   {
     "id": "MED-0018",
@@ -753,7 +770,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Aspirin 75 mg Tablet. Analgesic / Antiplatelet — NSAID / Antiplatelet.",
-    "moleculeCid": 2244
+    "moleculeCid": 2244,
+    "imageUrl": "/medicines/MED-0018.jpg"
   },
   {
     "id": "MED-0019",
@@ -794,7 +812,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Aspirin 325 mg Tablet. Analgesic / Antipyretic — NSAID.",
-    "moleculeCid": 2244
+    "moleculeCid": 2244,
+    "imageUrl": "/medicines/MED-0019.jpg"
   },
   {
     "id": "MED-0020",
@@ -840,7 +859,8 @@
     "emoji": "🤒",
     "tile": "sky",
     "description": "Paracetamol 125 mg/5ml Syrup. Analgesic / Antipyretic — Pediatric antipyretic.",
-    "moleculeCid": 1983
+    "moleculeCid": 1983,
+    "imageUrl": "/medicines/MED-0020.jpg"
   },
   {
     "id": "MED-0021",
@@ -886,7 +906,8 @@
     "emoji": "🤒",
     "tile": "slate",
     "description": "Paracetamol 150 mg/ml Injection. Analgesic / Antipyretic — Parenteral antipyretic.",
-    "moleculeCid": 1983
+    "moleculeCid": 1983,
+    "imageUrl": "/medicines/MED-0021.jpg"
   },
   {
     "id": "MED-0022",
@@ -932,7 +953,8 @@
     "emoji": "🤒",
     "tile": "green",
     "description": "Paracetamol 250 mg/5ml Syrup. Analgesic / Antipyretic — Pediatric antipyretic.",
-    "moleculeCid": 1983
+    "moleculeCid": 1983,
+    "imageUrl": "/medicines/MED-0022.jpg"
   },
   {
     "id": "MED-0024",
@@ -978,7 +1000,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Paracetamol 650 mg Tablet. Analgesic / Antipyretic — Non-opioid analgesic.",
-    "moleculeCid": 1983
+    "moleculeCid": 1983,
+    "imageUrl": "/medicines/MED-0024.jpg"
   },
   {
     "id": "MED-0025",
@@ -1017,7 +1040,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "rose",
-    "description": "Hemorrhoid cream (Lidocaine + Hydrocortisone + Zinc) Mixed Cream. Anorectal — Hemorrhoid treatment."
+    "description": "Hemorrhoid cream (Lidocaine + Hydrocortisone + Zinc) Mixed Cream. Anorectal — Hemorrhoid treatment.",
+    "imageUrl": "/medicines/MED-0025.jpg"
   },
   {
     "id": "MED-0026",
@@ -1056,7 +1080,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone Mixed Tablet. Antacid — Chewable antacid.",
-    "moleculeCid": 10176082
+    "moleculeCid": 10176082,
+    "imageUrl": "/medicines/MED-0026.jpg"
   },
   {
     "id": "MED-0027",
@@ -1096,7 +1121,8 @@
     "emoji": "🫃",
     "tile": "sky",
     "description": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone Mixed Suspension. Antacid — Antacid + antiflatulent.",
-    "moleculeCid": 10176082
+    "moleculeCid": 10176082,
+    "imageUrl": "/medicines/MED-0027.jpg"
   },
   {
     "id": "MED-0028",
@@ -1136,7 +1162,8 @@
     "emoji": "🫃",
     "tile": "slate",
     "description": "Calcium Carbonate 500 mg Tablet. Antacid — Calcium-based antacid.",
-    "moleculeCid": 10112
+    "moleculeCid": 10112,
+    "imageUrl": "/medicines/MED-0028.jpg"
   },
   {
     "id": "MED-0029",
@@ -1175,7 +1202,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Sodium Bicarbonate 500 mg Tablet. Antacid — Bicarbonate antacid.",
-    "moleculeCid": 516892
+    "moleculeCid": 516892,
+    "imageUrl": "/medicines/MED-0029.jpg"
   },
   {
     "id": "MED-0030",
@@ -1212,7 +1240,8 @@
     "emoji": "🍼",
     "tile": "blue",
     "description": "Albendazole 200 mg/5ml Suspension. Anthelmintic — Pediatric anthelmintic.",
-    "moleculeCid": 2082
+    "moleculeCid": 2082,
+    "imageUrl": "/medicines/MED-0030.jpg"
   },
   {
     "id": "MED-0031",
@@ -1250,7 +1279,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Albendazole 400 mg Tablet. Anthelmintic — Benzimidazole.",
-    "moleculeCid": 2082
+    "moleculeCid": 2082,
+    "imageUrl": "/medicines/MED-0031.jpg"
   },
   {
     "id": "MED-0032",
@@ -1288,7 +1318,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Diethylcarbamazine 100 mg Tablet. Anthelmintic — Anti-filarial.",
-    "moleculeCid": 3052
+    "moleculeCid": 3052,
+    "imageUrl": "/medicines/MED-0032.jpg"
   },
   {
     "id": "MED-0033",
@@ -1325,7 +1356,8 @@
     "rxRequired": false,
     "emoji": "💊",
     "tile": "violet",
-    "description": "Ivermectin 12 mg Tablet. Anthelmintic — Macrocyclic lactone."
+    "description": "Ivermectin 12 mg Tablet. Anthelmintic — Macrocyclic lactone.",
+    "imageUrl": "/medicines/MED-0033.jpg"
   },
   {
     "id": "MED-0034",
@@ -1361,7 +1393,8 @@
     "rxRequired": false,
     "emoji": "💊",
     "tile": "sky",
-    "description": "Ivermectin 6 mg Tablet. Anthelmintic — Macrocyclic lactone."
+    "description": "Ivermectin 6 mg Tablet. Anthelmintic — Macrocyclic lactone.",
+    "imageUrl": "/medicines/MED-0034.jpg"
   },
   {
     "id": "MED-0035",
@@ -1399,7 +1432,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Mebendazole 100 mg Tablet. Anthelmintic — Benzimidazole.",
-    "moleculeCid": 4030
+    "moleculeCid": 4030,
+    "imageUrl": "/medicines/MED-0035.jpg"
   },
   {
     "id": "MED-0036",
@@ -1437,7 +1471,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Praziquantel 600 mg Tablet. Anthelmintic — Anti-cestode.",
-    "moleculeCid": 4891
+    "moleculeCid": 4891,
+    "imageUrl": "/medicines/MED-0036.jpg"
   },
   {
     "id": "MED-0037",
@@ -1474,7 +1509,8 @@
     "emoji": "🫁",
     "tile": "blue",
     "description": "Ipratropium Bromide 20 mcg/dose Inhaler. Anti-COPD — SAMA.",
-    "moleculeCid": 657308
+    "moleculeCid": 657308,
+    "imageUrl": "/medicines/MED-0037.jpg"
   },
   {
     "id": "MED-0038",
@@ -1513,7 +1549,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "amber",
-    "description": "Sodium Cromoglycate 2% w/v Eye drops. Anti-allergic ophthalmic — Mast cell stabilizer."
+    "description": "Sodium Cromoglycate 2% w/v Eye drops. Anti-allergic ophthalmic — Mast cell stabilizer.",
+    "imageUrl": "/medicines/MED-0038.jpg"
   },
   {
     "id": "MED-0039",
@@ -1555,7 +1592,8 @@
     "emoji": "🫁",
     "tile": "rose",
     "description": "Beclomethasone 100 mcg/dose Inhaler. Anti-asthmatic — ICS.",
-    "moleculeCid": 20469
+    "moleculeCid": 20469,
+    "imageUrl": "/medicines/MED-0039.jpg"
   },
   {
     "id": "MED-0040",
@@ -1597,7 +1635,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Doxofylline 400 mg Tablet. Anti-asthmatic — Methylxanthine derivative.",
-    "moleculeCid": 50942
+    "moleculeCid": 50942,
+    "imageUrl": "/medicines/MED-0040.jpg"
   },
   {
     "id": "MED-0041",
@@ -1639,7 +1678,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Levosalbutamol 1 mg Tablet. Anti-asthmatic — SABA (R-isomer).",
-    "moleculeCid": 123600
+    "moleculeCid": 123600,
+    "imageUrl": "/medicines/MED-0041.jpg"
   },
   {
     "id": "MED-0042",
@@ -1680,7 +1720,8 @@
     "emoji": "🫁",
     "tile": "slate",
     "description": "Levosalbutamol 1.25 mg/2.5ml Respules. Anti-asthmatic — SABA nebulizer.",
-    "moleculeCid": 123600
+    "moleculeCid": 123600,
+    "imageUrl": "/medicines/MED-0042.jpg"
   },
   {
     "id": "MED-0043",
@@ -1722,7 +1763,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Montelukast 10 mg Tablet. Anti-asthmatic — Leukotriene antagonist.",
-    "moleculeCid": 5281040
+    "moleculeCid": 5281040,
+    "imageUrl": "/medicines/MED-0043.jpg"
   },
   {
     "id": "MED-0044",
@@ -1764,7 +1806,8 @@
     "emoji": "🫁",
     "tile": "blue",
     "description": "Montelukast 4 mg Tablet (chewable). Anti-asthmatic — Pediatric leukotriene antagonist.",
-    "moleculeCid": 5281040
+    "moleculeCid": 5281040,
+    "imageUrl": "/medicines/MED-0044.jpg"
   },
   {
     "id": "MED-0045",
@@ -1806,7 +1849,8 @@
     "emoji": "🫁",
     "tile": "amber",
     "description": "Montelukast 5 mg Tablet (chewable). Anti-asthmatic — Leukotriene antagonist.",
-    "moleculeCid": 5281040
+    "moleculeCid": 5281040,
+    "imageUrl": "/medicines/MED-0045.jpg"
   },
   {
     "id": "MED-0046",
@@ -1850,7 +1894,8 @@
     "emoji": "🫁",
     "tile": "rose",
     "description": "Salbutamol 100 mcg/dose Inhaler. Anti-asthmatic — SABA inhaler.",
-    "moleculeCid": 2083
+    "moleculeCid": 2083,
+    "imageUrl": "/medicines/MED-0046.jpg"
   },
   {
     "id": "MED-0047",
@@ -1893,7 +1938,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Salbutamol 2 mg Tablet. Anti-asthmatic — SABA.",
-    "moleculeCid": 2083
+    "moleculeCid": 2083,
+    "imageUrl": "/medicines/MED-0047.jpg"
   },
   {
     "id": "MED-0048",
@@ -1936,7 +1982,8 @@
     "emoji": "🍯",
     "tile": "sky",
     "description": "Salbutamol 2 mg/5ml Syrup. Anti-asthmatic — Pediatric SABA.",
-    "moleculeCid": 2083
+    "moleculeCid": 2083,
+    "imageUrl": "/medicines/MED-0048.jpg"
   },
   {
     "id": "MED-0049",
@@ -1979,7 +2026,8 @@
     "emoji": "🫁",
     "tile": "slate",
     "description": "Salbutamol 2.5 mg/2.5ml Respules. Anti-asthmatic — SABA nebulizer.",
-    "moleculeCid": 2083
+    "moleculeCid": 2083,
+    "imageUrl": "/medicines/MED-0049.jpg"
   },
   {
     "id": "MED-0050",
@@ -2021,7 +2069,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Salbutamol 4 mg Tablet. Anti-asthmatic — SABA.",
-    "moleculeCid": 2083
+    "moleculeCid": 2083,
+    "imageUrl": "/medicines/MED-0050.jpg"
   },
   {
     "id": "MED-0051",
@@ -2063,7 +2112,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Theophylline 200 mg SR Tablet. Anti-asthmatic — Methylxanthine.",
-    "moleculeCid": 2153
+    "moleculeCid": 2153,
+    "imageUrl": "/medicines/MED-0051.jpg"
   },
   {
     "id": "MED-0052",
@@ -2104,7 +2154,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Theophylline 300 mg SR Tablet. Anti-asthmatic — Methylxanthine.",
-    "moleculeCid": 2153
+    "moleculeCid": 2153,
+    "imageUrl": "/medicines/MED-0052.jpg"
   },
   {
     "id": "MED-0053",
@@ -2146,7 +2197,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Montelukast + Levocetirizine 10+5 mg Tablet. Anti-asthmatic / Antihistamine — Combination.",
-    "moleculeCid": 5281040
+    "moleculeCid": 5281040,
+    "imageUrl": "/medicines/MED-0053.jpg"
   },
   {
     "id": "MED-0054",
@@ -2185,7 +2237,8 @@
     "emoji": "🫁",
     "tile": "violet",
     "description": "Ipratropium + Levosalbutamol 0.5+1.25 mg/2.5ml Respules. Anti-asthmatic / COPD — SAMA + SABA.",
-    "moleculeCid": 657309
+    "moleculeCid": 657309,
+    "imageUrl": "/medicines/MED-0054.jpg"
   },
   {
     "id": "MED-0055",
@@ -2221,7 +2274,8 @@
     "emoji": "💉",
     "tile": "sky",
     "description": "5-Fluorouracil 250 mg/5ml Injection. Anti-cancer — Antimetabolite.",
-    "moleculeCid": 3385
+    "moleculeCid": 3385,
+    "imageUrl": "/medicines/MED-0055.jpg"
   },
   {
     "id": "MED-0056",
@@ -2257,7 +2311,8 @@
     "emoji": "💉",
     "tile": "slate",
     "description": "Cisplatin 50 mg/50ml Injection. Anti-cancer — Platinum compound.",
-    "moleculeCid": 5460033
+    "moleculeCid": 5460033,
+    "imageUrl": "/medicines/MED-0056.jpg"
   },
   {
     "id": "MED-0057",
@@ -2293,7 +2348,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Hydroxyurea 500 mg Capsule. Anti-cancer — Antimetabolite.",
-    "moleculeCid": 3657
+    "moleculeCid": 3657,
+    "imageUrl": "/medicines/MED-0057.jpg"
   },
   {
     "id": "MED-0058",
@@ -2330,7 +2386,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Imatinib 100 mg Tablet. Anti-cancer — Tyrosine kinase inhibitor.",
-    "moleculeCid": 5291
+    "moleculeCid": 5291,
+    "imageUrl": "/medicines/MED-0058.jpg"
   },
   {
     "id": "MED-0059",
@@ -2364,7 +2421,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Tamoxifen 10 mg Tablet. Anti-cancer — SERM (breast cancer).",
-    "moleculeCid": 2733526
+    "moleculeCid": 2733526,
+    "imageUrl": "/medicines/MED-0059.jpg"
   },
   {
     "id": "MED-0060",
@@ -2401,7 +2459,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Cyclophosphamide 50 mg Tablet. Anti-cancer / Immunosuppressant — Alkylating agent.",
-    "moleculeCid": 2907
+    "moleculeCid": 2907,
+    "imageUrl": "/medicines/MED-0060.jpg"
   },
   {
     "id": "MED-0061",
@@ -2439,7 +2498,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Methotrexate 2.5 mg Tablet. Anti-cancer / Immunosuppressant — Antimetabolite.",
-    "moleculeCid": 126941
+    "moleculeCid": 126941,
+    "imageUrl": "/medicines/MED-0061.jpg"
   },
   {
     "id": "MED-0062",
@@ -2476,7 +2536,8 @@
     "emoji": "💉",
     "tile": "sky",
     "description": "Methotrexate 50 mg/2ml Injection. Anti-cancer / Immunosuppressant — Antimetabolite (parenteral).",
-    "moleculeCid": 126941
+    "moleculeCid": 126941,
+    "imageUrl": "/medicines/MED-0062.jpg"
   },
   {
     "id": "MED-0063",
@@ -2513,7 +2574,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Methotrexate 7.5 mg Tablet. Anti-cancer / Immunosuppressant — Antimetabolite.",
-    "moleculeCid": 126941
+    "moleculeCid": 126941,
+    "imageUrl": "/medicines/MED-0063.jpg"
   },
   {
     "id": "MED-0064",
@@ -2550,7 +2612,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Donepezil 10 mg Tablet. Anti-dementia — Cholinesterase inhibitor.",
-    "moleculeCid": 3152
+    "moleculeCid": 3152,
+    "imageUrl": "/medicines/MED-0064.jpg"
   },
   {
     "id": "MED-0065",
@@ -2588,7 +2651,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Donepezil 5 mg Tablet. Anti-dementia — Cholinesterase inhibitor.",
-    "moleculeCid": 3152
+    "moleculeCid": 3152,
+    "imageUrl": "/medicines/MED-0065.jpg"
   },
   {
     "id": "MED-0066",
@@ -2626,7 +2690,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Memantine 10 mg Tablet. Anti-dementia — NMDA receptor antagonist.",
-    "moleculeCid": 4054
+    "moleculeCid": 4054,
+    "imageUrl": "/medicines/MED-0066.jpg"
   },
   {
     "id": "MED-0067",
@@ -2662,7 +2727,8 @@
     "emoji": "🌷",
     "tile": "rose",
     "description": "Letrozole 2.5 mg Tablet. Anti-estrogen — Aromatase inhibitor.",
-    "moleculeCid": 3902
+    "moleculeCid": 3902,
+    "imageUrl": "/medicines/MED-0067.jpg"
   },
   {
     "id": "MED-0068",
@@ -2697,7 +2763,8 @@
     "emoji": "🌷",
     "tile": "violet",
     "description": "Tamoxifen 20 mg Tablet. Anti-estrogen — SERM (anti-cancer).",
-    "moleculeCid": 2733526
+    "moleculeCid": 2733526,
+    "imageUrl": "/medicines/MED-0068.jpg"
   },
   {
     "id": "MED-0069",
@@ -2735,7 +2802,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Alendronate 70 mg Tablet. Anti-osteoporosis — Bisphosphonate.",
-    "moleculeCid": 2088
+    "moleculeCid": 2088,
+    "imageUrl": "/medicines/MED-0069.jpg"
   },
   {
     "id": "MED-0070",
@@ -2772,7 +2840,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Ethambutol 400 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 14052
+    "moleculeCid": 14052,
+    "imageUrl": "/medicines/MED-0070.jpg"
   },
   {
     "id": "MED-0071",
@@ -2810,7 +2879,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Ethambutol 800 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 14052
+    "moleculeCid": 14052,
+    "imageUrl": "/medicines/MED-0071.jpg"
   },
   {
     "id": "MED-0072",
@@ -2847,7 +2917,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Isoniazid 100 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 3767
+    "moleculeCid": 3767,
+    "imageUrl": "/medicines/MED-0072.jpg"
   },
   {
     "id": "MED-0073",
@@ -2885,7 +2956,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Isoniazid 300 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 3767
+    "moleculeCid": 3767,
+    "imageUrl": "/medicines/MED-0073.jpg"
   },
   {
     "id": "MED-0074",
@@ -2922,7 +2994,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Pyrazinamide 1500 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 1046
+    "moleculeCid": 1046,
+    "imageUrl": "/medicines/MED-0074.jpg"
   },
   {
     "id": "MED-0075",
@@ -2960,7 +3033,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Pyrazinamide 750 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 1046
+    "moleculeCid": 1046,
+    "imageUrl": "/medicines/MED-0075.jpg"
   },
   {
     "id": "MED-0076",
@@ -2998,7 +3072,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Rifampicin 450 mg Capsule. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 135398735
+    "moleculeCid": 135398735,
+    "imageUrl": "/medicines/MED-0076.jpg"
   },
   {
     "id": "MED-0077",
@@ -3035,7 +3110,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Rifampicin 600 mg Capsule. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 135398735
+    "moleculeCid": 135398735,
+    "imageUrl": "/medicines/MED-0077.jpg"
   },
   {
     "id": "MED-0078",
@@ -3073,7 +3149,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Rifampicin + INH + Ethambutol 150+75+275 mg Tablet. Anti-tubercular — FDC anti-TB (HRE).",
-    "moleculeCid": 135398735
+    "moleculeCid": 135398735,
+    "imageUrl": "/medicines/MED-0078.jpg"
   },
   {
     "id": "MED-0079",
@@ -3111,7 +3188,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Rifampicin + INH + Pyrazinamide + Ethambutol 150+75+400+275 mg Tablet. Anti-tubercular — FDC anti-TB (HRZE).",
-    "moleculeCid": 135398735
+    "moleculeCid": 135398735,
+    "imageUrl": "/medicines/MED-0079.jpg"
   },
   {
     "id": "MED-0080",
@@ -3154,7 +3232,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Esomeprazole 20 mg Tablet. Anti-ulcer — PPI.",
-    "moleculeCid": 9568614
+    "moleculeCid": 9568614,
+    "imageUrl": "/medicines/MED-0080.jpg"
   },
   {
     "id": "MED-0081",
@@ -3196,7 +3275,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Famotidine 20 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 5702160
+    "moleculeCid": 5702160,
+    "imageUrl": "/medicines/MED-0081.jpg"
   },
   {
     "id": "MED-0082",
@@ -3237,7 +3317,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Famotidine 40 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 5702160
+    "moleculeCid": 5702160,
+    "imageUrl": "/medicines/MED-0082.jpg"
   },
   {
     "id": "MED-0083",
@@ -3279,7 +3360,8 @@
     "emoji": "🫃",
     "tile": "sky",
     "description": "Lansoprazole 30 mg Capsule. Anti-ulcer — PPI.",
-    "moleculeCid": 3883
+    "moleculeCid": 3883,
+    "imageUrl": "/medicines/MED-0083.jpg"
   },
   {
     "id": "MED-0085",
@@ -3323,7 +3405,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Omeprazole 40 mg Capsule. Anti-ulcer — PPI.",
-    "moleculeCid": 4594
+    "moleculeCid": 4594,
+    "imageUrl": "/medicines/MED-0085.jpg"
   },
   {
     "id": "MED-0086",
@@ -3369,7 +3452,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Pantoprazole 20 mg Tablet. Anti-ulcer — PPI.",
-    "moleculeCid": 4679
+    "moleculeCid": 4679,
+    "imageUrl": "/medicines/MED-0086.jpg"
   },
   {
     "id": "MED-0087",
@@ -3415,7 +3499,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Pantoprazole 40 mg Injection. Anti-ulcer — PPI parenteral.",
-    "moleculeCid": 4679
+    "moleculeCid": 4679,
+    "imageUrl": "/medicines/MED-0087.jpg"
   },
   {
     "id": "MED-0088",
@@ -3461,7 +3546,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Pantoprazole 40 mg Tablet. Anti-ulcer — PPI.",
-    "moleculeCid": 4679
+    "moleculeCid": 4679,
+    "imageUrl": "/medicines/MED-0088.jpg"
   },
   {
     "id": "MED-0089",
@@ -3504,7 +3590,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Rabeprazole 20 mg Tablet. Anti-ulcer — PPI.",
-    "moleculeCid": 5029
+    "moleculeCid": 5029,
+    "imageUrl": "/medicines/MED-0089.jpg"
   },
   {
     "id": "MED-0090",
@@ -3548,7 +3635,8 @@
     "emoji": "🫃",
     "tile": "sky",
     "description": "Rabeprazole + Domperidone 20+30 mg SR Capsule. Anti-ulcer — PPI + prokinetic.",
-    "moleculeCid": 5029
+    "moleculeCid": 5029,
+    "imageUrl": "/medicines/MED-0090.jpg"
   },
   {
     "id": "MED-0091",
@@ -3591,7 +3679,8 @@
     "emoji": "🫃",
     "tile": "slate",
     "description": "Ranitidine 150 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 3001055
+    "moleculeCid": 3001055,
+    "imageUrl": "/medicines/MED-0091.jpg"
   },
   {
     "id": "MED-0092",
@@ -3634,7 +3723,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Ranitidine 300 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 3001055
+    "moleculeCid": 3001055,
+    "imageUrl": "/medicines/MED-0092.jpg"
   },
   {
     "id": "MED-0093",
@@ -3675,7 +3765,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "blue",
-    "description": "Sucralfate 1 g/10ml Suspension. Anti-ulcer — Mucosal protectant."
+    "description": "Sucralfate 1 g/10ml Suspension. Anti-ulcer — Mucosal protectant.",
+    "imageUrl": "/medicines/MED-0093.jpg"
   },
   {
     "id": "MED-0094",
@@ -3713,7 +3804,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Isosorbide Dinitrate 10 mg Tablet. Antianginal — Nitrate.",
-    "moleculeCid": 6883
+    "moleculeCid": 6883,
+    "imageUrl": "/medicines/MED-0094.jpg"
   },
   {
     "id": "MED-0095",
@@ -3751,7 +3843,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Isosorbide Mononitrate 20 mg Tablet. Antianginal — Nitrate.",
-    "moleculeCid": 27661
+    "moleculeCid": 27661,
+    "imageUrl": "/medicines/MED-0095.jpg"
   },
   {
     "id": "MED-0096",
@@ -3788,7 +3881,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Isosorbide Mononitrate 60 mg SR Tablet. Antianginal — Nitrate sustained release.",
-    "moleculeCid": 27661
+    "moleculeCid": 27661,
+    "imageUrl": "/medicines/MED-0096.jpg"
   },
   {
     "id": "MED-0097",
@@ -3826,7 +3920,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Ivabradine 5 mg Tablet. Antianginal — If channel inhibitor.",
-    "moleculeCid": 132999
+    "moleculeCid": 132999,
+    "imageUrl": "/medicines/MED-0097.jpg"
   },
   {
     "id": "MED-0098",
@@ -3863,7 +3958,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Ivabradine 7.5 mg Tablet. Antianginal — If channel inhibitor.",
-    "moleculeCid": 132999
+    "moleculeCid": 132999,
+    "imageUrl": "/medicines/MED-0098.jpg"
   },
   {
     "id": "MED-0099",
@@ -3901,7 +3997,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Nitroglycerin 2.6 mg Tablet. Antianginal — Nitrate.",
-    "moleculeCid": 4510
+    "moleculeCid": 4510,
+    "imageUrl": "/medicines/MED-0099.jpg"
   },
   {
     "id": "MED-0100",
@@ -3938,7 +4035,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Nitroglycerin 6.4 mg SR Tablet. Antianginal — Nitrate sustained release.",
-    "moleculeCid": 4510
+    "moleculeCid": 4510,
+    "imageUrl": "/medicines/MED-0100.jpg"
   },
   {
     "id": "MED-0101",
@@ -3976,7 +4074,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Ranolazine 500 mg Tablet. Antianginal — Late sodium current inhibitor.",
-    "moleculeCid": 56959
+    "moleculeCid": 56959,
+    "imageUrl": "/medicines/MED-0101.jpg"
   },
   {
     "id": "MED-0102",
@@ -4014,7 +4113,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Trimetazidine 35 mg MR Tablet. Antianginal — Metabolic modulator.",
-    "moleculeCid": 21109
+    "moleculeCid": 21109,
+    "imageUrl": "/medicines/MED-0102.jpg"
   },
   {
     "id": "MED-0103",
@@ -4052,7 +4152,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Amiodarone 100 mg Tablet. Antiarrhythmic — Class III antiarrhythmic.",
-    "moleculeCid": 2157
+    "moleculeCid": 2157,
+    "imageUrl": "/medicines/MED-0103.jpg"
   },
   {
     "id": "MED-0104",
@@ -4089,7 +4190,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Amiodarone 200 mg Tablet. Antiarrhythmic — Class III antiarrhythmic.",
-    "moleculeCid": 2157
+    "moleculeCid": 2157,
+    "imageUrl": "/medicines/MED-0104.jpg"
   },
   {
     "id": "MED-0105",
@@ -4126,7 +4228,8 @@
     "emoji": "💉",
     "tile": "slate",
     "description": "Amikacin 500 mg Injection. Antibiotic — Aminoglycoside.",
-    "moleculeCid": 37768
+    "moleculeCid": 37768,
+    "imageUrl": "/medicines/MED-0105.jpg"
   },
   {
     "id": "MED-0106",
@@ -4166,7 +4269,8 @@
     "emoji": "🍯",
     "tile": "green",
     "description": "Amoxicillin 125 mg/5ml Syrup. Antibiotic — Pediatric penicillin.",
-    "moleculeCid": 33613
+    "moleculeCid": 33613,
+    "imageUrl": "/medicines/MED-0106.jpg"
   },
   {
     "id": "MED-0107",
@@ -4206,7 +4310,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Amoxicillin 250 mg Capsule. Antibiotic — Penicillin.",
-    "moleculeCid": 33613
+    "moleculeCid": 33613,
+    "imageUrl": "/medicines/MED-0107.jpg"
   },
   {
     "id": "MED-0108",
@@ -4244,7 +4349,8 @@
     "emoji": "💉",
     "tile": "amber",
     "description": "Cefotaxime 1 g Injection. Antibiotic — 3rd gen cephalosporin (parenteral).",
-    "moleculeCid": 5742673
+    "moleculeCid": 5742673,
+    "imageUrl": "/medicines/MED-0108.jpg"
   },
   {
     "id": "MED-0109",
@@ -4282,7 +4388,8 @@
     "emoji": "💉",
     "tile": "rose",
     "description": "Ceftriaxone 1 g Injection. Antibiotic — 3rd gen cephalosporin (parenteral).",
-    "moleculeCid": 5479530
+    "moleculeCid": 5479530,
+    "imageUrl": "/medicines/MED-0109.jpg"
   },
   {
     "id": "MED-0110",
@@ -4319,7 +4426,8 @@
     "emoji": "💉",
     "tile": "violet",
     "description": "Ceftriaxone 500 mg Injection. Antibiotic — 3rd gen cephalosporin (parenteral).",
-    "moleculeCid": 5479530
+    "moleculeCid": 5479530,
+    "imageUrl": "/medicines/MED-0110.jpg"
   },
   {
     "id": "MED-0111",
@@ -4356,7 +4464,8 @@
     "rxRequired": true,
     "emoji": "👁️",
     "tile": "sky",
-    "description": "Ciprofloxacin 0.3% w/v Eye drops. Antibiotic — Ophthalmic antibiotic."
+    "description": "Ciprofloxacin 0.3% w/v Eye drops. Antibiotic — Ophthalmic antibiotic.",
+    "imageUrl": "/medicines/MED-0111.jpg"
   },
   {
     "id": "MED-0112",
@@ -4394,7 +4503,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Ciprofloxacin 250 mg Tablet. Antibiotic — Fluoroquinolone.",
-    "moleculeCid": 2764
+    "moleculeCid": 2764,
+    "imageUrl": "/medicines/MED-0112.jpg"
   },
   {
     "id": "MED-0113",
@@ -4432,7 +4542,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Doxycycline 100 mg Capsule. Antibiotic — Tetracycline.",
-    "moleculeCid": 54671203
+    "moleculeCid": 54671203,
+    "imageUrl": "/medicines/MED-0113.jpg"
   },
   {
     "id": "MED-0114",
@@ -4468,7 +4579,8 @@
     "rxRequired": true,
     "emoji": "👁️",
     "tile": "blue",
-    "description": "Gentamicin 0.3% w/v Eye drops. Antibiotic — Ophthalmic antibiotic."
+    "description": "Gentamicin 0.3% w/v Eye drops. Antibiotic — Ophthalmic antibiotic.",
+    "imageUrl": "/medicines/MED-0114.jpg"
   },
   {
     "id": "MED-0115",
@@ -4505,7 +4617,8 @@
     "emoji": "💉",
     "tile": "amber",
     "description": "Gentamicin 80 mg Injection. Antibiotic — Aminoglycoside.",
-    "moleculeCid": 3467
+    "moleculeCid": 3467,
+    "imageUrl": "/medicines/MED-0115.jpg"
   },
   {
     "id": "MED-0116",
@@ -4542,7 +4655,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "rose",
-    "description": "Penicillin G Benzathine 12 lakh IU Injection. Antibiotic — Long-acting penicillin."
+    "description": "Penicillin G Benzathine 12 lakh IU Injection. Antibiotic — Long-acting penicillin.",
+    "imageUrl": "/medicines/MED-0116.jpg"
   },
   {
     "id": "MED-0117",
@@ -4579,7 +4693,8 @@
     "emoji": "💉",
     "tile": "violet",
     "description": "Streptomycin 1 g Injection. Antibiotic — Aminoglycoside (anti-TB).",
-    "moleculeCid": 19649
+    "moleculeCid": 19649,
+    "imageUrl": "/medicines/MED-0117.jpg"
   },
   {
     "id": "MED-0118",
@@ -4617,7 +4732,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Trimethoprim + Sulfamethoxazole 80+400 mg Tablet. Antibiotic — Sulfonamide combination.",
-    "moleculeCid": 5578
+    "moleculeCid": 5578,
+    "imageUrl": "/medicines/MED-0118.jpg"
   },
   {
     "id": "MED-0119",
@@ -4654,7 +4770,8 @@
     "emoji": "🍼",
     "tile": "slate",
     "description": "Erythromycin Estolate 125 mg/5ml Suspension. Antibiotic (pediatric) — Macrolide pediatric.",
-    "moleculeCid": 441371
+    "moleculeCid": 441371,
+    "imageUrl": "/medicines/MED-0119.jpg"
   },
   {
     "id": "MED-0120",
@@ -4694,7 +4811,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Metronidazole 200 mg Tablet. Antibiotic / Antiprotozoal — Nitroimidazole.",
-    "moleculeCid": 4173
+    "moleculeCid": 4173,
+    "imageUrl": "/medicines/MED-0120.jpg"
   },
   {
     "id": "MED-0121",
@@ -4734,7 +4852,8 @@
     "emoji": "🍼",
     "tile": "blue",
     "description": "Metronidazole 200 mg/5ml Suspension. Antibiotic / Antiprotozoal — Pediatric nitroimidazole.",
-    "moleculeCid": 4173
+    "moleculeCid": 4173,
+    "imageUrl": "/medicines/MED-0121.jpg"
   },
   {
     "id": "MED-0122",
@@ -4774,7 +4893,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Metronidazole 400 mg Tablet. Antibiotic / Antiprotozoal — Nitroimidazole.",
-    "moleculeCid": 4173
+    "moleculeCid": 4173,
+    "imageUrl": "/medicines/MED-0122.jpg"
   },
   {
     "id": "MED-0123",
@@ -4814,7 +4934,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Ornidazole 500 mg Tablet. Antibiotic / Antiprotozoal — Nitroimidazole.",
-    "moleculeCid": 28061
+    "moleculeCid": 28061,
+    "imageUrl": "/medicines/MED-0123.jpg"
   },
   {
     "id": "MED-0124",
@@ -4854,7 +4975,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Tinidazole 500 mg Tablet. Antibiotic / Antiprotozoal — Nitroimidazole.",
-    "moleculeCid": 5479
+    "moleculeCid": 5479,
+    "imageUrl": "/medicines/MED-0124.jpg"
   },
   {
     "id": "MED-0125",
@@ -4894,7 +5016,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Ofloxacin + Ornidazole 200+500 mg Tablet. Antibiotic combination — Quinolone + nitroimidazole.",
-    "moleculeCid": 4583
+    "moleculeCid": 4583,
+    "imageUrl": "/medicines/MED-0125.jpg"
   },
   {
     "id": "MED-0126",
@@ -4934,7 +5057,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Acenocoumarol 1 mg Tablet. Anticoagulant — Vitamin K antagonist.",
-    "moleculeCid": 54676537
+    "moleculeCid": 54676537,
+    "imageUrl": "/medicines/MED-0126.jpg"
   },
   {
     "id": "MED-0127",
@@ -4973,7 +5097,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Acenocoumarol 2 mg Tablet. Anticoagulant — Vitamin K antagonist.",
-    "moleculeCid": 54676537
+    "moleculeCid": 54676537,
+    "imageUrl": "/medicines/MED-0127.jpg"
   },
   {
     "id": "MED-0128",
@@ -5013,7 +5138,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Dabigatran 110 mg Capsule. Anticoagulant — Direct thrombin inhibitor.",
-    "moleculeCid": 216210
+    "moleculeCid": 216210,
+    "imageUrl": "/medicines/MED-0128.jpg"
   },
   {
     "id": "MED-0129",
@@ -5052,7 +5178,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Dabigatran 150 mg Capsule. Anticoagulant — Direct thrombin inhibitor.",
-    "moleculeCid": 216210
+    "moleculeCid": 216210,
+    "imageUrl": "/medicines/MED-0129.jpg"
   },
   {
     "id": "MED-0130",
@@ -5092,7 +5219,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Rivaroxaban 10 mg Tablet. Anticoagulant — Factor Xa inhibitor.",
-    "moleculeCid": 9875401
+    "moleculeCid": 9875401,
+    "imageUrl": "/medicines/MED-0130.jpg"
   },
   {
     "id": "MED-0131",
@@ -5131,7 +5259,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Warfarin 2 mg Tablet. Anticoagulant — Vitamin K antagonist.",
-    "moleculeCid": 54678486
+    "moleculeCid": 54678486,
+    "imageUrl": "/medicines/MED-0131.jpg"
   },
   {
     "id": "MED-0132",
@@ -5171,7 +5300,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Warfarin 5 mg Tablet. Anticoagulant — Vitamin K antagonist.",
-    "moleculeCid": 54678486
+    "moleculeCid": 54678486,
+    "imageUrl": "/medicines/MED-0132.jpg"
   },
   {
     "id": "MED-0133",
@@ -5210,7 +5340,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Carbamazepine 200 mg Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 2554
+    "moleculeCid": 2554,
+    "imageUrl": "/medicines/MED-0133.jpg"
   },
   {
     "id": "MED-0134",
@@ -5247,7 +5378,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Carbamazepine 400 mg CR Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 2554
+    "moleculeCid": 2554,
+    "imageUrl": "/medicines/MED-0134.jpg"
   },
   {
     "id": "MED-0135",
@@ -5285,7 +5417,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Lamotrigine 100 mg Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 3878
+    "moleculeCid": 3878,
+    "imageUrl": "/medicines/MED-0135.jpg"
   },
   {
     "id": "MED-0136",
@@ -5322,7 +5455,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Lamotrigine 50 mg Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 3878
+    "moleculeCid": 3878,
+    "imageUrl": "/medicines/MED-0136.jpg"
   },
   {
     "id": "MED-0137",
@@ -5359,7 +5493,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Levetiracetam 1000 mg Tablet. Anticonvulsant — SV2A modulator.",
-    "moleculeCid": 5284583
+    "moleculeCid": 5284583,
+    "imageUrl": "/medicines/MED-0137.jpg"
   },
   {
     "id": "MED-0138",
@@ -5398,7 +5533,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Levetiracetam 500 mg Tablet. Anticonvulsant — SV2A modulator.",
-    "moleculeCid": 5284583
+    "moleculeCid": 5284583,
+    "imageUrl": "/medicines/MED-0138.jpg"
   },
   {
     "id": "MED-0139",
@@ -5436,7 +5572,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Oxcarbazepine 300 mg Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 34312
+    "moleculeCid": 34312,
+    "imageUrl": "/medicines/MED-0139.jpg"
   },
   {
     "id": "MED-0140",
@@ -5473,7 +5610,8 @@
     "rxRequired": true,
     "emoji": "🧘",
     "tile": "slate",
-    "description": "Phenobarbital (Phenobarbitone) 60 mg Tablet. Anticonvulsant — Barbiturate."
+    "description": "Phenobarbital (Phenobarbitone) 60 mg Tablet. Anticonvulsant — Barbiturate.",
+    "imageUrl": "/medicines/MED-0140.jpg"
   },
   {
     "id": "MED-0141",
@@ -5511,7 +5649,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Phenytoin 100 mg Tablet. Anticonvulsant — Sodium channel blocker.",
-    "moleculeCid": 1775
+    "moleculeCid": 1775,
+    "imageUrl": "/medicines/MED-0141.jpg"
   },
   {
     "id": "MED-0142",
@@ -5548,7 +5687,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Phenytoin 30 mg/5ml Suspension. Anticonvulsant — Pediatric anticonvulsant.",
-    "moleculeCid": 1775
+    "moleculeCid": 1775,
+    "imageUrl": "/medicines/MED-0142.jpg"
   },
   {
     "id": "MED-0143",
@@ -5586,7 +5726,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Sodium Valproate 200 mg Tablet. Anticonvulsant — GABA enhancer.",
-    "moleculeCid": 16760703
+    "moleculeCid": 16760703,
+    "imageUrl": "/medicines/MED-0143.jpg"
   },
   {
     "id": "MED-0144",
@@ -5623,7 +5764,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Sodium Valproate 500 mg CR Tablet. Anticonvulsant — GABA enhancer.",
-    "moleculeCid": 16760703
+    "moleculeCid": 16760703,
+    "imageUrl": "/medicines/MED-0144.jpg"
   },
   {
     "id": "MED-0145",
@@ -5660,7 +5802,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Topiramate 100 mg Tablet. Anticonvulsant — Multiple mechanisms.",
-    "moleculeCid": 5284627
+    "moleculeCid": 5284627,
+    "imageUrl": "/medicines/MED-0145.jpg"
   },
   {
     "id": "MED-0146",
@@ -5698,7 +5841,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Topiramate 50 mg Tablet. Anticonvulsant — Multiple mechanisms.",
-    "moleculeCid": 5284627
+    "moleculeCid": 5284627,
+    "imageUrl": "/medicines/MED-0146.jpg"
   },
   {
     "id": "MED-0147",
@@ -5738,7 +5882,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Gabapentin 300 mg Capsule. Anticonvulsant / Neuropathic pain — GABA analogue.",
-    "moleculeCid": 3446
+    "moleculeCid": 3446,
+    "imageUrl": "/medicines/MED-0147.jpg"
   },
   {
     "id": "MED-0148",
@@ -5777,7 +5922,8 @@
     "emoji": "🦴",
     "tile": "green",
     "description": "Gabapentin 400 mg Capsule. Anticonvulsant / Neuropathic pain — GABA analogue.",
-    "moleculeCid": 3446
+    "moleculeCid": 3446,
+    "imageUrl": "/medicines/MED-0148.jpg"
   },
   {
     "id": "MED-0149",
@@ -5817,7 +5963,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Amitriptyline 10 mg Tablet. Antidepressant — TCA.",
-    "moleculeCid": 2160
+    "moleculeCid": 2160,
+    "imageUrl": "/medicines/MED-0149.jpg"
   },
   {
     "id": "MED-0150",
@@ -5856,7 +6003,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Amitriptyline 25 mg Tablet. Antidepressant — TCA.",
-    "moleculeCid": 2160
+    "moleculeCid": 2160,
+    "imageUrl": "/medicines/MED-0150.jpg"
   },
   {
     "id": "MED-0151",
@@ -5896,7 +6044,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Citalopram 20 mg Tablet. Antidepressant — SSRI.",
-    "moleculeCid": 2771
+    "moleculeCid": 2771,
+    "imageUrl": "/medicines/MED-0151.jpg"
   },
   {
     "id": "MED-0152",
@@ -5937,7 +6086,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Duloxetine 20 mg Capsule. Antidepressant — SNRI.",
-    "moleculeCid": 60835
+    "moleculeCid": 60835,
+    "imageUrl": "/medicines/MED-0152.jpg"
   },
   {
     "id": "MED-0153",
@@ -5979,7 +6129,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Escitalopram 5 mg Tablet. Antidepressant — SSRI.",
-    "moleculeCid": 146570
+    "moleculeCid": 146570,
+    "imageUrl": "/medicines/MED-0153.jpg"
   },
   {
     "id": "MED-0154",
@@ -6019,7 +6170,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Fluoxetine 20 mg Capsule. Antidepressant — SSRI.",
-    "moleculeCid": 3386
+    "moleculeCid": 3386,
+    "imageUrl": "/medicines/MED-0154.jpg"
   },
   {
     "id": "MED-0155",
@@ -6058,7 +6210,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Fluoxetine 40 mg Capsule. Antidepressant — SSRI.",
-    "moleculeCid": 3386
+    "moleculeCid": 3386,
+    "imageUrl": "/medicines/MED-0155.jpg"
   },
   {
     "id": "MED-0156",
@@ -6098,7 +6251,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Imipramine 25 mg Tablet. Antidepressant — TCA.",
-    "moleculeCid": 3696
+    "moleculeCid": 3696,
+    "imageUrl": "/medicines/MED-0156.jpg"
   },
   {
     "id": "MED-0157",
@@ -6138,7 +6292,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Mirtazapine 15 mg Tablet. Antidepressant — Atypical antidepressant.",
-    "moleculeCid": 4205
+    "moleculeCid": 4205,
+    "imageUrl": "/medicines/MED-0157.jpg"
   },
   {
     "id": "MED-0158",
@@ -6178,7 +6333,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Nortriptyline 25 mg Tablet. Antidepressant — TCA.",
-    "moleculeCid": 4543
+    "moleculeCid": 4543,
+    "imageUrl": "/medicines/MED-0158.jpg"
   },
   {
     "id": "MED-0159",
@@ -6218,7 +6374,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Paroxetine 12.5 mg CR Tablet. Antidepressant — SSRI.",
-    "moleculeCid": 43815
+    "moleculeCid": 43815,
+    "imageUrl": "/medicines/MED-0159.jpg"
   },
   {
     "id": "MED-0160",
@@ -6257,7 +6414,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Paroxetine 25 mg CR Tablet. Antidepressant — SSRI.",
-    "moleculeCid": 43815
+    "moleculeCid": 43815,
+    "imageUrl": "/medicines/MED-0160.jpg"
   },
   {
     "id": "MED-0161",
@@ -6300,7 +6458,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Sertraline 50 mg Tablet. Antidepressant — SSRI.",
-    "moleculeCid": 68617
+    "moleculeCid": 68617,
+    "imageUrl": "/medicines/MED-0161.jpg"
   },
   {
     "id": "MED-0162",
@@ -6340,7 +6499,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Venlafaxine 37.5 mg XR Capsule. Antidepressant — SNRI.",
-    "moleculeCid": 5656
+    "moleculeCid": 5656,
+    "imageUrl": "/medicines/MED-0162.jpg"
   },
   {
     "id": "MED-0163",
@@ -6380,7 +6540,8 @@
     "emoji": "🩸",
     "tile": "blue",
     "description": "Acarbose 50 mg Tablet. Antidiabetic — Alpha-glucosidase inhibitor.",
-    "moleculeCid": 9811704
+    "moleculeCid": 9811704,
+    "imageUrl": "/medicines/MED-0163.jpg"
   },
   {
     "id": "MED-0164",
@@ -6420,7 +6581,8 @@
     "emoji": "🩸",
     "tile": "amber",
     "description": "Glibenclamide 5 mg Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3488
+    "moleculeCid": 3488,
+    "imageUrl": "/medicines/MED-0164.jpg"
   },
   {
     "id": "MED-0165",
@@ -6459,7 +6621,8 @@
     "emoji": "🩸",
     "tile": "rose",
     "description": "Gliclazide 30 mg MR Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3475
+    "moleculeCid": 3475,
+    "imageUrl": "/medicines/MED-0165.jpg"
   },
   {
     "id": "MED-0166",
@@ -6499,7 +6662,8 @@
     "emoji": "🩸",
     "tile": "violet",
     "description": "Glimepiride 1 mg Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3476
+    "moleculeCid": 3476,
+    "imageUrl": "/medicines/MED-0166.jpg"
   },
   {
     "id": "MED-0167",
@@ -6538,7 +6702,8 @@
     "emoji": "🩸",
     "tile": "sky",
     "description": "Glimepiride 4 mg Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3476
+    "moleculeCid": 3476,
+    "imageUrl": "/medicines/MED-0167.jpg"
   },
   {
     "id": "MED-0168",
@@ -6579,7 +6744,8 @@
     "emoji": "🩸",
     "tile": "slate",
     "description": "Glimepiride + Metformin 1+500 mg Tablet. Antidiabetic — Sulfonylurea + biguanide.",
-    "moleculeCid": 3476
+    "moleculeCid": 3476,
+    "imageUrl": "/medicines/MED-0168.jpg"
   },
   {
     "id": "MED-0169",
@@ -6619,7 +6785,8 @@
     "emoji": "🩸",
     "tile": "green",
     "description": "Glipizide 5 mg Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3478
+    "moleculeCid": 3478,
+    "imageUrl": "/medicines/MED-0169.jpg"
   },
   {
     "id": "MED-0170",
@@ -6663,7 +6830,8 @@
     "emoji": "🩸",
     "tile": "blue",
     "description": "Metformin 500 mg Tablet. Antidiabetic — Biguanide.",
-    "moleculeCid": 4091
+    "moleculeCid": 4091,
+    "imageUrl": "/medicines/MED-0170.jpg"
   },
   {
     "id": "MED-0171",
@@ -6707,7 +6875,8 @@
     "emoji": "🩸",
     "tile": "amber",
     "description": "Metformin 500 mg SR Tablet. Antidiabetic — Biguanide sustained release.",
-    "moleculeCid": 4091
+    "moleculeCid": 4091,
+    "imageUrl": "/medicines/MED-0171.jpg"
   },
   {
     "id": "MED-0172",
@@ -6747,7 +6916,8 @@
     "emoji": "🩸",
     "tile": "rose",
     "description": "Pioglitazone 15 mg Tablet. Antidiabetic — Thiazolidinedione.",
-    "moleculeCid": 4829
+    "moleculeCid": 4829,
+    "imageUrl": "/medicines/MED-0172.jpg"
   },
   {
     "id": "MED-0173",
@@ -6787,7 +6957,8 @@
     "emoji": "🩸",
     "tile": "violet",
     "description": "Repaglinide 1 mg Tablet. Antidiabetic — Meglitinide.",
-    "moleculeCid": 65981
+    "moleculeCid": 65981,
+    "imageUrl": "/medicines/MED-0173.jpg"
   },
   {
     "id": "MED-0174",
@@ -6826,7 +6997,8 @@
     "emoji": "🩸",
     "tile": "sky",
     "description": "Repaglinide 2 mg Tablet. Antidiabetic — Meglitinide.",
-    "moleculeCid": 65981
+    "moleculeCid": 65981,
+    "imageUrl": "/medicines/MED-0174.jpg"
   },
   {
     "id": "MED-0175",
@@ -6866,7 +7038,8 @@
     "emoji": "🩸",
     "tile": "slate",
     "description": "Voglibose 0.2 mg Tablet. Antidiabetic — Alpha-glucosidase inhibitor.",
-    "moleculeCid": 444020
+    "moleculeCid": 444020,
+    "imageUrl": "/medicines/MED-0175.jpg"
   },
   {
     "id": "MED-0176",
@@ -6905,7 +7078,8 @@
     "emoji": "🩸",
     "tile": "green",
     "description": "Voglibose 0.3 mg Tablet. Antidiabetic — Alpha-glucosidase inhibitor.",
-    "moleculeCid": 444020
+    "moleculeCid": 444020,
+    "imageUrl": "/medicines/MED-0176.jpg"
   },
   {
     "id": "MED-0177",
@@ -6943,7 +7117,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Loperamide 2 mg Capsule. Antidiarrheal — Opioid receptor agonist.",
-    "moleculeCid": 3955
+    "moleculeCid": 3955,
+    "imageUrl": "/medicines/MED-0177.jpg"
   },
   {
     "id": "MED-0178",
@@ -6981,7 +7156,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Racecadotril 100 mg Capsule. Antidiarrheal — Enkephalinase inhibitor.",
-    "moleculeCid": 107751
+    "moleculeCid": 107751,
+    "imageUrl": "/medicines/MED-0178.jpg"
   },
   {
     "id": "MED-0179",
@@ -7020,7 +7196,8 @@
     "emoji": "💉",
     "tile": "rose",
     "description": "Naloxone 0.4 mg/ml Injection. Antidote — Opioid antagonist.",
-    "moleculeCid": 5284596
+    "moleculeCid": 5284596,
+    "imageUrl": "/medicines/MED-0179.jpg"
   },
   {
     "id": "MED-0180",
@@ -7057,7 +7234,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Atropine 0.6 mg/ml Injection. Antidote / Cardiac — Anticholinergic (parenteral).",
-    "moleculeCid": 174174
+    "moleculeCid": 174174,
+    "imageUrl": "/medicines/MED-0180.jpg"
   },
   {
     "id": "MED-0181",
@@ -7094,7 +7272,8 @@
     "emoji": "💉",
     "tile": "sky",
     "description": "N-Acetylcysteine 200 mg/ml Injection. Antidote / Mucolytic — Paracetamol overdose antidote.",
-    "moleculeCid": 12035
+    "moleculeCid": 12035,
+    "imageUrl": "/medicines/MED-0181.jpg"
   },
   {
     "id": "MED-0182",
@@ -7133,7 +7312,8 @@
     "emoji": "🫃",
     "tile": "slate",
     "description": "Dimenhydrinate 50 mg Tablet. Antiemetic — Antihistaminic antiemetic.",
-    "moleculeCid": 10660
+    "moleculeCid": 10660,
+    "imageUrl": "/medicines/MED-0182.jpg"
   },
   {
     "id": "MED-0183",
@@ -7172,7 +7352,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Domperidone 1 mg/ml Suspension. Antiemetic — Prokinetic / Antiemetic.",
-    "moleculeCid": 3151
+    "moleculeCid": 3151,
+    "imageUrl": "/medicines/MED-0183.jpg"
   },
   {
     "id": "MED-0184",
@@ -7212,7 +7393,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Domperidone 10 mg Tablet. Antiemetic — Prokinetic / Antiemetic.",
-    "moleculeCid": 3151
+    "moleculeCid": 3151,
+    "imageUrl": "/medicines/MED-0184.jpg"
   },
   {
     "id": "MED-0185",
@@ -7252,7 +7434,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Doxylamine + Pyridoxine 10+10 mg Tablet. Antiemetic — Pregnancy nausea.",
-    "moleculeCid": 3162
+    "moleculeCid": 3162,
+    "imageUrl": "/medicines/MED-0185.jpg"
   },
   {
     "id": "MED-0186",
@@ -7292,7 +7475,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Granisetron 1 mg Tablet. Antiemetic — 5-HT3 antagonist.",
-    "moleculeCid": 5284566
+    "moleculeCid": 5284566,
+    "imageUrl": "/medicines/MED-0186.jpg"
   },
   {
     "id": "MED-0187",
@@ -7331,7 +7515,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Meclizine 25 mg Tablet. Antiemetic — Antihistaminic antiemetic.",
-    "moleculeCid": 4034
+    "moleculeCid": 4034,
+    "imageUrl": "/medicines/MED-0187.jpg"
   },
   {
     "id": "MED-0188",
@@ -7371,7 +7556,8 @@
     "emoji": "🫃",
     "tile": "sky",
     "description": "Metoclopramide 10 mg Tablet. Antiemetic — Dopamine antagonist.",
-    "moleculeCid": 4168
+    "moleculeCid": 4168,
+    "imageUrl": "/medicines/MED-0188.jpg"
   },
   {
     "id": "MED-0189",
@@ -7410,7 +7596,8 @@
     "emoji": "🫃",
     "tile": "slate",
     "description": "Metoclopramide 5 mg/ml Injection. Antiemetic — Dopamine antagonist (parenteral).",
-    "moleculeCid": 4168
+    "moleculeCid": 4168,
+    "imageUrl": "/medicines/MED-0189.jpg"
   },
   {
     "id": "MED-0190",
@@ -7451,7 +7638,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Ondansetron 2 mg/ml Injection. Antiemetic — 5-HT3 antagonist (parenteral).",
-    "moleculeCid": 4595
+    "moleculeCid": 4595,
+    "imageUrl": "/medicines/MED-0190.jpg"
   },
   {
     "id": "MED-0191",
@@ -7492,7 +7680,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Ondansetron 4 mg Tablet. Antiemetic — 5-HT3 antagonist.",
-    "moleculeCid": 4595
+    "moleculeCid": 4595,
+    "imageUrl": "/medicines/MED-0191.jpg"
   },
   {
     "id": "MED-0192",
@@ -7534,7 +7723,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Ondansetron 4 mg Tablet MD. Antiemetic — Mouth-dissolving.",
-    "moleculeCid": 4595
+    "moleculeCid": 4595,
+    "imageUrl": "/medicines/MED-0192.jpg"
   },
   {
     "id": "MED-0193",
@@ -7575,7 +7765,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Ondansetron 8 mg Tablet. Antiemetic — 5-HT3 antagonist.",
-    "moleculeCid": 4595
+    "moleculeCid": 4595,
+    "imageUrl": "/medicines/MED-0193.jpg"
   },
   {
     "id": "MED-0194",
@@ -7614,7 +7805,8 @@
     "rxRequired": true,
     "emoji": "🧴",
     "tile": "violet",
-    "description": "Clotrimazole 1% w/w Cream. Antifungal — Topical imidazole."
+    "description": "Clotrimazole 1% w/w Cream. Antifungal — Topical imidazole.",
+    "imageUrl": "/medicines/MED-0194.jpg"
   },
   {
     "id": "MED-0195",
@@ -7652,7 +7844,8 @@
     "rxRequired": true,
     "emoji": "🥛",
     "tile": "sky",
-    "description": "Clotrimazole 1% w/w Powder. Antifungal — Antifungal powder."
+    "description": "Clotrimazole 1% w/w Powder. Antifungal — Antifungal powder.",
+    "imageUrl": "/medicines/MED-0195.jpg"
   },
   {
     "id": "MED-0196",
@@ -7691,7 +7884,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Clotrimazole 100 mg Pessary. Antifungal — Vaginal antifungal.",
-    "moleculeCid": 2812
+    "moleculeCid": 2812,
+    "imageUrl": "/medicines/MED-0196.jpg"
   },
   {
     "id": "MED-0197",
@@ -7732,7 +7926,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Fluconazole 150 mg Tablet. Antifungal — Triazole.",
-    "moleculeCid": 3365
+    "moleculeCid": 3365,
+    "imageUrl": "/medicines/MED-0197.jpg"
   },
   {
     "id": "MED-0198",
@@ -7772,7 +7967,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Fluconazole 400 mg Tablet. Antifungal — Triazole.",
-    "moleculeCid": 3365
+    "moleculeCid": 3365,
+    "imageUrl": "/medicines/MED-0198.jpg"
   },
   {
     "id": "MED-0199",
@@ -7811,7 +8007,8 @@
     "emoji": "💊",
     "tile": "amber",
     "description": "Griseofulvin 375 mg Tablet. Antifungal — Tinea infection.",
-    "moleculeCid": 441140
+    "moleculeCid": 441140,
+    "imageUrl": "/medicines/MED-0199.jpg"
   },
   {
     "id": "MED-0200",
@@ -7852,7 +8049,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Itraconazole 100 mg Capsule. Antifungal — Triazole.",
-    "moleculeCid": 55283
+    "moleculeCid": 55283,
+    "imageUrl": "/medicines/MED-0200.jpg"
   },
   {
     "id": "MED-0201",
@@ -7890,7 +8088,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "violet",
-    "description": "Ketoconazole 2% w/v Shampoo. Antifungal — Antifungal shampoo."
+    "description": "Ketoconazole 2% w/v Shampoo. Antifungal — Antifungal shampoo.",
+    "imageUrl": "/medicines/MED-0201.jpg"
   },
   {
     "id": "MED-0202",
@@ -7930,7 +8129,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Ketoconazole 200 mg Tablet. Antifungal — Imidazole.",
-    "moleculeCid": 47576
+    "moleculeCid": 47576,
+    "imageUrl": "/medicines/MED-0202.jpg"
   },
   {
     "id": "MED-0203",
@@ -7969,7 +8169,8 @@
     "rxRequired": true,
     "emoji": "🧴",
     "tile": "slate",
-    "description": "Miconazole 2% w/w Cream. Antifungal — Topical imidazole."
+    "description": "Miconazole 2% w/w Cream. Antifungal — Topical imidazole.",
+    "imageUrl": "/medicines/MED-0203.jpg"
   },
   {
     "id": "MED-0204",
@@ -8007,7 +8208,8 @@
     "rxRequired": true,
     "emoji": "🧴",
     "tile": "green",
-    "description": "Terbinafine 1% w/w Cream. Antifungal — Topical antifungal."
+    "description": "Terbinafine 1% w/w Cream. Antifungal — Topical antifungal.",
+    "imageUrl": "/medicines/MED-0204.jpg"
   },
   {
     "id": "MED-0205",
@@ -8047,7 +8249,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Terbinafine 250 mg Tablet. Antifungal — Allylamine.",
-    "moleculeCid": 1549008
+    "moleculeCid": 1549008,
+    "imageUrl": "/medicines/MED-0205.jpg"
   },
   {
     "id": "MED-0206",
@@ -8085,7 +8288,8 @@
     "emoji": "🦴",
     "tile": "amber",
     "description": "Allopurinol 100 mg Tablet. Antigout — Xanthine oxidase inhibitor.",
-    "moleculeCid": 135401907
+    "moleculeCid": 135401907,
+    "imageUrl": "/medicines/MED-0206.jpg"
   },
   {
     "id": "MED-0207",
@@ -8122,7 +8326,8 @@
     "emoji": "🦴",
     "tile": "rose",
     "description": "Allopurinol 300 mg Tablet. Antigout — Xanthine oxidase inhibitor.",
-    "moleculeCid": 135401907
+    "moleculeCid": 135401907,
+    "imageUrl": "/medicines/MED-0207.jpg"
   },
   {
     "id": "MED-0208",
@@ -8160,7 +8365,8 @@
     "emoji": "🦴",
     "tile": "violet",
     "description": "Colchicine 0.5 mg Tablet. Antigout — Anti-inflammatory.",
-    "moleculeCid": 6167
+    "moleculeCid": 6167,
+    "imageUrl": "/medicines/MED-0208.jpg"
   },
   {
     "id": "MED-0209",
@@ -8198,7 +8404,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Febuxostat 40 mg Tablet. Antigout — Xanthine oxidase inhibitor.",
-    "moleculeCid": 134018
+    "moleculeCid": 134018,
+    "imageUrl": "/medicines/MED-0209.jpg"
   },
   {
     "id": "MED-0210",
@@ -8235,7 +8442,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Febuxostat 80 mg Tablet. Antigout — Xanthine oxidase inhibitor.",
-    "moleculeCid": 134018
+    "moleculeCid": 134018,
+    "imageUrl": "/medicines/MED-0210.jpg"
   },
   {
     "id": "MED-0211",
@@ -8281,7 +8489,8 @@
     "emoji": "🌸",
     "tile": "green",
     "description": "Bilastine 20 mg Tablet. Antihistamine — 2nd gen H1 antihistamine.",
-    "moleculeCid": 185460
+    "moleculeCid": 185460,
+    "imageUrl": "/medicines/MED-0211.jpg"
   },
   {
     "id": "MED-0213",
@@ -8330,7 +8539,8 @@
     "emoji": "🌸",
     "tile": "amber",
     "description": "Cetirizine 5 mg/5ml Syrup. Antihistamine — Pediatric H1 antihistamine.",
-    "moleculeCid": 2678
+    "moleculeCid": 2678,
+    "imageUrl": "/medicines/MED-0213.jpg"
   },
   {
     "id": "MED-0214",
@@ -8376,7 +8586,8 @@
     "emoji": "🌸",
     "tile": "rose",
     "description": "Chlorpheniramine 4 mg Tablet. Antihistamine — 1st gen H1 antihistamine.",
-    "moleculeCid": 2725
+    "moleculeCid": 2725,
+    "imageUrl": "/medicines/MED-0214.jpg"
   },
   {
     "id": "MED-0215",
@@ -8422,7 +8633,8 @@
     "emoji": "🌸",
     "tile": "violet",
     "description": "Desloratadine 5 mg Tablet. Antihistamine — 3rd gen H1 antihistamine.",
-    "moleculeCid": 124087
+    "moleculeCid": 124087,
+    "imageUrl": "/medicines/MED-0215.jpg"
   },
   {
     "id": "MED-0217",
@@ -8467,7 +8679,8 @@
     "emoji": "🌸",
     "tile": "slate",
     "description": "Hydroxyzine 10 mg Tablet. Antihistamine — 1st gen H1 antihistamine.",
-    "moleculeCid": 3658
+    "moleculeCid": 3658,
+    "imageUrl": "/medicines/MED-0217.jpg"
   },
   {
     "id": "MED-0218",
@@ -8512,7 +8725,8 @@
     "emoji": "🌸",
     "tile": "green",
     "description": "Hydroxyzine 25 mg Tablet. Antihistamine — 1st gen H1 antihistamine.",
-    "moleculeCid": 3658
+    "moleculeCid": 3658,
+    "imageUrl": "/medicines/MED-0218.jpg"
   },
   {
     "id": "MED-0219",
@@ -8557,7 +8771,8 @@
     "emoji": "🌸",
     "tile": "blue",
     "description": "Levocetirizine 2.5 mg/5ml Syrup. Antihistamine — Pediatric H1 antihistamine.",
-    "moleculeCid": 1549000
+    "moleculeCid": 1549000,
+    "imageUrl": "/medicines/MED-0219.jpg"
   },
   {
     "id": "MED-0220",
@@ -8603,7 +8818,8 @@
     "emoji": "🌸",
     "tile": "amber",
     "description": "Levocetirizine 5 mg Tablet. Antihistamine — 2nd gen H1 antihistamine.",
-    "moleculeCid": 1549000
+    "moleculeCid": 1549000,
+    "imageUrl": "/medicines/MED-0220.jpg"
   },
   {
     "id": "MED-0221",
@@ -8649,7 +8865,8 @@
     "emoji": "🌸",
     "tile": "rose",
     "description": "Loratadine 10 mg Tablet. Antihistamine — 2nd gen H1 antihistamine.",
-    "moleculeCid": 3957
+    "moleculeCid": 3957,
+    "imageUrl": "/medicines/MED-0221.jpg"
   },
   {
     "id": "MED-0222",
@@ -8694,7 +8911,8 @@
     "emoji": "🌸",
     "tile": "violet",
     "description": "Pheniramine 22.75 mg/ml Injection. Antihistamine — 1st gen H1 antihistamine (parenteral).",
-    "moleculeCid": 4761
+    "moleculeCid": 4761,
+    "imageUrl": "/medicines/MED-0222.jpg"
   },
   {
     "id": "MED-0223",
@@ -8739,7 +8957,8 @@
     "emoji": "🌸",
     "tile": "sky",
     "description": "Pheniramine 25 mg Tablet. Antihistamine — 1st gen H1 antihistamine.",
-    "moleculeCid": 4761
+    "moleculeCid": 4761,
+    "imageUrl": "/medicines/MED-0223.jpg"
   },
   {
     "id": "MED-0224",
@@ -8784,7 +9003,8 @@
     "emoji": "🌸",
     "tile": "slate",
     "description": "Promethazine 25 mg Tablet. Antihistamine — 1st gen H1 antihistamine.",
-    "moleculeCid": 4927
+    "moleculeCid": 4927,
+    "imageUrl": "/medicines/MED-0224.jpg"
   },
   {
     "id": "MED-0225",
@@ -8825,7 +9045,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Atorvastatin 10 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 60823
+    "moleculeCid": 60823,
+    "imageUrl": "/medicines/MED-0225.jpg"
   },
   {
     "id": "MED-0226",
@@ -8865,7 +9086,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Atorvastatin 80 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 60823
+    "moleculeCid": 60823,
+    "imageUrl": "/medicines/MED-0226.jpg"
   },
   {
     "id": "MED-0227",
@@ -8905,7 +9127,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Ezetimibe 10 mg Tablet. Antihyperlipidemic — Cholesterol absorption inhibitor.",
-    "moleculeCid": 150311
+    "moleculeCid": 150311,
+    "imageUrl": "/medicines/MED-0227.jpg"
   },
   {
     "id": "MED-0228",
@@ -8944,7 +9167,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Ezetimibe + Atorvastatin 10+10 mg Tablet. Antihyperlipidemic — Combination.",
-    "moleculeCid": 150311
+    "moleculeCid": 150311,
+    "imageUrl": "/medicines/MED-0228.jpg"
   },
   {
     "id": "MED-0229",
@@ -8984,7 +9208,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Fenofibrate 160 mg Tablet. Antihyperlipidemic — Fibrate.",
-    "moleculeCid": 3339
+    "moleculeCid": 3339,
+    "imageUrl": "/medicines/MED-0229.jpg"
   },
   {
     "id": "MED-0230",
@@ -9023,7 +9248,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Fenofibrate 200 mg Tablet. Antihyperlipidemic — Fibrate.",
-    "moleculeCid": 3339
+    "moleculeCid": 3339,
+    "imageUrl": "/medicines/MED-0230.jpg"
   },
   {
     "id": "MED-0231",
@@ -9063,7 +9289,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Pravastatin 10 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 54687
+    "moleculeCid": 54687,
+    "imageUrl": "/medicines/MED-0231.jpg"
   },
   {
     "id": "MED-0232",
@@ -9103,7 +9330,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Rosuvastatin 40 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 446157
+    "moleculeCid": 446157,
+    "imageUrl": "/medicines/MED-0232.jpg"
   },
   {
     "id": "MED-0233",
@@ -9143,7 +9371,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Rosuvastatin 5 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 446157
+    "moleculeCid": 446157,
+    "imageUrl": "/medicines/MED-0233.jpg"
   },
   {
     "id": "MED-0234",
@@ -9183,7 +9412,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Simvastatin 10 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 54454
+    "moleculeCid": 54454,
+    "imageUrl": "/medicines/MED-0234.jpg"
   },
   {
     "id": "MED-0235",
@@ -9222,7 +9452,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Simvastatin 20 mg Tablet. Antihyperlipidemic — Statin.",
-    "moleculeCid": 54454
+    "moleculeCid": 54454,
+    "imageUrl": "/medicines/MED-0235.jpg"
   },
   {
     "id": "MED-0236",
@@ -9261,7 +9492,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Amlodipine 10 mg Tablet. Antihypertensive — Calcium channel blocker.",
-    "moleculeCid": 2162
+    "moleculeCid": 2162,
+    "imageUrl": "/medicines/MED-0236.jpg"
   },
   {
     "id": "MED-0237",
@@ -9301,7 +9533,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Amlodipine 5 mg Tablet. Antihypertensive — Calcium channel blocker.",
-    "moleculeCid": 2162
+    "moleculeCid": 2162,
+    "imageUrl": "/medicines/MED-0237.jpg"
   },
   {
     "id": "MED-0238",
@@ -9339,7 +9572,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Atenolol 25 mg Tablet. Antihypertensive — Beta blocker.",
-    "moleculeCid": 2249
+    "moleculeCid": 2249,
+    "imageUrl": "/medicines/MED-0238.jpg"
   },
   {
     "id": "MED-0239",
@@ -9376,7 +9610,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Atenolol 50 mg Tablet. Antihypertensive — Beta blocker.",
-    "moleculeCid": 2249
+    "moleculeCid": 2249,
+    "imageUrl": "/medicines/MED-0239.jpg"
   },
   {
     "id": "MED-0240",
@@ -9413,7 +9648,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Captopril 25 mg Tablet. Antihypertensive — ACE inhibitor.",
-    "moleculeCid": 44093
+    "moleculeCid": 44093,
+    "imageUrl": "/medicines/MED-0240.jpg"
   },
   {
     "id": "MED-0241",
@@ -9451,7 +9687,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Clonidine 100 mcg Tablet. Antihypertensive — Centrally acting.",
-    "moleculeCid": 2803
+    "moleculeCid": 2803,
+    "imageUrl": "/medicines/MED-0241.jpg"
   },
   {
     "id": "MED-0242",
@@ -9488,7 +9725,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Enalapril 10 mg Tablet. Antihypertensive — ACE inhibitor.",
-    "moleculeCid": 5388962
+    "moleculeCid": 5388962,
+    "imageUrl": "/medicines/MED-0242.jpg"
   },
   {
     "id": "MED-0243",
@@ -9526,7 +9764,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Enalapril 5 mg Tablet. Antihypertensive — ACE inhibitor.",
-    "moleculeCid": 5388962
+    "moleculeCid": 5388962,
+    "imageUrl": "/medicines/MED-0243.jpg"
   },
   {
     "id": "MED-0244",
@@ -9564,7 +9803,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Lisinopril 5 mg Tablet. Antihypertensive — ACE inhibitor.",
-    "moleculeCid": 5362119
+    "moleculeCid": 5362119,
+    "imageUrl": "/medicines/MED-0244.jpg"
   },
   {
     "id": "MED-0245",
@@ -9604,7 +9844,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Losartan 25 mg Tablet. Antihypertensive — ARB.",
-    "moleculeCid": 3961
+    "moleculeCid": 3961,
+    "imageUrl": "/medicines/MED-0245.jpg"
   },
   {
     "id": "MED-0246",
@@ -9642,7 +9883,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Metoprolol 25 mg Tablet. Antihypertensive — Beta blocker.",
-    "moleculeCid": 4171
+    "moleculeCid": 4171,
+    "imageUrl": "/medicines/MED-0246.jpg"
   },
   {
     "id": "MED-0247",
@@ -9680,7 +9922,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Nifedipine 10 mg Capsule. Antihypertensive — Calcium channel blocker.",
-    "moleculeCid": 4485
+    "moleculeCid": 4485,
+    "imageUrl": "/medicines/MED-0247.jpg"
   },
   {
     "id": "MED-0248",
@@ -9718,7 +9961,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Propranolol 40 mg Tablet. Antihypertensive — Beta blocker (non-selective).",
-    "moleculeCid": 4946
+    "moleculeCid": 4946,
+    "imageUrl": "/medicines/MED-0248.jpg"
   },
   {
     "id": "MED-0249",
@@ -9757,7 +10001,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Telmisartan 20 mg Tablet. Antihypertensive — ARB.",
-    "moleculeCid": 65999
+    "moleculeCid": 65999,
+    "imageUrl": "/medicines/MED-0249.jpg"
   },
   {
     "id": "MED-0250",
@@ -9797,7 +10042,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Diltiazem 30 mg Tablet. Antihypertensive / Antianginal — Calcium channel blocker.",
-    "moleculeCid": 39186
+    "moleculeCid": 39186,
+    "imageUrl": "/medicines/MED-0250.jpg"
   },
   {
     "id": "MED-0251",
@@ -9836,7 +10082,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Diltiazem 60 mg SR Tablet. Antihypertensive / Antianginal — CCB sustained release.",
-    "moleculeCid": 39186
+    "moleculeCid": 39186,
+    "imageUrl": "/medicines/MED-0251.jpg"
   },
   {
     "id": "MED-0252",
@@ -9876,7 +10123,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Verapamil 40 mg Tablet. Antihypertensive / Antianginal — Calcium channel blocker.",
-    "moleculeCid": 2520
+    "moleculeCid": 2520,
+    "imageUrl": "/medicines/MED-0252.jpg"
   },
   {
     "id": "MED-0253",
@@ -9913,7 +10161,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Hydrochlorothiazide 12.5 mg Tablet. Antihypertensive / Diuretic — Thiazide diuretic.",
-    "moleculeCid": 3639
+    "moleculeCid": 3639,
+    "imageUrl": "/medicines/MED-0253.jpg"
   },
   {
     "id": "MED-0254",
@@ -9950,7 +10199,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Hydrochlorothiazide 25 mg Tablet. Antihypertensive / Diuretic — Thiazide diuretic.",
-    "moleculeCid": 3639
+    "moleculeCid": 3639,
+    "imageUrl": "/medicines/MED-0254.jpg"
   },
   {
     "id": "MED-0255",
@@ -9988,7 +10238,8 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Indapamide 1.5 mg SR Tablet. Antihypertensive / Diuretic — Thiazide-like diuretic.",
-    "moleculeCid": 3702
+    "moleculeCid": 3702,
+    "imageUrl": "/medicines/MED-0255.jpg"
   },
   {
     "id": "MED-0256",
@@ -10024,7 +10275,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "rose",
-    "description": "Permethrin 1% w/v Lotion. Antilice — Pyrethroid."
+    "description": "Permethrin 1% w/v Lotion. Antilice — Pyrethroid.",
+    "imageUrl": "/medicines/MED-0256.jpg"
   },
   {
     "id": "MED-0257",
@@ -10060,7 +10312,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Artemether + Lumefantrine 80+480 mg Tablet. Antimalarial — ACT.",
-    "moleculeCid": 68911
+    "moleculeCid": 68911,
+    "imageUrl": "/medicines/MED-0257.jpg"
   },
   {
     "id": "MED-0258",
@@ -10096,7 +10349,8 @@
     "emoji": "💉",
     "tile": "sky",
     "description": "Artesunate 60 mg Injection. Antimalarial — Artemisinin (parenteral).",
-    "moleculeCid": 6917864
+    "moleculeCid": 6917864,
+    "imageUrl": "/medicines/MED-0258.jpg"
   },
   {
     "id": "MED-0259",
@@ -10132,7 +10386,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Chloroquine 250 mg Tablet. Antimalarial — 4-aminoquinoline.",
-    "moleculeCid": 2719
+    "moleculeCid": 2719,
+    "imageUrl": "/medicines/MED-0259.jpg"
   },
   {
     "id": "MED-0260",
@@ -10169,7 +10424,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Hydroxychloroquine 200 mg Tablet. Antimalarial — 4-aminoquinoline.",
-    "moleculeCid": 3652
+    "moleculeCid": 3652,
+    "imageUrl": "/medicines/MED-0260.jpg"
   },
   {
     "id": "MED-0261",
@@ -10204,7 +10460,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Primaquine 7.5 mg Tablet. Antimalarial — 8-aminoquinoline.",
-    "moleculeCid": 4908
+    "moleculeCid": 4908,
+    "imageUrl": "/medicines/MED-0261.jpg"
   },
   {
     "id": "MED-0262",
@@ -10242,7 +10499,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Rizatriptan 10 mg Tablet. Antimigraine — Triptan.",
-    "moleculeCid": 5078
+    "moleculeCid": 5078,
+    "imageUrl": "/medicines/MED-0262.jpg"
   },
   {
     "id": "MED-0263",
@@ -10279,7 +10537,8 @@
     "emoji": "🤒",
     "tile": "rose",
     "description": "Sumatriptan 100 mg Tablet. Antimigraine — Triptan.",
-    "moleculeCid": 5358
+    "moleculeCid": 5358,
+    "imageUrl": "/medicines/MED-0263.jpg"
   },
   {
     "id": "MED-0264",
@@ -10317,7 +10576,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Sumatriptan 50 mg Tablet. Antimigraine — Triptan.",
-    "moleculeCid": 5358
+    "moleculeCid": 5358,
+    "imageUrl": "/medicines/MED-0264.jpg"
   },
   {
     "id": "MED-0265",
@@ -10356,7 +10616,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Levodopa + Carbidopa 100+25 mg Tablet. Antiparkinsonian — Dopamine precursor combination.",
-    "moleculeCid": 6047
+    "moleculeCid": 6047,
+    "imageUrl": "/medicines/MED-0265.jpg"
   },
   {
     "id": "MED-0266",
@@ -10393,7 +10654,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Levodopa + Carbidopa 200+50 mg CR Tablet. Antiparkinsonian — Dopamine precursor combination.",
-    "moleculeCid": 6047
+    "moleculeCid": 6047,
+    "imageUrl": "/medicines/MED-0266.jpg"
   },
   {
     "id": "MED-0267",
@@ -10431,7 +10693,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Pramipexole 0.25 mg Tablet. Antiparkinsonian — Dopamine agonist.",
-    "moleculeCid": 119570
+    "moleculeCid": 119570,
+    "imageUrl": "/medicines/MED-0267.jpg"
   },
   {
     "id": "MED-0268",
@@ -10468,7 +10731,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Pramipexole 1 mg Tablet. Antiparkinsonian — Dopamine agonist.",
-    "moleculeCid": 119570
+    "moleculeCid": 119570,
+    "imageUrl": "/medicines/MED-0268.jpg"
   },
   {
     "id": "MED-0269",
@@ -10506,7 +10770,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Ropinirole 1 mg Tablet. Antiparkinsonian — Dopamine agonist.",
-    "moleculeCid": 5095
+    "moleculeCid": 5095,
+    "imageUrl": "/medicines/MED-0269.jpg"
   },
   {
     "id": "MED-0270",
@@ -10543,7 +10808,8 @@
     "rxRequired": true,
     "emoji": "🧘",
     "tile": "rose",
-    "description": "Trihexyphenidyl (Benzhexol) 2 mg Tablet. Antiparkinsonian — Anticholinergic."
+    "description": "Trihexyphenidyl (Benzhexol) 2 mg Tablet. Antiparkinsonian — Anticholinergic.",
+    "imageUrl": "/medicines/MED-0270.jpg"
   },
   {
     "id": "MED-0271",
@@ -10582,7 +10848,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Clopidogrel 75 mg Tablet. Antiplatelet — P2Y12 inhibitor.",
-    "moleculeCid": 60606
+    "moleculeCid": 60606,
+    "imageUrl": "/medicines/MED-0271.jpg"
   },
   {
     "id": "MED-0272",
@@ -10620,7 +10887,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Clopidogrel + Aspirin 75+75 mg Tablet. Antiplatelet — Dual antiplatelet.",
-    "moleculeCid": 60606
+    "moleculeCid": 60606,
+    "imageUrl": "/medicines/MED-0272.jpg"
   },
   {
     "id": "MED-0273",
@@ -10658,7 +10926,8 @@
     "emoji": "❤️",
     "tile": "slate",
     "description": "Prasugrel 10 mg Tablet. Antiplatelet — P2Y12 inhibitor.",
-    "moleculeCid": 6918456
+    "moleculeCid": 6918456,
+    "imageUrl": "/medicines/MED-0273.jpg"
   },
   {
     "id": "MED-0274",
@@ -10695,7 +10964,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Clopidogrel + Aspirin 75+75+10 mg Tablet. Antiplatelet + Antihyperlipidemic — Dual antiplatelet + statin.",
-    "moleculeCid": 60606
+    "moleculeCid": 60606,
+    "imageUrl": "/medicines/MED-0274.jpg"
   },
   {
     "id": "MED-0275",
@@ -10735,7 +11005,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Aripiprazole 10 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 60795
+    "moleculeCid": 60795,
+    "imageUrl": "/medicines/MED-0275.jpg"
   },
   {
     "id": "MED-0276",
@@ -10774,7 +11045,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Aripiprazole 15 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 60795
+    "moleculeCid": 60795,
+    "imageUrl": "/medicines/MED-0276.jpg"
   },
   {
     "id": "MED-0277",
@@ -10813,7 +11085,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Chlorpromazine 50 mg Tablet. Antipsychotic — Typical antipsychotic.",
-    "moleculeCid": 2726
+    "moleculeCid": 2726,
+    "imageUrl": "/medicines/MED-0277.jpg"
   },
   {
     "id": "MED-0278",
@@ -10853,7 +11126,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Haloperidol 5 mg Tablet. Antipsychotic — Typical antipsychotic.",
-    "moleculeCid": 3559
+    "moleculeCid": 3559,
+    "imageUrl": "/medicines/MED-0278.jpg"
   },
   {
     "id": "MED-0279",
@@ -10892,7 +11166,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Olanzapine 10 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 135398745
+    "moleculeCid": 135398745,
+    "imageUrl": "/medicines/MED-0279.jpg"
   },
   {
     "id": "MED-0280",
@@ -10933,7 +11208,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Olanzapine 5 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 135398745
+    "moleculeCid": 135398745,
+    "imageUrl": "/medicines/MED-0280.jpg"
   },
   {
     "id": "MED-0281",
@@ -10973,7 +11249,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Quetiapine 100 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 5002
+    "moleculeCid": 5002,
+    "imageUrl": "/medicines/MED-0281.jpg"
   },
   {
     "id": "MED-0282",
@@ -11012,7 +11289,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Quetiapine 200 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 5002
+    "moleculeCid": 5002,
+    "imageUrl": "/medicines/MED-0282.jpg"
   },
   {
     "id": "MED-0283",
@@ -11053,7 +11331,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Risperidone 2 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 5073
+    "moleculeCid": 5073,
+    "imageUrl": "/medicines/MED-0283.jpg"
   },
   {
     "id": "MED-0284",
@@ -11092,7 +11371,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Risperidone 4 mg Tablet. Antipsychotic — Atypical antipsychotic.",
-    "moleculeCid": 5073
+    "moleculeCid": 5073,
+    "imageUrl": "/medicines/MED-0284.jpg"
   },
   {
     "id": "MED-0286",
@@ -11131,7 +11411,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Leflunomide 10 mg Tablet. Antirheumatic — DMARD.",
-    "moleculeCid": 3899
+    "moleculeCid": 3899,
+    "imageUrl": "/medicines/MED-0286.jpg"
   },
   {
     "id": "MED-0287",
@@ -11168,7 +11449,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Leflunomide 20 mg Tablet. Antirheumatic — DMARD.",
-    "moleculeCid": 3899
+    "moleculeCid": 3899,
+    "imageUrl": "/medicines/MED-0287.jpg"
   },
   {
     "id": "MED-0288",
@@ -11205,7 +11487,8 @@
     "emoji": "🦴",
     "tile": "green",
     "description": "Sulfasalazine 1000 mg Tablet. Antirheumatic — DMARD.",
-    "moleculeCid": 5339
+    "moleculeCid": 5339,
+    "imageUrl": "/medicines/MED-0288.jpg"
   },
   {
     "id": "MED-0289",
@@ -11243,7 +11526,8 @@
     "emoji": "🦴",
     "tile": "blue",
     "description": "Sulfasalazine 500 mg Tablet. Antirheumatic / GI — DMARD / 5-ASA.",
-    "moleculeCid": 5339
+    "moleculeCid": 5339,
+    "imageUrl": "/medicines/MED-0289.jpg"
   },
   {
     "id": "MED-0290",
@@ -11281,7 +11565,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "amber",
-    "description": "Benzyl Benzoate 25% w/v Lotion. Antiscabies — Antiparasitic lotion."
+    "description": "Benzyl Benzoate 25% w/v Lotion. Antiscabies — Antiparasitic lotion.",
+    "imageUrl": "/medicines/MED-0290.jpg"
   },
   {
     "id": "MED-0291",
@@ -11320,7 +11605,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "rose",
-    "description": "Lindane (Gamma BHC) 1% w/v Lotion. Antiscabies — Organochlorine."
+    "description": "Lindane (Gamma BHC) 1% w/v Lotion. Antiscabies — Organochlorine.",
+    "imageUrl": "/medicines/MED-0291.jpg"
   },
   {
     "id": "MED-0292",
@@ -11359,7 +11645,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "violet",
-    "description": "Permethrin 5% w/w Cream. Antiscabies / Antilice — Pyrethroid."
+    "description": "Permethrin 5% w/w Cream. Antiscabies / Antilice — Pyrethroid.",
+    "imageUrl": "/medicines/MED-0292.jpg"
   },
   {
     "id": "MED-0293",
@@ -11398,7 +11685,8 @@
     "rxRequired": false,
     "emoji": "🩹",
     "tile": "sky",
-    "description": "Chlorhexidine 0.2% w/v Mouthwash. Antiseptic — Antiseptic mouthwash."
+    "description": "Chlorhexidine 0.2% w/v Mouthwash. Antiseptic — Antiseptic mouthwash.",
+    "imageUrl": "/medicines/MED-0293.jpg"
   },
   {
     "id": "MED-0294",
@@ -11437,7 +11725,8 @@
     "rxRequired": false,
     "emoji": "💧",
     "tile": "slate",
-    "description": "Povidone Iodine 5% w/v Solution. Antiseptic — Iodine antiseptic."
+    "description": "Povidone Iodine 5% w/v Solution. Antiseptic — Iodine antiseptic.",
+    "imageUrl": "/medicines/MED-0294.jpg"
   },
   {
     "id": "MED-0295",
@@ -11475,7 +11764,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "green",
-    "description": "Povidone Iodine 5% w/w Ointment. Antiseptic — Iodine ointment."
+    "description": "Povidone Iodine 5% w/w Ointment. Antiseptic — Iodine ointment.",
+    "imageUrl": "/medicines/MED-0295.jpg"
   },
   {
     "id": "MED-0296",
@@ -11515,7 +11805,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Dicyclomine 10 mg Tablet. Antispasmodic — Anticholinergic.",
-    "moleculeCid": 3042
+    "moleculeCid": 3042,
+    "imageUrl": "/medicines/MED-0296.jpg"
   },
   {
     "id": "MED-0297",
@@ -11555,7 +11846,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Drotaverine 40 mg Tablet. Antispasmodic — Smooth muscle relaxant.",
-    "moleculeCid": 1712095
+    "moleculeCid": 1712095,
+    "imageUrl": "/medicines/MED-0297.jpg"
   },
   {
     "id": "MED-0298",
@@ -11594,7 +11886,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Drotaverine 80 mg Tablet. Antispasmodic — Smooth muscle relaxant.",
-    "moleculeCid": 1712095
+    "moleculeCid": 1712095,
+    "imageUrl": "/medicines/MED-0298.jpg"
   },
   {
     "id": "MED-0299",
@@ -11633,7 +11926,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Hyoscine Butylbromide 10 mg Tablet. Antispasmodic — Anticholinergic.",
-    "moleculeCid": 6852391
+    "moleculeCid": 6852391,
+    "imageUrl": "/medicines/MED-0299.jpg"
   },
   {
     "id": "MED-0300",
@@ -11671,7 +11965,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "sky",
-    "description": "Mefenamic Acid 250+10 mg Tablet. Antispasmodic — NSAID + antispasmodic."
+    "description": "Mefenamic Acid 250+10 mg Tablet. Antispasmodic — NSAID + antispasmodic.",
+    "imageUrl": "/medicines/MED-0300.jpg"
   },
   {
     "id": "MED-0301",
@@ -11708,7 +12003,8 @@
     "emoji": "🌷",
     "tile": "slate",
     "description": "Carbimazole 10 mg Tablet. Antithyroid — Anti-thyroid.",
-    "moleculeCid": 31072
+    "moleculeCid": 31072,
+    "imageUrl": "/medicines/MED-0301.jpg"
   },
   {
     "id": "MED-0302",
@@ -11746,7 +12042,8 @@
     "emoji": "🌷",
     "tile": "green",
     "description": "Carbimazole 5 mg Tablet. Antithyroid — Anti-thyroid.",
-    "moleculeCid": 31072
+    "moleculeCid": 31072,
+    "imageUrl": "/medicines/MED-0302.jpg"
   },
   {
     "id": "MED-0303",
@@ -11783,7 +12080,8 @@
     "emoji": "🌷",
     "tile": "blue",
     "description": "Methimazole 10 mg Tablet. Antithyroid — Anti-thyroid.",
-    "moleculeCid": 1349907
+    "moleculeCid": 1349907,
+    "imageUrl": "/medicines/MED-0303.jpg"
   },
   {
     "id": "MED-0304",
@@ -11820,7 +12118,8 @@
     "emoji": "🌷",
     "tile": "amber",
     "description": "Propylthiouracil 50 mg Tablet. Antithyroid — Anti-thyroid.",
-    "moleculeCid": 657298
+    "moleculeCid": 657298,
+    "imageUrl": "/medicines/MED-0304.jpg"
   },
   {
     "id": "MED-0305",
@@ -11860,7 +12159,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Betahistine 16 mg Tablet. Antivertigo — Histamine analogue.",
-    "moleculeCid": 2366
+    "moleculeCid": 2366,
+    "imageUrl": "/medicines/MED-0305.jpg"
   },
   {
     "id": "MED-0306",
@@ -11899,7 +12199,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Betahistine 8 mg Tablet. Antivertigo — Histamine analogue.",
-    "moleculeCid": 2366
+    "moleculeCid": 2366,
+    "imageUrl": "/medicines/MED-0306.jpg"
   },
   {
     "id": "MED-0307",
@@ -11939,7 +12240,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Cinnarizine 25 mg Tablet. Antivertigo — Calcium channel blocker.",
-    "moleculeCid": 1547484
+    "moleculeCid": 1547484,
+    "imageUrl": "/medicines/MED-0307.jpg"
   },
   {
     "id": "MED-0308",
@@ -11978,7 +12280,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Prochlorperazine 5 mg Tablet. Antivertigo / Antiemetic — Phenothiazine.",
-    "moleculeCid": 4917
+    "moleculeCid": 4917,
+    "imageUrl": "/medicines/MED-0308.jpg"
   },
   {
     "id": "MED-0309",
@@ -12021,7 +12324,8 @@
     "emoji": "💊",
     "tile": "green",
     "description": "Acyclovir 200 mg Tablet. Antiviral — Anti-herpes.",
-    "moleculeCid": 135398513
+    "moleculeCid": 135398513,
+    "imageUrl": "/medicines/MED-0309.jpg"
   },
   {
     "id": "MED-0310",
@@ -12064,7 +12368,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Acyclovir 400 mg Tablet. Antiviral — Anti-herpes.",
-    "moleculeCid": 135398513
+    "moleculeCid": 135398513,
+    "imageUrl": "/medicines/MED-0310.jpg"
   },
   {
     "id": "MED-0311",
@@ -12106,7 +12411,8 @@
     "rxRequired": true,
     "emoji": "🧴",
     "tile": "amber",
-    "description": "Acyclovir 5% w/w Cream. Antiviral — Anti-herpes (topical)."
+    "description": "Acyclovir 5% w/w Cream. Antiviral — Anti-herpes (topical).",
+    "imageUrl": "/medicines/MED-0311.jpg"
   },
   {
     "id": "MED-0312",
@@ -12148,7 +12454,8 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Efavirenz 600 mg Tablet. Antiviral — NNRTI.",
-    "moleculeCid": 64139
+    "moleculeCid": 64139,
+    "imageUrl": "/medicines/MED-0312.jpg"
   },
   {
     "id": "MED-0313",
@@ -12190,7 +12497,8 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Lamivudine 150 mg Tablet. Antiviral — Anti-HIV / Anti-HBV.",
-    "moleculeCid": 60825
+    "moleculeCid": 60825,
+    "imageUrl": "/medicines/MED-0313.jpg"
   },
   {
     "id": "MED-0314",
@@ -12232,7 +12540,8 @@
     "emoji": "💊",
     "tile": "sky",
     "description": "Valacyclovir 500 mg Tablet. Antiviral — Anti-herpes.",
-    "moleculeCid": 135398742
+    "moleculeCid": 135398742,
+    "imageUrl": "/medicines/MED-0314.jpg"
   },
   {
     "id": "MED-0315",
@@ -12274,7 +12583,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Zidovudine 300 mg Tablet. Antiviral — NRTI.",
-    "moleculeCid": 35370
+    "moleculeCid": 35370,
+    "imageUrl": "/medicines/MED-0315.jpg"
   },
   {
     "id": "MED-0316",
@@ -12315,7 +12625,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Alprazolam 0.25 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 2118
+    "moleculeCid": 2118,
+    "imageUrl": "/medicines/MED-0316.jpg"
   },
   {
     "id": "MED-0317",
@@ -12355,7 +12666,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Alprazolam 1 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 2118
+    "moleculeCid": 2118,
+    "imageUrl": "/medicines/MED-0317.jpg"
   },
   {
     "id": "MED-0318",
@@ -12395,7 +12707,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Buspirone 10 mg Tablet. Anxiolytic — 5-HT1A partial agonist.",
-    "moleculeCid": 2477
+    "moleculeCid": 2477,
+    "imageUrl": "/medicines/MED-0318.jpg"
   },
   {
     "id": "MED-0319",
@@ -12435,7 +12748,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Diazepam 10 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 3016
+    "moleculeCid": 3016,
+    "imageUrl": "/medicines/MED-0319.jpg"
   },
   {
     "id": "MED-0320",
@@ -12475,7 +12789,8 @@
     "emoji": "🧘",
     "tile": "violet",
     "description": "Diazepam 5 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 3016
+    "moleculeCid": 3016,
+    "imageUrl": "/medicines/MED-0320.jpg"
   },
   {
     "id": "MED-0321",
@@ -12515,7 +12830,8 @@
     "emoji": "🧘",
     "tile": "sky",
     "description": "Etizolam 0.5 mg Tablet. Anxiolytic — Thienodiazepine.",
-    "moleculeCid": 3307
+    "moleculeCid": 3307,
+    "imageUrl": "/medicines/MED-0321.jpg"
   },
   {
     "id": "MED-0322",
@@ -12555,7 +12871,8 @@
     "emoji": "🧘",
     "tile": "slate",
     "description": "Lorazepam 1 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 3958
+    "moleculeCid": 3958,
+    "imageUrl": "/medicines/MED-0322.jpg"
   },
   {
     "id": "MED-0323",
@@ -12594,7 +12911,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Lorazepam 2 mg Tablet. Anxiolytic — Benzodiazepine.",
-    "moleculeCid": 3958
+    "moleculeCid": 3958,
+    "imageUrl": "/medicines/MED-0323.jpg"
   },
   {
     "id": "MED-0324",
@@ -12634,7 +12952,8 @@
     "emoji": "🧘",
     "tile": "blue",
     "description": "Clonazepam 0.5 mg Tablet. Anxiolytic / Anticonvulsant — Benzodiazepine.",
-    "moleculeCid": 2802
+    "moleculeCid": 2802,
+    "imageUrl": "/medicines/MED-0324.jpg"
   },
   {
     "id": "MED-0325",
@@ -12672,7 +12991,8 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Clonazepam 2 mg Tablet. Anxiolytic / Anticonvulsant — Benzodiazepine.",
-    "moleculeCid": 2802
+    "moleculeCid": 2802,
+    "imageUrl": "/medicines/MED-0325.jpg"
   },
   {
     "id": "MED-0326",
@@ -12710,7 +13030,8 @@
     "emoji": "🧘",
     "tile": "rose",
     "description": "Modafinil 200 mg Tablet. CNS stimulant — Wakefulness-promoting agent.",
-    "moleculeCid": 4236
+    "moleculeCid": 4236,
+    "imageUrl": "/medicines/MED-0326.jpg"
   },
   {
     "id": "MED-0327",
@@ -12747,7 +13068,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Digoxin 0.25 mg Tablet. Cardiac glycoside — Inotropic.",
-    "moleculeCid": 2724385
+    "moleculeCid": 2724385,
+    "imageUrl": "/medicines/MED-0327.jpg"
   },
   {
     "id": "MED-0328",
@@ -12787,7 +13109,8 @@
     "emoji": "🤧",
     "tile": "sky",
     "description": "Phenylephrine + CPM + Paracetamol Mixed Tablet. Cold / Flu — Decongestant combination.",
-    "moleculeCid": 6041
+    "moleculeCid": 6041,
+    "imageUrl": "/medicines/MED-0328.jpg"
   },
   {
     "id": "MED-0329",
@@ -12826,7 +13149,8 @@
     "emoji": "🤧",
     "tile": "slate",
     "description": "Pseudoephedrine + Triprolidine 60+2.5 mg Tablet. Cold / Flu — Decongestant + antihistamine.",
-    "moleculeCid": 7028
+    "moleculeCid": 7028,
+    "imageUrl": "/medicines/MED-0329.jpg"
   },
   {
     "id": "MED-0330",
@@ -12864,7 +13188,8 @@
     "emoji": "🌷",
     "tile": "green",
     "description": "Ethinyl Estradiol + Levonorgestrel Mixed Tablet pack. Contraceptive — Combined oral contraceptive.",
-    "moleculeCid": 5991
+    "moleculeCid": 5991,
+    "imageUrl": "/medicines/MED-0330.jpg"
   },
   {
     "id": "MED-0331",
@@ -12902,7 +13227,8 @@
     "emoji": "🌷",
     "tile": "blue",
     "description": "Ethinyl Estradiol + Norethisterone Mixed Tablet pack. Contraceptive — Combined oral contraceptive.",
-    "moleculeCid": 5991
+    "moleculeCid": 5991,
+    "imageUrl": "/medicines/MED-0331.jpg"
   },
   {
     "id": "MED-0332",
@@ -12940,7 +13266,8 @@
     "emoji": "🌷",
     "tile": "amber",
     "description": "Levonorgestrel 1.5 mg Tablet. Contraceptive — Emergency contraceptive.",
-    "moleculeCid": 13109
+    "moleculeCid": 13109,
+    "imageUrl": "/medicines/MED-0332.jpg"
   },
   {
     "id": "MED-0333",
@@ -12981,7 +13308,8 @@
     "emoji": "🦴",
     "tile": "rose",
     "description": "Betamethasone Sodium Phosphate 0.5 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 65478
+    "moleculeCid": 65478,
+    "imageUrl": "/medicines/MED-0333.jpg"
   },
   {
     "id": "MED-0334",
@@ -13022,7 +13350,8 @@
     "emoji": "🦴",
     "tile": "violet",
     "description": "Betamethasone Sodium Phosphate 4 mg/ml Injection. Corticosteroid — Glucocorticoid (parenteral).",
-    "moleculeCid": 65478
+    "moleculeCid": 65478,
+    "imageUrl": "/medicines/MED-0334.jpg"
   },
   {
     "id": "MED-0335",
@@ -13064,7 +13393,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Dexamethasone 0.5 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 5743
+    "moleculeCid": 5743,
+    "imageUrl": "/medicines/MED-0335.jpg"
   },
   {
     "id": "MED-0336",
@@ -13105,7 +13435,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Dexamethasone 4 mg/ml Injection. Corticosteroid — Glucocorticoid (parenteral).",
-    "moleculeCid": 5743
+    "moleculeCid": 5743,
+    "imageUrl": "/medicines/MED-0336.jpg"
   },
   {
     "id": "MED-0337",
@@ -13147,7 +13478,8 @@
     "emoji": "🦴",
     "tile": "green",
     "description": "Hydrocortisone 100 mg Injection. Corticosteroid — Glucocorticoid (parenteral).",
-    "moleculeCid": 5754
+    "moleculeCid": 5754,
+    "imageUrl": "/medicines/MED-0337.jpg"
   },
   {
     "id": "MED-0338",
@@ -13188,7 +13520,8 @@
     "emoji": "🦴",
     "tile": "blue",
     "description": "Methylprednisolone 16 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 6741
+    "moleculeCid": 6741,
+    "imageUrl": "/medicines/MED-0338.jpg"
   },
   {
     "id": "MED-0339",
@@ -13230,7 +13563,8 @@
     "emoji": "🦴",
     "tile": "amber",
     "description": "Methylprednisolone 4 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 6741
+    "moleculeCid": 6741,
+    "imageUrl": "/medicines/MED-0339.jpg"
   },
   {
     "id": "MED-0340",
@@ -13271,7 +13605,8 @@
     "emoji": "🦴",
     "tile": "rose",
     "description": "Methylprednisolone 500 mg Injection. Corticosteroid — Glucocorticoid (parenteral).",
-    "moleculeCid": 6741
+    "moleculeCid": 6741,
+    "imageUrl": "/medicines/MED-0340.jpg"
   },
   {
     "id": "MED-0341",
@@ -13313,7 +13648,8 @@
     "emoji": "🦴",
     "tile": "violet",
     "description": "Prednisolone 40 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 5755
+    "moleculeCid": 5755,
+    "imageUrl": "/medicines/MED-0341.jpg"
   },
   {
     "id": "MED-0342",
@@ -13356,7 +13692,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Prednisolone 5 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 5755
+    "moleculeCid": 5755,
+    "imageUrl": "/medicines/MED-0342.jpg"
   },
   {
     "id": "MED-0343",
@@ -13397,7 +13734,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Triamcinolone 4 mg Tablet. Corticosteroid — Glucocorticoid.",
-    "moleculeCid": 31307
+    "moleculeCid": 31307,
+    "imageUrl": "/medicines/MED-0343.jpg"
   },
   {
     "id": "MED-0344",
@@ -13435,7 +13773,8 @@
     "emoji": "🤧",
     "tile": "green",
     "description": "Codeine + Chlorpheniramine 10+4 mg/5ml Syrup. Cough — Antitussive combination.",
-    "moleculeCid": 5284371
+    "moleculeCid": 5284371,
+    "imageUrl": "/medicines/MED-0344.jpg"
   },
   {
     "id": "MED-0345",
@@ -13473,7 +13812,8 @@
     "emoji": "🤧",
     "tile": "blue",
     "description": "Dextromethorphan 10 mg/5ml Syrup. Cough — Cough suppressant.",
-    "moleculeCid": 5360696
+    "moleculeCid": 5360696,
+    "imageUrl": "/medicines/MED-0345.jpg"
   },
   {
     "id": "MED-0346",
@@ -13513,7 +13853,8 @@
     "emoji": "🤧",
     "tile": "amber",
     "description": "Ambroxol + Levosalbutamol + Guaifenesin Mixed Syrup. Cough / Cold — Mucolytic combination.",
-    "moleculeCid": 2132
+    "moleculeCid": 2132,
+    "imageUrl": "/medicines/MED-0346.jpg"
   },
   {
     "id": "MED-0347",
@@ -13553,7 +13894,8 @@
     "emoji": "🤧",
     "tile": "rose",
     "description": "Dextromethorphan + Phenylephrine + CPM Mixed Syrup. Cough / Cold — Cough suppressant combination.",
-    "moleculeCid": 5360696
+    "moleculeCid": 5360696,
+    "imageUrl": "/medicines/MED-0347.jpg"
   },
   {
     "id": "MED-0348",
@@ -13591,7 +13933,8 @@
     "rxRequired": false,
     "emoji": "🤧",
     "tile": "violet",
-    "description": "Xylometazoline 0.05% w/v Nasal Drops. Decongestant — Pediatric nasal decongestant."
+    "description": "Xylometazoline 0.05% w/v Nasal Drops. Decongestant — Pediatric nasal decongestant.",
+    "imageUrl": "/medicines/MED-0348.jpg"
   },
   {
     "id": "MED-0349",
@@ -13630,7 +13973,8 @@
     "rxRequired": false,
     "emoji": "🤧",
     "tile": "sky",
-    "description": "Xylometazoline 0.1% w/v Nasal Spray. Decongestant — Topical nasal decongestant."
+    "description": "Xylometazoline 0.1% w/v Nasal Spray. Decongestant — Topical nasal decongestant.",
+    "imageUrl": "/medicines/MED-0349.jpg"
   },
   {
     "id": "MED-0350",
@@ -13665,7 +14009,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Methoxsalen 10 mg Tablet. Dermatology — PUVA therapy.",
-    "moleculeCid": 4114
+    "moleculeCid": 4114,
+    "imageUrl": "/medicines/MED-0350.jpg"
   },
   {
     "id": "MED-0351",
@@ -13704,7 +14049,8 @@
     "emoji": "❤️",
     "tile": "green",
     "description": "Furosemide 20 mg/2ml Injection. Diuretic — Loop diuretic (parenteral).",
-    "moleculeCid": 3440
+    "moleculeCid": 3440,
+    "imageUrl": "/medicines/MED-0351.jpg"
   },
   {
     "id": "MED-0352",
@@ -13744,7 +14090,8 @@
     "emoji": "❤️",
     "tile": "blue",
     "description": "Furosemide 40 mg Tablet. Diuretic — Loop diuretic.",
-    "moleculeCid": 3440
+    "moleculeCid": 3440,
+    "imageUrl": "/medicines/MED-0352.jpg"
   },
   {
     "id": "MED-0353",
@@ -13782,7 +14129,8 @@
     "rxRequired": true,
     "emoji": "❤️",
     "tile": "amber",
-    "description": "Mannitol 20% w/v IV solution. Diuretic — Osmotic diuretic."
+    "description": "Mannitol 20% w/v IV solution. Diuretic — Osmotic diuretic.",
+    "imageUrl": "/medicines/MED-0353.jpg"
   },
   {
     "id": "MED-0354",
@@ -13822,7 +14170,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Spironolactone 25 mg Tablet. Diuretic — Potassium-sparing.",
-    "moleculeCid": 5833
+    "moleculeCid": 5833,
+    "imageUrl": "/medicines/MED-0354.jpg"
   },
   {
     "id": "MED-0355",
@@ -13861,7 +14210,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Spironolactone 50 mg Tablet. Diuretic — Potassium-sparing.",
-    "moleculeCid": 5833
+    "moleculeCid": 5833,
+    "imageUrl": "/medicines/MED-0355.jpg"
   },
   {
     "id": "MED-0356",
@@ -13901,7 +14251,8 @@
     "emoji": "❤️",
     "tile": "sky",
     "description": "Torsemide 10 mg Tablet. Diuretic — Loop diuretic.",
-    "moleculeCid": 41781
+    "moleculeCid": 41781,
+    "imageUrl": "/medicines/MED-0356.jpg"
   },
   {
     "id": "MED-0357",
@@ -13939,7 +14290,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "slate",
-    "description": "ORS (WHO formulation) 21.8 g sachet Powder. Electrolyte — Oral rehydration salt."
+    "description": "ORS (WHO formulation) 21.8 g sachet Powder. Electrolyte — Oral rehydration salt.",
+    "imageUrl": "/medicines/MED-0357.jpg"
   },
   {
     "id": "MED-0358",
@@ -13976,7 +14328,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "green",
-    "description": "Adrenaline (Epinephrine) 1 mg/ml Injection. Emergency — Sympathomimetic."
+    "description": "Adrenaline (Epinephrine) 1 mg/ml Injection. Emergency — Sympathomimetic.",
+    "imageUrl": "/medicines/MED-0358.jpg"
   },
   {
     "id": "MED-0359",
@@ -14015,7 +14368,8 @@
     "emoji": "🤧",
     "tile": "blue",
     "description": "Guaifenesin 100 mg/5ml Syrup. Expectorant — Expectorant.",
-    "moleculeCid": 3516
+    "moleculeCid": 3516,
+    "imageUrl": "/medicines/MED-0359.jpg"
   },
   {
     "id": "MED-0360",
@@ -14055,7 +14409,8 @@
     "emoji": "🌷",
     "tile": "amber",
     "description": "Clomifene 50 mg Tablet. Fertility — SERM (ovulation induction).",
-    "moleculeCid": 1548955
+    "moleculeCid": 1548955,
+    "imageUrl": "/medicines/MED-0360.jpg"
   },
   {
     "id": "MED-0361",
@@ -14095,7 +14450,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Mesalamine (5-ASA) 400 mg Tablet. GI anti-inflammatory — Aminosalicylate.",
-    "moleculeCid": 4075
+    "moleculeCid": 4075,
+    "imageUrl": "/medicines/MED-0361.jpg"
   },
   {
     "id": "MED-0362",
@@ -14134,7 +14490,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Mesalamine (5-ASA) 800 mg Tablet. GI anti-inflammatory — Aminosalicylate.",
-    "moleculeCid": 4075
+    "moleculeCid": 4075,
+    "imageUrl": "/medicines/MED-0362.jpg"
   },
   {
     "id": "MED-0363",
@@ -14174,7 +14531,8 @@
     "emoji": "🌿",
     "tile": "sky",
     "description": "Iron + Folic Acid + B12 Mixed Tablet. Hematinic — Anemia treatment.",
-    "moleculeCid": 23925
+    "moleculeCid": 23925,
+    "imageUrl": "/medicines/MED-0363.jpg"
   },
   {
     "id": "MED-0364",
@@ -14211,7 +14569,8 @@
     "emoji": "💊",
     "tile": "slate",
     "description": "Mefenamic Acid + Tranexamic Acid 250+500 mg Tablet. Hemostatic — Combination (heavy menstrual).",
-    "moleculeCid": 4044
+    "moleculeCid": 4044,
+    "imageUrl": "/medicines/MED-0364.jpg"
   },
   {
     "id": "MED-0365",
@@ -14248,7 +14607,8 @@
     "emoji": "💉",
     "tile": "green",
     "description": "Tranexamic Acid 100 mg/ml Injection. Hemostatic — Antifibrinolytic (parenteral).",
-    "moleculeCid": 5526
+    "moleculeCid": 5526,
+    "imageUrl": "/medicines/MED-0365.jpg"
   },
   {
     "id": "MED-0366",
@@ -14286,7 +14646,8 @@
     "emoji": "💊",
     "tile": "blue",
     "description": "Tranexamic Acid 500 mg Tablet. Hemostatic — Antifibrinolytic.",
-    "moleculeCid": 5526
+    "moleculeCid": 5526,
+    "imageUrl": "/medicines/MED-0366.jpg"
   },
   {
     "id": "MED-0367",
@@ -14325,7 +14686,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "amber",
-    "description": "Liver Tonic (LIV-52) Mixed Syrup. Hepatoprotective — Ayurvedic liver tonic."
+    "description": "Liver Tonic (LIV-52) Mixed Syrup. Hepatoprotective — Ayurvedic liver tonic.",
+    "imageUrl": "/medicines/MED-0367.jpg"
   },
   {
     "id": "MED-0368",
@@ -14365,7 +14727,8 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Silymarin 140 mg Capsule. Hepatoprotective — Milk thistle extract.",
-    "moleculeCid": 5213
+    "moleculeCid": 5213,
+    "imageUrl": "/medicines/MED-0368.jpg"
   },
   {
     "id": "MED-0369",
@@ -14404,7 +14767,8 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Ursodeoxycholic Acid 150 mg Tablet. Hepatoprotective — Bile acid.",
-    "moleculeCid": 31401
+    "moleculeCid": 31401,
+    "imageUrl": "/medicines/MED-0369.jpg"
   },
   {
     "id": "MED-0370",
@@ -14444,7 +14808,8 @@
     "emoji": "🫃",
     "tile": "sky",
     "description": "Ursodeoxycholic Acid 300 mg Tablet. Hepatoprotective — Bile acid.",
-    "moleculeCid": 31401
+    "moleculeCid": 31401,
+    "imageUrl": "/medicines/MED-0370.jpg"
   },
   {
     "id": "MED-0371",
@@ -14480,7 +14845,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "slate",
-    "description": "Dextrose 5% (D5W) 5% w/v IV solution. IV fluid — Carbohydrate IV fluid."
+    "description": "Dextrose 5% (D5W) 5% w/v IV solution. IV fluid — Carbohydrate IV fluid.",
+    "imageUrl": "/medicines/MED-0371.jpg"
   },
   {
     "id": "MED-0372",
@@ -14517,7 +14883,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "green",
-    "description": "Normal Saline (0.9% NaCl) 0.9% w/v IV solution. IV fluid — Crystalloid IV fluid."
+    "description": "Normal Saline (0.9% NaCl) 0.9% w/v IV solution. IV fluid — Crystalloid IV fluid.",
+    "imageUrl": "/medicines/MED-0372.jpg"
   },
   {
     "id": "MED-0373",
@@ -14554,7 +14921,8 @@
     "rxRequired": true,
     "emoji": "💉",
     "tile": "blue",
-    "description": "Ringer Lactate Mixed IV solution. IV fluid — Balanced crystalloid."
+    "description": "Ringer Lactate Mixed IV solution. IV fluid — Balanced crystalloid.",
+    "imageUrl": "/medicines/MED-0373.jpg"
   },
   {
     "id": "MED-0374",
@@ -14592,7 +14960,8 @@
     "emoji": "🦴",
     "tile": "amber",
     "description": "Azathioprine 50 mg Tablet. Immunosuppressant — Antimetabolite.",
-    "moleculeCid": 2265
+    "moleculeCid": 2265,
+    "imageUrl": "/medicines/MED-0374.jpg"
   },
   {
     "id": "MED-0375",
@@ -14630,7 +14999,8 @@
     "emoji": "🦴",
     "tile": "rose",
     "description": "Mycophenolate Mofetil 500 mg Tablet. Immunosuppressant — IMPDH inhibitor.",
-    "moleculeCid": 5281078
+    "moleculeCid": 5281078,
+    "imageUrl": "/medicines/MED-0375.jpg"
   },
   {
     "id": "MED-0376",
@@ -14667,7 +15037,8 @@
     "emoji": "🦴",
     "tile": "violet",
     "description": "Tacrolimus 0.5 mg Capsule. Immunosuppressant — Calcineurin inhibitor.",
-    "moleculeCid": 445643
+    "moleculeCid": 445643,
+    "imageUrl": "/medicines/MED-0376.jpg"
   },
   {
     "id": "MED-0377",
@@ -14705,7 +15076,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Tacrolimus 1 mg Capsule. Immunosuppressant — Calcineurin inhibitor.",
-    "moleculeCid": 445643
+    "moleculeCid": 445643,
+    "imageUrl": "/medicines/MED-0377.jpg"
   },
   {
     "id": "MED-0378",
@@ -14741,7 +15113,8 @@
     "emoji": "🫃",
     "tile": "slate",
     "description": "Bisacodyl 5 mg Tablet. Laxative — Stimulant laxative.",
-    "moleculeCid": 2391
+    "moleculeCid": 2391,
+    "imageUrl": "/medicines/MED-0378.jpg"
   },
   {
     "id": "MED-0379",
@@ -14776,7 +15149,8 @@
     "emoji": "🫃",
     "tile": "green",
     "description": "Glycerin Suppository 1 g / 2.4 g Suppository. Laxative — Pediatric/adult laxative.",
-    "moleculeCid": 753
+    "moleculeCid": 753,
+    "imageUrl": "/medicines/MED-0379.jpg"
   },
   {
     "id": "MED-0380",
@@ -14812,7 +15186,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Lactulose 10 g/15ml Syrup. Laxative — Osmotic laxative.",
-    "moleculeCid": 11333
+    "moleculeCid": 11333,
+    "imageUrl": "/medicines/MED-0380.jpg"
   },
   {
     "id": "MED-0381",
@@ -14847,7 +15222,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "amber",
-    "description": "Polyethylene Glycol (Macrogol) 137.15 g sachet Powder. Laxative — Osmotic laxative."
+    "description": "Polyethylene Glycol (Macrogol) 137.15 g sachet Powder. Laxative — Osmotic laxative.",
+    "imageUrl": "/medicines/MED-0381.jpg"
   },
   {
     "id": "MED-0382",
@@ -14884,7 +15260,8 @@
     "emoji": "🤒",
     "tile": "rose",
     "description": "Flunarizine 10 mg Tablet. Migraine prophylaxis — Calcium channel blocker.",
-    "moleculeCid": 941361
+    "moleculeCid": 941361,
+    "imageUrl": "/medicines/MED-0382.jpg"
   },
   {
     "id": "MED-0383",
@@ -14922,7 +15299,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Flunarizine 5 mg Tablet. Migraine prophylaxis — Calcium channel blocker.",
-    "moleculeCid": 941361
+    "moleculeCid": 941361,
+    "imageUrl": "/medicines/MED-0383.jpg"
   },
   {
     "id": "MED-0384",
@@ -14960,7 +15338,8 @@
     "emoji": "🌿",
     "tile": "sky",
     "description": "Calcium + Magnesium + Zinc + Vitamin D3 Mixed Tablet. Mineral — Bone health combination.",
-    "moleculeCid": 5460341
+    "moleculeCid": 5460341,
+    "imageUrl": "/medicines/MED-0384.jpg"
   },
   {
     "id": "MED-0385",
@@ -14999,7 +15378,8 @@
     "emoji": "🌿",
     "tile": "slate",
     "description": "Calcium Carbonate + Vitamin D3 500+250 IU Tablet. Mineral — Calcium + Vit D supplement.",
-    "moleculeCid": 10112
+    "moleculeCid": 10112,
+    "imageUrl": "/medicines/MED-0385.jpg"
   },
   {
     "id": "MED-0386",
@@ -15037,7 +15417,8 @@
     "emoji": "🌿",
     "tile": "green",
     "description": "Calcium Citrate + Vitamin D3 + Magnesium + Zinc Mixed Tablet. Mineral — Multi-mineral combination.",
-    "moleculeCid": 13136
+    "moleculeCid": 13136,
+    "imageUrl": "/medicines/MED-0386.jpg"
   },
   {
     "id": "MED-0387",
@@ -15076,7 +15457,8 @@
     "emoji": "🌿",
     "tile": "blue",
     "description": "Ferrous Ascorbate + Folic Acid 100+1.5 mg Tablet. Mineral — Iron + folate combination.",
-    "moleculeCid": 86763295
+    "moleculeCid": 86763295,
+    "imageUrl": "/medicines/MED-0387.jpg"
   },
   {
     "id": "MED-0388",
@@ -15114,7 +15496,8 @@
     "emoji": "🌿",
     "tile": "amber",
     "description": "Ferrous Sulphate 200 mg Tablet. Mineral — Iron supplement.",
-    "moleculeCid": 24393
+    "moleculeCid": 24393,
+    "imageUrl": "/medicines/MED-0388.jpg"
   },
   {
     "id": "MED-0389",
@@ -15152,7 +15535,8 @@
     "emoji": "🌿",
     "tile": "rose",
     "description": "Magnesium + Vitamin B6 Mixed Tablet. Mineral — Magnesium supplement.",
-    "moleculeCid": 5462224
+    "moleculeCid": 5462224,
+    "imageUrl": "/medicines/MED-0389.jpg"
   },
   {
     "id": "MED-0390",
@@ -15188,7 +15572,8 @@
     "rxRequired": false,
     "emoji": "🌿",
     "tile": "violet",
-    "description": "Zinc Sulphate / Acetate 10 mg/5ml Syrup. Mineral — Pediatric zinc."
+    "description": "Zinc Sulphate / Acetate 10 mg/5ml Syrup. Mineral — Pediatric zinc.",
+    "imageUrl": "/medicines/MED-0390.jpg"
   },
   {
     "id": "MED-0391",
@@ -15225,7 +15610,8 @@
     "rxRequired": false,
     "emoji": "🌿",
     "tile": "sky",
-    "description": "Zinc Sulphate / Acetate 20 mg Tablet (dispersible). Mineral — Zinc supplement."
+    "description": "Zinc Sulphate / Acetate 20 mg Tablet (dispersible). Mineral — Zinc supplement.",
+    "imageUrl": "/medicines/MED-0391.jpg"
   },
   {
     "id": "MED-0392",
@@ -15265,7 +15651,8 @@
     "emoji": "🌿",
     "tile": "slate",
     "description": "Carbonyl Iron + Folic Acid + B12 + Zinc Mixed Syrup. Mineral / Vitamin — Hematinic combination.",
-    "moleculeCid": 23925
+    "moleculeCid": 23925,
+    "imageUrl": "/medicines/MED-0392.jpg"
   },
   {
     "id": "MED-0393",
@@ -15303,7 +15690,8 @@
     "emoji": "🧘",
     "tile": "green",
     "description": "Lithium Carbonate 300 mg Tablet. Mood stabilizer — Antimanic.",
-    "moleculeCid": 11125
+    "moleculeCid": 11125,
+    "imageUrl": "/medicines/MED-0393.jpg"
   },
   {
     "id": "MED-0394",
@@ -15343,7 +15731,8 @@
     "emoji": "🤧",
     "tile": "blue",
     "description": "Acetylcysteine 600 mg Effervescent Tablet. Mucolytic — Mucolytic.",
-    "moleculeCid": 12035
+    "moleculeCid": 12035,
+    "imageUrl": "/medicines/MED-0394.jpg"
   },
   {
     "id": "MED-0395",
@@ -15382,7 +15771,8 @@
     "emoji": "🤧",
     "tile": "amber",
     "description": "Ambroxol 15 mg/5ml Syrup. Mucolytic — Mucolytic syrup.",
-    "moleculeCid": 2132
+    "moleculeCid": 2132,
+    "imageUrl": "/medicines/MED-0395.jpg"
   },
   {
     "id": "MED-0396",
@@ -15422,7 +15812,8 @@
     "emoji": "🤧",
     "tile": "rose",
     "description": "Ambroxol 30 mg Tablet. Mucolytic — Mucolytic / Expectorant.",
-    "moleculeCid": 2132
+    "moleculeCid": 2132,
+    "imageUrl": "/medicines/MED-0396.jpg"
   },
   {
     "id": "MED-0397",
@@ -15461,7 +15852,8 @@
     "emoji": "🤧",
     "tile": "violet",
     "description": "Bromhexine 8 mg Tablet. Mucolytic — Mucolytic.",
-    "moleculeCid": 2442
+    "moleculeCid": 2442,
+    "imageUrl": "/medicines/MED-0397.jpg"
   },
   {
     "id": "MED-0398",
@@ -15501,7 +15893,8 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Baclofen 10 mg Tablet. Muscle relaxant — GABA agonist.",
-    "moleculeCid": 2284
+    "moleculeCid": 2284,
+    "imageUrl": "/medicines/MED-0398.jpg"
   },
   {
     "id": "MED-0399",
@@ -15540,7 +15933,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Baclofen 20 mg Tablet. Muscle relaxant — GABA agonist.",
-    "moleculeCid": 2284
+    "moleculeCid": 2284,
+    "imageUrl": "/medicines/MED-0399.jpg"
   },
   {
     "id": "MED-0400",
@@ -15580,7 +15974,8 @@
     "emoji": "🦴",
     "tile": "green",
     "description": "Cyclobenzaprine 5 mg Tablet. Muscle relaxant — Centrally acting.",
-    "moleculeCid": 2895
+    "moleculeCid": 2895,
+    "imageUrl": "/medicines/MED-0400.jpg"
   },
   {
     "id": "MED-0401",
@@ -15620,7 +16015,8 @@
     "emoji": "🦴",
     "tile": "blue",
     "description": "Thiocolchicoside 4 mg Capsule. Muscle relaxant — GABA antagonist.",
-    "moleculeCid": 9915886
+    "moleculeCid": 9915886,
+    "imageUrl": "/medicines/MED-0401.jpg"
   },
   {
     "id": "MED-0402",
@@ -15660,7 +16056,8 @@
     "emoji": "🦴",
     "tile": "amber",
     "description": "Tizanidine 2 mg Tablet. Muscle relaxant — Alpha-2 agonist.",
-    "moleculeCid": 5487
+    "moleculeCid": 5487,
+    "imageUrl": "/medicines/MED-0402.jpg"
   },
   {
     "id": "MED-0403",
@@ -15699,7 +16096,8 @@
     "emoji": "🦴",
     "tile": "rose",
     "description": "Tizanidine 4 mg Tablet. Muscle relaxant — Alpha-2 agonist.",
-    "moleculeCid": 5487
+    "moleculeCid": 5487,
+    "imageUrl": "/medicines/MED-0403.jpg"
   },
   {
     "id": "MED-0404",
@@ -15739,7 +16137,8 @@
     "emoji": "🦴",
     "tile": "violet",
     "description": "Thiocolchicoside + Aceclofenac 4+100 mg Tablet. Muscle relaxant + NSAID — Combination.",
-    "moleculeCid": 9915886
+    "moleculeCid": 9915886,
+    "imageUrl": "/medicines/MED-0404.jpg"
   },
   {
     "id": "MED-0405",
@@ -15776,7 +16175,8 @@
     "rxRequired": false,
     "emoji": "🤧",
     "tile": "sky",
-    "description": "Saline Nasal Spray 0.65% w/v Nasal Spray. Nasal hygiene — Sodium chloride spray."
+    "description": "Saline Nasal Spray 0.65% w/v Nasal Spray. Nasal hygiene — Sodium chloride spray.",
+    "imageUrl": "/medicines/MED-0405.jpg"
   },
   {
     "id": "MED-0406",
@@ -15813,7 +16213,8 @@
     "emoji": "🦴",
     "tile": "slate",
     "description": "Pregabalin 150 mg Capsule. Neuropathic pain — GABA analogue.",
-    "moleculeCid": 5486971
+    "moleculeCid": 5486971,
+    "imageUrl": "/medicines/MED-0406.jpg"
   },
   {
     "id": "MED-0407",
@@ -15852,7 +16253,8 @@
     "emoji": "🦴",
     "tile": "green",
     "description": "Pregabalin 75 mg Capsule. Neuropathic pain — GABA analogue.",
-    "moleculeCid": 5486971
+    "moleculeCid": 5486971,
+    "imageUrl": "/medicines/MED-0407.jpg"
   },
   {
     "id": "MED-0408",
@@ -15890,7 +16292,8 @@
     "emoji": "🦴",
     "tile": "blue",
     "description": "Pregabalin + Methylcobalamin 75+1500 mcg Capsule. Neuropathic pain — Combination.",
-    "moleculeCid": 5486971
+    "moleculeCid": 5486971,
+    "imageUrl": "/medicines/MED-0408.jpg"
   },
   {
     "id": "MED-0409",
@@ -15930,7 +16333,8 @@
     "emoji": "🦴",
     "tile": "amber",
     "description": "Methylcobalamin + Pregabalin + Alpha Lipoic Acid Mixed Capsule. Neuropathic supplement — Nerve health combination.",
-    "moleculeCid": 10898559
+    "moleculeCid": 10898559,
+    "imageUrl": "/medicines/MED-0409.jpg"
   },
   {
     "id": "MED-0410",
@@ -15970,7 +16374,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "rose",
-    "description": "Atropine 1% w/v Eye drops. Ophthalmic — Anticholinergic mydriatic."
+    "description": "Atropine 1% w/v Eye drops. Ophthalmic — Anticholinergic mydriatic.",
+    "imageUrl": "/medicines/MED-0410.jpg"
   },
   {
     "id": "MED-0411",
@@ -16011,7 +16416,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "violet",
-    "description": "Brimonidine 0.15% w/v Eye drops. Ophthalmic — Alpha-2 agonist (glaucoma)."
+    "description": "Brimonidine 0.15% w/v Eye drops. Ophthalmic — Alpha-2 agonist (glaucoma).",
+    "imageUrl": "/medicines/MED-0411.jpg"
   },
   {
     "id": "MED-0412",
@@ -16052,7 +16458,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "sky",
-    "description": "Carboxymethylcellulose 0.5% w/v Eye drops. Ophthalmic — Artificial tears."
+    "description": "Carboxymethylcellulose 0.5% w/v Eye drops. Ophthalmic — Artificial tears.",
+    "imageUrl": "/medicines/MED-0412.jpg"
   },
   {
     "id": "MED-0413",
@@ -16093,7 +16500,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "slate",
-    "description": "Chloramphenicol 0.5% w/v Eye drops. Ophthalmic — Antibiotic."
+    "description": "Chloramphenicol 0.5% w/v Eye drops. Ophthalmic — Antibiotic.",
+    "imageUrl": "/medicines/MED-0413.jpg"
   },
   {
     "id": "MED-0414",
@@ -16133,7 +16541,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "green",
-    "description": "Cyclopentolate 1% w/v Eye drops. Ophthalmic — Anticholinergic mydriatic."
+    "description": "Cyclopentolate 1% w/v Eye drops. Ophthalmic — Anticholinergic mydriatic.",
+    "imageUrl": "/medicines/MED-0414.jpg"
   },
   {
     "id": "MED-0415",
@@ -16174,7 +16583,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "blue",
-    "description": "Hydroxypropyl Methylcellulose (Hypromellose) 0.3% w/v Eye drops. Ophthalmic — Artificial tears."
+    "description": "Hydroxypropyl Methylcellulose (Hypromellose) 0.3% w/v Eye drops. Ophthalmic — Artificial tears.",
+    "imageUrl": "/medicines/MED-0415.jpg"
   },
   {
     "id": "MED-0416",
@@ -16214,7 +16624,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "amber",
-    "description": "Ketotifen 0.025% w/v Eye drops. Ophthalmic — Antihistamine / mast cell stabilizer."
+    "description": "Ketotifen 0.025% w/v Eye drops. Ophthalmic — Antihistamine / mast cell stabilizer.",
+    "imageUrl": "/medicines/MED-0416.jpg"
   },
   {
     "id": "MED-0417",
@@ -16255,7 +16666,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "rose",
-    "description": "Loteprednol 0.5% w/v Eye drops. Ophthalmic — Steroid drops."
+    "description": "Loteprednol 0.5% w/v Eye drops. Ophthalmic — Steroid drops.",
+    "imageUrl": "/medicines/MED-0417.jpg"
   },
   {
     "id": "MED-0418",
@@ -16295,7 +16707,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "violet",
-    "description": "Pilocarpine 2% w/v Eye drops. Ophthalmic — Cholinergic miotic."
+    "description": "Pilocarpine 2% w/v Eye drops. Ophthalmic — Cholinergic miotic.",
+    "imageUrl": "/medicines/MED-0418.jpg"
   },
   {
     "id": "MED-0419",
@@ -16338,7 +16751,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "sky",
-    "description": "Prednisolone Acetate 1% w/v Eye drops. Ophthalmic — Steroid drops."
+    "description": "Prednisolone Acetate 1% w/v Eye drops. Ophthalmic — Steroid drops.",
+    "imageUrl": "/medicines/MED-0419.jpg"
   },
   {
     "id": "MED-0420",
@@ -16379,7 +16793,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "slate",
-    "description": "Timolol 0.5% w/v Eye drops. Ophthalmic — Beta blocker (glaucoma)."
+    "description": "Timolol 0.5% w/v Eye drops. Ophthalmic — Beta blocker (glaucoma).",
+    "imageUrl": "/medicines/MED-0420.jpg"
   },
   {
     "id": "MED-0421",
@@ -16420,7 +16835,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "green",
-    "description": "Tobramycin 0.3% w/v Eye drops. Ophthalmic — Aminoglycoside antibiotic."
+    "description": "Tobramycin 0.3% w/v Eye drops. Ophthalmic — Aminoglycoside antibiotic.",
+    "imageUrl": "/medicines/MED-0421.jpg"
   },
   {
     "id": "MED-0422",
@@ -16462,7 +16878,8 @@
     "emoji": "👁️",
     "tile": "blue",
     "description": "Tobramycin + Dexamethasone Mixed Eye drops. Ophthalmic — Antibiotic + steroid.",
-    "moleculeCid": 36294
+    "moleculeCid": 36294,
+    "imageUrl": "/medicines/MED-0422.jpg"
   },
   {
     "id": "MED-0423",
@@ -16502,7 +16919,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "amber",
-    "description": "Tropicamide 1% w/v Eye drops. Ophthalmic — Mydriatic."
+    "description": "Tropicamide 1% w/v Eye drops. Ophthalmic — Mydriatic.",
+    "imageUrl": "/medicines/MED-0423.jpg"
   },
   {
     "id": "MED-0424",
@@ -16539,7 +16957,8 @@
     "rxRequired": false,
     "emoji": "👁️",
     "tile": "rose",
-    "description": "Ofloxacin 0.3% w/v Eye / Ear drops. Ophthalmic / Otic — Fluoroquinolone drops."
+    "description": "Ofloxacin 0.3% w/v Eye / Ear drops. Ophthalmic / Otic — Fluoroquinolone drops.",
+    "imageUrl": "/medicines/MED-0424.jpg"
   },
   {
     "id": "MED-0425",
@@ -16577,7 +16996,8 @@
     "emoji": "🤒",
     "tile": "violet",
     "description": "Morphine 10 mg Tablet SR. Opioid analgesic — Strong opioid.",
-    "moleculeCid": 5288826
+    "moleculeCid": 5288826,
+    "imageUrl": "/medicines/MED-0425.jpg"
   },
   {
     "id": "MED-0426",
@@ -16614,7 +17034,8 @@
     "emoji": "🤒",
     "tile": "sky",
     "description": "Morphine 10 mg/ml Injection. Opioid analgesic — Strong opioid.",
-    "moleculeCid": 5288826
+    "moleculeCid": 5288826,
+    "imageUrl": "/medicines/MED-0426.jpg"
   },
   {
     "id": "MED-0427",
@@ -16652,7 +17073,8 @@
     "emoji": "🤒",
     "tile": "slate",
     "description": "Tapentadol 50 mg Tablet. Opioid analgesic — Centrally acting opioid.",
-    "moleculeCid": 9838022
+    "moleculeCid": 9838022,
+    "imageUrl": "/medicines/MED-0427.jpg"
   },
   {
     "id": "MED-0428",
@@ -16689,7 +17111,8 @@
     "emoji": "🤒",
     "tile": "green",
     "description": "Tramadol 100 mg Tablet SR. Opioid analgesic — Centrally acting opioid.",
-    "moleculeCid": 33741
+    "moleculeCid": 33741,
+    "imageUrl": "/medicines/MED-0428.jpg"
   },
   {
     "id": "MED-0429",
@@ -16727,7 +17150,8 @@
     "emoji": "🤒",
     "tile": "blue",
     "description": "Tramadol 50 mg Capsule. Opioid analgesic — Centrally acting opioid.",
-    "moleculeCid": 33741
+    "moleculeCid": 33741,
+    "imageUrl": "/medicines/MED-0429.jpg"
   },
   {
     "id": "MED-0430",
@@ -16765,7 +17189,8 @@
     "emoji": "🤒",
     "tile": "amber",
     "description": "Tramadol + Paracetamol 37.5+325 mg Tablet. Opioid combination — Opioid + non-opioid.",
-    "moleculeCid": 33741
+    "moleculeCid": 33741,
+    "imageUrl": "/medicines/MED-0430.jpg"
   },
   {
     "id": "MED-0431",
@@ -16804,7 +17229,8 @@
     "rxRequired": false,
     "emoji": "👂",
     "tile": "rose",
-    "description": "Carbamide Peroxide 5% w/v Ear drops. Otic — Cerumenolytic (wax removal)."
+    "description": "Carbamide Peroxide 5% w/v Ear drops. Otic — Cerumenolytic (wax removal).",
+    "imageUrl": "/medicines/MED-0431.jpg"
   },
   {
     "id": "MED-0432",
@@ -16842,7 +17268,8 @@
     "rxRequired": false,
     "emoji": "👂",
     "tile": "violet",
-    "description": "Clotrimazole Mixed Ear drops. Otic — Antifungal + antibiotic + steroid."
+    "description": "Clotrimazole Mixed Ear drops. Otic — Antifungal + antibiotic + steroid.",
+    "imageUrl": "/medicines/MED-0432.jpg"
   },
   {
     "id": "MED-0433",
@@ -16880,7 +17307,8 @@
     "rxRequired": false,
     "emoji": "🍼",
     "tile": "sky",
-    "description": "Multivitamin Syrup (Pediatric) Mixed Syrup. Pediatric supplement — Pediatric multivitamin."
+    "description": "Multivitamin Syrup (Pediatric) Mixed Syrup. Pediatric supplement — Pediatric multivitamin.",
+    "imageUrl": "/medicines/MED-0433.jpg"
   },
   {
     "id": "MED-0434",
@@ -16919,7 +17347,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "slate",
-    "description": "Lactobacillus + Multistrain Probiotic 60 billion CFU Capsule. Probiotic — Probiotic combination."
+    "description": "Lactobacillus + Multistrain Probiotic 60 billion CFU Capsule. Probiotic — Probiotic combination.",
+    "imageUrl": "/medicines/MED-0434.jpg"
   },
   {
     "id": "MED-0435",
@@ -16958,7 +17387,8 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "green",
-    "description": "Saccharomyces Boulardii 250 mg Sachet. Probiotic — Probiotic yeast."
+    "description": "Saccharomyces Boulardii 250 mg Sachet. Probiotic — Probiotic yeast.",
+    "imageUrl": "/medicines/MED-0435.jpg"
   },
   {
     "id": "MED-0436",
@@ -16998,7 +17428,8 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Itopride 50 mg Tablet. Prokinetic — Dopamine antagonist.",
-    "moleculeCid": 3792
+    "moleculeCid": 3792,
+    "imageUrl": "/medicines/MED-0436.jpg"
   },
   {
     "id": "MED-0437",
@@ -17038,7 +17469,8 @@
     "emoji": "🫃",
     "tile": "amber",
     "description": "Levosulpiride 25 mg Tablet. Prokinetic — Atypical antipsychotic / prokinetic.",
-    "moleculeCid": 688272
+    "moleculeCid": 688272,
+    "imageUrl": "/medicines/MED-0437.jpg"
   },
   {
     "id": "MED-0438",
@@ -17073,7 +17505,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Sildenafil 20 mg Tablet. Pulmonary hypertension — PDE5 inhibitor.",
-    "moleculeCid": 135398744
+    "moleculeCid": 135398744,
+    "imageUrl": "/medicines/MED-0438.jpg"
   },
   {
     "id": "MED-0439",
@@ -17108,7 +17541,8 @@
     "emoji": "❤️",
     "tile": "violet",
     "description": "Tadalafil 5 mg Tablet. Pulmonary hypertension — PDE5 inhibitor.",
-    "moleculeCid": 110635
+    "moleculeCid": 110635,
+    "imageUrl": "/medicines/MED-0439.jpg"
   },
   {
     "id": "MED-0440",
@@ -17145,7 +17579,8 @@
     "emoji": "🌷",
     "tile": "sky",
     "description": "Estradiol Valerate 2 mg Tablet. Sex hormone — Estrogen.",
-    "moleculeCid": 13791
+    "moleculeCid": 13791,
+    "imageUrl": "/medicines/MED-0440.jpg"
   },
   {
     "id": "MED-0441",
@@ -17183,7 +17618,8 @@
     "emoji": "🌷",
     "tile": "slate",
     "description": "Medroxyprogesterone Acetate 10 mg Tablet. Sex hormone — Progestogen.",
-    "moleculeCid": 6279
+    "moleculeCid": 6279,
+    "imageUrl": "/medicines/MED-0441.jpg"
   },
   {
     "id": "MED-0442",
@@ -17220,7 +17656,8 @@
     "emoji": "🌷",
     "tile": "green",
     "description": "Norethisterone 5 mg Tablet. Sex hormone — Progestogen.",
-    "moleculeCid": 6230
+    "moleculeCid": 6230,
+    "imageUrl": "/medicines/MED-0442.jpg"
   },
   {
     "id": "MED-0443",
@@ -17257,7 +17694,8 @@
     "rxRequired": true,
     "emoji": "🌷",
     "tile": "blue",
-    "description": "Progesterone (Natural Micronized) 200 mg Capsule. Sex hormone — Progestogen."
+    "description": "Progesterone (Natural Micronized) 200 mg Capsule. Sex hormone — Progestogen.",
+    "imageUrl": "/medicines/MED-0443.jpg"
   },
   {
     "id": "MED-0444",
@@ -17295,7 +17733,8 @@
     "rxRequired": true,
     "emoji": "🌷",
     "tile": "amber",
-    "description": "Levothyroxine (Thyroxine) 125 mcg Tablet. Thyroid — Thyroid hormone."
+    "description": "Levothyroxine (Thyroxine) 125 mcg Tablet. Thyroid — Thyroid hormone.",
+    "imageUrl": "/medicines/MED-0444.jpg"
   },
   {
     "id": "MED-0445",
@@ -17334,7 +17773,8 @@
     "rxRequired": true,
     "emoji": "🌷",
     "tile": "rose",
-    "description": "Levothyroxine (Thyroxine) 25 mcg Tablet. Thyroid — Thyroid hormone."
+    "description": "Levothyroxine (Thyroxine) 25 mcg Tablet. Thyroid — Thyroid hormone.",
+    "imageUrl": "/medicines/MED-0445.jpg"
   },
   {
     "id": "MED-0446",
@@ -17373,7 +17813,8 @@
     "rxRequired": false,
     "emoji": "🤒",
     "tile": "violet",
-    "description": "Capsaicin 0.025% w/w Cream. Topical analgesic — TRPV1 agonist."
+    "description": "Capsaicin 0.025% w/w Cream. Topical analgesic — TRPV1 agonist.",
+    "imageUrl": "/medicines/MED-0446.jpg"
   },
   {
     "id": "MED-0447",
@@ -17415,7 +17856,8 @@
     "rxRequired": false,
     "emoji": "🤒",
     "tile": "sky",
-    "description": "Diclofenac 1% w/w Gel. Topical analgesic — NSAID gel."
+    "description": "Diclofenac 1% w/w Gel. Topical analgesic — NSAID gel.",
+    "imageUrl": "/medicines/MED-0447.jpg"
   },
   {
     "id": "MED-0448",
@@ -17458,7 +17900,8 @@
     "emoji": "🤒",
     "tile": "slate",
     "description": "Diclofenac + Methyl Salicylate + Menthol + Linseed Oil Mixed Gel. Topical analgesic — Counter-irritant + NSAID.",
-    "moleculeCid": 3033
+    "moleculeCid": 3033,
+    "imageUrl": "/medicines/MED-0448.jpg"
   },
   {
     "id": "MED-0449",
@@ -17500,7 +17943,8 @@
     "rxRequired": false,
     "emoji": "🤒",
     "tile": "green",
-    "description": "Diclofenac Patch 100 mg Patch. Topical analgesic — Transdermal NSAID."
+    "description": "Diclofenac Patch 100 mg Patch. Topical analgesic — Transdermal NSAID.",
+    "imageUrl": "/medicines/MED-0449.jpg"
   },
   {
     "id": "MED-0450",
@@ -17538,7 +17982,8 @@
     "emoji": "🧴",
     "tile": "blue",
     "description": "Adapalene + Clindamycin 0.1+1% w/w Gel. Topical anti-acne — Retinoid + antibiotic.",
-    "moleculeCid": 60164
+    "moleculeCid": 60164,
+    "imageUrl": "/medicines/MED-0450.jpg"
   },
   {
     "id": "MED-0451",
@@ -17575,7 +18020,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "amber",
-    "description": "Benzoyl Peroxide 2.5% w/w Gel. Topical anti-acne — Antimicrobial / keratolytic."
+    "description": "Benzoyl Peroxide 2.5% w/w Gel. Topical anti-acne — Antimicrobial / keratolytic.",
+    "imageUrl": "/medicines/MED-0451.jpg"
   },
   {
     "id": "MED-0452",
@@ -17612,7 +18058,8 @@
     "rxRequired": false,
     "emoji": "🧴",
     "tile": "rose",
-    "description": "Salicylic Acid 2% w/w Face Wash. Topical anti-acne — Keratolytic."
+    "description": "Salicylic Acid 2% w/w Face Wash. Topical anti-acne — Keratolytic.",
+    "imageUrl": "/medicines/MED-0452.jpg"
   },
   {
     "id": "MED-0453",

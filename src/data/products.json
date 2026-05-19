@@ -41,7 +41,8 @@
       "metacin",
       "crocin"
     ],
-    "moleculeCid": 1983
+    "moleculeCid": 1983,
+    "imageUrl": "/medicines/p001.jpg"
   },
   {
     "id": "p002",
@@ -80,7 +81,8 @@
       "azee",
       "azithral"
     ],
-    "moleculeCid": 447043
+    "moleculeCid": 447043,
+    "imageUrl": "/medicines/p002.jpg"
   },
   {
     "id": "p003",
@@ -120,7 +122,8 @@
       "prilosec",
       "omeprazol"
     ],
-    "moleculeCid": 4594
+    "moleculeCid": 4594,
+    "imageUrl": "/medicines/p003.jpg"
   },
   {
     "id": "p004",
@@ -162,7 +165,8 @@
       "zyrtec",
       "alerid"
     ],
-    "moleculeCid": 2678
+    "moleculeCid": 2678,
+    "imageUrl": "/medicines/p004.jpg"
   },
   {
     "id": "p005",
@@ -201,7 +205,8 @@
       "d3 60k",
       "d-rise",
       "vit d"
-    ]
+    ],
+    "imageUrl": "/medicines/p005.jpg"
   },
   {
     "id": "p006",
@@ -236,7 +241,8 @@
       "bp monitor",
       "blood pressure monitor",
       "omron"
-    ]
+    ],
+    "imageUrl": "/medicines/p006.jpg"
   },
   {
     "id": "p007",
@@ -269,7 +275,8 @@
     "aliases": [
       "johnsons",
       "baby powder"
-    ]
+    ],
+    "imageUrl": "/medicines/p007.jpg"
   },
   {
     "id": "p008",
@@ -308,7 +315,8 @@
       "glucophage",
       "glyciphage"
     ],
-    "moleculeCid": 4091
+    "moleculeCid": 4091,
+    "imageUrl": "/medicines/p008.jpg"
   },
   {
     "id": "p009",
@@ -344,7 +352,8 @@
       "dettol",
       "antiseptic"
     ],
-    "moleculeCid": 3014024
+    "moleculeCid": 3014024,
+    "imageUrl": "/medicines/p009.jpg"
   },
   {
     "id": "p010",
@@ -381,7 +390,8 @@
       "omega 3",
       "fish oil",
       "epa dha"
-    ]
+    ],
+    "imageUrl": "/medicines/p010.jpg"
   },
   {
     "id": "p011",
@@ -414,7 +424,8 @@
       "surgical mask",
       "face mask",
       "3-ply mask"
-    ]
+    ],
+    "imageUrl": "/medicines/p011.jpg"
   },
   {
     "id": "p012",
@@ -448,7 +459,8 @@
       "glucometer",
       "accu chek",
       "blood sugar test"
-    ]
+    ],
+    "imageUrl": "/medicines/p012.jpg"
   },
   {
     "id": "p013",
@@ -486,7 +498,8 @@
       "allegra",
       "fexova"
     ],
-    "moleculeCid": 3348
+    "moleculeCid": 3348,
+    "imageUrl": "/medicines/p013.jpg"
   },
   {
     "id": "p014",
@@ -525,7 +538,8 @@
       "sumo",
       "zerodol-p"
     ],
-    "moleculeCid": 71771
+    "moleculeCid": 71771,
+    "imageUrl": "/medicines/p014.jpg"
   },
   {
     "id": "p015",
@@ -561,7 +575,8 @@
       "telma",
       "tazloc"
     ],
-    "moleculeCid": 65999
+    "moleculeCid": 65999,
+    "imageUrl": "/medicines/p015.jpg"
   },
   {
     "id": "p016",
@@ -599,7 +614,8 @@
       "ors-l",
       "electrolyte",
       "rehydration"
-    ]
+    ],
+    "imageUrl": "/medicines/p016.jpg"
   },
   {
     "id": "p017",
@@ -634,7 +650,8 @@
     "aliases": [
       "volini",
       "pain spray"
-    ]
+    ],
+    "imageUrl": "/medicines/p017.jpg"
   },
   {
     "id": "p018",
@@ -667,7 +684,8 @@
     "aliases": [
       "himalaya",
       "baby lotion"
-    ]
+    ],
+    "imageUrl": "/medicines/p018.jpg"
   },
   {
     "id": "p019",
@@ -701,7 +719,8 @@
       "nivea",
       "body lotion",
       "moisturizer"
-    ]
+    ],
+    "imageUrl": "/medicines/p019.jpg"
   },
   {
     "id": "p020",
@@ -735,7 +754,8 @@
     "aliases": [
       "multivitamin",
       "centrum"
-    ]
+    ],
+    "imageUrl": "/medicines/p020.jpg"
   },
   {
     "id": "p021",
@@ -769,7 +789,8 @@
       "honey",
       "patanjali",
       "pure honey"
-    ]
+    ],
+    "imageUrl": "/medicines/p021.jpg"
   },
   {
     "id": "p022",
@@ -804,6 +825,7 @@
       "band-aid",
       "bandage",
       "plaster"
-    ]
+    ],
+    "imageUrl": "/medicines/p022.jpg"
   }
 ]
