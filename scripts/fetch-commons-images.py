@@ -126,6 +126,51 @@ TARGETS: dict[str, list[str]] = {
     "MED-0059": ["Tamoxifen"],
     "MED-0068": ["Tamoxifen"],
     "MED-0062": ["Methotrexate"],
+
+    # ---- Round 2: 34 SKUs the operator flagged as wrong/fake -------------
+    # Oncology / endocrinology
+    "MED-0058": ["Imatinib"],                            # Veenat
+    "MED-0067": ["Letrozole"],                           # Letroz
+    "MED-0066": ["Memantine"],                           # Admenta (operator wrote "Admeta")
+    "MED-0069": ["Alendronic acid", "Fosamax"],          # Fosamax
+    # Anti-TB
+    "MED-0075": ["Pyrazinamide"],                        # Pyzina
+    "MED-0078": ["Rifampicin", "Tuberculosis management"],  # AKuriT-3 (combo)
+    # GI / acid
+    "MED-0081": ["Famotidine"],                          # Famocid (operator wrote "Famoacid")
+    "MED-0082": ["Famotidine"],                          # Famocid 40
+    "MED-0086": ["Pantoprazole"],                        # Pan 20
+    "MED-0088": ["Pantoprazole"],                        # Pan 40
+    "MED-0093": ["Sucralfate"],                          # Sucrace
+    "MED-0094": ["Isosorbide dinitrate"],                # Sorbitrate (operator wrote "Sobitrate")
+    # Cardiac / neuro
+    "MED-0103": ["Amiodarone"],                          # Cordarone 100 (op: "Coradarone")
+    "MED-0104": ["Amiodarone"],                          # Cordarone 200
+    "MED-0133": ["Carbamazepine"],                       # Tegrital 200 (op: "Tegriatl")
+    "MED-0134": ["Carbamazepine"],                       # Tegrital CR 400
+    "MED-0140": ["Phenobarbital"],                       # Gardenal
+    # Diabetes
+    "MED-0165": ["Gliclazide"],                          # Diamicron MR
+    "MED-0166": ["Glimepiride"],                         # Amaryl 1
+    "MED-0167": ["Glimepiride"],                         # Amaryl 4
+    "MED-0168": ["Glimepiride", "Metformin"],            # Amaryl-M
+    "MED-0172": ["Pioglitazone"],                        # Pioz
+    # Other
+    "MED-0177": ["Loperamide"],                          # Eldoper
+    "MED-0187": ["Meclizine"],                           # Pregnacare (op: "Pregnare")
+    "MED-0190": ["Ondansetron"],                         # Emeset 2 mg/ml
+    "MED-0191": ["Ondansetron"],                         # Emeset 4 mg
+    "MED-0192": ["Ondansetron"],                         # Emeset MD 4 mg
+    "MED-0193": ["Ondansetron"],                         # Emeset 8 mg
+    # Antifungals
+    "MED-0194": ["Clotrimazole"],                        # Candid cream
+    "MED-0195": ["Clotrimazole"],                        # Candid cream
+    "MED-0196": ["Clotrimazole"],                        # Candid V pessary
+    "MED-0200": ["Itraconazole"],                        # Itrasys
+    "MED-0204": ["Terbinafine"],                         # Terbicip cream
+    "MED-0205": ["Terbinafine"],                         # Terbicip tablet
+    # Gout
+    "MED-0208": ["Colchicine"],                          # Goutnil (op: "Gountnil")
 }
 
 

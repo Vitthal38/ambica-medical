@@ -2687,8 +2687,7 @@
     "emoji": "🧘",
     "tile": "amber",
     "description": "Memantine 10 mg Tablet. Anti-dementia — NMDA receptor antagonist.",
-    "moleculeCid": 4054,
-    "imageUrl": "/medicines/MED-0066.jpg"
+    "moleculeCid": 4054
   },
   {
     "id": "MED-0067",
@@ -2799,8 +2798,7 @@
     "emoji": "🦴",
     "tile": "sky",
     "description": "Alendronate 70 mg Tablet. Anti-osteoporosis — Bisphosphonate.",
-    "moleculeCid": 2088,
-    "imageUrl": "/medicines/MED-0069.jpg"
+    "moleculeCid": 2088
   },
   {
     "id": "MED-0070",
@@ -3030,8 +3028,7 @@
     "emoji": "💊",
     "tile": "violet",
     "description": "Pyrazinamide 750 mg Tablet. Anti-tubercular — First-line anti-TB.",
-    "moleculeCid": 1046,
-    "imageUrl": "/medicines/MED-0075.jpg"
+    "moleculeCid": 1046
   },
   {
     "id": "MED-0076",
@@ -3272,8 +3269,7 @@
     "emoji": "🫃",
     "tile": "rose",
     "description": "Famotidine 20 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 5702160,
-    "imageUrl": "/medicines/MED-0081.jpg"
+    "moleculeCid": 5702160
   },
   {
     "id": "MED-0082",
@@ -3314,8 +3310,7 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Famotidine 40 mg Tablet. Anti-ulcer — H2 blocker.",
-    "moleculeCid": 5702160,
-    "imageUrl": "/medicines/MED-0082.jpg"
+    "moleculeCid": 5702160
   },
   {
     "id": "MED-0083",
@@ -3762,8 +3757,7 @@
     "rxRequired": false,
     "emoji": "🫃",
     "tile": "blue",
-    "description": "Sucralfate 1 g/10ml Suspension. Anti-ulcer — Mucosal protectant.",
-    "imageUrl": "/medicines/MED-0093.jpg"
+    "description": "Sucralfate 1 g/10ml Suspension. Anti-ulcer — Mucosal protectant."
   },
   {
     "id": "MED-0094",
@@ -3801,8 +3795,7 @@
     "emoji": "❤️",
     "tile": "amber",
     "description": "Isosorbide Dinitrate 10 mg Tablet. Antianginal — Nitrate.",
-    "moleculeCid": 6883,
-    "imageUrl": "/medicines/MED-0094.jpg"
+    "moleculeCid": 6883
   },
   {
     "id": "MED-0095",
@@ -6618,8 +6611,7 @@
     "emoji": "🩸",
     "tile": "rose",
     "description": "Gliclazide 30 mg MR Tablet. Antidiabetic — Sulfonylurea.",
-    "moleculeCid": 3475,
-    "imageUrl": "/medicines/MED-0165.jpg"
+    "moleculeCid": 3475
   },
   {
     "id": "MED-0166",
@@ -7114,8 +7106,7 @@
     "emoji": "🫃",
     "tile": "blue",
     "description": "Loperamide 2 mg Capsule. Antidiarrheal — Opioid receptor agonist.",
-    "moleculeCid": 3955,
-    "imageUrl": "/medicines/MED-0177.jpg"
+    "moleculeCid": 3955
   },
   {
     "id": "MED-0178",
@@ -7512,8 +7503,7 @@
     "emoji": "🫃",
     "tile": "violet",
     "description": "Meclizine 25 mg Tablet. Antiemetic — Antihistaminic antiemetic.",
-    "moleculeCid": 4034,
-    "imageUrl": "/medicines/MED-0187.jpg"
+    "moleculeCid": 4034
   },
   {
     "id": "MED-0188",
@@ -8046,8 +8036,7 @@
     "emoji": "💊",
     "tile": "rose",
     "description": "Itraconazole 100 mg Capsule. Antifungal — Triazole.",
-    "moleculeCid": 55283,
-    "imageUrl": "/medicines/MED-0200.jpg"
+    "moleculeCid": 55283
   },
   {
     "id": "MED-0201",
