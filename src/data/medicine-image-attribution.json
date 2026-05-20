@@ -367,5 +367,23 @@
     "author": "Easyloc",
     "wikipedia_article": "Colchicine",
     "fetched_at": "2026-05-19T17:34:57Z"
+  },
+  "p015": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telmisartan-ratiopharm_80_mg_tbl.jpg/1280px-Telmisartan-ratiopharm_80_mg_tbl.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Telmisartan-ratiopharm_80_mg_tbl.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Tomino de WS",
+    "wikipedia_article": "Telmisartan (ratiopharm 80 mg tablets)",
+    "fetched_at": "2026-05-20T08:29:11Z"
+  },
+  "MED-0249": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telmisartan-ratiopharm_80_mg_tbl.jpg/1280px-Telmisartan-ratiopharm_80_mg_tbl.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Telmisartan-ratiopharm_80_mg_tbl.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Tomino de WS",
+    "wikipedia_article": "Telmisartan (ratiopharm 80 mg tablets)",
+    "fetched_at": "2026-05-20T08:29:11Z"
   }
 }

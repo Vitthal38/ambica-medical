@@ -575,7 +575,8 @@
       "telma",
       "tazloc"
     ],
-    "moleculeCid": 65999
+    "moleculeCid": 65999,
+    "imageUrl": "/medicines/p015.jpg"
   },
   {
     "id": "p016",

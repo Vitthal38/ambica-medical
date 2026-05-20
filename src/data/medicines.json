@@ -9987,7 +9987,8 @@
     "emoji": "❤️",
     "tile": "rose",
     "description": "Telmisartan 20 mg Tablet. Antihypertensive — ARB.",
-    "moleculeCid": 65999
+    "moleculeCid": 65999,
+    "imageUrl": "/medicines/MED-0249.jpg"
   },
   {
     "id": "MED-0250",
