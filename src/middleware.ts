@@ -16,6 +16,7 @@
  */
 import { NextResponse, type NextRequest } from 'next/server';
 import { verifySession, COOKIE_NAME } from '@/lib/auth';
+import { verifyCustomerSession, CUSTOMER_COOKIE_NAME } from '@/lib/customer-auth';
 import { csrfCheck } from '@/lib/security/csrf';
 
 const ADMIN_UI_PATH = '/admin';
@@ -41,8 +42,23 @@ function randomRequestId(): string {
   return Array.from(a, (b) => b.toString(16).padStart(2, '0')).join('');
 }
 
+// Customer-protected storefront paths — require a customer session.
+// Checkout (and, later, the payment flow) must not be reachable anonymously.
+const CUSTOMER_PROTECTED_PREFIXES = ['/checkout'];
+const CUSTOMER_LOGIN_PATH = '/login';
+
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  // ---- Customer-protected storefront routes (checkout, payment) ----
+  if (CUSTOMER_PROTECTED_PREFIXES.some((p) => pathname === p || pathname.startsWith(`${p}/`))) {
+    const cust = await verifyCustomerSession(req.cookies.get(CUSTOMER_COOKIE_NAME)?.value);
+    if (cust) return NextResponse.next();
+    const url = req.nextUrl.clone();
+    url.pathname = CUSTOMER_LOGIN_PATH;
+    url.searchParams.set('next', sanitizeStorefrontPath(pathname));
+    return NextResponse.redirect(url);
+  }
 
   const isAdminUi = pathname === ADMIN_UI_PATH || pathname.startsWith(`${ADMIN_UI_PATH}/`);
   const isAdminApi = pathname.startsWith(ADMIN_API_PATH);
@@ -112,6 +128,15 @@ function sanitizeReturnPath(p: string): string {
   return p;
 }
 
+/** Same-origin storefront path sanitizer for the customer `next` param. */
+function sanitizeStorefrontPath(p: string): string {
+  if (!p.startsWith('/')) return '/';
+  if (p.startsWith('//')) return '/';
+  if (p.includes('\\') || /[\r\n]/.test(p)) return '/';
+  if (p.startsWith('/admin')) return '/';
+  return p;
+}
+
 export const config = {
-  matcher: ['/admin/:path*', '/api/admin/:path*'],
+  matcher: ['/admin/:path*', '/api/admin/:path*', '/checkout/:path*', '/checkout'],
 };
