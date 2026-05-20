@@ -10,6 +10,21 @@ import { z } from 'zod';
 const INDIAN_MOBILE = /^[6-9]\d{9}$/;
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
+/**
+ * Normalize a user-typed Indian mobile to the canonical 10 digits.
+ * Handles the common things people actually type:
+ *   "+91 98765 43210" · "+919876543210" · "098765-43210" · "9876543210"
+ * Returns the cleaned 10-digit string, or the original input untouched if it
+ * doesn't look like a phone (so the regex below still produces a clear error).
+ */
+export function normalizeIndianPhone(input: unknown): unknown {
+  if (typeof input !== 'string') return input;
+  let d = input.replace(/\D/g, ''); // strip +, spaces, dashes, parens
+  if (d.length === 12 && d.startsWith('91')) d = d.slice(2); // +91 / 91 prefix
+  if (d.length === 11 && d.startsWith('0')) d = d.slice(1); // leading 0
+  return d;
+}
+
 /** Strong-ish password: ≥8 chars, at least one letter and one number. */
 export const passwordSchema = z
   .string()
@@ -29,12 +44,14 @@ export const signupSchema = z
       .regex(EMAIL, 'Enter a valid email')
       .optional()
       .or(z.literal('')),
-    phone: z
-      .string()
-      .trim()
-      .regex(INDIAN_MOBILE, 'Enter a 10-digit Indian mobile number')
-      .optional()
-      .or(z.literal('')),
+    phone: z.preprocess(
+      normalizeIndianPhone,
+      z
+        .string()
+        .regex(INDIAN_MOBILE, 'Enter a valid Indian mobile number (10 digits, with or without +91)')
+        .optional()
+        .or(z.literal('')),
+    ),
     password: passwordSchema,
   })
   .refine((d) => !!(d.email && d.email.length) || !!(d.phone && d.phone.length), {

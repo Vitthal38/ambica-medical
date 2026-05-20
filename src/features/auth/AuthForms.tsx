@@ -133,7 +133,12 @@ export function SignupForm() {
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok) {
-        setError(body.error || (body.fieldErrors && Object.values(body.fieldErrors).flat()[0]) || 'Could not create account.');
+        // Prefer the specific field message over the generic "Validation failed".
+        const fieldMsg =
+          body.fieldErrors && typeof body.fieldErrors === 'object'
+            ? (Object.values(body.fieldErrors).flat()[0] as string | undefined)
+            : undefined;
+        setError(fieldMsg || body.error || 'Could not create account.');
         return;
       }
       router.push(next);
