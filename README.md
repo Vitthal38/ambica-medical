@@ -92,24 +92,88 @@ It is built to the standard a regulated healthcare product demands, not a demo:
 
 ---
 
-## 📸 Screenshots
+## 📸 Product tour
 
-> Capture guide + image slots live in [`docs/screenshots/`](./docs/screenshots/). Drop the PNGs in and they render here automatically.
+<div align="center">
+
+<i>Real screenshots of the <a href="https://ambica-medical.vercel.app">live deployment</a> — captured headless, not mocked up.</i>
+
+<br/><br/>
+
+<!-- ───────── Featured: storefront landing ───────── -->
+<img src="./docs/screenshots/desktop/storefront-home.png" width="92%" alt="Ambica Medical storefront — full landing page" />
+
+<sub><b>🛍️ Storefront</b> — hero, category tiles, featured medicines, prescription promo & store info</sub>
+
+<br/><br/>
+
+<!-- ───────── Storefront grid ───────── -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/catalog.png" alt="Medicine catalog with search and category filters" />
+      <p align="center"><sub><b>Catalog</b> — 516 SKUs · search · category filters</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/product-detail.png" alt="Product detail page with Rx badge and pricing" />
+      <p align="center"><sub><b>Product detail</b> — Rx/OTC badge · pricing · related items</sub></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ───────── Dispensary CRM grid ───────── -->
+<b>🩺 Dispensary CRM</b> <sub>(authenticated)</sub>
 
 <table>
   <tr>
-    <td width="50%"><img src="./docs/screenshots/storefront-home.png" alt="Storefront landing page" /><p align="center"><sub><b>Storefront — landing</b></sub></p></td>
-    <td width="50%"><img src="./docs/screenshots/catalog.png" alt="Medicine catalog with search and filters" /><p align="center"><sub><b>Catalog — search &amp; filters</b></sub></p></td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/admin-dashboard.png" alt="Admin dispensary dashboard" />
+      <p align="center"><sub><b>Dashboard</b> — activity at a glance</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/admin-customers.png" alt="Customer management list" />
+      <p align="center"><sub><b>Customers</b> — search & manage records</sub></p>
+    </td>
   </tr>
   <tr>
-    <td width="50%"><img src="./docs/screenshots/product-detail.png" alt="Product detail page" /><p align="center"><sub><b>Product detail</b></sub></p></td>
-    <td width="50%"><img src="./docs/screenshots/admin-dashboard.png" alt="Admin dispensary dashboard" /><p align="center"><sub><b>Admin — dashboard</b></sub></p></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./docs/screenshots/admin-customer.png" alt="Customer profile with medicine timeline" /><p align="center"><sub><b>Admin — customer timeline</b></sub></p></td>
-    <td width="50%"><img src="./docs/screenshots/prescription-upload.png" alt="Prescription upload flow" /><p align="center"><sub><b>Prescription capture</b></sub></p></td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/admin-medicine-images.png" alt="Medicine image studio" />
+      <p align="center"><sub><b>Medicine image studio</b> — validate · approve · score</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/prescription-upload.png" alt="Prescription upload flow" />
+      <p align="center"><sub><b>Prescription capture</b> — guided upload wizard</sub></p>
+    </td>
   </tr>
 </table>
+
+<br/>
+
+<!-- ───────── Mobile + auth ───────── -->
+<b>📱 Mobile-first &nbsp;·&nbsp; 🔐 Secure access</b>
+
+<table>
+  <tr>
+    <td width="28%" valign="top" align="center">
+      <img src="./docs/screenshots/mobile/home.png" alt="Storefront on mobile" />
+      <p align="center"><sub><b>Mobile — home</b></sub></p>
+    </td>
+    <td width="28%" valign="top" align="center">
+      <img src="./docs/screenshots/mobile/catalog.png" alt="Catalog on mobile" />
+      <p align="center"><sub><b>Mobile — catalog</b></sub></p>
+    </td>
+    <td width="44%" valign="top" align="center">
+      <img src="./docs/screenshots/desktop/login.png" alt="Admin sign-in" />
+      <p align="center"><sub><b>Admin sign-in</b> — rate-limited, lockout-protected</sub></p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+> All shots are captured from the live site with `node scripts/capture-screenshots.mjs` (headless Chromium), optimized with `sharp`, and rounded for a consistent premium frame. Regenerate any time the UI changes.
 
 ---
 
