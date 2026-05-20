@@ -96,84 +96,100 @@ It is built to the standard a regulated healthcare product demands, not a demo:
 
 <div align="center">
 
-<i>Real screenshots of the <a href="https://ambica-medical.vercel.app">live deployment</a> — captured headless, not mocked up.</i>
+<i>Real, uniform screenshots of the <a href="https://ambica-medical.vercel.app">live deployment</a> — captured headless, optimized, dark-mode safe. No mockups.</i>
 
 <br/><br/>
 
 <!-- ───────── Featured: storefront landing ───────── -->
-<img src="./docs/screenshots/desktop/storefront-home.png" width="92%" alt="Ambica Medical storefront — full landing page" />
+<img src="./docs/screenshots/desktop/storefront-home.png" width="90%" alt="Ambica Medical storefront landing page" />
 
-<sub><b>🛍️ Storefront</b> — hero, category tiles, featured medicines, prescription promo & store info</sub>
+<br/>
+<b>🛍️ A storefront customers actually want to use</b><br/>
+<sub>Clean medical aesthetic · category discovery · featured medicines · same-day delivery messaging</sub>
 
 <br/><br/>
+<br/>
 
-<!-- ───────── Storefront grid ───────── -->
+<!-- ───────── Storefront experience ───────── -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/catalog.png" alt="Medicine catalog with search and category filters" />
-      <p align="center"><sub><b>Catalog</b> — 516 SKUs · search · category filters</sub></p>
+      <img src="./docs/screenshots/desktop/medicine-catalog.png" alt="Medicine catalog with search and category filters" /><br/>
+      <b>Smart medicine discovery</b><br/>
+      <sub>516-SKU catalog with instant search and category filters — find the right medicine in seconds.</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/product-detail.png" alt="Product detail page with Rx badge and pricing" />
-      <p align="center"><sub><b>Product detail</b> — Rx/OTC badge · pricing · related items</sub></p>
+      <img src="./docs/screenshots/desktop/product-details.png" alt="Product detail page with Rx badge and pricing" /><br/>
+      <b>Compliance-aware product pages</b><br/>
+      <sub>Rx/OTC badge, transparent MRP &amp; discount, dosage and related items — built for trust.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/desktop/prescription-upload.png" alt="Prescription upload flow" /><br/>
+      <b>Secure prescription workflow</b><br/>
+      <sub>Guided upload wizard; files stored as PHI in Postgres, never on a public bucket.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./docs/screenshots/admin/auth-login.png" alt="Secure sign-in" /><br/>
+      <b>Hardened authentication</b><br/>
+      <sub>bcrypt, rate-limiting, account lockout, immutable audit trail on every attempt.</sub>
     </td>
   </tr>
 </table>
 
 <br/>
+<br/>
 
-<!-- ───────── Dispensary CRM grid ───────── -->
-<b>🩺 Dispensary CRM</b> <sub>(authenticated)</sub>
+<!-- ───────── Dispensary CRM ───────── -->
+<b>🩺 An operational back office, not a toy admin</b>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/admin-dashboard.png" alt="Admin dispensary dashboard" />
-      <p align="center"><sub><b>Dashboard</b> — activity at a glance</sub></p>
+      <img src="./docs/screenshots/admin/admin-dashboard.png" alt="Dispensary dashboard" /><br/>
+      <b>Dispensary dashboard</b><br/>
+      <sub>Recent activity and customer pulse at a glance for the pharmacist on shift.</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/admin-customers.png" alt="Customer management list" />
-      <p align="center"><sub><b>Customers</b> — search & manage records</sub></p>
+      <img src="./docs/screenshots/admin/admin-customers.png" alt="Customer management" /><br/>
+      <b>Customer &amp; record management</b><br/>
+      <sub>Search, manage, and maintain unified patient records with dispensing history.</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/admin-medicine-images.png" alt="Medicine image studio" />
-      <p align="center"><sub><b>Medicine image studio</b> — validate · approve · score</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="./docs/screenshots/desktop/prescription-upload.png" alt="Prescription upload flow" />
-      <p align="center"><sub><b>Prescription capture</b> — guided upload wizard</sub></p>
+    <td colspan="2" valign="top" align="center">
+      <img src="./docs/screenshots/admin/admin-medicine-images.png" width="60%" alt="Medicine image studio" /><br/>
+      <b>Medicine image studio</b><br/>
+      <sub>Upload → validate (magic-byte) → optimize (WebP) → perceptual-hash dedup → approve, with confidence scoring.</sub>
     </td>
   </tr>
 </table>
 
 <br/>
+<br/>
 
-<!-- ───────── Mobile + auth ───────── -->
-<b>📱 Mobile-first &nbsp;·&nbsp; 🔐 Secure access</b>
+<!-- ───────── Mobile ───────── -->
+<b>📱 Mobile-first — most pharmacy customers shop from a phone</b>
 
 <table>
   <tr>
-    <td width="28%" valign="top" align="center">
-      <img src="./docs/screenshots/mobile/home.png" alt="Storefront on mobile" />
-      <p align="center"><sub><b>Mobile — home</b></sub></p>
+    <td width="50%" valign="top" align="center">
+      <img src="./docs/screenshots/mobile/mobile-home.png" width="62%" alt="Storefront on mobile" /><br/>
+      <b>Responsive storefront</b><br/>
+      <sub>The full experience, tuned for a 390px viewport.</sub>
     </td>
-    <td width="28%" valign="top" align="center">
-      <img src="./docs/screenshots/mobile/catalog.png" alt="Catalog on mobile" />
-      <p align="center"><sub><b>Mobile — catalog</b></sub></p>
-    </td>
-    <td width="44%" valign="top" align="center">
-      <img src="./docs/screenshots/desktop/login.png" alt="Admin sign-in" />
-      <p align="center"><sub><b>Admin sign-in</b> — rate-limited, lockout-protected</sub></p>
+    <td width="50%" valign="top" align="center">
+      <img src="./docs/screenshots/mobile/mobile-catalog.png" width="62%" alt="Catalog on mobile" /><br/>
+      <b>Catalog on the go</b><br/>
+      <sub>Search and browse with one thumb.</sub>
     </td>
   </tr>
 </table>
 
 </div>
 
-> All shots are captured from the live site with `node scripts/capture-screenshots.mjs` (headless Chromium), optimized with `sharp`, and rounded for a consistent premium frame. Regenerate any time the UI changes.
+> Every shot is a uniform viewport frame captured from the live site with `node scripts/capture-screenshots.mjs` (headless Chromium), then resized + recompressed + rounded with `sharp`. Regenerate any time the UI changes — see [`docs/screenshots/`](./docs/screenshots/).
 
 ---
 
