@@ -1,0 +1,54 @@
+name: 🐛 Bug report
+description: Something isn't working as expected
+title: "bug: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please don't include patient data, real credentials,
+        or production secrets in this issue. For security vulnerabilities, follow
+        SECURITY.md instead of opening a public issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I upload a .jpeg prescription, …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See error …
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      placeholder: storefront / admin / api / image-pipeline / deploy
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        - Where: production (vercel) / local
+        - Browser + OS:
+        - Node version (if local):
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / request id
+      description: If you saw "Server error. Reference this request ID", paste it here.
+      render: shell

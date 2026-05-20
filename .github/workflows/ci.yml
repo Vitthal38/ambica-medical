@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel superseded runs on the same ref.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Type-check · Lint · Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Prisma client
+        run: npx prisma generate
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Production build
+        run: npm run build
+        env:
+          # Build must not require a live DB or real secrets.
+          # The app reads these at runtime, not build time; placeholders keep
+          # the build deterministic in CI.
+          DATABASE_URL: postgresql://user:pass@localhost:5432/db?schema=public
+          AUTH_SECRET: ci-placeholder-secret-not-used-at-build-time-000000000000
+          ALLOW_LOCAL_FS_STORAGE_IN_PRODUCTION: "1"
