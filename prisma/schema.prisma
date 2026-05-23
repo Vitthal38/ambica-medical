@@ -103,6 +103,13 @@ enum AuditAction {
   CUSTOMER_UPDATE
   CUSTOMER_DELETE
   CUSTOMER_VIEW
+  CUSTOMER_SIGNUP
+  CUSTOMER_LOGIN_SUCCESS
+  CUSTOMER_LOGIN_FAILURE
+  CUSTOMER_LOGIN_LOCKED
+  CUSTOMER_LOGOUT
+  CUSTOMER_PASSWORD_RESET_REQUEST
+  CUSTOMER_PASSWORD_RESET
   PRESCRIPTION_CREATE
   PRESCRIPTION_VIEW
   PRESCRIPTION_FILE_DOWNLOAD
@@ -158,11 +165,34 @@ model Customer {
   name      String
   /// 10-digit Indian mobile (validated at API). Unique per pharmacy.
   phone     String   @unique
-  email     String?
+  /// Email is now UNIQUE (when present) so it can be a login identifier.
+  /// Postgres treats NULLs as distinct, so admin-created walk-ins without an
+  /// email still coexist freely.
+  email     String?  @unique
   /// Stored as ISO date. May be null for legacy walk-ins.
   dob       DateTime?
   address   String?
   notes     String?
+
+  // ---------- Customer-facing account (self-signup) -------------------------
+  // A self-registered customer has a passwordHash and can log in to checkout.
+  // Admin-created walk-ins have passwordHash = null and cannot log in until
+  // they claim the account (set a password) — the patient record and the
+  // login account are deliberately the SAME row, so order history and the
+  // dispensary timeline stay unified.
+  /// bcrypt hash — null for walk-ins who never set a password. Never returned.
+  passwordHash      String?
+  /// When the email was verified (verification flow is a later phase).
+  emailVerifiedAt   DateTime?
+  lastLoginAt       DateTime?
+  /// Brute-force defense — mirrors the staff User model.
+  failedLoginCount  Int       @default(0)
+  lockedUntil       DateTime?
+  /// Password-reset: single-use token hash + expiry. Email delivery is wired
+  /// in a later phase (needs a transactional email provider).
+  resetTokenHash    String?
+  resetTokenExpires DateTime?
+
   /// Soft delete — keep history for compliance.
   deletedAt DateTime?
   createdAt DateTime @default(now())
