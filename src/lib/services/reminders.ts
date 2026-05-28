@@ -73,7 +73,7 @@ export interface ReminderRow {
   message: string | null;
   sentAt: Date | null;
   createdAt: Date;
-  customer: { id: string; name: string; phone: string };
+  customer: { id: string; name: string; phone: string; email: string | null };
   medicine: { id: string; name: string; brand: string };
   sourceOrderId: string | null;
 }
@@ -134,7 +134,7 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
     orderBy: { dueOn: 'asc' },
     take: limit + 1,
     include: {
-      customer: { select: { id: true, name: true, phone: true } },
+      customer: { select: { id: true, name: true, phone: true, email: true } },
       medicine: { select: { id: true, name: true, brand: true } },
     },
   });

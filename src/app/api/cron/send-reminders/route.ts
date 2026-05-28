@@ -58,6 +58,7 @@ export async function GET(req: Request) {
         customer: {
           name: reminder.customer.name,
           phone: reminder.customer.phone,
+          email: (reminder.customer as { email?: string | null }).email ?? null,
         },
         medicine: {
           name: reminder.medicine.name,
