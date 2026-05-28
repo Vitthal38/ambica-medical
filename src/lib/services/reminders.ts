@@ -23,8 +23,134 @@ export async function createReminder(input: CreateReminderInput) {
 }
 
 /**
- * Reminders coming due within `daysAhead` days, ordered by dueness. Powers
- * the dashboard "Refill due" widget.
+ * Auto-create one reminder per unique medicine after an order is placed.
+ * dueOn = placedAt + 30 days.
+ * Called fire-and-forget from createOrder() — failures are logged, not thrown.
+ */
+export async function createRemindersForOrder(
+  orderId: string,
+  customerId: string,
+  items: Array<{ medicineId: string }>,
+  placedAt: Date,
+): Promise<void> {
+  const dueOn = new Date(placedAt.getTime() + 30 * 86_400_000);
+
+  // Deduplicate: one reminder per unique medicine per order
+  const seen = new Set<string>();
+  const unique = items.filter((i) => {
+    if (seen.has(i.medicineId)) return false;
+    seen.add(i.medicineId);
+    return true;
+  });
+
+  await prisma.refillReminder.createMany({
+    data: unique.map((i) => ({
+      customerId,
+      medicineId: i.medicineId,
+      sourceOrderId: orderId,
+      dueOn,
+      channel: 'NONE' as const,
+      status: 'PENDING' as const,
+    })),
+  });
+}
+
+export interface ListRemindersOpts {
+  status?: 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED' | 'ALL';
+  q?: string;         // search by customer name or phone
+  from?: Date;
+  to?: Date;
+  daysAhead?: number; // convenience: sets to = now + N days
+  limit?: number;
+  cursor?: string;
+}
+
+export interface ReminderRow {
+  id: string;
+  dueOn: Date;
+  status: string;
+  channel: string;
+  message: string | null;
+  sentAt: Date | null;
+  createdAt: Date;
+  customer: { id: string; name: string; phone: string };
+  medicine: { id: string; name: string; brand: string };
+  sourceOrderId: string | null;
+}
+
+/**
+ * Full-featured list for the reminder management dashboard.
+ * Supports search by customer name/phone, status filter, date range, pagination.
+ */
+export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
+  rows: ReminderRow[];
+  nextCursor: string | null;
+}> {
+  const limit = Math.min(opts.limit ?? 50, 200);
+  const status = opts.status ?? 'ALL';
+
+  // Build date range
+  let from: Date | undefined = opts.from;
+  let to: Date | undefined = opts.to;
+  if (opts.daysAhead !== undefined) {
+    to = new Date(Date.now() + opts.daysAhead * 86_400_000);
+  }
+
+  // Build the where clause
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const where: Record<string, any> = {};
+
+  if (status !== 'ALL') {
+    where.status = status;
+  }
+  if (from || to) {
+    where.dueOn = {
+      ...(from ? { gte: from } : {}),
+      ...(to ? { lte: to } : {}),
+    };
+  }
+  if (opts.cursor) {
+    where.id = { gt: opts.cursor };
+  }
+
+  // Customer search: filter via relation
+  if (opts.q?.trim()) {
+    const q = opts.q.trim();
+    const isExactPhone = /^[6-9]\d{9}$/.test(q);
+    if (isExactPhone) {
+      where.customer = { phone: q };
+    } else {
+      where.customer = {
+        OR: [
+          { name: { contains: q, mode: 'insensitive' } },
+          { phone: { contains: q } },
+        ],
+      };
+    }
+  }
+
+  const rows = await prisma.refillReminder.findMany({
+    where,
+    orderBy: { dueOn: 'asc' },
+    take: limit + 1,
+    include: {
+      customer: { select: { id: true, name: true, phone: true } },
+      medicine: { select: { id: true, name: true, brand: true } },
+    },
+  });
+
+  let nextCursor: string | null = null;
+  if (rows.length > limit) {
+    const last = rows.pop()!;
+    nextCursor = last.id;
+  }
+
+  return { rows: rows as ReminderRow[], nextCursor };
+}
+
+/**
+ * Reminders coming due within `daysAhead` days, ordered by dueness.
+ * Powers the dashboard "Refill due" widget.
  */
 export async function listDueReminders(daysAhead = 7) {
   const cutoff = new Date(Date.now() + daysAhead * 86_400_000);
@@ -39,6 +165,16 @@ export async function listDueReminders(daysAhead = 7) {
   });
 }
 
+export async function getReminderById(id: string) {
+  return prisma.refillReminder.findUnique({
+    where: { id },
+    include: {
+      customer: { select: { id: true, name: true, phone: true, email: true } },
+      medicine: { select: { id: true, name: true, brand: true } },
+    },
+  });
+}
+
 export async function setReminderStatus(
   id: string,
   status: 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED',
@@ -48,6 +184,31 @@ export async function setReminderStatus(
     data: {
       status,
       sentAt: status === 'SENT' ? new Date() : undefined,
+    },
+  });
+}
+
+export async function updateReminder(
+  id: string,
+  data: {
+    status?: 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED';
+    channel?: 'NONE' | 'SMS' | 'WHATSAPP' | 'EMAIL';
+    message?: string | null;
+    dueOn?: string;
+  },
+) {
+  return prisma.refillReminder.update({
+    where: { id },
+    data: {
+      ...(data.status !== undefined ? { status: data.status } : {}),
+      ...(data.channel !== undefined ? { channel: data.channel } : {}),
+      ...(data.message !== undefined ? { message: data.message || null } : {}),
+      ...(data.dueOn !== undefined ? { dueOn: new Date(data.dueOn) } : {}),
+      ...(data.status === 'SENT' ? { sentAt: new Date() } : {}),
+    },
+    include: {
+      customer: { select: { id: true, name: true, phone: true } },
+      medicine: { select: { id: true, name: true, brand: true } },
     },
   });
 }

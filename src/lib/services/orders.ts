@@ -1,4 +1,6 @@
 import { prisma } from '@/lib/db';
+import { createRemindersForOrder } from '@/lib/services/reminders';
+import { logger } from '@/lib/logger';
 
 export interface CreateOrderInput {
   customerId: string;
@@ -32,7 +34,7 @@ export async function createOrder(input: CreateOrderInput) {
   });
   const byId = new Map(meds.map((m) => [m.id, m]));
 
-  return prisma.order.create({
+  const order = await prisma.order.create({
     data: {
       code: newOrderCode(),
       customerId: input.customerId,
@@ -58,6 +60,13 @@ export async function createOrder(input: CreateOrderInput) {
     },
     include: { items: true, customer: { select: { name: true, phone: true } } },
   });
+
+  // Fire-and-forget: a failed reminder must never fail the sale
+  createRemindersForOrder(order.id, input.customerId, input.items, order.placedAt).catch((err) =>
+    logger.warn('reminder.auto_create.failed', { orderId: order.id, error: String(err) }),
+  );
+
+  return order;
 }
 
 export async function listOrders(opts: { customerId?: string; limit?: number } = {}) {

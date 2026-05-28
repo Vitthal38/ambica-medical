@@ -71,15 +71,30 @@ export const orderCreateSchema = z
   .strict();
 export type OrderCreateInput = z.infer<typeof orderCreateSchema>;
 
-export const reminderCreateSchema = z.object({
-  customerId: z.string().min(1),
-  medicineId: z.string().min(1),
-  sourceOrderId: z.string().optional(),
-  dueOn: z.string().min(1),
-  channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).default('NONE'),
-  message: z.string().max(500).optional().or(z.literal('')),
-});
+export const reminderCreateSchema = z
+  .object({
+    customerId: z.string().min(1),
+    medicineId: z.string().min(1),
+    sourceOrderId: z.string().optional(),
+    dueOn: z.string().min(1),
+    channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).default('NONE'),
+    message: z.string().max(500).optional().or(z.literal('')),
+  })
+  .strict();
 export type ReminderCreateInput = z.infer<typeof reminderCreateSchema>;
+
+export const reminderUpdateSchema = z
+  .object({
+    status: z.enum(['PENDING', 'SENT', 'FULFILLED', 'DISMISSED']).optional(),
+    channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).optional(),
+    message: z.string().max(500).optional().or(z.literal('')),
+    dueOn: z.string().min(1).optional(),
+  })
+  .strict()
+  .refine((v) => Object.values(v).some((x) => x !== undefined), {
+    message: 'No fields to update',
+  });
+export type ReminderUpdateInput = z.infer<typeof reminderUpdateSchema>;
 
 /* -------------------------------------------------------------------------- */
 /* Direct medicine entry (no prescription required)                           */
