@@ -156,28 +156,43 @@ async function sendReminderEmail(input: ReminderDispatchInput): Promise<Dispatch
     return { channel: 'email', target: '—', status: 'skipped', reason: 'no email on file' };
   }
 
-  const message = buildReminderMessage(input);
   const resendKey = process.env.RESEND_API_KEY;
-
   if (!resendKey) {
     return { channel: 'email', target: maskEmail(input.customer.email), status: 'skipped', reason: 'RESEND_API_KEY not configured' };
   }
 
-  // TODO: Replace with actual Resend / SendGrid / SES call.
-  // Resend example:
-  //   const res = await fetch('https://api.resend.com/emails', {
-  //     method: 'POST',
-  //     headers: { Authorization: `Bearer ${resendKey}`, 'Content-Type': 'application/json' },
-  //     body: JSON.stringify({
-  //       from: process.env.NOTIFICATION_FROM_EMAIL || 'noreply@ambicamedical.in',
-  //       to: input.customer.email,
-  //       subject: 'Medicine Refill Reminder — Ambica Medical',
-  //       text: message,
-  //     }),
-  //   });
+  const message = buildReminderMessage(input);
+  const fromEmail = process.env.NOTIFICATION_FROM_EMAIL ?? 'noreply@ambicamedical.in';
 
-  void message;
-  return { channel: 'email', target: maskEmail(input.customer.email), status: 'queued' };
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${resendKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: fromEmail,
+      to: input.customer.email,
+      subject: 'Medicine Refill Reminder — Ambica Medical',
+      text: message,
+    }),
+  });
+
+  if (!res.ok) {
+    // Throws so the caller's catch block increments failedAttempts.
+    // Resend returns JSON on auth errors but plain text on some gateway errors.
+    const raw = await res.text().catch(() => '');
+    let detail: string;
+    try {
+      const body = JSON.parse(raw) as Record<string, unknown>;
+      detail = String(body.message ?? body.name ?? raw);
+    } catch {
+      detail = raw || res.statusText;
+    }
+    throw new Error(`Resend ${res.status}: ${detail}`);
+  }
+
+  return { channel: 'email', target: maskEmail(input.customer.email), status: 'sent' };
 }
 
 /**

@@ -35,6 +35,13 @@ export async function createRemindersForOrder(
 ): Promise<void> {
   const dueOn = new Date(placedAt.getTime() + 30 * 86_400_000);
 
+  // Look up customer email to set a useful default channel immediately
+  const customer = await prisma.customer.findUnique({
+    where: { id: customerId },
+    select: { email: true },
+  });
+  const defaultChannel = customer?.email ? ('EMAIL' as const) : ('NONE' as const);
+
   // Deduplicate: one reminder per unique medicine per order
   const seen = new Set<string>();
   const unique = items.filter((i) => {
@@ -49,7 +56,7 @@ export async function createRemindersForOrder(
       medicineId: i.medicineId,
       sourceOrderId: orderId,
       dueOn,
-      channel: 'NONE' as const,
+      channel: defaultChannel,
       status: 'PENDING' as const,
     })),
   });
@@ -57,12 +64,13 @@ export async function createRemindersForOrder(
 
 export interface ListRemindersOpts {
   status?: 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED' | 'ALL';
-  q?: string;         // search by customer name or phone
+  q?: string;               // search by customer name or phone
   from?: Date;
   to?: Date;
-  daysAhead?: number; // convenience: sets to = now + N days
+  daysAhead?: number;       // convenience: sets to = now + N days
   limit?: number;
   cursor?: string;
+  failedAttemptsBefore?: number; // exclude reminders with failedAttempts >= this value
 }
 
 export interface ReminderRow {
@@ -72,6 +80,7 @@ export interface ReminderRow {
   channel: string;
   message: string | null;
   sentAt: Date | null;
+  failedAttempts: number;
   createdAt: Date;
   customer: { id: string; name: string; phone: string; email: string | null };
   medicine: { id: string; name: string; brand: string };
@@ -111,6 +120,9 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
   }
   if (opts.cursor) {
     where.id = { gt: opts.cursor };
+  }
+  if (opts.failedAttemptsBefore !== undefined) {
+    where.failedAttempts = { lt: opts.failedAttemptsBefore };
   }
 
   // Customer search: filter via relation
@@ -184,6 +196,19 @@ export async function setReminderStatus(
     data: {
       status,
       sentAt: status === 'SENT' ? new Date() : undefined,
+    },
+  });
+}
+
+/**
+ * Atomically increment failedAttempts after a dispatch exception.
+ * Reminder stays PENDING so it can be retried — until failedAttempts >= MAX_ATTEMPTS.
+ */
+export async function incrementFailedAttempts(id: string): Promise<void> {
+  await prisma.refillReminder.update({
+    where: { id },
+    data: {
+      failedAttempts: { increment: 1 },
     },
   });
 }
