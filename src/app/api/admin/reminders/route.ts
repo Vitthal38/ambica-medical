@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireRole } from '@/lib/api-auth';
 import { reminderCreateSchema } from '@/features/admin/schemas';
 import { parseJson, errResponse } from '@/lib/validate';
-import { listReminders, createReminder } from '@/lib/services/reminders';
+import { listReminders, createReminder, countExhaustedReminders } from '@/lib/services/reminders';
 import { safeError } from '@/lib/error-envelope';
 
 export const runtime = 'nodejs';
@@ -28,8 +28,12 @@ export async function GET(req: Request) {
     const limit = Math.min(Math.max(Number(searchParams.get('limit') ?? '50'), 1), 200);
     const cursor = searchParams.get('cursor') ?? undefined;
 
-    const result = await listReminders({ status, q, from, to, daysAhead, limit, cursor });
-    return NextResponse.json(result);
+    const maxAttempts = Number(process.env.MAX_REMINDER_ATTEMPTS ?? '3');
+    const [result, exhaustedCount] = await Promise.all([
+      listReminders({ status, q, from, to, daysAhead, limit, cursor }),
+      countExhaustedReminders(maxAttempts),
+    ]);
+    return NextResponse.json({ ...result, exhaustedCount, maxAttempts });
   } catch (e) {
     return safeError(e, req, { route: 'reminders_list' });
   }

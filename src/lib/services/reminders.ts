@@ -220,6 +220,7 @@ export async function updateReminder(
     channel?: 'NONE' | 'SMS' | 'WHATSAPP' | 'EMAIL';
     message?: string | null;
     dueOn?: string;
+    failedAttempts?: number;
   },
 ) {
   return prisma.refillReminder.update({
@@ -230,10 +231,24 @@ export async function updateReminder(
       ...(data.message !== undefined ? { message: data.message || null } : {}),
       ...(data.dueOn !== undefined ? { dueOn: new Date(data.dueOn) } : {}),
       ...(data.status === 'SENT' ? { sentAt: new Date() } : {}),
+      ...(data.failedAttempts !== undefined ? { failedAttempts: data.failedAttempts } : {}),
     },
     include: {
       customer: { select: { id: true, name: true, phone: true } },
       medicine: { select: { id: true, name: true, brand: true } },
+    },
+  });
+}
+
+/**
+ * Count reminders whose dispatch has been exhausted (failedAttempts >= maxAttempts).
+ * Used by the reminders list API to surface an operational health indicator.
+ */
+export async function countExhaustedReminders(maxAttempts: number): Promise<number> {
+  return prisma.refillReminder.count({
+    where: {
+      status: 'PENDING',
+      failedAttempts: { gte: maxAttempts },
     },
   });
 }

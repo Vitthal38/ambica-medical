@@ -89,6 +89,10 @@ export const reminderUpdateSchema = z
     channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).optional(),
     message: z.string().max(500).optional().or(z.literal('')),
     dueOn: z.string().min(1).optional(),
+    // Staff may only reset to 0 (re-enable cron retries). Arbitrary values are
+    // clamped to [0, MAX_ATTEMPTS - 1] at the API layer; the schema just
+    // enforces non-negative to prevent data corruption.
+    failedAttempts: z.number().int().min(0).optional(),
   })
   .strict()
   .refine((v) => Object.values(v).some((x) => x !== undefined), {
