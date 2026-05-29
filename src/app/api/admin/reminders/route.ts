@@ -13,15 +13,24 @@ export async function GET(req: Request) {
 
   try {
     const { searchParams } = new URL(req.url);
-    const status = (searchParams.get('status') ?? 'ALL') as
-      | 'PENDING'
-      | 'SENT'
-      | 'FULFILLED'
-      | 'DISMISSED'
-      | 'ALL';
+
+    const VALID_STATUSES = new Set(['PENDING', 'SENT', 'FULFILLED', 'DISMISSED', 'ALL']);
+    const rawStatus = searchParams.get('status') ?? 'ALL';
+    if (!VALID_STATUSES.has(rawStatus)) {
+      return NextResponse.json({ error: 'Invalid status.' }, { status: 400 });
+    }
+    const status = rawStatus as 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED' | 'ALL';
+
     const q = searchParams.get('q') ?? undefined;
-    const from = searchParams.get('from') ? new Date(searchParams.get('from')!) : undefined;
-    const to = searchParams.get('to') ? new Date(searchParams.get('to')!) : undefined;
+
+    const fromRaw = searchParams.get('from');
+    const toRaw = searchParams.get('to');
+    const from = fromRaw ? new Date(fromRaw) : undefined;
+    const to = toRaw ? new Date(toRaw) : undefined;
+    if ((from && Number.isNaN(from.getTime())) || (to && Number.isNaN(to.getTime()))) {
+      return NextResponse.json({ error: 'Invalid date range.' }, { status: 400 });
+    }
+
     const daysAhead = searchParams.has('daysAhead')
       ? Math.min(Math.max(Number(searchParams.get('daysAhead')), 1), 365)
       : undefined;

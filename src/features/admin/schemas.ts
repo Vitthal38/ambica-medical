@@ -71,12 +71,17 @@ export const orderCreateSchema = z
   .strict();
 export type OrderCreateInput = z.infer<typeof orderCreateSchema>;
 
+const parsableDateString = z
+  .string()
+  .min(1)
+  .refine((v) => !Number.isNaN(Date.parse(v)), { message: 'Invalid date' });
+
 export const reminderCreateSchema = z
   .object({
     customerId: z.string().min(1),
     medicineId: z.string().min(1),
     sourceOrderId: z.string().optional(),
-    dueOn: z.string().min(1),
+    dueOn: parsableDateString,
     channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).default('NONE'),
     message: z.string().max(500).optional().or(z.literal('')),
   })
@@ -88,7 +93,7 @@ export const reminderUpdateSchema = z
     status: z.enum(['PENDING', 'SENT', 'FULFILLED', 'DISMISSED']).optional(),
     channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).optional(),
     message: z.string().max(500).optional().or(z.literal('')),
-    dueOn: z.string().min(1).optional(),
+    dueOn: parsableDateString.optional(),
     // Staff may only reset to 0 (re-enable cron retries). Arbitrary values are
     // clamped to [0, MAX_ATTEMPTS - 1] at the API layer; the schema just
     // enforces non-negative to prevent data corruption.

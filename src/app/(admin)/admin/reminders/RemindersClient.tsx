@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useTransition, useCallback } from 'react';
+import { useState, useTransition, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import {
   Bell,
@@ -47,6 +47,8 @@ type DateFilter = 'ALL' | 'OVERDUE' | 'TODAY' | 'WEEK' | 'MONTH';
 interface Props {
   initialRows: ReminderRow[];
   initialNextCursor: string | null;
+  initialQ?: string;
+  initialStatusFilter?: StatusFilter;
 }
 
 const STATUS_TABS: { key: StatusFilter; label: string }[] = [
@@ -131,24 +133,34 @@ function buildQueryParams(
   return p;
 }
 
-export default function RemindersClient({ initialRows, initialNextCursor }: Props) {
+export default function RemindersClient({
+  initialRows,
+  initialNextCursor,
+  initialQ = '',
+  initialStatusFilter = 'ALL',
+}: Props) {
   const [rows, setRows] = useState<ReminderRow[]>(initialRows);
   const [nextCursor, setNextCursor] = useState<string | null>(initialNextCursor);
-  const [q, setQ] = useState('');
-  const [statusFilter, setStatusFilter] = useState<StatusFilter>('ALL');
+  const [q, setQ] = useState(initialQ);
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>(initialStatusFilter);
   const [dateFilter, setDateFilter] = useState<DateFilter>('ALL');
   const [isPending, startTransition] = useTransition();
   const [actionLoading, setActionLoading] = useState<Record<string, boolean>>({});
   const [actionError, setActionError] = useState<Record<string, string>>({});
+  // Monotonic counter: only the latest fetch can write to state
+  const latestRequestId = useRef(0);
 
   const fetchReminders = useCallback(
     (newQ: string, newStatus: StatusFilter, newDate: DateFilter, cursor?: string) => {
       startTransition(async () => {
+        const requestId = ++latestRequestId.current;
         try {
           const params = buildQueryParams(newQ, newStatus, newDate, cursor);
           const res = await fetch(`/api/admin/reminders?${params}`);
           if (!res.ok) return;
           const data: { rows: ReminderRow[]; nextCursor: string | null } = await res.json();
+          // Discard stale responses that resolved after a newer request
+          if (requestId !== latestRequestId.current) return;
           setRows(cursor ? (prev) => [...prev, ...data.rows] : data.rows);
           setNextCursor(data.nextCursor);
         } catch {
@@ -191,12 +203,16 @@ export default function RemindersClient({ initialRows, initialNextCursor }: Prop
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       });
-      const data = await res.json();
+      let data: { error?: string } | null = null;
+      try { data = await res.json(); } catch { /* non-JSON body */ }
       if (!res.ok) {
-        setActionError((prev) => ({ ...prev, [id]: data.error ?? 'Update failed.' }));
+        setActionError((prev) => ({ ...prev, [id]: data?.error ?? 'Update failed.' }));
         return false;
       }
       return true;
+    } catch {
+      setActionError((prev) => ({ ...prev, [id]: 'Network error. Please retry.' }));
+      return false;
     } finally {
       setActionLoading((prev) => ({ ...prev, [id]: false }));
     }
@@ -224,19 +240,22 @@ export default function RemindersClient({ initialRows, initialNextCursor }: Prop
     setActionError((prev) => ({ ...prev, [id]: '' }));
     try {
       const res = await fetch(`/api/admin/reminders/${id}/notify`, { method: 'POST' });
-      const data = await res.json();
+      let data: { error?: string; result?: { status: string; reason?: string } } | null = null;
+      try { data = await res.json(); } catch { /* non-JSON body */ }
       if (!res.ok) {
-        setActionError((prev) => ({ ...prev, [id]: data.error ?? 'Send failed.' }));
+        setActionError((prev) => ({ ...prev, [id]: data?.error ?? 'Send failed.' }));
         return;
       }
-      if (data.result?.status !== 'skipped') {
+      if (data?.result?.status !== 'skipped') {
         setRowStatus(id, 'SENT');
       } else {
         setActionError((prev) => ({
           ...prev,
-          [id]: `Skipped: ${data.result?.reason ?? 'provider not configured'}`,
+          [id]: `Skipped: ${data?.result?.reason ?? 'provider not configured'}`,
         }));
       }
+    } catch {
+      setActionError((prev) => ({ ...prev, [id]: 'Network error. Please retry.' }));
     } finally {
       setActionLoading((prev) => ({ ...prev, [id]: false }));
     }

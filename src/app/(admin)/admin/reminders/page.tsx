@@ -7,13 +7,25 @@ interface PageProps {
   searchParams: Promise<Record<string, string | undefined>>;
 }
 
+const ALLOWED_STATUSES = new Set(['PENDING', 'SENT', 'FULFILLED', 'DISMISSED', 'ALL']);
+
 export default async function RemindersPage({ searchParams }: PageProps) {
   const sp = await searchParams;
 
-  // Read initial filters from URL so deep-links / bookmarks work
-  const status = (sp.status ?? 'ALL') as 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED' | 'ALL';
-  const q = sp.q ?? undefined;
-  const daysAhead = sp.daysAhead ? Number(sp.daysAhead) : undefined;
+  // Validate status — reject unknown values to avoid passing garbage to the DB
+  const rawStatus = sp.status ?? 'ALL';
+  const status = ALLOWED_STATUSES.has(rawStatus)
+    ? (rawStatus as 'PENDING' | 'SENT' | 'FULFILLED' | 'DISMISSED' | 'ALL')
+    : 'ALL';
+
+  const q = sp.q?.trim() || undefined;
+
+  // Validate daysAhead — must be a positive finite integer
+  const rawDaysAhead = sp.daysAhead ? Number(sp.daysAhead) : undefined;
+  const daysAhead =
+    rawDaysAhead !== undefined && Number.isFinite(rawDaysAhead) && rawDaysAhead > 0
+      ? rawDaysAhead
+      : undefined;
 
   const { rows, nextCursor } = await listReminders({
     status,
@@ -34,6 +46,8 @@ export default async function RemindersPage({ searchParams }: PageProps) {
     <RemindersClient
       initialRows={serialized as Parameters<typeof RemindersClient>[0]['initialRows']}
       initialNextCursor={nextCursor}
+      initialQ={q ?? ''}
+      initialStatusFilter={status}
     />
   );
 }

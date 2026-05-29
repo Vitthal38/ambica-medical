@@ -117,9 +117,6 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
       ...(to ? { lte: to } : {}),
     };
   }
-  if (opts.cursor) {
-    where.id = { gt: opts.cursor };
-  }
   if (opts.failedAttemptsBefore !== undefined) {
     where.failedAttempts = { lt: opts.failedAttemptsBefore };
   }
@@ -142,8 +139,11 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
 
   const rows = await prisma.refillReminder.findMany({
     where,
-    orderBy: { dueOn: 'asc' },
+    // Tie-break on id so the cursor is stable when multiple reminders share the same dueOn
+    orderBy: [{ dueOn: 'asc' }, { id: 'asc' }],
     take: limit + 1,
+    // Prisma cursor pagination: skip the cursor row itself, then take limit+1
+    ...(opts.cursor ? { cursor: { id: opts.cursor }, skip: 1 } : {}),
     include: {
       customer: { select: { id: true, name: true, phone: true, email: true } },
       medicine: { select: { id: true, name: true, brand: true } },
@@ -152,8 +152,8 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
 
   let nextCursor: string | null = null;
   if (rows.length > limit) {
-    const last = rows.pop()!;
-    nextCursor = last.id;
+    rows.pop(); // discard the sentinel overflow row
+    nextCursor = rows[rows.length - 1]?.id ?? null;
   }
 
   return { rows: rows as ReminderRow[], nextCursor };

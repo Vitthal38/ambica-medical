@@ -121,7 +121,12 @@ async function sendReminderWhatsApp(input: ReminderDispatchInput): Promise<Dispa
   //   if (!res.ok) throw new Error(`WhatsApp API error: ${res.status}`);
 
   void message; // suppress unused-variable lint until wired
-  return { channel: 'whatsapp', target: maskPhone(input.customer.phone), status: 'queued' };
+  return {
+    channel: 'whatsapp',
+    target: maskPhone(input.customer.phone),
+    status: 'skipped',
+    reason: 'WhatsApp provider integration not yet implemented',
+  };
 }
 
 async function sendReminderSms(input: ReminderDispatchInput): Promise<DispatchResult> {
@@ -148,7 +153,12 @@ async function sendReminderSms(input: ReminderDispatchInput): Promise<DispatchRe
   //   });
 
   void message;
-  return { channel: 'sms', target: maskPhone(input.customer.phone), status: 'queued' };
+  return {
+    channel: 'sms',
+    target: maskPhone(input.customer.phone),
+    status: 'skipped',
+    reason: 'SMS provider integration not yet implemented',
+  };
 }
 
 async function sendReminderEmail(input: ReminderDispatchInput): Promise<DispatchResult> {
@@ -164,19 +174,28 @@ async function sendReminderEmail(input: ReminderDispatchInput): Promise<Dispatch
   const message = buildReminderMessage(input);
   const fromEmail = process.env.NOTIFICATION_FROM_EMAIL ?? 'noreply@ambicamedical.in';
 
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${resendKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      from: fromEmail,
-      to: input.customer.email,
-      subject: 'Medicine Refill Reminder — Ambica Medical',
-      text: message,
-    }),
-  });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10_000);
+
+  let res: Response;
+  try {
+    res = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      signal: controller.signal,
+      headers: {
+        Authorization: `Bearer ${resendKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: fromEmail,
+        to: input.customer.email,
+        subject: 'Medicine Refill Reminder — Ambica Medical',
+        text: message,
+      }),
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
 
   if (!res.ok) {
     // Throws so the caller's catch block increments failedAttempts.

@@ -24,7 +24,8 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
 
     // Clamp failedAttempts to [0, MAX_ATTEMPTS - 1] so staff cannot override
     // the retry cap upward, only reset it downward.
-    const maxAttempts = Number(process.env.MAX_REMINDER_ATTEMPTS ?? '3');
+    const parsedMax = Number(process.env.MAX_REMINDER_ATTEMPTS ?? '3');
+    const maxAttempts = Number.isInteger(parsedMax) && parsedMax > 0 ? parsedMax : 3;
     const updateData = {
       ...parsed.data,
       ...(parsed.data.failedAttempts !== undefined

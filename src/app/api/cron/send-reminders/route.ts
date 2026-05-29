@@ -26,8 +26,11 @@ import { logger } from '@/lib/logger';
 
 export const runtime = 'nodejs';
 
-const BATCH_SIZE = Number(process.env.CRON_BATCH_SIZE ?? '50');
-const MAX_ATTEMPTS = Number(process.env.MAX_REMINDER_ATTEMPTS ?? '3');
+const rawBatch = Number(process.env.CRON_BATCH_SIZE ?? '50');
+const BATCH_SIZE = Number.isInteger(rawBatch) && rawBatch > 0 ? Math.min(rawBatch, 500) : 50;
+
+const rawMax = Number(process.env.MAX_REMINDER_ATTEMPTS ?? '3');
+const MAX_ATTEMPTS = Number.isInteger(rawMax) && rawMax > 0 ? rawMax : 3;
 
 export async function GET(req: Request) {
   // Verify cron secret — prevents public invocation
@@ -78,7 +81,16 @@ export async function GET(req: Request) {
 
       if (result.status === 'skipped') {
         skipped++;
-        logger.warn('cron.reminder.skipped', { reminderId: reminder.id, reason: result.reason });
+        // Count skipped toward retry exhaustion so reminders with a
+        // permanently-unconfigured provider don't loop forever. Staff can
+        // reset failedAttempts once the provider is wired up.
+        await incrementFailedAttempts(reminder.id).catch(() => undefined);
+        logger.warn('cron.reminder.skipped', {
+          reminderId: reminder.id,
+          reason: result.reason,
+          failedAttempts: reminder.failedAttempts + 1,
+          maxAttempts: MAX_ATTEMPTS,
+        });
       } else {
         await setReminderStatus(reminder.id, 'SENT');
         sent++;
