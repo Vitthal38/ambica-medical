@@ -106,7 +106,6 @@ export async function listReminders(opts: ListRemindersOpts = {}): Promise<{
   }
 
   // Build the where clause
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const where: Record<string, any> = {};
 
   if (status !== 'ALL') {
