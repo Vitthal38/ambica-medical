@@ -71,15 +71,39 @@ export const orderCreateSchema = z
   .strict();
 export type OrderCreateInput = z.infer<typeof orderCreateSchema>;
 
-export const reminderCreateSchema = z.object({
-  customerId: z.string().min(1),
-  medicineId: z.string().min(1),
-  sourceOrderId: z.string().optional(),
-  dueOn: z.string().min(1),
-  channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).default('NONE'),
-  message: z.string().max(500).optional().or(z.literal('')),
-});
+const parsableDateString = z
+  .string()
+  .min(1)
+  .refine((v) => !Number.isNaN(Date.parse(v)), { message: 'Invalid date' });
+
+export const reminderCreateSchema = z
+  .object({
+    customerId: z.string().min(1),
+    medicineId: z.string().min(1),
+    sourceOrderId: z.string().optional(),
+    dueOn: parsableDateString,
+    channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).default('NONE'),
+    message: z.string().max(500).optional().or(z.literal('')),
+  })
+  .strict();
 export type ReminderCreateInput = z.infer<typeof reminderCreateSchema>;
+
+export const reminderUpdateSchema = z
+  .object({
+    status: z.enum(['PENDING', 'SENT', 'FULFILLED', 'DISMISSED']).optional(),
+    channel: z.enum(['NONE', 'SMS', 'WHATSAPP', 'EMAIL']).optional(),
+    message: z.string().max(500).optional().or(z.literal('')),
+    dueOn: parsableDateString.optional(),
+    // Staff may only reset to 0 (re-enable cron retries). Arbitrary values are
+    // clamped to [0, MAX_ATTEMPTS - 1] at the API layer; the schema just
+    // enforces non-negative to prevent data corruption.
+    failedAttempts: z.number().int().min(0).optional(),
+  })
+  .strict()
+  .refine((v) => Object.values(v).some((x) => x !== undefined), {
+    message: 'No fields to update',
+  });
+export type ReminderUpdateInput = z.infer<typeof reminderUpdateSchema>;
 
 /* -------------------------------------------------------------------------- */
 /* Direct medicine entry (no prescription required)                           */
